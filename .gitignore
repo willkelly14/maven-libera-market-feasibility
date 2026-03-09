@@ -17,5 +17,11 @@
 *.jpeg
 *.gif
 
+# Python venv
+.venv/
+
+# Generated dashboard (rebuild with: .venv/bin/python build_dashboard.py)
+dashboard.html
+
 # Thumbs
 Thumbs.db
