@@ -1,0 +1,21 @@
+# Office temp files
+~$*
+.~*
+
+# macOS
+.DS_Store
+._*
+
+# Binary files — not tracked in git
+*.xlsx
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Thumbs
+Thumbs.db

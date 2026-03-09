@@ -1,0 +1,18 @@
+# Fact Database — Section 02: Regional Endowment
+# See SCHEMA.md for field definitions
+
+# Example:
+# - id: "02-001"
+#   claim: ""
+#   source_quotes:
+#     - ""
+#   source_name: ""
+#   source_url: ""
+#   source_type: government_data
+#   source_date: ""
+#   sections_used:
+#     - "02_Regional_Endowment"
+#   verified: false
+#   verification_notes: ""
+#   date_added: "2026-03-09"
+#   added_by: ""

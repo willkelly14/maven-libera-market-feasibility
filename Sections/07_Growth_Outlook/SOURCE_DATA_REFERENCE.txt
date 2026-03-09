@@ -1,0 +1,9 @@
+GROWTH OUTLOOK - SOURCE DATA REFERENCES
+========================================
+
+1. E&E Expenditure Data (historical trends) → ../E&E Data Research/
+2. Policy documents → ../01_Macro_Context/ (AUS + QLD CMS PDFs)
+3. Commodity price outlook data (to be sourced: IEA, World Bank)
+4. Stakeholder consultations on Glencore transition, JKTech relocation
+
+Output: demand_scenario_model.xlsx (to be created in /Data/)
