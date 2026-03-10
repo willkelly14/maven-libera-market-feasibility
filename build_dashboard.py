@@ -183,15 +183,6 @@ def load_context_files():
     return context_files
 
 
-def load_claude_md():
-    """Load CLAUDE.md from the project root."""
-    claude_path = os.path.join(BASE_DIR, "CLAUDE.md")
-    if not os.path.exists(claude_path):
-        return ""
-    with open(claude_path, "r", encoding="utf-8") as f:
-        return f.read()
-
-
 def build_stats(facts):
     total = len(facts)
     verified = sum(1 for f in facts if f["verified"])
@@ -855,9 +846,6 @@ tbody tr.expanded-row td { border-bottom: none; }
     <div id="nav-sections"></div>
   </div>
   <div class="sidebar-bottom">
-    <div class="nav-item" data-view="claude-instructions">
-      <span class="nav-icon" style="font-size:13px">&#9881;</span> Claude Instructions
-    </div>
     <div class="nav-item" data-view="archive">
       <span class="nav-icon" style="font-size:13px">&#128451;</span> Archive
       <span class="nav-count" id="nav-archive-count">0</span>
@@ -1058,34 +1046,6 @@ tbody tr.expanded-row td { border-bottom: none; }
     </div>
   </div>
 
-  <!-- CLAUDE INSTRUCTIONS VIEW -->
-  <div class="view" id="view-claude-instructions">
-    <div class="page-title">Claude Instructions</div>
-    <div class="context-layout" style="grid-template-columns:1fr">
-      <div class="context-editor-area">
-        <div class="context-editor-toolbar" id="claude-toolbar" style="display:flex">
-          <span class="ctx-filename">CLAUDE.md</span>
-          <span class="ctx-unsaved" id="claude-unsaved">Unsaved changes</span>
-          <button class="ctx-toolbar-btn save-btn" id="claude-save-btn" onclick="saveClaudeMd()">Save</button>
-          <div class="ctx-toggle">
-            <button class="ctx-toggle-opt active" id="claude-mode-edit" onclick="setClaudeMode('edit')">Edit</button>
-            <button class="ctx-toggle-opt" id="claude-mode-preview" onclick="setClaudeMode('preview')">Preview</button>
-          </div>
-          <div class="ctx-menu-wrap">
-            <button class="ctx-dots-btn" id="claude-dots-btn" onclick="toggleClaudeMenu(event)">&middot;&middot;&middot;</button>
-            <div class="ctx-dropdown" id="claude-dropdown">
-              <button class="ctx-dropdown-item" onclick="downloadClaudeMd()">&#8615; Download</button>
-            </div>
-          </div>
-        </div>
-        <div class="context-editor-body" id="claude-editor-body">
-          <textarea class="context-textarea" id="claude-textarea" placeholder="No CLAUDE.md found. Write your instructions here..."></textarea>
-          <div class="context-preview" id="claude-preview"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- SECTION-FILTERED FACTS VIEW -->
   <div class="view" id="view-section">
     <div class="page-title" id="section-view-title"></div>
@@ -1118,7 +1078,6 @@ const SOURCE_TYPE_LABELS = %%SOURCE_TYPE_LABELS_JSON%%;
 const DOC_TYPE_LABELS = %%DOC_TYPE_LABELS_JSON%%;
 const DOC_STATUS_LABELS = %%DOC_STATUS_LABELS_JSON%%;
 const CONTEXT_FILES = %%CONTEXT_FILES_JSON%%;
-const CLAUDE_MD_CONTENT = %%CLAUDE_MD_JSON%%;
 
 // Build doc lookup
 const DOC_MAP = {};
@@ -2430,98 +2389,11 @@ function closeCtxMenu() {
   document.getElementById('ctx-dropdown').classList.remove('open');
 }
 
-// --- CLAUDE INSTRUCTIONS PAGE ---
-let claudeContent = CLAUDE_MD_CONTENT;
-let claudeEdit = null;
-let claudeMode = 'edit';
-
-function initClaudeEditor() {
-  const textarea = document.getElementById('claude-textarea');
-  textarea.value = claudeContent;
-  textarea.addEventListener('input', () => {
-    claudeEdit = textarea.value;
-    updateClaudeUnsaved();
-    if (claudeMode === 'preview') {
-      document.getElementById('claude-preview').innerHTML = marked.parse(textarea.value);
-    }
-  });
-  textarea.addEventListener('keydown', (e) => {
-    if (e.key === 'Tab') {
-      e.preventDefault();
-      const start = textarea.selectionStart;
-      const end = textarea.selectionEnd;
-      textarea.value = textarea.value.substring(0, start) + '  ' + textarea.value.substring(end);
-      textarea.selectionStart = textarea.selectionEnd = start + 2;
-      textarea.dispatchEvent(new Event('input'));
-    }
-  });
-  updateClaudeUnsaved();
-}
-
-function setClaudeMode(mode) {
-  claudeMode = mode;
-  const textarea = document.getElementById('claude-textarea');
-  const preview = document.getElementById('claude-preview');
-  document.getElementById('claude-mode-edit').classList.toggle('active', mode === 'edit');
-  document.getElementById('claude-mode-preview').classList.toggle('active', mode === 'preview');
-  if (mode === 'edit') {
-    textarea.classList.remove('hidden');
-    preview.classList.remove('active');
-    textarea.focus();
-  } else {
-    textarea.classList.add('hidden');
-    preview.classList.add('active');
-    preview.innerHTML = marked.parse(textarea.value);
-  }
-}
-
-function updateClaudeUnsaved() {
-  const el = document.getElementById('claude-unsaved');
-  const saveBtn = document.getElementById('claude-save-btn');
-  const edited = claudeEdit !== null && claudeEdit !== claudeContent;
-  el.classList.toggle('visible', edited);
-  saveBtn.classList.toggle('visible', edited);
-}
-
-function saveClaudeMd() {
-  const content = claudeEdit !== null ? claudeEdit : claudeContent;
-  claudeContent = content;
-  claudeEdit = null;
-  updateClaudeUnsaved();
-}
-
-function downloadClaudeMd() {
-  closeClaudeMenu();
-  const content = claudeEdit !== null ? claudeEdit : claudeContent;
-  const blob = new Blob([content], { type: 'text/markdown' });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'CLAUDE.md';
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
-
-function toggleClaudeMenu(e) {
-  e.stopPropagation();
-  document.getElementById('claude-dropdown').classList.toggle('open');
-}
-
-function closeClaudeMenu() {
-  document.getElementById('claude-dropdown').classList.remove('open');
-}
-
 // Close dropdown when clicking anywhere else
 document.addEventListener('click', (e) => {
   const dd = document.getElementById('ctx-dropdown');
   if (dd && !dd.contains(e.target) && e.target.id !== 'ctx-dots-btn') {
     dd.classList.remove('open');
-  }
-  const cdd = document.getElementById('claude-dropdown');
-  if (cdd && !cdd.contains(e.target) && e.target.id !== 'claude-dots-btn') {
-    cdd.classList.remove('open');
   }
 });
 
@@ -2540,7 +2412,6 @@ renderTable();
 renderDocTable();
 renderArchive();
 renderContextFileList();
-initClaudeEditor();
 </script>
 </body>
 </html>"""
@@ -2559,9 +2430,6 @@ def main():
     context_files = load_context_files()
     print(f"  {len(context_files)} context files")
 
-    claude_md = load_claude_md()
-    print(f"  CLAUDE.md: {len(claude_md)} chars" if claude_md else "  CLAUDE.md: not found")
-
     stats = build_stats(facts)
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -2569,7 +2437,6 @@ def main():
     html = html.replace("%%FACTS_JSON%%", json.dumps(facts, default=str))
     html = html.replace("%%DOCUMENTS_JSON%%", json.dumps(documents, default=str))
     html = html.replace("%%CONTEXT_FILES_JSON%%", json.dumps(context_files, default=str))
-    html = html.replace("%%CLAUDE_MD_JSON%%", json.dumps(claude_md))
     html = html.replace("%%STATS_JSON%%", json.dumps(stats, default=str))
     html = html.replace("%%SECTION_LABELS_JSON%%", json.dumps(SECTION_LABELS))
     html = html.replace("%%SOURCE_TYPE_LABELS_JSON%%", json.dumps(SOURCE_TYPE_LABELS))
