@@ -1,0 +1,9 @@
+# Market Definition — Source Data References
+
+Primary data for TAM/SAM/SOM calculations:
+
+1. **Explorer Finance Data Final 1.xlsx** (copied into this folder)
+2. **E&E Expenditure Data** — `../E&E Data Research/`
+3. **E&E Expenditure Research Sets** — `../E&E Expenditure Research Set 1.fld/` and `../E&E Research Set 2&3.fld/`
+
+Output: `TAM_SAM_SOM_Model.xlsx` (to be created in `/Data/`)

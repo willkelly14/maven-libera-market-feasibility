@@ -1,0 +1,116 @@
+# Documents Index
+# Each document has an ID, metadata, and a content file path (relative to Documents/)
+
+- id: "DOC-001"
+  title: "Macro Market Context — Data Sources & References"
+  type: data_sources
+  section: "01_Macro_Context"
+  content_file: "macro_context_data_sources.md"
+  description: >
+    Collated reference sheet for Section 3.1 of the Market Feasibility Study.
+    All sources organised by theme so information can be cross-checked across
+    local files, Notion, and external publications.
+  status: draft
+  date_created: "2026-03-09"
+  last_updated: "2026-03-09"
+
+- id: "DOC-002"
+  title: "Supply-Side Research Plan"
+  type: research_plan
+  section: "05_Supply_Side"
+  content_file: "supply_side_research_plan.md"
+  description: >
+    Research plan covering 4 desk research workstreams to fill gaps in
+    Section 3.5 (Supply-Side Analysis) and Section 3.8 (Pricing).
+  status: draft
+  date_created: "2026-03-09"
+  last_updated: "2026-03-09"
+
+- id: "DOC-003"
+  title: "Regional Endowment — Source Data References"
+  type: source_reference
+  section: "02_Regional_Endowment"
+  content_file: "regional_endowment_sources.md"
+  description: >
+    Reference sheet listing explorer research report sets that feed into
+    the regional endowment analysis.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-004"
+  title: "Market Definition — Source Data References"
+  type: source_reference
+  section: "03_Market_Definition"
+  content_file: "market_definition_sources.md"
+  description: >
+    Primary data references for TAM/SAM/SOM calculations.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-005"
+  title: "Demand Assessment — Source Data References"
+  type: source_reference
+  section: "04_Demand_Assessment"
+  content_file: "demand_assessment_sources.md"
+  description: >
+    Quantitative and qualitative source references for demand analysis.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-006"
+  title: "Gap Analysis — Source Data References"
+  type: source_reference
+  section: "06_Gap_Analysis"
+  content_file: "gap_analysis_sources.md"
+  description: >
+    Source references for service gap identification and evidence mapping.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-007"
+  title: "Growth Outlook — Source Data References"
+  type: source_reference
+  section: "07_Growth_Outlook"
+  content_file: "growth_outlook_sources.md"
+  description: >
+    Historical trends, policy documents, and commodity outlook references.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-008"
+  title: "Pricing — Source Data References"
+  type: source_reference
+  section: "08_Pricing"
+  content_file: "pricing_sources.md"
+  description: >
+    Lab service pricing references from consultations and desk research.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-009"
+  title: "Risk Factors — Source Data References"
+  type: source_reference
+  section: "09_Risk_Factors"
+  content_file: "risk_factors_sources.md"
+  description: >
+    Risk framework sources from consultations and centre concept plan.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"
+
+- id: "DOC-010"
+  title: "Conclusions — Source Data References"
+  type: source_reference
+  section: "10_Conclusions"
+  content_file: "conclusions_sources.md"
+  description: >
+    Meta-references drawing on all preceding sub-sections.
+  status: stub
+  date_created: "2026-03-10"
+  last_updated: "2026-03-10"

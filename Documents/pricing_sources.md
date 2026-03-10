@@ -1,0 +1,11 @@
+# Pricing — Source Data References
+
+1. **Stakeholder consultations** (pricing references)
+2. **Published lab service rate cards** (desk research needed: ALS, SGS, BV)
+3. **R&D rebate details** (43.5% offset for sub-$20M turnover)
+4. **Comparator facility pricing** — `../05_Supply_Side/`
+
+## Key data points from consultations
+
+- **KGL Resources:** $600–$1,000/day accommodation costs
+- **Northwest Phosphate:** ~$2M annual lab research spend

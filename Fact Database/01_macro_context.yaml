@@ -9,11 +9,20 @@
     - >
       A$566.1 million over 10 years from 2024-25 for data, maps and
       tools for the resources industry
+  source_excerpt: |
+    The *Future Made in Australia* agenda includes significant investment in the critical minerals sector.
+    Key measures include **A$566.1 million over 10 years from 2024–25** for geoscience data, maps and
+    pre-competitive tools for the resources industry, alongside a new Critical Minerals Production Tax
+    Incentive providing 10% of processing and refining costs for eligible projects.
+
+    These measures aim to position Australia as a globally significant producer and processor of
+    critical minerals, leveraging the country's geological endowment and stable regulatory environment.
   source_name: "Future Made in Australia — Critical Minerals"
   source_author: "Department of Industry, Science and Resources"
   source_url: "https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals"
   source_type: government_publication
   source_date: "2024"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
   verified: false
@@ -31,11 +40,20 @@
       Critical Minerals Production Tax Incentive: 10% of processing
       and refining costs, up to 10 years per project (production
       between 2027-28 and 2039-40)
+  source_excerpt: |
+    The **Critical Minerals Production Tax Incentive** is a core element of the Future Made in Australia
+    package. It provides a **10% tax incentive on processing and refining costs** for eligible critical
+    minerals projects, available for **up to 10 years per project**.
+
+    Eligible production must occur between **2027–28 and 2039–40**. The incentive is designed to
+    encourage downstream processing of critical minerals in Australia rather than exporting raw
+    materials, supporting the development of value-added supply chains.
   source_name: "Future Made in Australia — Critical Minerals"
   source_author: "Department of Industry, Science and Resources"
   source_url: "https://www.industry.gov.au/mining-oil-and-gas/minerals/critical-minerals"
   source_type: government_publication
   source_date: "2024"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
   verified: false
@@ -49,11 +67,21 @@
     federal budget for a Critical Minerals Strategic Reserve.
   source_quotes:
     - "$1.2 billion allocated in 2025-26 federal budget"
+  source_excerpt: |
+    In April 2025, the Australian Government announced the establishment of a **Critical Minerals
+    Strategic Reserve**, with **$1.2 billion allocated in the 2025–26 federal budget**. The reserve
+    is intended to stockpile critical minerals essential for national security and the clean energy
+    transition, ensuring supply continuity during periods of market disruption.
+
+    The initiative reflects growing global concern about supply chain concentration, with China
+    currently dominating processing of many critical minerals including rare earths, lithium,
+    and cobalt.
   source_name: "Critical Minerals Strategic Reserve"
   source_author: "Department of the Prime Minister and Cabinet"
   source_url: "https://www.pmc.gov.au/domestic-policy/critical-minerals-strategic-reserve"
   source_type: government_publication
   source_date: "2025-04"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
   verified: false
@@ -67,11 +95,21 @@
     under its Critical Minerals Strategy.
   source_quotes:
     - "$245 million in initiatives"
+  source_excerpt: |
+    The Queensland Critical Minerals Strategy outlines the state government's plan to develop
+    Queensland as a significant player in the global critical minerals supply chain. The strategy
+    commits **$245 million in initiatives** targeting exploration, processing, infrastructure,
+    and workforce development.
+
+    Key focus areas include the **North West Minerals Province** (centred on Mount Isa) and the
+    state's **70% renewable energy target by 2032**, which creates domestic demand for critical
+    minerals used in renewable energy technologies.
   source_name: "Queensland Critical Minerals Strategy"
   source_author: "Queensland Government"
   source_url: "https://www.resources.qld.gov.au/__data/assets/pdf_file/0005/1726430/critical-minerals-strategy.pdf"
   source_type: government_publication
   source_date: ""
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
   verified: false
@@ -88,11 +126,22 @@
     - >
       $5 billion, 1,100 km high-voltage transmission line
       (Townsville to Mount Isa)
+  source_excerpt: |
+    **CopperString 2032** is a **$5 billion, 1,100 km high-voltage transmission line** running from
+    Townsville to Mount Isa. It will connect the **North West Minerals Province** to the **national
+    electricity grid** for the first time, enabling access to renewable energy and reducing the
+    region's dependence on gas-fired generation.
+
+    The Queensland Government has committed **$1.3 billion** to progress construction. A construction
+    workforce accommodation facility is already underway at **Richmond** (capacity for 250 workers).
+    The project is expected to significantly reduce energy costs for mining operations in the region
+    and enable electrification of processing facilities.
   source_name: "CopperString 2032 Announcement"
   source_author: "Queensland Government"
   source_url: "https://statements.qld.gov.au/statements/101465"
   source_type: government_publication
   source_date: ""
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
   verified: false
@@ -108,11 +157,26 @@
   source_quotes:
     - "$2.3 billion in facilitated investment, 1,700 ongoing jobs"
     - "$500 billion estimated mineral wealth"
+  source_excerpt: |
+    The **North West Minerals Province (NWMP)** is one of the world's most significant mineral-rich
+    regions. Key statistics from the Queensland Department of State Development:
+
+    | Metric | Value |
+    |--------|-------|
+    | Facilitated investment | $2.3 billion |
+    | Ongoing jobs | 1,700 |
+    | Estimated mineral wealth | $500 billion |
+    | Key commodities | Vanadium, cobalt, graphite, zinc, silver, copper, phosphate, lead |
+
+    The region faces a major transition with the announced closures of Glencore's **Mt Isa copper
+    mine** and **Lady Loretta zinc mine** in 2025, supported by **$50 million** in Glencore
+    transition funding.
   source_name: "North West Minerals Province — Regional Priorities"
   source_author: "Queensland Department of State Development"
   source_url: "https://www.statedevelopment.qld.gov.au/regions/regional-priorities/a-strong-and-prosperous-north-west-queensland"
   source_type: government_publication
   source_date: ""
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
     - "02_Regional_Endowment"
@@ -129,11 +193,26 @@
     - >
       Total mineral exploration: $3.95 billion (down 7.3% from
       $4.26B in 2023)
+  source_excerpt: |
+    ABS data on mineral and petroleum exploration for the 2024 calendar year shows:
+
+    | Metric | Value |
+    |--------|-------|
+    | Total mineral exploration (2024) | $3.95 billion |
+    | Change from 2023 | ↓7.3% (from $4.26B) |
+    | Brownfield exploration | $2,823 million |
+    | Greenfield exploration | $1,126 million |
+    | "Other commodities" (Li, Mn, Mo, P, Sn, W, V) | $667.5 million |
+    | Q4 2024 (seasonally adjusted) | $963 million (↑1.3% QoQ) |
+
+    Queensland-specific figures show **$919.7 million** in the 12 months to June 2024
+    (↑$148.3M year-on-year), representing approximately **14%** of the national total.
   source_name: "Mineral and Petroleum Exploration, Australia"
   source_author: "Australian Bureau of Statistics"
   source_url: "https://www.abs.gov.au/statistics/industry/mining/mineral-and-petroleum-exploration-australia/latest-release"
   source_type: government_data
   source_date: "2025"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
     - "03_Market_Definition"
@@ -152,11 +231,28 @@
     - "Graphite + nickel: 2x by 2040"
     - "Cobalt + rare earths: up 50-60% by 2040"
     - "Copper: up 30% by 2040"
+  source_excerpt: |
+    The IEA's *Global Critical Minerals Outlook 2025* projects substantial demand growth for
+    key critical minerals driven by the clean energy transition:
+
+    | Mineral | Projected demand growth by 2040 |
+    |---------|-------------------------------|
+    | Lithium | 5× current levels |
+    | Graphite | 2× current levels |
+    | Nickel | 2× current levels |
+    | Cobalt | ↑50–60% |
+    | Rare earths | ↑50–60% |
+    | Copper | ↑30% |
+
+    The report also notes that **top-3 mining country market share** increased from 73% (2020)
+    to 77% (2024), highlighting growing supply concentration risk. Meeting these demand projections
+    will require **USD $500–600 billion in new mining capex** to 2040.
   source_name: "Global Critical Minerals Outlook 2025"
   source_author: "International Energy Agency"
   source_url: "https://www.iea.org/reports/global-critical-minerals-outlook-2025"
   source_type: international_organisation
   source_date: "2025"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
     - "04_Demand_Assessment"
@@ -174,11 +270,21 @@
     - >
       Investment required: USD $500-600 billion in new mining
       capex to 2040
+  source_excerpt: |
+    The IEA estimates that **USD $500–600 billion in new mining capital expenditure** is needed
+    globally by 2040 to meet projected critical minerals demand under clean energy transition
+    scenarios. This represents a step-change in mining investment, with current annual mining
+    capex insufficient to bring enough new supply online.
+
+    The report highlights a potential **30% copper supply shortfall by 2035** based on the
+    current mine pipeline, and notes that existing mines plus projects under construction
+    meet only **~50% of lithium/cobalt needs** and **~80% of copper needs** by 2030.
   source_name: "Global Critical Minerals Outlook 2025"
   source_author: "International Energy Agency"
   source_url: "https://www.iea.org/reports/global-critical-minerals-outlook-2025"
   source_type: international_organisation
   source_date: "2025"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
     - "07_Growth_Outlook"
@@ -196,11 +302,26 @@
     - >
       Australia's critical minerals exports projected to reach ~10%
       of resource exports by 2030 (up from ~6%)
+  source_excerpt: |
+    The RBA Bulletin article *The Global Energy Transition and Critical Minerals* (October 2025)
+    by Harry Stinson and Irene Cam examines Australia's position in the global critical minerals
+    market:
+
+    - Australia's critical minerals exports projected to reach **~10% of resource exports by 2030**
+      (up from ~6%)
+    - Late-stage **lithium projects delayed** in 2024 due to low prices
+    - **Nickel production declining** (projects cancelled, production scaled back)
+    - **Lithium, rare earths, copper** production expected to increase strongly over next 5 years
+
+    The article notes that while Australia has significant geological endowment, realising this
+    potential depends on commodity prices, policy support, and the development of downstream
+    processing capability.
   source_name: "The Global Energy Transition and Critical Minerals"
   source_author: "Reserve Bank of Australia (Harry Stinson and Irene Cam)"
   source_url: "https://www.rba.gov.au/publications/bulletin/2025/oct/the-global-energy-transition-and-critical-minerals.html"
   source_type: government_publication
   source_date: "2025-10"
+  document: "DOC-001"
   sections_used:
     - "01_Macro_Context"
     - "07_Growth_Outlook"

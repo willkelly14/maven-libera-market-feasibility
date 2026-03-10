@@ -15,6 +15,8 @@
 | `source_date` | Yes | string | Publication date (YYYY-MM or YYYY-MM-DD) |
 | `source_accessed` | No | string | Date the URL was last accessed and confirmed working |
 | `sections_used` | Yes | list of strings | Which report section(s) use this fact |
+| `document` | No | string | Document ID (from `documents_index.yaml`) that this fact appears in, e.g. `DOC-001` |
+| `source_excerpt` | No | string | Extended excerpt from the original source (markdown). Should be a few sentences or a table giving broader context around the quoted fact. Rendered as markdown in the dashboard. |
 | `data_table` | No | string | If the fact feeds into a specific data table, name it here |
 | `verified` | Yes | boolean | Has someone independently confirmed the source contains this claim? |
 | `verification_notes` | No | string | Notes from verification (e.g. "confirmed on p.12", "URL broken, archived at...") |
