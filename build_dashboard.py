@@ -322,6 +322,21 @@ body {
   border-radius: 6px; color: var(--text); font-size: 13px; outline: none; cursor: pointer;
 }
 
+/* Search input wrapper with clear button */
+.search-wrap {
+  position: relative; display: flex; align-items: center;
+}
+.controls .search-wrap { flex: 1; min-width: 180px; }
+.search-wrap input { padding-right: 28px !important; width: 100%; }
+.search-clear {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: var(--text-muted); cursor: pointer;
+  font-size: 15px; line-height: 1; padding: 2px 4px; border-radius: 4px;
+  display: none;
+}
+.search-clear.visible { display: block; }
+.search-clear:hover { color: var(--text); background: var(--surface2); }
+
 /* ===== TABLE ===== */
 .results-count { font-size: 12px; color: var(--text-muted); padding: 6px 0; }
 .fact-table-wrap {
@@ -488,10 +503,46 @@ tbody tr.expanded-row td { border-bottom: none; }
   border-right: 1px solid var(--border); min-width: 0;
 }
 .slide-pane-doc-header {
-  padding: 12px 20px; border-bottom: 1px solid var(--border);
+  padding: 8px 16px; border-bottom: 1px solid var(--border);
   font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
   color: var(--text-muted); font-weight: 600; background: var(--surface);
   flex-shrink: 0;
+  display: flex; align-items: center; gap: 10px;
+}
+.slide-pane-doc-header .panel-label { flex-shrink: 0; }
+.doc-content-search {
+  flex: 1; padding: 5px 8px; background: var(--surface2);
+  border: 1px solid var(--border); border-radius: 5px;
+  color: var(--text); font-size: 12px; outline: none;
+  text-transform: none; letter-spacing: normal; font-weight: 400;
+}
+.doc-content-search:focus { border-color: var(--accent); }
+.doc-search-count {
+  font-size: 11px; color: var(--text-muted); white-space: nowrap;
+  text-transform: none; letter-spacing: normal; font-weight: 400;
+  min-width: 50px; text-align: center;
+}
+.doc-search-nav {
+  background: var(--surface2); border: 1px solid var(--border);
+  color: var(--text-muted); cursor: pointer; padding: 3px 8px;
+  font-size: 13px; line-height: 1; border-radius: 4px;
+  display: none;
+}
+.doc-search-nav.visible { display: inline-block; }
+.doc-search-nav:hover { background: var(--border); color: var(--text); }
+.doc-search-clear {
+  background: none; border: none; color: var(--text-muted); cursor: pointer;
+  font-size: 16px; line-height: 1; padding: 2px 4px; border-radius: 4px;
+  display: none;
+}
+.doc-search-clear.visible { display: inline-block; }
+.doc-search-clear:hover { color: var(--text); background: var(--surface2); }
+.doc-search-match {
+  background: rgba(255, 200, 50, 0.3); border-radius: 2px;
+}
+.doc-search-match.current {
+  background: rgba(255, 160, 0, 0.5);
+  outline: 2px solid rgba(255, 160, 0, 0.7); outline-offset: 1px;
 }
 .slide-pane-doc-body {
   flex: 1; overflow-y: auto; padding: 24px;
@@ -537,7 +588,7 @@ tbody tr.expanded-row td { border-bottom: none; }
   font-size: 11px; color: var(--accent); flex-shrink: 0;
 }
 .slide-pane-facts-search {
-  flex: 1; padding: 5px 8px; background: var(--surface2);
+  padding: 5px 8px; background: var(--surface2);
   border: 1px solid var(--border); border-radius: 5px;
   color: var(--text); font-size: 12px; outline: none;
 }
@@ -663,7 +714,10 @@ tbody tr.expanded-row td { border-bottom: none; }
   <div class="view" id="view-facts">
     <div class="page-title">Fact Database</div>
     <div class="controls">
-      <input type="text" id="search" placeholder="Search claims, sources, quotes...">
+      <div class="search-wrap">
+        <input type="text" id="search" placeholder="Search claims, sources, quotes...">
+        <button class="search-clear" id="search-clear" onclick="clearSearchInput('search')" title="Clear search">&times;</button>
+      </div>
       <select id="filter-section"><option value="">All Sections</option></select>
       <select id="filter-verified">
         <option value="">All Status</option>
@@ -697,7 +751,10 @@ tbody tr.expanded-row td { border-bottom: none; }
   <div class="view" id="view-documents">
     <div class="page-title">Documents</div>
     <div class="controls">
-      <input type="text" id="doc-search" placeholder="Search documents by title, description, section...">
+      <div class="search-wrap">
+        <input type="text" id="doc-search" placeholder="Search documents by title, description, section, content...">
+        <button class="search-clear" id="doc-search-table-clear" onclick="clearSearchInput('doc-search')" title="Clear search">&times;</button>
+      </div>
       <select id="filter-doc-status">
         <option value="">All Statuses</option>
         <option value="draft">Draft</option>
@@ -739,14 +796,24 @@ tbody tr.expanded-row td { border-bottom: none; }
     </div>
     <div class="slide-pane-split">
       <div class="slide-pane-doc">
-        <div class="slide-pane-doc-header">Document</div>
+        <div class="slide-pane-doc-header">
+          <span class="panel-label">Document</span>
+          <input type="text" class="doc-content-search" id="doc-content-search" placeholder="Search in document...">
+          <span class="doc-search-count" id="doc-search-count"></span>
+          <button class="doc-search-nav" id="doc-search-prev" onclick="docSearchNav(-1)" title="Previous match">&uarr;</button>
+          <button class="doc-search-nav" id="doc-search-next" onclick="docSearchNav(1)" title="Next match">&darr;</button>
+          <button class="doc-search-clear" id="doc-search-clear" onclick="clearDocSearch()" title="Clear search">&times;</button>
+        </div>
         <div class="slide-pane-doc-body" id="slide-pane-doc-body"></div>
       </div>
       <div class="slide-pane-facts">
         <div class="slide-pane-facts-header">
           <span class="panel-label">Linked Facts</span>
           <span class="fact-count" id="pane-fact-count"></span>
-          <input type="text" class="slide-pane-facts-search" id="pane-fact-search" placeholder="Search facts...">
+          <div class="search-wrap" style="flex:1">
+            <input type="text" class="slide-pane-facts-search" id="pane-fact-search" placeholder="Search facts...">
+            <button class="search-clear" id="pane-fact-search-clear" onclick="clearSearchInput('pane-fact-search')" title="Clear search">&times;</button>
+          </div>
         </div>
         <div class="slide-pane-facts-body" id="slide-pane-facts-body"></div>
       </div>
@@ -1211,7 +1278,7 @@ function getFilteredDocs() {
     if (search) {
       const hay = [d.id, d.title, d.description, d.section,
         SECTION_LABELS[d.section] || '', DOC_TYPE_LABELS[d.type] || '',
-        DOC_STATUS_LABELS[d.status] || ''
+        DOC_STATUS_LABELS[d.status] || '', d.content || ''
       ].join(' ').toLowerCase();
       if (!hay.includes(search)) return false;
     }
@@ -1292,6 +1359,10 @@ function openSlidePane(docId) {
     ${secLabel ? `<span style="color:var(--text-muted)">&middot; ${esc(secLabel)}</span>` : ''}
     ${doc.last_updated ? `<span style="color:var(--text-muted)">&middot; Updated ${esc(doc.last_updated)}</span>` : ''}
   `;
+
+  // Clear document search
+  document.getElementById('doc-content-search').value = '';
+  clearDocSearchHighlights();
 
   // Document content
   document.getElementById('slide-pane-doc-body').innerHTML = doc.content
@@ -1383,6 +1454,10 @@ function scrollToClaimInDoc(factId) {
 
   const docBody = document.getElementById('slide-pane-doc-body');
   if (!docBody) return;
+
+  // Clear search highlights first to avoid DOM conflicts
+  document.getElementById('doc-content-search').value = '';
+  clearDocSearchHighlights();
 
   // Remove any previous highlights
   docBody.querySelectorAll('.doc-highlight-mark').forEach(el => {
@@ -1533,6 +1608,154 @@ function highlightTextInElement(root, searchText) {
 
 // Pane facts search
 document.getElementById('pane-fact-search').addEventListener('input', () => renderPaneFacts());
+
+// --- IN-DOCUMENT CONTENT SEARCH ---
+let docSearchMatches = [];
+let docSearchCurrentIdx = -1;
+let docSearchDebounce = null;
+
+document.getElementById('doc-content-search').addEventListener('input', () => {
+  clearTimeout(docSearchDebounce);
+  docSearchDebounce = setTimeout(performDocContentSearch, 200);
+});
+
+document.getElementById('doc-content-search').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    docSearchNav(e.shiftKey ? -1 : 1);
+  }
+  if (e.key === 'Escape') {
+    e.target.value = '';
+    clearDocSearchHighlights();
+  }
+});
+
+function performDocContentSearch() {
+  clearDocSearchHighlights();
+  const query = document.getElementById('doc-content-search').value.trim();
+  if (!query || query.length < 2) return;
+
+  const docBody = document.getElementById('slide-pane-doc-body');
+  if (!docBody) return;
+
+  // Collect text nodes
+  const walker = document.createTreeWalker(docBody, NodeFilter.SHOW_TEXT, null);
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+  // Build full text with node mapping
+  let fullText = '';
+  const nodeMap = [];
+  for (const node of textNodes) {
+    const start = fullText.length;
+    fullText += node.textContent;
+    nodeMap.push({ node, start, end: fullText.length });
+  }
+
+  // Find all matches (case-insensitive)
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp(escaped, 'gi');
+  const allMatches = [];
+  let m;
+  while ((m = re.exec(fullText)) !== null) {
+    allMatches.push({ index: m.index, length: m[0].length });
+  }
+
+  if (allMatches.length === 0) {
+    updateDocSearchUI();
+    return;
+  }
+
+  // Wrap matches in reverse order to preserve indices
+  for (let mi = allMatches.length - 1; mi >= 0; mi--) {
+    const match = allMatches[mi];
+    const matchEnd = match.index + match.length;
+
+    for (let i = nodeMap.length - 1; i >= 0; i--) {
+      const nm = nodeMap[i];
+      if (nm.end <= match.index || nm.start >= matchEnd) continue;
+
+      const node = nm.node;
+      if (!node.parentNode) continue;
+
+      const nodeStart = Math.max(match.index - nm.start, 0);
+      const nodeEnd = Math.min(matchEnd - nm.start, node.textContent.length);
+
+      if (nodeStart === 0 && nodeEnd === node.textContent.length) {
+        const mark = document.createElement('span');
+        mark.className = 'doc-search-match';
+        mark.dataset.matchIndex = mi;
+        node.parentNode.replaceChild(mark, node);
+        mark.appendChild(node);
+      } else {
+        const text = node.textContent;
+        const before = text.slice(0, nodeStart);
+        const mid = text.slice(nodeStart, nodeEnd);
+        const after = text.slice(nodeEnd);
+        const frag = document.createDocumentFragment();
+        if (before) frag.appendChild(document.createTextNode(before));
+        const mark = document.createElement('span');
+        mark.className = 'doc-search-match';
+        mark.dataset.matchIndex = mi;
+        mark.textContent = mid;
+        frag.appendChild(mark);
+        if (after) frag.appendChild(document.createTextNode(after));
+        node.parentNode.replaceChild(frag, node);
+      }
+    }
+  }
+
+  docSearchMatches = docBody.querySelectorAll('.doc-search-match');
+  docSearchCurrentIdx = 0;
+  updateDocSearchUI();
+  // Scroll to first match
+  if (docSearchMatches.length > 0) {
+    docSearchMatches[0].classList.add('current');
+    docSearchMatches[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+
+function docSearchNav(dir) {
+  if (docSearchMatches.length === 0) return;
+  docSearchMatches[docSearchCurrentIdx]?.classList.remove('current');
+  docSearchCurrentIdx = (docSearchCurrentIdx + dir + docSearchMatches.length) % docSearchMatches.length;
+  docSearchMatches[docSearchCurrentIdx].classList.add('current');
+  docSearchMatches[docSearchCurrentIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+  updateDocSearchUI();
+}
+
+function updateDocSearchUI() {
+  const count = docSearchMatches.length;
+  const hasQuery = document.getElementById('doc-content-search').value.trim().length > 0;
+  document.getElementById('doc-search-count').textContent = count > 0
+    ? `${docSearchCurrentIdx + 1} / ${count}`
+    : (hasQuery ? '0 results' : '');
+  document.getElementById('doc-search-prev').classList.toggle('visible', count > 1);
+  document.getElementById('doc-search-next').classList.toggle('visible', count > 1);
+  document.getElementById('doc-search-clear').classList.toggle('visible', hasQuery);
+}
+
+function clearDocSearch() {
+  document.getElementById('doc-content-search').value = '';
+  clearDocSearchHighlights();
+  document.getElementById('doc-content-search').focus();
+}
+
+function clearDocSearchHighlights() {
+  const docBody = document.getElementById('slide-pane-doc-body');
+  if (!docBody) return;
+  docBody.querySelectorAll('.doc-search-match').forEach(el => {
+    const parent = el.parentNode;
+    parent.replaceChild(document.createTextNode(el.textContent), el);
+    parent.normalize();
+  });
+  docSearchMatches = [];
+  docSearchCurrentIdx = -1;
+  document.getElementById('doc-search-count').textContent = '';
+  document.getElementById('doc-search-prev').classList.remove('visible');
+  document.getElementById('doc-search-next').classList.remove('visible');
+  document.getElementById('doc-search-clear').classList.remove('visible');
+}
 
 function closeSlidePane() {
   document.getElementById('slide-overlay').classList.remove('open');
@@ -1762,6 +1985,20 @@ document.querySelectorAll('#view-documents thead th[data-doc-sort]').forEach(th 
   });
 });
 
+// --- GENERIC SEARCH CLEAR ---
+function toggleSearchClear(inputId) {
+  const input = document.getElementById(inputId);
+  const btn = input.parentElement.querySelector('.search-clear');
+  if (btn) btn.classList.toggle('visible', input.value.length > 0);
+}
+
+function clearSearchInput(inputId) {
+  const input = document.getElementById(inputId);
+  input.value = '';
+  input.dispatchEvent(new Event('input', { bubbles: true }));
+  input.focus();
+}
+
 // --- EVENTS ---
 ['search','filter-section','filter-verified','filter-source-type','filter-document'].forEach(id => {
   const el = document.getElementById(id);
@@ -1770,6 +2007,11 @@ document.querySelectorAll('#view-documents thead th[data-doc-sort]').forEach(th 
 ['doc-search','filter-doc-status','filter-doc-type','filter-doc-section'].forEach(id => {
   const el = document.getElementById(id);
   el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', renderDocTable);
+});
+
+// Toggle clear buttons on all search inputs
+['search','doc-search','pane-fact-search'].forEach(id => {
+  document.getElementById(id).addEventListener('input', () => toggleSearchClear(id));
 });
 
 // --- INIT ---
