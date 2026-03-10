@@ -23,6 +23,7 @@ except ImportError:
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FACT_DB_DIR = os.path.join(BASE_DIR, "Fact Database")
 DOCS_DIR = os.path.join(BASE_DIR, "Documents")
+CONTEXT_DIR = os.path.join(BASE_DIR, "Context")
 OUTPUT_FILE = os.path.join(BASE_DIR, "dashboard.html")
 
 SECTION_LABELS = {
@@ -159,6 +160,27 @@ def load_documents():
         doc["content"] = content
         documents.append(doc)
     return documents
+
+
+def load_context_files():
+    """Load all markdown files from the Context directory."""
+    context_files = []
+    if not os.path.exists(CONTEXT_DIR):
+        os.makedirs(CONTEXT_DIR, exist_ok=True)
+        return context_files
+
+    md_files = sorted(glob.glob(os.path.join(CONTEXT_DIR, "*.md")))
+    for fpath in md_files:
+        fname = os.path.basename(fpath)
+        with open(fpath, "r", encoding="utf-8") as f:
+            content = f.read()
+        context_files.append({
+            "filename": fname,
+            "title": fname.replace(".md", "").replace("_", " ").replace("-", " "),
+            "content": content,
+            "size": len(content),
+        })
+    return context_files
 
 
 def build_stats(facts):
@@ -652,6 +674,142 @@ tbody tr.expanded-row td { border-bottom: none; }
 .sidebar::-webkit-scrollbar { width: 6px; }
 .sidebar::-webkit-scrollbar-track { background: transparent; }
 .sidebar::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
+
+/* ===== CONTEXT PAGE ===== */
+.context-layout { display: flex; gap: 0; height: calc(100vh - 80px); }
+.context-file-list {
+  width: 280px; min-width: 280px; border-right: 1px solid var(--border);
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--surface); border-radius: 8px 0 0 8px;
+  border: 1px solid var(--border);
+}
+.context-file-list-header {
+  padding: 12px 14px; border-bottom: 1px solid var(--border);
+  display: flex; flex-direction: column; gap: 8px; flex-shrink: 0;
+}
+.context-file-list-header .search-wrap { width: 100%; }
+.context-file-list-header input {
+  width: 100%; padding: 7px 10px; background: var(--surface2);
+  border: 1px solid var(--border); border-radius: 6px;
+  color: var(--text); font-size: 13px; outline: none;
+}
+.context-file-list-header input:focus { border-color: var(--accent); }
+.context-file-items { flex: 1; overflow-y: auto; }
+.context-file-item {
+  padding: 10px 14px; cursor: pointer; border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.context-file-item:hover { background: var(--surface2); }
+.context-file-item.active { background: rgba(88, 166, 255, 0.08); border-left: 3px solid var(--accent); }
+.context-file-item .ctx-title { font-size: 13px; font-weight: 600; }
+.context-file-item .ctx-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+.context-editor-area {
+  flex: 1; display: flex; flex-direction: column; min-width: 0;
+  background: var(--surface); border-radius: 0 8px 8px 0;
+  border: 1px solid var(--border); border-left: none;
+}
+.context-editor-toolbar {
+  display: flex; align-items: center; gap: 8px; padding: 8px 14px;
+  border-bottom: 1px solid var(--border); flex-shrink: 0;
+  background: var(--surface);
+}
+.context-editor-toolbar .ctx-filename {
+  font-size: 14px; font-weight: 600; flex: 1; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.ctx-toolbar-btn {
+  padding: 0 12px; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 6px; color: var(--text); font-size: 12px; font-weight: 600;
+  cursor: pointer; white-space: nowrap; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+}
+.ctx-toolbar-btn:hover { background: var(--surface3); }
+.ctx-toolbar-btn.save-btn {
+  background: rgba(63, 185, 80, 0.15); color: var(--green); border-color: rgba(63, 185, 80, 0.3);
+  display: none;
+}
+.ctx-toolbar-btn.save-btn.visible { display: flex; }
+.ctx-toolbar-btn.save-btn:hover { background: rgba(63, 185, 80, 0.25); }
+.ctx-unsaved { font-size: 11px; color: var(--orange); font-weight: 600; display: none; }
+.ctx-unsaved.visible { display: inline; }
+
+/* Toggle switch */
+.ctx-toggle {
+  display: flex; background: var(--surface2); border-radius: 6px;
+  border: 1px solid var(--border); overflow: hidden; height: 28px;
+}
+.ctx-toggle-opt {
+  padding: 0 12px; font-size: 12px; font-weight: 600; cursor: pointer;
+  color: var(--text-muted); border: none; background: none;
+  transition: all 0.15s; user-select: none;
+  display: flex; align-items: center; justify-content: center;
+}
+.ctx-toggle-opt:first-child { border-right: 1px solid var(--border); }
+.ctx-toggle-opt:hover { color: var(--text); }
+.ctx-toggle-opt.active {
+  background: rgba(88, 166, 255, 0.15); color: var(--accent);
+}
+
+/* Three-dot menu */
+.ctx-menu-wrap { position: relative; }
+.ctx-dots-btn {
+  background: var(--surface2); border: 1px solid var(--border); border-radius: 6px;
+  color: var(--text-muted); cursor: pointer; font-size: 16px;
+  line-height: 1; display: flex; align-items: center; justify-content: center;
+  width: 28px; height: 28px;
+}
+.ctx-dots-btn:hover { background: var(--surface3); color: var(--text); }
+.ctx-dropdown {
+  position: absolute; top: calc(100% + 4px); right: 0;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; min-width: 160px; padding: 4px 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4); z-index: 50;
+  display: none;
+}
+.ctx-dropdown.open { display: block; }
+.ctx-dropdown-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 14px; font-size: 13px; cursor: pointer;
+  color: var(--text); border: none; background: none; width: 100%;
+  text-align: left;
+}
+.ctx-dropdown-item:hover { background: var(--surface2); }
+.ctx-dropdown-item.danger { color: var(--red); }
+.ctx-dropdown-item.danger:hover { background: rgba(248, 81, 73, 0.1); }
+.context-editor-body { flex: 1; display: flex; overflow: hidden; position: relative; }
+.context-textarea {
+  width: 100%; height: 100%; resize: none; border: none; outline: none;
+  background: var(--bg); color: var(--text); font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  font-size: 13px; line-height: 1.6; padding: 20px 24px; tab-size: 2;
+}
+.context-textarea::placeholder { color: var(--text-muted); }
+.context-preview {
+  width: 100%; height: 100%; overflow-y: auto; padding: 20px 24px;
+  font-size: 14px; line-height: 1.7; display: none;
+}
+.context-preview.active { display: block; }
+.context-textarea.hidden { display: none; }
+.context-preview h1 { font-size: 20px; margin: 16px 0 8px; }
+.context-preview h2 { font-size: 17px; margin: 14px 0 6px; color: var(--accent); }
+.context-preview h3 { font-size: 14px; margin: 12px 0 4px; }
+.context-preview p { margin: 6px 0; }
+.context-preview ul, .context-preview ol { margin: 6px 0 6px 24px; }
+.context-preview table { margin: 10px 0; border-collapse: collapse; font-size: 13px; width: 100%; }
+.context-preview th, .context-preview td { padding: 6px 12px; border: 1px solid var(--border); text-align: left; }
+.context-preview th { background: var(--surface2); font-weight: 600; }
+.context-preview code { background: var(--surface2); padding: 2px 5px; border-radius: 3px; font-size: 12px; }
+.context-preview pre { background: var(--surface2); padding: 12px; border-radius: 6px; overflow-x: auto; font-size: 12px; margin: 8px 0; }
+.context-preview pre code { background: none; padding: 0; }
+.context-preview a { color: var(--accent); }
+.context-preview strong { color: var(--accent); }
+.context-preview hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+.context-empty {
+  display: flex; align-items: center; justify-content: center;
+  height: 100%; color: var(--text-muted); font-size: 14px;
+  flex-direction: column; gap: 8px;
+}
+.context-empty .ctx-empty-icon { font-size: 32px; opacity: 0.5; }
 </style>
 </head>
 <body>
@@ -677,6 +835,10 @@ tbody tr.expanded-row td { border-bottom: none; }
     <div class="nav-item" data-view="documents">
       <span class="nav-icon">&#9776;</span> Documents
       <span class="nav-count" id="nav-doc-count">0</span>
+    </div>
+    <div class="nav-item" data-view="context">
+      <span class="nav-icon">&#128196;</span> Context
+      <span class="nav-count" id="nav-context-count">0</span>
     </div>
 
     <div class="nav-divider"></div>
@@ -843,6 +1005,47 @@ tbody tr.expanded-row td { border-bottom: none; }
     </div>
   </div>
 
+  <!-- CONTEXT VIEW -->
+  <div class="view" id="view-context">
+    <div class="page-title">Context Files</div>
+    <div class="context-layout">
+      <div class="context-file-list">
+        <div class="context-file-list-header">
+          <div class="search-wrap">
+            <input type="text" id="context-search" placeholder="Search files...">
+            <button class="search-clear" id="context-search-clear" onclick="clearSearchInput('context-search')" title="Clear search">&times;</button>
+          </div>
+        </div>
+        <div class="context-file-items" id="context-file-items"></div>
+      </div>
+      <div class="context-editor-area">
+        <div class="context-editor-toolbar" id="context-toolbar" style="display:none">
+          <span class="ctx-filename" id="ctx-filename"></span>
+          <span class="ctx-unsaved" id="ctx-unsaved">Unsaved changes</span>
+          <button class="ctx-toolbar-btn save-btn" id="ctx-save-btn" onclick="saveContextFile()">Save</button>
+          <div class="ctx-toggle">
+            <button class="ctx-toggle-opt active" id="ctx-mode-edit" onclick="setContextMode('edit')">Edit</button>
+            <button class="ctx-toggle-opt" id="ctx-mode-preview" onclick="setContextMode('preview')">Preview</button>
+          </div>
+          <div class="ctx-menu-wrap">
+            <button class="ctx-dots-btn" id="ctx-dots-btn" onclick="toggleCtxMenu(event)">&middot;&middot;&middot;</button>
+            <div class="ctx-dropdown" id="ctx-dropdown">
+              <button class="ctx-dropdown-item" onclick="downloadContextFile()">&#8615; Download</button>
+              <button class="ctx-dropdown-item danger" onclick="deleteContextFile()">&#10005; Delete</button>
+            </div>
+          </div>
+        </div>
+        <div class="context-editor-body" id="context-editor-body">
+          <div class="context-empty">
+            <div class="ctx-empty-icon">&#128196;</div>
+            <div>Select a file to view or edit</div>
+            <div style="font-size:12px">Place .md files in the Context/ directory and rebuild</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- SECTION-FILTERED FACTS VIEW -->
   <div class="view" id="view-section">
     <div class="page-title" id="section-view-title"></div>
@@ -874,6 +1077,7 @@ const SECTION_LABELS = %%SECTION_LABELS_JSON%%;
 const SOURCE_TYPE_LABELS = %%SOURCE_TYPE_LABELS_JSON%%;
 const DOC_TYPE_LABELS = %%DOC_TYPE_LABELS_JSON%%;
 const DOC_STATUS_LABELS = %%DOC_STATUS_LABELS_JSON%%;
+const CONTEXT_FILES = %%CONTEXT_FILES_JSON%%;
 
 // Build doc lookup
 const DOC_MAP = {};
@@ -2014,6 +2218,190 @@ function clearSearchInput(inputId) {
   document.getElementById(id).addEventListener('input', () => toggleSearchClear(id));
 });
 
+// --- CONTEXT PAGE ---
+let currentContextIdx = -1;
+let contextMode = 'edit';
+// Track in-memory edits
+const contextEdits = {};
+
+function renderContextFileList() {
+  const search = document.getElementById('context-search').value.toLowerCase();
+  const container = document.getElementById('context-file-items');
+  document.getElementById('nav-context-count').textContent = CONTEXT_FILES.length;
+
+  const filtered = CONTEXT_FILES.filter((f, i) => {
+    if (!search) return true;
+    return f.filename.toLowerCase().includes(search) ||
+           f.title.toLowerCase().includes(search) ||
+           (contextEdits[i] !== undefined ? contextEdits[i] : f.content).toLowerCase().includes(search);
+  });
+
+  if (filtered.length === 0) {
+    container.innerHTML = '<div style="padding:30px 14px;text-align:center;color:var(--text-muted);font-size:13px">' +
+      (CONTEXT_FILES.length === 0 ? 'No context files.<br><span style="font-size:11px">Add .md files to Context/ and rebuild.</span>' : 'No files match your search.') +
+      '</div>';
+    return;
+  }
+
+  container.innerHTML = filtered.map((f, i) => {
+    const realIdx = CONTEXT_FILES.indexOf(f);
+    const content = contextEdits[realIdx] !== undefined ? contextEdits[realIdx] : f.content;
+    const lines = content.split('\n').length;
+    const edited = contextEdits[realIdx] !== undefined && contextEdits[realIdx] !== f.content;
+    return '<div class="context-file-item' + (realIdx === currentContextIdx ? ' active' : '') +
+      '" onclick="openContextFile(' + realIdx + ')">' +
+      '<div class="ctx-title">' + esc(f.title) + (edited ? ' <span style="color:var(--orange)">*</span>' : '') + '</div>' +
+      '<div class="ctx-meta">' + esc(f.filename) + ' &middot; ' + lines + ' lines</div>' +
+      '</div>';
+  }).join('');
+}
+
+function openContextFile(idx) {
+  currentContextIdx = idx;
+  const f = CONTEXT_FILES[idx];
+  const content = contextEdits[idx] !== undefined ? contextEdits[idx] : f.content;
+
+  document.getElementById('context-toolbar').style.display = 'flex';
+  document.getElementById('ctx-filename').textContent = f.filename;
+  updateCtxUnsaved();
+
+  const body = document.getElementById('context-editor-body');
+  body.innerHTML = '<textarea class="context-textarea" id="ctx-textarea" placeholder="Start writing...">' +
+    esc(content) + '</textarea>' +
+    '<div class="context-preview" id="ctx-preview"></div>';
+
+  const textarea = document.getElementById('ctx-textarea');
+  textarea.addEventListener('input', () => {
+    contextEdits[currentContextIdx] = textarea.value;
+    updateCtxUnsaved();
+    renderContextFileList();
+    if (contextMode === 'preview') {
+      document.getElementById('ctx-preview').innerHTML = marked.parse(textarea.value);
+    }
+  });
+
+  // Support tab key in textarea
+  textarea.addEventListener('keydown', (e) => {
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      const start = textarea.selectionStart;
+      const end = textarea.selectionEnd;
+      textarea.value = textarea.value.substring(0, start) + '  ' + textarea.value.substring(end);
+      textarea.selectionStart = textarea.selectionEnd = start + 2;
+      textarea.dispatchEvent(new Event('input'));
+    }
+  });
+
+  setContextMode(contextMode);
+  renderContextFileList();
+}
+
+function setContextMode(mode) {
+  contextMode = mode;
+  const textarea = document.getElementById('ctx-textarea');
+  const preview = document.getElementById('ctx-preview');
+  const editBtn = document.getElementById('ctx-mode-edit');
+  const previewBtn = document.getElementById('ctx-mode-preview');
+  if (!textarea || !preview) return;
+
+  editBtn.classList.toggle('active', mode === 'edit');
+  previewBtn.classList.toggle('active', mode === 'preview');
+
+  if (mode === 'edit') {
+    textarea.classList.remove('hidden');
+    preview.classList.remove('active');
+    textarea.focus();
+  } else {
+    textarea.classList.add('hidden');
+    preview.classList.add('active');
+    preview.innerHTML = marked.parse(textarea.value);
+  }
+}
+
+function updateCtxUnsaved() {
+  const el = document.getElementById('ctx-unsaved');
+  const saveBtn = document.getElementById('ctx-save-btn');
+  if (currentContextIdx < 0) { el.classList.remove('visible'); saveBtn.classList.remove('visible'); return; }
+  const f = CONTEXT_FILES[currentContextIdx];
+  const edited = contextEdits[currentContextIdx] !== undefined && contextEdits[currentContextIdx] !== f.content;
+  el.classList.toggle('visible', edited);
+  saveBtn.classList.toggle('visible', edited);
+}
+
+function saveContextFile() {
+  if (currentContextIdx < 0) return;
+  const f = CONTEXT_FILES[currentContextIdx];
+  const content = contextEdits[currentContextIdx] !== undefined ? contextEdits[currentContextIdx] : f.content;
+  // Update the source-of-truth so unsaved indicator clears
+  f.content = content;
+  f.size = content.length;
+  delete contextEdits[currentContextIdx];
+  updateCtxUnsaved();
+  renderContextFileList();
+}
+
+function downloadContextFile() {
+  closeCtxMenu();
+  if (currentContextIdx < 0) return;
+  const f = CONTEXT_FILES[currentContextIdx];
+  const content = contextEdits[currentContextIdx] !== undefined ? contextEdits[currentContextIdx] : f.content;
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = f.filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function deleteContextFile() {
+  closeCtxMenu();
+  if (currentContextIdx < 0) return;
+  const f = CONTEXT_FILES[currentContextIdx];
+  showConfirm(
+    'Delete this context file?',
+    'This will remove "' + f.filename + '" from the dashboard. The file on disk is not affected until you rebuild.',
+    '',
+    'Delete', 'btn-danger',
+    () => {
+      CONTEXT_FILES.splice(currentContextIdx, 1);
+      delete contextEdits[currentContextIdx];
+      currentContextIdx = -1;
+      document.getElementById('context-toolbar').style.display = 'none';
+      document.getElementById('context-editor-body').innerHTML =
+        '<div class="context-empty"><div class="ctx-empty-icon">&#128196;</div>' +
+        '<div>Select a file to view or edit</div></div>';
+      renderContextFileList();
+    },
+    () => {}
+  );
+}
+
+function toggleCtxMenu(e) {
+  e.stopPropagation();
+  const dd = document.getElementById('ctx-dropdown');
+  dd.classList.toggle('open');
+}
+
+function closeCtxMenu() {
+  document.getElementById('ctx-dropdown').classList.remove('open');
+}
+
+// Close dropdown when clicking anywhere else
+document.addEventListener('click', (e) => {
+  const dd = document.getElementById('ctx-dropdown');
+  if (dd && !dd.contains(e.target) && e.target.id !== 'ctx-dots-btn') {
+    dd.classList.remove('open');
+  }
+});
+
+document.getElementById('context-search').addEventListener('input', () => {
+  toggleSearchClear('context-search');
+  renderContextFileList();
+});
+
 // --- INIT ---
 initNav();
 renderCards();
@@ -2023,6 +2411,7 @@ populateDocFilters();
 renderTable();
 renderDocTable();
 renderArchive();
+renderContextFileList();
 </script>
 </body>
 </html>"""
@@ -2037,12 +2426,17 @@ def main():
     documents = load_documents()
     print(f"  {len(documents)} documents")
 
+    print("Loading context files...")
+    context_files = load_context_files()
+    print(f"  {len(context_files)} context files")
+
     stats = build_stats(facts)
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
 
     html = HTML_TEMPLATE
     html = html.replace("%%FACTS_JSON%%", json.dumps(facts, default=str))
     html = html.replace("%%DOCUMENTS_JSON%%", json.dumps(documents, default=str))
+    html = html.replace("%%CONTEXT_FILES_JSON%%", json.dumps(context_files, default=str))
     html = html.replace("%%STATS_JSON%%", json.dumps(stats, default=str))
     html = html.replace("%%SECTION_LABELS_JSON%%", json.dumps(SECTION_LABELS))
     html = html.replace("%%SOURCE_TYPE_LABELS_JSON%%", json.dumps(SOURCE_TYPE_LABELS))
