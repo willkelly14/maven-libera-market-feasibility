@@ -8,9 +8,11 @@ Usage:
     open dashboard.html
 """
 
+import csv
 import glob
 import json
 import os
+import random
 import sys
 from datetime import datetime
 
@@ -24,7 +26,9 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FACT_DB_DIR = os.path.join(BASE_DIR, "Fact Database")
 DOCS_DIR = os.path.join(BASE_DIR, "Documents")
 CONTEXT_DIR = os.path.join(BASE_DIR, "Context")
+DATASETS_DIR = os.path.join(BASE_DIR, "Datasets")
 OUTPUT_FILE = os.path.join(BASE_DIR, "dashboard.html")
+DEFAULT_SAMPLE_SIZE = 15
 
 SECTION_LABELS = {
     "01_Macro_Context": "01 — Macro Context",
@@ -186,6 +190,171 @@ def load_context_files():
             "size": len(content),
         })
     return context_files
+
+
+def _parse_csv(path):
+    """Parse a CSV file, return (headers, rows, total_rows)."""
+    with open(path, "r", encoding="utf-8", errors="replace") as f:
+        reader = csv.reader(f)
+        rows = list(reader)
+    if not rows:
+        return [], [], 0
+    headers = rows[0]
+    data_rows = rows[1:]
+    return headers, data_rows, len(data_rows)
+
+
+def _parse_excel(path):
+    """Parse an Excel file, return (headers, rows, total_rows).
+
+    Handles multi-row headers by detecting a header region at the top
+    (rows where most cells are non-numeric text) and merging them into
+    composite column names. Empty data rows are filtered out.
+    """
+    try:
+        import openpyxl
+    except ImportError:
+        print("  WARN: openpyxl not installed. Run: .venv/bin/pip install openpyxl")
+        return [], [], 0
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    ws = wb.active
+    all_rows = []
+    for row in ws.iter_rows(values_only=True):
+        all_rows.append([str(c) if c is not None else "" for c in row])
+    wb.close()
+    if not all_rows:
+        return [], [], 0
+
+    # Detect header region: find the first row where most cells look like
+    # data (numbers). All rows before that are part of the header.
+    def _is_data_row(row):
+        non_empty = [c for c in row if c.strip()]
+        if len(non_empty) < 2:
+            return False
+        numeric = sum(1 for c in non_empty if c.replace(",", "").replace(".", "").replace("-", "").strip().isdigit())
+        return numeric > len(non_empty) * 0.4
+
+    header_end = 0
+    for i, row in enumerate(all_rows):
+        if _is_data_row(row):
+            header_end = i
+            break
+    else:
+        # No data rows found; treat row 0 as header
+        header_end = 1
+
+    if header_end == 0:
+        header_end = 1  # at least one header row
+
+    header_rows = all_rows[:header_end]
+    data_rows = all_rows[header_end:]
+
+    # Build composite headers by forward-filling group labels then joining
+    ncols = len(all_rows[0]) if all_rows else 0
+    composite = [""] * ncols
+    for hrow in header_rows:
+        filled = []
+        last = ""
+        for c in hrow:
+            if c.strip():
+                last = c.strip()
+            filled.append(last)
+        for j in range(ncols):
+            part = filled[j] if j < len(filled) else ""
+            if part and part != composite[j].split(" / ")[-1] if composite[j] else True:
+                composite[j] = (composite[j] + " / " + part).strip(" / ") if composite[j] else part
+
+    # De-duplicate: if a composite header equals its group prefix, keep it
+    headers = [h if h else f"Col {i+1}" for i, h in enumerate(composite)]
+
+    # Filter out empty rows
+    data_rows = [r for r in data_rows if any(c.strip() for c in r)]
+
+    return headers, data_rows, len(data_rows)
+
+
+def _parse_json(path):
+    """Parse a JSON array-of-objects file, return (headers, rows, total_rows)."""
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, list) or not data:
+        return [], [], 0
+    headers = list(data[0].keys())
+    data_rows = [[str(obj.get(h, "")) for h in headers] for obj in data]
+    return headers, data_rows, len(data_rows)
+
+
+def load_datasets():
+    """Load datasets from Datasets/datasets_index.yaml with random sampling."""
+    index_path = os.path.join(DATASETS_DIR, "datasets_index.yaml")
+    if not os.path.exists(index_path):
+        print("  WARN: datasets_index.yaml not found")
+        return []
+    with open(index_path, "r", encoding="utf-8") as f:
+        ds_index = yaml.safe_load(f.read())
+    if not ds_index or not isinstance(ds_index, list):
+        return []
+
+    parsers = {"csv": _parse_csv, "xlsx": _parse_excel, "json": _parse_json}
+    datasets = []
+    for ds in ds_index:
+        if not isinstance(ds, dict) or "id" not in ds:
+            continue
+        ds.setdefault("title", "")
+        ds.setdefault("description", "")
+        ds.setdefault("file", "")
+        ds.setdefault("format", "")
+        ds.setdefault("sections", [])
+        ds.setdefault("source_name", "")
+        ds.setdefault("source_url", "")
+        ds.setdefault("sample_size", DEFAULT_SAMPLE_SIZE)
+        ds.setdefault("date_added", "")
+        ds.setdefault("notes", "")
+
+        if isinstance(ds["description"], str):
+            ds["description"] = " ".join(ds["description"].split())
+
+        file_path = os.path.join(DATASETS_DIR, ds["file"]) if ds["file"] else ""
+        if not file_path or not os.path.exists(file_path):
+            print(f"  WARN: Dataset file not found: {ds['file']}")
+            ds["_headers"] = []
+            ds["_sample_rows"] = []
+            ds["_totals_row"] = None
+            ds["_total_rows"] = 0
+            ds["_column_count"] = 0
+            datasets.append(ds)
+            continue
+
+        fmt = ds["format"].lower()
+        parser = parsers.get(fmt)
+        if not parser:
+            print(f"  WARN: Unknown format '{fmt}' for dataset {ds['id']}")
+            ds["_headers"] = []
+            ds["_sample_rows"] = []
+            ds["_totals_row"] = None
+            ds["_total_rows"] = 0
+            ds["_column_count"] = 0
+            datasets.append(ds)
+            continue
+
+        headers, rows, total = parser(file_path)
+
+        # Extract totals row if the last row contains "total" (case-insensitive)
+        totals_row = None
+        if rows and any("total" in c.lower() for c in rows[-1]):
+            totals_row = rows[-1]
+            rows = rows[:-1]
+            total = len(rows)
+
+        sample_size = min(ds["sample_size"], total)
+        sample = random.sample(rows, sample_size) if rows else []
+        ds["_headers"] = headers
+        ds["_sample_rows"] = sample
+        ds["_totals_row"] = totals_row
+        ds["_total_rows"] = total
+        ds["_column_count"] = len(headers)
+        datasets.append(ds)
+    return datasets
 
 
 def load_claude_md():
@@ -855,8 +1024,12 @@ tbody tr.expanded-row td { border-bottom: none; }
       <span class="nav-count" id="nav-doc-count">0</span>
     </div>
     <div class="nav-item" data-view="context">
-      <span class="nav-icon">&#128196;</span> Context
+      <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/><path d="M5.5 5h5M5.5 8h5M5.5 11h3"/></svg></span> Context
       <span class="nav-count" id="nav-context-count">0</span>
+    </div>
+    <div class="nav-item" data-view="datasets">
+      <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="14" height="11" rx="1"/><path d="M1 6.5h14M1 10h14M5.5 6.5V14"/></svg></span> Datasets
+      <span class="nav-count" id="nav-dataset-count">0</span>
     </div>
 
     <div class="nav-divider"></div>
@@ -865,10 +1038,10 @@ tbody tr.expanded-row td { border-bottom: none; }
   </div>
   <div class="sidebar-bottom">
     <div class="nav-item" data-view="claude-instructions">
-      <span class="nav-icon" style="font-size:13px">&#9881;</span> Claude Instructions
+      <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.6"><line x1="8" y1="0.8" x2="8" y2="4.5"/><line x1="8" y1="11.5" x2="8" y2="15.2"/><line x1="0.8" y1="8" x2="3.5" y2="8"/><line x1="12.5" y1="8" x2="15.2" y2="8"/><line x1="2.9" y1="2.9" x2="5.2" y2="5.2"/><line x1="10.8" y1="10.8" x2="13.1" y2="13.1"/><line x1="13.1" y1="2.9" x2="11.5" y2="4.5"/><line x1="4.5" y1="11.5" x2="2.9" y2="13.1"/></svg></span> Claude Instructions
     </div>
     <div class="nav-item" data-view="archive">
-      <span class="nav-icon" style="font-size:13px">&#128451;</span> Archive
+      <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="1" width="14" height="4" rx="1"/><path d="M2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5"/><path d="M6 8.5h4"/></svg></span> Archive
       <span class="nav-count" id="nav-archive-count">0</span>
     </div>
   </div>
@@ -1005,6 +1178,65 @@ tbody tr.expanded-row td { border-bottom: none; }
   <div class="selection-popup" id="selection-popup" onclick="findFactFromSelection()">Find Fact &rarr;</div>
   <div id="confirm-container"></div>
 
+  <!-- DATASETS VIEW -->
+  <div class="view" id="view-datasets">
+    <div class="page-title">Datasets</div>
+    <div class="controls">
+      <div class="search-wrap">
+        <input type="text" id="ds-search" placeholder="Search datasets by title, description, format...">
+        <button class="search-clear" id="ds-search-clear" onclick="clearSearchInput('ds-search')" title="Clear search">&times;</button>
+      </div>
+      <select id="filter-ds-section"><option value="">All Sections</option></select>
+      <select id="filter-ds-format">
+        <option value="">All Formats</option>
+        <option value="csv">CSV</option>
+        <option value="xlsx">Excel</option>
+        <option value="json">JSON</option>
+      </select>
+    </div>
+    <div class="results-count" id="ds-results-count"></div>
+    <div class="fact-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-ds-sort="id" style="width:80px">ID <span class="sort-arrow"></span></th>
+            <th data-ds-sort="title">Title <span class="sort-arrow"></span></th>
+            <th data-ds-sort="format" style="width:70px">Format <span class="sort-arrow"></span></th>
+            <th data-ds-sort="sections">Sections <span class="sort-arrow"></span></th>
+            <th data-ds-sort="_total_rows" style="width:80px">Rows <span class="sort-arrow"></span></th>
+            <th style="width:65px">Sample</th>
+            <th data-ds-sort="date_added" style="width:90px">Added <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="ds-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- DATASET SLIDE PANE -->
+  <div class="slide-overlay" id="ds-slide-overlay" onclick="closeDsSlidePane()"></div>
+  <div class="slide-pane" id="ds-slide-pane">
+    <div class="slide-pane-topbar">
+      <div class="slide-pane-topbar-left">
+        <div class="slide-pane-title" id="ds-slide-title"></div>
+        <div class="slide-pane-meta" id="ds-slide-meta"></div>
+      </div>
+      <button class="slide-pane-close" onclick="closeDsSlidePane()">&times;</button>
+    </div>
+    <div style="padding:20px;overflow:auto;flex:1">
+      <div id="ds-slide-desc" style="margin-bottom:12px;color:var(--text-muted);font-size:13px"></div>
+      <div id="ds-slide-source" style="margin-bottom:12px;font-size:12px;color:var(--text-muted)"></div>
+      <div id="ds-slide-sample-info" style="margin-bottom:12px;font-size:12px;color:var(--accent)"></div>
+      <div id="ds-slide-notes" style="margin-bottom:16px;font-size:12px;color:var(--text-muted);font-style:italic"></div>
+      <div class="fact-table-wrap" style="overflow-x:auto">
+        <table id="ds-slide-table">
+          <thead id="ds-slide-thead"></thead>
+          <tbody id="ds-slide-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   <!-- ARCHIVE VIEW -->
   <div class="view" id="view-archive">
     <div class="page-title">Archive</div>
@@ -1126,6 +1358,9 @@ const DOC_TYPE_LABELS = %%DOC_TYPE_LABELS_JSON%%;
 const DOC_STATUS_LABELS = %%DOC_STATUS_LABELS_JSON%%;
 const CONTEXT_FILES = %%CONTEXT_FILES_JSON%%;
 const CLAUDE_MD_CONTENT = %%CLAUDE_MD_JSON%%;
+const DATASETS = %%DATASETS_JSON%%;
+const DS_MAP = {};
+DATASETS.forEach(d => DS_MAP[d.id] = d);
 
 // Build doc lookup
 const DOC_MAP = {};
@@ -2295,6 +2530,136 @@ function clearSearchInput(inputId) {
   document.getElementById(id).addEventListener('input', () => toggleSearchClear(id));
 });
 
+// --- DATASETS PAGE ---
+let dsSortCol = 'id', dsSortAsc = true;
+
+function getFilteredDatasets() {
+  const search = document.getElementById('ds-search').value.toLowerCase();
+  const section = document.getElementById('filter-ds-section').value;
+  const format = document.getElementById('filter-ds-format').value;
+
+  return DATASETS.filter(d => {
+    if (section && !(d.sections || []).includes(section)) return false;
+    if (format && d.format !== format) return false;
+    if (search) {
+      const hay = [d.id, d.title, d.description, d.format, d.source_name,
+        ...(d.sections || []).map(s => s + ' ' + (SECTION_LABELS[s] || ''))
+      ].join(' ').toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  }).sort((a, b) => {
+    let va = a[dsSortCol] ?? '', vb = b[dsSortCol] ?? '';
+    if (dsSortCol === 'sections') { va = (a.sections || [])[0] || ''; vb = (b.sections || [])[0] || ''; }
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+    return dsSortAsc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
+  });
+}
+
+function renderDsTable() {
+  const dsets = getFilteredDatasets();
+  const tbody = document.getElementById('ds-table-body');
+  document.getElementById('ds-results-count').textContent = `Showing ${dsets.length} of ${DATASETS.length} datasets`;
+  if (dsets.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:40px;color:var(--text-muted)">No datasets match your filters.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = dsets.map(d => {
+    const secTags = (d.sections || []).map(s =>
+      `<span class="badge badge-section">${esc(SECTION_LABELS[s] || s)}</span>`
+    ).join(' ');
+    const fmtUpper = (d.format || '').toUpperCase();
+    return `<tr style="cursor:pointer" onclick="openDsSlidePane('${esc(d.id)}')">
+      <td style="font-family:monospace;font-size:11px;color:var(--accent);white-space:nowrap">${esc(d.id)}</td>
+      <td>
+        <div style="font-weight:600;font-size:13px">${esc(d.title)}</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:2px">${esc(truncate(d.description, 80))}</div>
+      </td>
+      <td><span class="badge" style="background:var(--surface3);color:var(--text)">${esc(fmtUpper)}</span></td>
+      <td>${secTags || '<span style="color:var(--text-muted);font-size:11px">\u2014</span>'}</td>
+      <td style="text-align:right;font-size:12px">${d._total_rows.toLocaleString()}</td>
+      <td style="text-align:right;font-size:12px;color:var(--text-muted)">${d._sample_rows.length}</td>
+      <td style="white-space:nowrap;font-size:11px;color:var(--text-muted)">${esc(d.date_added || '')}</td>
+    </tr>`;
+  }).join('');
+}
+
+function openDsSlidePane(dsId) {
+  const ds = DS_MAP[dsId];
+  if (!ds) return;
+  const secTags = (ds.sections || []).map(s =>
+    `<span class="badge badge-section">${esc(SECTION_LABELS[s] || s)}</span>`
+  ).join(' ');
+  const fmtUpper = (ds.format || '').toUpperCase();
+
+  document.getElementById('ds-slide-title').textContent = ds.title;
+  document.getElementById('ds-slide-meta').innerHTML = `
+    <span class="badge" style="background:var(--surface3);color:var(--text)">${esc(fmtUpper)}</span>
+    <span style="color:var(--text-muted)">${esc(ds.id)}</span>
+    ${secTags}
+  `;
+  document.getElementById('ds-slide-desc').textContent = ds.description || '';
+  document.getElementById('ds-slide-source').innerHTML = ds.source_name
+    ? `Source: ${ds.source_url ? `<a href="${esc(ds.source_url)}" target="_blank" style="color:var(--accent)">${esc(ds.source_name)}</a>` : esc(ds.source_name)}`
+    : '';
+  document.getElementById('ds-slide-sample-info').textContent =
+    `Showing ${ds._sample_rows.length} of ${ds._total_rows.toLocaleString()} rows (random sample) \u00B7 ${ds._column_count} columns`;
+  document.getElementById('ds-slide-notes').textContent = ds.notes || '';
+
+  // Build data table
+  const thead = document.getElementById('ds-slide-thead');
+  const tbody = document.getElementById('ds-slide-tbody');
+  thead.innerHTML = '<tr>' + (ds._headers || []).map(h =>
+    `<th style="white-space:nowrap">${esc(h)}</th>`
+  ).join('') + '</tr>';
+  let bodyHtml = (ds._sample_rows || []).map(row =>
+    '<tr>' + row.map(cell =>
+      `<td style="white-space:nowrap;max-width:300px;overflow:hidden;text-overflow:ellipsis">${esc(String(cell))}</td>`
+    ).join('') + '</tr>'
+  ).join('');
+  if (ds._totals_row) {
+    bodyHtml += `<tr><td colspan="${ds._column_count}" style="padding:0;border-bottom:none"><div style="border-top:2px solid var(--border);margin:8px 0"></div></td></tr>`;
+    bodyHtml += '<tr style="font-weight:700;background:var(--surface2)">' + ds._totals_row.map(cell =>
+      `<td style="white-space:nowrap;max-width:300px;overflow:hidden;text-overflow:ellipsis">${esc(String(cell))}</td>`
+    ).join('') + '</tr>';
+  }
+  tbody.innerHTML = bodyHtml;
+
+  document.getElementById('ds-slide-overlay').classList.add('open');
+  document.getElementById('ds-slide-pane').classList.add('open');
+}
+
+function closeDsSlidePane() {
+  document.getElementById('ds-slide-overlay').classList.remove('open');
+  document.getElementById('ds-slide-pane').classList.remove('open');
+}
+
+function populateDsFilters() {
+  const secSelect = document.getElementById('filter-ds-section');
+  for (const [key, label] of Object.entries(SECTION_LABELS)) {
+    secSelect.innerHTML += `<option value="${key}">${label}</option>`;
+  }
+}
+
+// Dataset table sort
+document.querySelectorAll('#view-datasets thead th[data-ds-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.dsSort;
+    if (dsSortCol === col) dsSortAsc = !dsSortAsc;
+    else { dsSortCol = col; dsSortAsc = true; }
+    document.querySelectorAll('#view-datasets thead th .sort-arrow').forEach(s => s.textContent = '');
+    th.querySelector('.sort-arrow').textContent = dsSortAsc ? ' \u25B2' : ' \u25BC';
+    renderDsTable();
+  });
+});
+
+// Dataset filter/search events
+['ds-search','filter-ds-section','filter-ds-format'].forEach(id => {
+  const el = document.getElementById(id);
+  el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', renderDsTable);
+});
+document.getElementById('ds-search').addEventListener('input', () => toggleSearchClear('ds-search'));
+
 // --- CONTEXT PAGE ---
 let currentContextIdx = -1;
 let contextMode = 'edit';
@@ -2572,10 +2937,13 @@ renderCards();
 renderCharts();
 populateFilters();
 populateDocFilters();
+populateDsFilters();
 renderTable();
 renderDocTable();
+renderDsTable();
 renderArchive();
 renderContextFileList();
+document.getElementById('nav-dataset-count').textContent = DATASETS.length;
 </script>
 </body>
 </html>"""
@@ -2594,6 +2962,10 @@ def main():
     context_files = load_context_files()
     print(f"  {len(context_files)} context files")
 
+    print("Loading datasets...")
+    datasets = load_datasets()
+    print(f"  {len(datasets)} datasets")
+
     print("Loading CLAUDE.md...")
     claude_md = load_claude_md()
     print(f"  {len(claude_md)} chars")
@@ -2605,6 +2977,7 @@ def main():
     html = html.replace("%%FACTS_JSON%%", json.dumps(facts, default=str))
     html = html.replace("%%DOCUMENTS_JSON%%", json.dumps(documents, default=str))
     html = html.replace("%%CONTEXT_FILES_JSON%%", json.dumps(context_files, default=str))
+    html = html.replace("%%DATASETS_JSON%%", json.dumps(datasets, default=str))
     html = html.replace("%%CLAUDE_MD_JSON%%", json.dumps(claude_md))
     html = html.replace("%%STATS_JSON%%", json.dumps(stats, default=str))
     html = html.replace("%%SECTION_LABELS_JSON%%", json.dumps(SECTION_LABELS))
