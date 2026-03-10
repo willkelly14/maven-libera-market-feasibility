@@ -202,10 +202,11 @@ You are independently verifying factual claims. Your job is to confirm that each
 
 ### Rules
 
-1. **You only modify verification fields.** Do not change `claim`, `source_quotes`, `source_excerpt`, or other content fields. If there is a problem with the claim itself, flag it — do not fix it.
+1. **You may modify verification fields and source fields.** You can update `verified`, `verification_notes`, `confidence`, and — when the cited source is wrong — `source_url`, `source_name`, `source_author`, `source_date`, `source_page`, `source_type`, `source_quotes`, and `source_excerpt`. If you find the correct source for a claim, update it. Do not change the `claim` field itself — if the claim is wrong, flag it in `verification_notes`.
 2. **Open the actual source.** Use `source_url` to access the original publication. Do not rely on the `source_excerpt` alone.
-3. **Search for the verbatim quote.** The `source_quotes` entries must appear in the source. If they do, the claim is supported. If they do not, flag it.
-4. **Record your findings.** Write specific notes in `verification_notes` — not just "confirmed" but where exactly you found it (page number, section heading, table name).
+3. **Search for the verbatim quote.** The `source_quotes` entries must appear in the source. If they do, the claim is supported. If they do not, try to find the correct source before flagging.
+4. **Always leave notes.** Write specific notes in `verification_notes` for every fact you touch — not just "confirmed" but where exactly you found it (page number, section heading, table name). If you cannot verify a fact, explain what you tried and what you found instead. Never leave `verification_notes` empty after a verification attempt.
+5. **Add section tags where appropriate.** If during verification you discover that a fact is relevant to additional sections beyond those listed in `sections_used`, add them. For example, a macro context fact about exploration expenditure may also be relevant to `03_Market_Definition`.
 
 ### Verification workflow
 
@@ -232,13 +233,24 @@ For each fact with `verified: false`:
 **If the source cannot be accessed:**
 ```yaml
   verified: false
-  verification_notes: "URL returns 404 as of YYYY-MM-DD. Archived version needed."
+  verification_notes: "URL returns 404 as of YYYY-MM-DD. Searched for archived version at web.archive.org — not available. Tried alternative search '[search terms]' — no matching source found."
 ```
 
-**If the claim is not supported by the source:**
+**If the claim is not supported by the cited source but you found the correct source:**
+```yaml
+  verified: true
+  source_url: "https://correct-source-url.example.com"
+  source_name: "Correct Source Title"
+  source_date: "2025-03"
+  source_quotes:
+    - "The actual verbatim quote from the correct source"
+  verification_notes: "Original source (industry.gov.au/...) did not contain this figure. Found correct source at [new URL]. Confirmed on p.4, paragraph 2."
+```
+
+**If the claim is not supported and no correct source can be found:**
 ```yaml
   verified: false
-  verification_notes: "FLAGGED: Source does not contain this figure. Page 8 states '[actual text]' which differs from the claim."
+  verification_notes: "FLAGGED: Source does not contain this figure. Page 8 states '[actual text]' which differs from the claim. Searched [list what you searched] but could not find an alternative source for this data point. Recommend removing or revising."
 ```
 
 ### Verification checklist
@@ -266,9 +278,9 @@ Work through one section file at a time. After verifying, rebuild the dashboard 
 ### Do not
 
 - Change `claim` text (flag it instead via `verification_notes`)
-- Change `source_quotes` text (flag it instead)
 - Mark something as verified without actually checking the source URL
 - Skip facts because the excerpt "looks right" — always check the original source
+- Leave `verification_notes` empty after attempting verification — always document what you tried and what you found
 
 ---
 

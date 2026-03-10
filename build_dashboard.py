@@ -1391,7 +1391,7 @@ function renderFactRow(f, colCount) {
     ? `<br><span style="font-size:10px;color:var(--orange)">Note: ${esc(f.verification_notes)}</span>` : '';
 
   const docBadge = f.document && DOC_MAP[f.document]
-    ? `<span class="badge badge-doc" onclick="navigateToDoc('${esc(f.document)}')" title="${esc(DOC_MAP[f.document].title)}">${esc(f.document)}</span>`
+    ? `<span class="badge badge-doc" onclick="navigateToDoc('${esc(f.document)}')" title="${esc(f.document)}">${esc(DOC_MAP[f.document].title)}</span>`
     : '<span style="color:var(--text-muted);font-size:11px">—</span>';
 
   const sections = (f.sections_used || []).map(s =>
@@ -2137,7 +2137,7 @@ function showSectionView(sectionKey) {
     const verNotes = f.verification_notes
       ? `<br><span style="font-size:10px;color:var(--orange)">Note: ${esc(f.verification_notes)}</span>` : '';
     const docBadge = f.document && DOC_MAP[f.document]
-      ? `<span class="badge badge-doc" onclick="navigateToDoc('${esc(f.document)}')">${esc(f.document)}</span>` : '—';
+      ? `<span class="badge badge-doc" onclick="navigateToDoc('${esc(f.document)}')" title="${esc(f.document)}">${esc(DOC_MAP[f.document].title)}</span>` : '—';
     const sourceLink = f.source_url
       ? `<a class="source-link" href="${esc(f.source_url)}" target="_blank">${esc(truncate(f.source_name || f.source_url, 50))}</a>`
       : esc(f.source_name || '');
