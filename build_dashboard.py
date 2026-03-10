@@ -246,7 +246,11 @@ body {
 }
 .sidebar-header h1 { font-size: 16px; font-weight: 700; }
 .sidebar-header .subtitle { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
-.sidebar-nav { padding: 8px 0; }
+.sidebar-nav { padding: 8px 0; flex: 1; }
+.sidebar-bottom {
+  border-top: 1px solid var(--border); padding: 8px 0;
+  flex-shrink: 0;
+}
 .nav-section-label {
   font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
   color: var(--text-muted); padding: 12px 16px 4px; font-weight: 600;
@@ -344,7 +348,53 @@ tbody tr.expanded-row td { border-bottom: none; }
   font-size: 10px; font-weight: 600; white-space: nowrap;
 }
 .badge-verified { background: rgba(63, 185, 80, 0.15); color: var(--green); }
-.badge-unverified { background: rgba(248, 81, 73, 0.15); color: var(--red); }
+.badge-unverified { background: rgba(210, 153, 34, 0.15); color: var(--orange); }
+.badge-flagged { background: rgba(248, 81, 73, 0.15); color: var(--red); }
+
+/* Status dropdown */
+.status-select {
+  appearance: none; -webkit-appearance: none;
+  border: none; border-radius: 10px; padding: 2px 20px 2px 7px;
+  font-size: 10px; font-weight: 600; cursor: pointer; outline: none;
+  background-repeat: no-repeat; background-position: right 5px center; background-size: 10px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%238b949e' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+}
+.status-select.s-verified { background-color: rgba(63, 185, 80, 0.15); color: var(--green); }
+.status-select.s-unverified { background-color: rgba(210, 153, 34, 0.15); color: var(--orange); }
+.status-select.s-flagged { background-color: rgba(248, 81, 73, 0.15); color: var(--red); }
+.status-select.s-archived { background-color: rgba(139, 148, 158, 0.15); color: var(--text-muted); }
+.status-select option { background: var(--surface); color: var(--text); }
+
+/* Confirm dialog */
+.confirm-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6); z-index: 400;
+  display: flex; align-items: center; justify-content: center;
+}
+.confirm-dialog {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 24px; max-width: 400px; width: 90%;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+}
+.confirm-dialog h3 { font-size: 15px; font-weight: 600; margin-bottom: 8px; }
+.confirm-dialog p { font-size: 13px; color: var(--text-muted); margin-bottom: 16px; line-height: 1.5; }
+.confirm-dialog .confirm-claim {
+  background: var(--surface2); border-radius: 6px; padding: 8px 12px;
+  font-size: 12px; color: var(--text); margin-bottom: 16px;
+  max-height: 80px; overflow-y: auto; border: 1px solid var(--border);
+}
+.confirm-btns { display: flex; gap: 8px; justify-content: flex-end; }
+.confirm-btns button {
+  padding: 7px 16px; border-radius: 6px; font-size: 13px;
+  font-weight: 600; cursor: pointer; border: 1px solid var(--border);
+}
+.btn-cancel { background: var(--surface2); color: var(--text); }
+.btn-cancel:hover { background: var(--surface3); }
+.btn-danger { background: rgba(248, 81, 73, 0.15); color: var(--red); border-color: rgba(248, 81, 73, 0.3); }
+.btn-danger:hover { background: rgba(248, 81, 73, 0.25); }
+.btn-warn { background: rgba(210, 153, 34, 0.15); color: var(--orange); border-color: rgba(210, 153, 34, 0.3); }
+.btn-warn:hover { background: rgba(210, 153, 34, 0.25); }
+
 .badge-section { background: rgba(88, 166, 255, 0.1); color: var(--accent); margin: 1px 2px; font-weight: 500; }
 .badge-source-type { background: rgba(188, 140, 255, 0.1); color: var(--purple); font-weight: 500; }
 .badge-doc { background: rgba(210, 153, 34, 0.15); color: var(--orange); font-weight: 500; cursor: pointer; }
@@ -389,58 +439,158 @@ tbody tr.expanded-row td { border-bottom: none; }
 .excerpt-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px; letter-spacing: 0.3px; }
 
 /* ===== DOCUMENT VIEW ===== */
-.doc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
-@media (max-width: 1000px) { .doc-grid { grid-template-columns: 1fr; } }
-.doc-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 8px; padding: 16px; cursor: pointer; transition: all 0.15s;
-}
-.doc-card:hover { border-color: var(--accent); background: rgba(88, 166, 255, 0.04); }
-.doc-card.active { border-color: var(--accent); }
-.doc-card-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
-.doc-card-meta { font-size: 11px; color: var(--text-muted); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 6px; }
-.doc-card-desc { font-size: 12px; color: var(--text-muted); }
-.doc-card-facts { font-size: 11px; color: var(--accent); margin-top: 6px; }
 
-.doc-viewer {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 8px; margin-bottom: 20px; overflow: hidden;
+/* ===== SLIDE PANE (full-width split) ===== */
+.slide-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); z-index: 200; opacity: 0;
+  pointer-events: none; transition: opacity 0.25s ease;
 }
-.doc-viewer-header {
-  padding: 16px 20px; border-bottom: 1px solid var(--border);
-  display: flex; justify-content: space-between; align-items: flex-start;
+.slide-overlay.open { opacity: 1; pointer-events: auto; }
+
+.slide-pane {
+  position: fixed; top: 0; right: 0; bottom: 0;
+  left: 60px;
+  background: var(--bg); border-left: 1px solid var(--border);
+  z-index: 201; transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex; flex-direction: column;
+  box-shadow: -8px 0 32px rgba(0,0,0,0.5);
 }
-.doc-viewer-title { font-size: 16px; font-weight: 600; }
-.doc-viewer-meta { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
-.doc-viewer-close {
-  background: none; border: 1px solid var(--border); border-radius: 4px;
-  color: var(--text-muted); cursor: pointer; padding: 4px 10px; font-size: 12px;
+.slide-pane.open { transform: translateX(0); }
+
+/* Header bar spanning full width */
+.slide-pane-topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 12px 20px; border-bottom: 1px solid var(--border);
+  background: var(--surface); flex-shrink: 0;
 }
-.doc-viewer-close:hover { color: var(--text); border-color: var(--text-muted); }
-.doc-viewer-content {
-  padding: 20px; font-size: 14px; line-height: 1.7; max-height: 70vh; overflow-y: auto;
+.slide-pane-topbar-left { display: flex; align-items: center; gap: 12px; min-width: 0; flex: 1; }
+.slide-pane-title { font-size: 16px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.slide-pane-meta { font-size: 11px; color: var(--text-muted); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.slide-pane-close {
+  background: none; border: none; color: var(--text-muted);
+  cursor: pointer; padding: 4px; font-size: 20px; line-height: 1;
+  border-radius: 4px; width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
 }
-.doc-viewer-content h1 { font-size: 20px; margin: 16px 0 8px; }
-.doc-viewer-content h2 { font-size: 17px; margin: 14px 0 6px; color: var(--accent); }
-.doc-viewer-content h3 { font-size: 14px; margin: 12px 0 4px; }
-.doc-viewer-content p { margin: 6px 0; }
-.doc-viewer-content ul, .doc-viewer-content ol { margin: 6px 0 6px 24px; }
-.doc-viewer-content table { margin: 10px 0; border-collapse: collapse; font-size: 13px; }
-.doc-viewer-content th, .doc-viewer-content td {
+.slide-pane-close:hover { background: var(--surface2); color: var(--text); }
+
+/* Split layout */
+.slide-pane-split {
+  display: flex; flex: 1; overflow: hidden;
+}
+
+/* Left: Document */
+.slide-pane-doc {
+  flex: 1; display: flex; flex-direction: column;
+  border-right: 1px solid var(--border); min-width: 0;
+}
+.slide-pane-doc-header {
+  padding: 12px 20px; border-bottom: 1px solid var(--border);
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text-muted); font-weight: 600; background: var(--surface);
+  flex-shrink: 0;
+}
+.slide-pane-doc-body {
+  flex: 1; overflow-y: auto; padding: 24px;
+  font-size: 14px; line-height: 1.7; position: relative;
+}
+.slide-pane-doc-body h1 { font-size: 20px; margin: 16px 0 8px; }
+.slide-pane-doc-body h2 { font-size: 17px; margin: 14px 0 6px; color: var(--accent); }
+.slide-pane-doc-body h3 { font-size: 14px; margin: 12px 0 4px; }
+.slide-pane-doc-body p { margin: 6px 0; }
+.slide-pane-doc-body ul, .slide-pane-doc-body ol { margin: 6px 0 6px 24px; }
+.slide-pane-doc-body table { margin: 10px 0; border-collapse: collapse; font-size: 13px; width: 100%; }
+.slide-pane-doc-body th, .slide-pane-doc-body td {
   padding: 6px 12px; border: 1px solid var(--border); text-align: left;
 }
-.doc-viewer-content th { background: var(--surface2); font-weight: 600; }
-.doc-viewer-content code { background: var(--surface2); padding: 2px 5px; border-radius: 3px; font-size: 12px; }
-.doc-viewer-content pre { background: var(--surface2); padding: 12px; border-radius: 6px; overflow-x: auto; font-size: 12px; margin: 8px 0; }
-.doc-viewer-content pre code { background: none; padding: 0; }
-.doc-viewer-content a { color: var(--accent); }
-.doc-viewer-content strong { color: var(--accent); }
-.doc-viewer-content hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
-
-.doc-facts-section {
-  border-top: 1px solid var(--border); padding: 16px 20px;
+.slide-pane-doc-body th { background: var(--surface2); font-weight: 600; }
+.slide-pane-doc-body code { background: var(--surface2); padding: 2px 5px; border-radius: 3px; font-size: 12px; }
+.slide-pane-doc-body pre { background: var(--surface2); padding: 12px; border-radius: 6px; overflow-x: auto; font-size: 12px; margin: 8px 0; }
+.slide-pane-doc-body pre code { background: none; padding: 0; }
+.slide-pane-doc-body a { color: var(--accent); }
+.slide-pane-doc-body strong { color: var(--accent); }
+.slide-pane-doc-body hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
+.doc-highlight-mark {
+  background: rgba(88, 166, 255, 0.25); border-radius: 2px;
+  outline: 2px solid rgba(88, 166, 255, 0.5); outline-offset: 1px;
+  transition: background 0.3s;
 }
-.doc-facts-section h3 { font-size: 13px; font-weight: 600; margin-bottom: 10px; }
+.doc-highlight-mark.fading { background: transparent; outline-color: transparent; }
+
+/* Right: Facts */
+.slide-pane-facts {
+  flex: 1; display: flex; flex-direction: column; min-width: 0;
+}
+.slide-pane-facts-header {
+  padding: 8px 16px; border-bottom: 1px solid var(--border);
+  background: var(--surface); flex-shrink: 0;
+  display: flex; align-items: center; gap: 10px;
+}
+.slide-pane-facts-header .panel-label {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+  color: var(--text-muted); font-weight: 600; flex-shrink: 0;
+}
+.slide-pane-facts-header .fact-count {
+  font-size: 11px; color: var(--accent); flex-shrink: 0;
+}
+.slide-pane-facts-search {
+  flex: 1; padding: 5px 8px; background: var(--surface2);
+  border: 1px solid var(--border); border-radius: 5px;
+  color: var(--text); font-size: 12px; outline: none;
+}
+.slide-pane-facts-search:focus { border-color: var(--accent); }
+.slide-pane-facts-body {
+  flex: 1; overflow-y: auto;
+}
+.slide-pane-facts-body table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.slide-pane-facts-body thead th {
+  text-align: left; padding: 6px 10px; background: var(--surface2);
+  border-bottom: 1px solid var(--border); font-weight: 600; font-size: 10px;
+  text-transform: uppercase; letter-spacing: 0.3px; color: var(--text-muted);
+  position: sticky; top: 0; z-index: 1;
+}
+.slide-pane-facts-body tbody td {
+  padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top;
+}
+.slide-pane-facts-body tbody tr { transition: background 0.15s; }
+.slide-pane-facts-body tbody tr:hover { background: rgba(88, 166, 255, 0.04); }
+.slide-pane-facts-body tbody tr.fact-highlight {
+  background: rgba(88, 166, 255, 0.15);
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+.slide-pane-facts-body tbody tr.fact-highlight td { border-bottom-color: var(--accent); }
+.pane-fact-claim { max-width: 280px; }
+.pane-excerpt-row { display: none; }
+.pane-excerpt-row.visible { display: table-row; }
+.pane-excerpt-cell {
+  padding: 0 10px 10px; background: var(--surface2);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Selection popup */
+.selection-popup {
+  position: fixed; z-index: 300;
+  background: var(--accent); color: #fff; border-radius: 6px;
+  padding: 5px 12px; font-size: 12px; font-weight: 600;
+  cursor: pointer; box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  pointer-events: auto; user-select: none;
+  display: none; white-space: nowrap;
+}
+.selection-popup::after {
+  content: ''; position: absolute; top: 100%; left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent; border-top-color: var(--accent);
+}
+.selection-popup:hover { filter: brightness(1.15); }
+
+/* Doc table row highlight */
+.doc-table-row { cursor: pointer; }
+.doc-table-row:hover { background: rgba(88, 166, 255, 0.06); }
+.doc-table-row.active { background: rgba(88, 166, 255, 0.1); }
 
 /* ===== VIEWS ===== */
 .view { display: none; }
@@ -482,6 +632,12 @@ tbody tr.expanded-row td { border-bottom: none; }
     <div class="nav-section-label">Sections</div>
     <div id="nav-sections"></div>
   </div>
+  <div class="sidebar-bottom">
+    <div class="nav-item" data-view="archive">
+      <span class="nav-icon" style="font-size:13px">&#128451;</span> Archive
+      <span class="nav-count" id="nav-archive-count">0</span>
+    </div>
+  </div>
 </nav>
 
 <!-- MAIN -->
@@ -511,8 +667,9 @@ tbody tr.expanded-row td { border-bottom: none; }
       <select id="filter-section"><option value="">All Sections</option></select>
       <select id="filter-verified">
         <option value="">All Status</option>
-        <option value="true">Verified</option>
-        <option value="false">Unverified</option>
+        <option value="verified">Verified</option>
+        <option value="unverified">Unverified</option>
+        <option value="flagged">Flagged</option>
       </select>
       <select id="filter-source-type"><option value="">All Source Types</option></select>
       <select id="filter-document"><option value="">All Documents</option></select>
@@ -539,8 +696,84 @@ tbody tr.expanded-row td { border-bottom: none; }
   <!-- DOCUMENTS VIEW -->
   <div class="view" id="view-documents">
     <div class="page-title">Documents</div>
-    <div class="doc-grid" id="doc-grid"></div>
-    <div id="doc-viewer-container"></div>
+    <div class="controls">
+      <input type="text" id="doc-search" placeholder="Search documents by title, description, section...">
+      <select id="filter-doc-status">
+        <option value="">All Statuses</option>
+        <option value="draft">Draft</option>
+        <option value="stub">Stub</option>
+        <option value="complete">Complete</option>
+        <option value="in_review">In Review</option>
+      </select>
+      <select id="filter-doc-type"><option value="">All Types</option></select>
+      <select id="filter-doc-section"><option value="">All Sections</option></select>
+    </div>
+    <div class="results-count" id="doc-results-count"></div>
+    <div class="fact-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-doc-sort="id" style="width:80px">ID <span class="sort-arrow"></span></th>
+            <th data-doc-sort="title">Title <span class="sort-arrow"></span></th>
+            <th data-doc-sort="type">Type <span class="sort-arrow"></span></th>
+            <th data-doc-sort="section">Section <span class="sort-arrow"></span></th>
+            <th data-doc-sort="status">Status <span class="sort-arrow"></span></th>
+            <th style="width:55px">Facts</th>
+            <th data-doc-sort="last_updated" style="width:90px">Updated <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="doc-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SLIDE PANE -->
+  <div class="slide-overlay" id="slide-overlay" onclick="closeSlidePane()"></div>
+  <div class="slide-pane" id="slide-pane">
+    <div class="slide-pane-topbar">
+      <div class="slide-pane-topbar-left">
+        <div class="slide-pane-title" id="slide-pane-title"></div>
+        <div class="slide-pane-meta" id="slide-pane-meta"></div>
+      </div>
+      <button class="slide-pane-close" onclick="closeSlidePane()">&times;</button>
+    </div>
+    <div class="slide-pane-split">
+      <div class="slide-pane-doc">
+        <div class="slide-pane-doc-header">Document</div>
+        <div class="slide-pane-doc-body" id="slide-pane-doc-body"></div>
+      </div>
+      <div class="slide-pane-facts">
+        <div class="slide-pane-facts-header">
+          <span class="panel-label">Linked Facts</span>
+          <span class="fact-count" id="pane-fact-count"></span>
+          <input type="text" class="slide-pane-facts-search" id="pane-fact-search" placeholder="Search facts...">
+        </div>
+        <div class="slide-pane-facts-body" id="slide-pane-facts-body"></div>
+      </div>
+    </div>
+  </div>
+  <div class="selection-popup" id="selection-popup" onclick="findFactFromSelection()">Find Fact &rarr;</div>
+  <div id="confirm-container"></div>
+
+  <!-- ARCHIVE VIEW -->
+  <div class="view" id="view-archive">
+    <div class="page-title">Archive</div>
+    <div class="results-count" id="archive-results-count"></div>
+    <div class="fact-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Claim</th>
+            <th>Source</th>
+            <th>Previous Status</th>
+            <th>Archived</th>
+            <th style="width:80px"></th>
+          </tr>
+        </thead>
+        <tbody id="archive-body"></tbody>
+      </table>
+    </div>
   </div>
 
   <!-- SECTION-FILTERED FACTS VIEW -->
@@ -579,6 +812,186 @@ const DOC_STATUS_LABELS = %%DOC_STATUS_LABELS_JSON%%;
 const DOC_MAP = {};
 DOCUMENTS.forEach(d => DOC_MAP[d.id] = d);
 
+// Normalize fact status: support both boolean `verified` and string `verification_status`
+function getFactStatus(f) {
+  if (f.verification_status) return f.verification_status;
+  return f.verified ? 'verified' : 'unverified';
+}
+function setFactStatus(f, status) {
+  f.verification_status = status;
+  f.verified = (status === 'verified');
+}
+// Initialize all facts
+FACTS.forEach(f => { if (!f.verification_status) f.verification_status = getFactStatus(f); });
+
+// --- ARCHIVE ---
+const ARCHIVED = [];
+
+function statusBadgeHtml(f, clickable) {
+  const s = getFactStatus(f);
+  if (clickable) {
+    const sel = (v) => v === s ? ' selected' : '';
+    return `<select class="status-select s-${s}" onchange="event.stopPropagation();changeFactStatus('${esc(f.id)}',this.value,this)" onclick="event.stopPropagation()">
+      <option value="unverified"${sel('unverified')}>Unverified</option>
+      <option value="verified"${sel('verified')}>Verified</option>
+      <option value="flagged"${sel('flagged')}>Flagged</option>
+      <option value="archive">Archive...</option>
+    </select>`;
+  }
+  const cls = 'badge badge-' + s;
+  const label = s === 'verified' ? 'Verified' : s === 'flagged' ? 'Flagged' : 'Unverified';
+  return `<span class="${cls}">${label}</span>`;
+}
+
+function changeFactStatus(factId, newStatus, selectEl) {
+  const f = FACTS.find(x => x.id === factId);
+  if (!f) return;
+  const oldStatus = getFactStatus(f);
+
+  if (newStatus === 'flagged') {
+    showConfirm(
+      'Flag this fact?',
+      'This will mark the fact as flagged for review.',
+      f.claim,
+      'Flag', 'btn-danger',
+      () => { applyStatus(f, 'flagged'); },
+      () => { revertSelect(selectEl, oldStatus); }
+    );
+  } else if (newStatus === 'archive') {
+    showConfirm(
+      'Archive this fact?',
+      'This will remove the fact from all views and move it to the archive.',
+      f.claim,
+      'Archive', 'btn-warn',
+      () => { archiveFact(f); },
+      () => { revertSelect(selectEl, oldStatus); }
+    );
+  } else {
+    applyStatus(f, newStatus);
+  }
+}
+
+function revertSelect(selectEl, oldStatus) {
+  if (selectEl) selectEl.value = oldStatus;
+}
+
+function applyStatus(f, status) {
+  setFactStatus(f, status);
+  refreshAllViews();
+}
+
+function archiveFact(f) {
+  const idx = FACTS.indexOf(f);
+  if (idx === -1) return;
+  f._archivedFrom = getFactStatus(f);
+  f._archivedDate = new Date().toISOString().slice(0, 10);
+  FACTS.splice(idx, 1);
+  ARCHIVED.push(f);
+  // Update doc fact counts
+  if (f.document && DOC_FACT_COUNTS[f.document]) {
+    DOC_FACT_COUNTS[f.document]--;
+  }
+  // Update pane facts if open
+  if (currentPaneDocId) {
+    currentPaneFacts = FACTS.filter(x => x.document === currentPaneDocId);
+    document.getElementById('pane-fact-count').textContent = '(' + currentPaneFacts.length + ')';
+  }
+  refreshAllViews();
+  renderArchive();
+}
+
+function deleteArchivedFact(archivedIdx) {
+  const f = ARCHIVED[archivedIdx];
+  if (!f) return;
+  showConfirm(
+    'Permanently delete this fact?',
+    'This cannot be undone. The fact will be removed entirely.',
+    f.claim,
+    'Delete', 'btn-danger',
+    () => { ARCHIVED.splice(archivedIdx, 1); renderArchive(); updateArchiveCount(); },
+    () => {}
+  );
+}
+
+function restoreArchivedFact(archivedIdx) {
+  const f = ARCHIVED[archivedIdx];
+  if (!f) return;
+  ARCHIVED.splice(archivedIdx, 1);
+  setFactStatus(f, f._archivedFrom || 'unverified');
+  delete f._archivedFrom;
+  delete f._archivedDate;
+  FACTS.push(f);
+  if (f.document) {
+    DOC_FACT_COUNTS[f.document] = (DOC_FACT_COUNTS[f.document] || 0) + 1;
+  }
+  refreshAllViews();
+  renderArchive();
+}
+
+function renderArchive() {
+  const tbody = document.getElementById('archive-body');
+  updateArchiveCount();
+  document.getElementById('archive-results-count').textContent = ARCHIVED.length + ' archived fact' + (ARCHIVED.length !== 1 ? 's' : '');
+  if (ARCHIVED.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;padding:40px;color:var(--text-muted)">No archived facts.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = ARCHIVED.map((f, i) => {
+    const prevStatus = f._archivedFrom || 'unverified';
+    const prevLabel = prevStatus === 'verified' ? 'Verified' : prevStatus === 'flagged' ? 'Flagged' : 'Unverified';
+    const prevCls = 'badge badge-' + prevStatus;
+    return `<tr>
+      <td style="font-family:monospace;font-size:11px;color:var(--text-muted)">${esc(f.id)}</td>
+      <td style="font-size:12px">${esc(truncate(f.claim, 120))}</td>
+      <td style="font-size:11px;color:var(--text-muted)">${esc(truncate(f.source_name || '', 40))}</td>
+      <td><span class="${prevCls}">${prevLabel}</span></td>
+      <td style="font-size:11px;color:var(--text-muted);white-space:nowrap">${esc(f._archivedDate || '')}</td>
+      <td style="white-space:nowrap">
+        <button class="expand-toggle" onclick="restoreArchivedFact(${i})" style="margin-right:4px">Restore</button>
+        <button class="expand-toggle" onclick="deleteArchivedFact(${i})" style="color:var(--red);border-color:rgba(248,81,73,0.3)">Delete</button>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function updateArchiveCount() {
+  document.getElementById('nav-archive-count').textContent = ARCHIVED.length;
+}
+
+function refreshAllViews() {
+  renderTable();
+  renderCards();
+  renderDocTable();
+  updateArchiveCount();
+  if (currentPaneDocId) renderPaneFacts();
+  const secView = document.getElementById('view-section');
+  if (secView.classList.contains('active')) {
+    const activeNav = document.querySelector('.nav-item.active[data-section]');
+    if (activeNav) showSectionView(activeNav.dataset.section);
+  }
+}
+
+// --- CONFIRM DIALOG ---
+function showConfirm(title, message, claimText, actionLabel, actionClass, onConfirm, onCancel) {
+  const container = document.getElementById('confirm-container');
+  container.innerHTML = `<div class="confirm-overlay" id="confirm-overlay">
+    <div class="confirm-dialog">
+      <h3>${esc(title)}</h3>
+      <p>${esc(message)}</p>
+      ${claimText ? `<div class="confirm-claim">${esc(truncate(claimText, 200))}</div>` : ''}
+      <div class="confirm-btns">
+        <button class="btn-cancel" id="confirm-cancel">Cancel</button>
+        <button class="${actionClass}" id="confirm-action">${esc(actionLabel)}</button>
+      </div>
+    </div>
+  </div>`;
+  document.getElementById('confirm-cancel').onclick = () => { container.innerHTML = ''; onCancel(); };
+  document.getElementById('confirm-action').onclick = () => { container.innerHTML = ''; onConfirm(); };
+  document.getElementById('confirm-overlay').onclick = (e) => {
+    if (e.target === e.currentTarget) { container.innerHTML = ''; onCancel(); }
+  };
+}
+
 // --- NAV ---
 function initNav() {
   document.getElementById('nav-fact-count').textContent = FACTS.length;
@@ -612,14 +1025,17 @@ function initNav() {
 // --- DASHBOARD ---
 function renderCards() {
   const el = document.getElementById('cards');
-  const pct = STATS.total > 0 ? Math.round((STATS.verified / STATS.total) * 100) : 0;
+  const vCount = FACTS.filter(f => getFactStatus(f) === 'verified').length;
+  const fCount = FACTS.filter(f => getFactStatus(f) === 'flagged').length;
+  const uCount = FACTS.length - vCount - fCount;
+  const pct = FACTS.length > 0 ? Math.round((vCount / FACTS.length) * 100) : 0;
   el.innerHTML = `
-    <div class="card"><div class="card-label">Total Facts</div><div class="card-value accent">${STATS.total}</div></div>
-    <div class="card"><div class="card-label">Verified</div><div class="card-value green">${STATS.verified}</div></div>
-    <div class="card"><div class="card-label">Unverified</div><div class="card-value red">${STATS.unverified}</div></div>
+    <div class="card"><div class="card-label">Total Facts</div><div class="card-value accent">${FACTS.length}</div></div>
+    <div class="card"><div class="card-label">Verified</div><div class="card-value green">${vCount}</div></div>
+    <div class="card"><div class="card-label">Unverified</div><div class="card-value" style="color:var(--orange)">${uCount}</div></div>
+    <div class="card"><div class="card-label">Flagged</div><div class="card-value red">${fCount}</div></div>
     <div class="card"><div class="card-label">Verified %</div><div class="card-value ${pct>=80?'green':pct>=50?'accent':'red'}">${pct}%</div></div>
     <div class="card"><div class="card-label">Documents</div><div class="card-value accent">${DOCUMENTS.length}</div></div>
-    <div class="card"><div class="card-label">Sources</div><div class="card-value accent">${Object.keys(STATS.by_source).length}</div></div>
   `;
 }
 
@@ -680,7 +1096,7 @@ function getFilteredFacts() {
 
   return FACTS.filter(f => {
     if (section && !(f.sections_used || []).includes(section)) return false;
-    if (verified !== '' && String(f.verified) !== verified) return false;
+    if (verified && getFactStatus(f) !== verified) return false;
     if (sourceType && f.source_type !== sourceType) return false;
     if (docFilter && f.document !== docFilter) return false;
     if (search) {
@@ -699,9 +1115,7 @@ function getFilteredFacts() {
 }
 
 function renderFactRow(f, colCount) {
-  const statusBadge = f.verified
-    ? '<span class="badge badge-verified">Verified</span>'
-    : '<span class="badge badge-unverified">Unverified</span>';
+  const statusBadge = statusBadgeHtml(f, true);
   const verNotes = f.verification_notes
     ? `<br><span style="font-size:10px;color:var(--orange)">Note: ${esc(f.verification_notes)}</span>` : '';
 
@@ -775,103 +1189,492 @@ function populateFilters() {
   });
 }
 
-// --- DOCUMENT VIEW ---
-function renderDocGrid() {
-  const grid = document.getElementById('doc-grid');
-  grid.innerHTML = DOCUMENTS.map(d => {
-    const factCount = FACTS.filter(f => f.document === d.id).length;
+// --- DOCUMENT TABLE VIEW ---
+let docSortCol = 'id', docSortAsc = true;
+
+// Precompute fact counts per document
+const DOC_FACT_COUNTS = {};
+FACTS.forEach(f => {
+  if (f.document) DOC_FACT_COUNTS[f.document] = (DOC_FACT_COUNTS[f.document] || 0) + 1;
+});
+
+function getFilteredDocs() {
+  const search = document.getElementById('doc-search').value.toLowerCase();
+  const status = document.getElementById('filter-doc-status').value;
+  const type = document.getElementById('filter-doc-type').value;
+  const section = document.getElementById('filter-doc-section').value;
+
+  return DOCUMENTS.filter(d => {
+    if (status && d.status !== status) return false;
+    if (type && d.type !== type) return false;
+    if (section && d.section !== section) return false;
+    if (search) {
+      const hay = [d.id, d.title, d.description, d.section,
+        SECTION_LABELS[d.section] || '', DOC_TYPE_LABELS[d.type] || '',
+        DOC_STATUS_LABELS[d.status] || ''
+      ].join(' ').toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  }).sort((a, b) => {
+    let va = a[docSortCol] ?? '', vb = b[docSortCol] ?? '';
+    if (docSortCol === 'facts') { va = DOC_FACT_COUNTS[a.id] || 0; vb = DOC_FACT_COUNTS[b.id] || 0; }
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+    return docSortAsc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
+  });
+}
+
+function renderDocTable() {
+  const docs = getFilteredDocs();
+  const tbody = document.getElementById('doc-table-body');
+  document.getElementById('doc-results-count').textContent = `Showing ${docs.length} of ${DOCUMENTS.length} documents`;
+  if (docs.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:40px;color:var(--text-muted)">No documents match your filters.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = docs.map(d => {
     const typeLabel = DOC_TYPE_LABELS[d.type] || d.type;
     const statusLabel = DOC_STATUS_LABELS[d.status] || d.status;
     const statusClass = 'badge-status-' + (d.status || 'stub');
     const secLabel = SECTION_LABELS[d.section] || d.section || '';
-    return `<div class="doc-card" onclick="openDocument('${esc(d.id)}')" id="doc-card-${esc(d.id)}">
-      <div class="doc-card-title">${esc(d.title)}</div>
-      <div class="doc-card-meta">
-        <span class="badge badge-doc-type">${esc(typeLabel)}</span>
-        <span class="badge badge-status ${statusClass}">${esc(statusLabel)}</span>
-        ${secLabel ? `<span style="color:var(--text-muted)">${esc(secLabel)}</span>` : ''}
-      </div>
-      <div class="doc-card-desc">${esc(d.description)}</div>
-      <div class="doc-card-facts">${factCount} linked fact${factCount !== 1 ? 's' : ''}</div>
-    </div>`;
+    const factCount = DOC_FACT_COUNTS[d.id] || 0;
+    return `<tr class="doc-table-row" onclick="openSlidePane('${esc(d.id)}')" id="doc-row-${esc(d.id)}">
+      <td style="font-family:monospace;font-size:11px;color:var(--accent);white-space:nowrap">${esc(d.id)}</td>
+      <td>
+        <div style="font-weight:600;font-size:13px">${esc(d.title)}</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:2px">${esc(truncate(d.description, 80))}</div>
+      </td>
+      <td><span class="badge badge-doc-type">${esc(typeLabel)}</span></td>
+      <td style="font-size:12px;color:var(--text-muted)">${esc(secLabel)}</td>
+      <td><span class="badge badge-status ${statusClass}">${esc(statusLabel)}</span></td>
+      <td style="text-align:center;font-size:12px;color:${factCount > 0 ? 'var(--accent)' : 'var(--text-muted)'}">${factCount}</td>
+      <td style="white-space:nowrap;font-size:11px;color:var(--text-muted)">${esc(d.last_updated || d.date_created || '')}</td>
+    </tr>`;
   }).join('');
 }
 
-function openDocument(docId) {
+function populateDocFilters() {
+  const typeSelect = document.getElementById('filter-doc-type');
+  for (const [key, label] of Object.entries(DOC_TYPE_LABELS)) {
+    typeSelect.innerHTML += `<option value="${key}">${label}</option>`;
+  }
+  const secSelect = document.getElementById('filter-doc-section');
+  for (const [key, label] of Object.entries(SECTION_LABELS)) {
+    secSelect.innerHTML += `<option value="${key}">${label}</option>`;
+  }
+}
+
+// --- SLIDE PANE ---
+let currentPaneDocId = null;
+let currentPaneFacts = [];
+let selectedText = '';
+
+function openSlidePane(docId) {
   const doc = DOC_MAP[docId];
   if (!doc) return;
+  currentPaneDocId = docId;
 
-  // Highlight card
-  document.querySelectorAll('.doc-card').forEach(c => c.classList.remove('active'));
-  const card = document.getElementById('doc-card-' + docId);
-  if (card) card.classList.add('active');
+  // Highlight table row
+  document.querySelectorAll('.doc-table-row').forEach(r => r.classList.remove('active'));
+  const row = document.getElementById('doc-row-' + docId);
+  if (row) row.classList.add('active');
 
-  // Find linked facts
-  const linkedFacts = FACTS.filter(f => f.document === docId);
-
-  const container = document.getElementById('doc-viewer-container');
   const typeLabel = DOC_TYPE_LABELS[doc.type] || doc.type;
   const statusLabel = DOC_STATUS_LABELS[doc.status] || doc.status;
   const statusClass = 'badge-status-' + (doc.status || 'stub');
+  const secLabel = SECTION_LABELS[doc.section] || doc.section || '';
 
-  let factsHtml = '';
-  if (linkedFacts.length > 0) {
-    factsHtml = `<div class="doc-facts-section">
-      <h3>Linked Facts (${linkedFacts.length})</h3>
-      <table style="width:100%;border-collapse:collapse;font-size:12px">
-        <thead><tr>
-          <th style="text-align:left;padding:6px 8px;background:var(--surface2);border-bottom:1px solid var(--border);font-size:11px;text-transform:uppercase;color:var(--text-muted)">ID</th>
-          <th style="text-align:left;padding:6px 8px;background:var(--surface2);border-bottom:1px solid var(--border);font-size:11px;text-transform:uppercase;color:var(--text-muted)">Status</th>
-          <th style="text-align:left;padding:6px 8px;background:var(--surface2);border-bottom:1px solid var(--border);font-size:11px;text-transform:uppercase;color:var(--text-muted)">Claim</th>
-          <th style="text-align:left;padding:6px 8px;background:var(--surface2);border-bottom:1px solid var(--border);font-size:11px;text-transform:uppercase;color:var(--text-muted)">Source</th>
-        </tr></thead>
-        <tbody>${linkedFacts.map(f => {
-          const badge = f.verified
-            ? '<span class="badge badge-verified">Verified</span>'
-            : '<span class="badge badge-unverified">Unverified</span>';
-          return `<tr style="cursor:pointer" onclick="navigateToFact('${esc(f.id)}')">
-            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-family:monospace;font-size:11px;color:var(--accent)">${esc(f.id)}</td>
-            <td style="padding:6px 8px;border-bottom:1px solid var(--border)">${badge}</td>
-            <td style="padding:6px 8px;border-bottom:1px solid var(--border);max-width:300px">${esc(truncate(f.claim, 120))}</td>
-            <td style="padding:6px 8px;border-bottom:1px solid var(--border);font-size:11px;color:var(--text-muted)">${esc(truncate(f.source_name, 40))}</td>
-          </tr>`;
-        }).join('')}</tbody>
-      </table>
-    </div>`;
-  }
+  document.getElementById('slide-pane-title').textContent = doc.title;
+  document.getElementById('slide-pane-meta').innerHTML = `
+    <span class="badge badge-doc-type">${esc(typeLabel)}</span>
+    <span class="badge badge-status ${statusClass}">${esc(statusLabel)}</span>
+    <span style="color:var(--text-muted)">${esc(doc.id)}</span>
+    ${secLabel ? `<span style="color:var(--text-muted)">&middot; ${esc(secLabel)}</span>` : ''}
+    ${doc.last_updated ? `<span style="color:var(--text-muted)">&middot; Updated ${esc(doc.last_updated)}</span>` : ''}
+  `;
 
-  container.innerHTML = `<div class="doc-viewer">
-    <div class="doc-viewer-header">
-      <div>
-        <div class="doc-viewer-title">${esc(doc.title)}</div>
-        <div class="doc-viewer-meta">
-          <span class="badge badge-doc-type">${esc(typeLabel)}</span>
-          <span class="badge badge-status ${statusClass}">${esc(statusLabel)}</span>
-          &nbsp; ${esc(doc.id)} &middot; Updated ${esc(doc.last_updated || doc.date_created || '')}
-        </div>
-      </div>
-      <button class="doc-viewer-close" onclick="closeDocument()">Close</button>
-    </div>
-    <div class="doc-viewer-content">${doc.content ? marked.parse(doc.content) : '<p style="color:var(--text-muted)">No content yet.</p>'}</div>
-    ${factsHtml}
-  </div>`;
+  // Document content
+  document.getElementById('slide-pane-doc-body').innerHTML = doc.content
+    ? marked.parse(doc.content)
+    : '<p style="color:var(--text-muted)">No content yet.</p>';
 
-  container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  // Linked facts
+  currentPaneFacts = FACTS.filter(f => f.document === docId);
+  document.getElementById('pane-fact-count').textContent = `(${currentPaneFacts.length})`;
+  document.getElementById('pane-fact-search').value = '';
+  renderPaneFacts();
+
+  // Open pane
+  document.getElementById('slide-overlay').classList.add('open');
+  document.getElementById('slide-pane').classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
 
-function closeDocument() {
-  document.getElementById('doc-viewer-container').innerHTML = '';
-  document.querySelectorAll('.doc-card').forEach(c => c.classList.remove('active'));
+function renderPaneFacts(highlightFactId) {
+  const search = document.getElementById('pane-fact-search').value.toLowerCase();
+  const filtered = currentPaneFacts.filter(f => {
+    if (!search) return true;
+    const hay = [f.id, f.claim, f.source_name, f.source_excerpt,
+      ...(f.source_quotes || []), f.verification_notes, f.notes
+    ].join(' ').toLowerCase();
+    return hay.includes(search);
+  });
+
+  const body = document.getElementById('slide-pane-facts-body');
+  if (filtered.length === 0) {
+    body.innerHTML = `<div style="padding:40px 20px;text-align:center;color:var(--text-muted);font-size:13px">
+      ${currentPaneFacts.length === 0 ? 'No linked facts.' : 'No facts match your search.'}
+    </div>`;
+    return;
+  }
+
+  body.innerHTML = `<table>
+    <thead><tr>
+      <th>ID</th><th>Status</th><th>Claim</th><th>Source</th>
+    </tr></thead>
+    <tbody>${filtered.map(f => {
+      const badge = statusBadgeHtml(f, true);
+      const hl = highlightFactId === f.id ? ' fact-highlight' : '';
+      const hasExcerpt = f.source_excerpt && f.source_excerpt.trim();
+      const excerptBtn = hasExcerpt
+        ? `<br><button class="expand-toggle" onclick="event.stopPropagation();togglePaneExcerpt('${esc(f.id)}')">Source excerpt</button>` : '';
+      const sourceLink = f.source_url
+        ? `<a class="source-link" href="${esc(f.source_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(truncate(f.source_name || f.source_url, 35))}</a>`
+        : esc(truncate(f.source_name || '', 35));
+
+      let rows = `<tr id="pane-fact-${esc(f.id)}" class="${hl}" style="cursor:pointer"
+          onclick="scrollToClaimInDoc('${esc(f.id)}')"
+          title="Click to find in document">
+        <td style="font-family:monospace;font-size:11px;color:var(--accent);white-space:nowrap">${esc(f.id)}</td>
+        <td>${badge}</td>
+        <td class="pane-fact-claim">${esc(f.claim)}${excerptBtn}</td>
+        <td>${sourceLink}
+          ${f.source_date ? `<br><span style="font-size:10px;color:var(--text-muted)">${esc(f.source_date)}</span>` : ''}</td>
+      </tr>`;
+      if (hasExcerpt) {
+        rows += `<tr class="pane-excerpt-row" id="pane-excerpt-${esc(f.id)}">
+          <td colspan="4" class="pane-excerpt-cell">
+            <div class="excerpt-label">Source Excerpt</div>
+            <div class="excerpt-content">${marked.parse(f.source_excerpt)}</div>
+          </td>
+        </tr>`;
+      }
+      return rows;
+    }).join('')}</tbody>
+  </table>`;
+
+  // Scroll to highlighted fact
+  if (highlightFactId) {
+    setTimeout(() => {
+      const el = document.getElementById('pane-fact-' + highlightFactId);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 50);
+  }
+}
+
+function togglePaneExcerpt(id) {
+  const row = document.getElementById('pane-excerpt-' + id);
+  if (row) row.classList.toggle('visible');
+}
+
+function scrollToClaimInDoc(factId) {
+  const f = FACTS.find(x => x.id === factId) || ARCHIVED.find(x => x.id === factId);
+  if (!f || !f.claim) return;
+
+  const docBody = document.getElementById('slide-pane-doc-body');
+  if (!docBody) return;
+
+  // Remove any previous highlights
+  docBody.querySelectorAll('.doc-highlight-mark').forEach(el => {
+    const parent = el.parentNode;
+    parent.replaceChild(document.createTextNode(el.textContent), el);
+    parent.normalize();
+  });
+
+  // Try to find the claim text (or significant substrings) in the document
+  const claim = f.claim;
+  const found = highlightTextInElement(docBody, claim);
+
+  if (!found) {
+    const words = claim.split(/\s+/);
+    let partialFound = false;
+    for (let fraction of [0.6, 0.4]) {
+      const partial = words.slice(0, Math.max(Math.ceil(words.length * fraction), 4)).join(' ');
+      if (partial.length >= 10 && highlightTextInElement(docBody, partial)) {
+        partialFound = true;
+        break;
+      }
+    }
+    if (!partialFound) {
+      for (const q of (f.source_quotes || [])) {
+        if (q && q.length >= 10 && highlightTextInElement(docBody, q)) break;
+      }
+    }
+  }
+
+  const mark = docBody.querySelector('.doc-highlight-mark');
+  if (mark) {
+    mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const factRow = document.getElementById('pane-fact-' + factId);
+    if (factRow) { factRow.classList.add('fact-highlight'); setTimeout(() => factRow.classList.remove('fact-highlight'), 2000); }
+    setTimeout(() => {
+      docBody.querySelectorAll('.doc-highlight-mark').forEach(el => el.classList.add('fading'));
+      setTimeout(() => {
+        docBody.querySelectorAll('.doc-highlight-mark').forEach(el => {
+          const parent = el.parentNode;
+          parent.replaceChild(document.createTextNode(el.textContent), el);
+          parent.normalize();
+        });
+      }, 500);
+    }, 4000);
+  } else {
+    // No match found — briefly flash the fact row red
+    const factRow = document.getElementById('pane-fact-' + factId);
+    if (factRow) {
+      factRow.style.background = 'rgba(248, 81, 73, 0.15)';
+      setTimeout(() => { factRow.style.background = ''; }, 1500);
+    }
+  }
+}
+
+// Normalize text: collapse whitespace, normalize dashes/quotes/unicode
+function normText(s) {
+  return s.toLowerCase()
+    .replace(/[\u2013\u2014\u2015]/g, '-')  // en-dash, em-dash -> hyphen
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")  // smart single quotes
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')  // smart double quotes
+    .replace(/\u2026/g, '...')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function highlightTextInElement(root, searchText) {
+  if (!searchText || searchText.length < 3) return false;
+
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+  // Build full text with character mapping back to original positions
+  let fullText = '';
+  const nodeMap = [];
+  for (const node of textNodes) {
+    const start = fullText.length;
+    fullText += node.textContent;
+    nodeMap.push({ node, start, end: fullText.length });
+  }
+
+  const normFull = normText(fullText);
+  const normSearch = normText(searchText);
+  const normIdx = normFull.indexOf(normSearch);
+  if (normIdx === -1) return false;
+
+  // Map normalized index back to original text index
+  // Build a mapping: for each char in normFull, what's the original index
+  const origLower = fullText.toLowerCase()
+    .replace(/[\u2013\u2014\u2015]/g, '-')
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/\u2026/g, '...');
+  // Since normText collapses whitespace, we need a char-by-char map
+  const normToOrig = [];
+  let oi = 0;
+  const rawNorm = fullText
+    .replace(/[\u2013\u2014\u2015]/g, '-')
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/\u2026/g, '...');
+  // Simpler approach: find the search text using a regex that treats any whitespace as flexible
+  const escaped = normSearch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const flexPattern = escaped.replace(/ /g, '\\s+');
+  const origForSearch = fullText
+    .replace(/[\u2013\u2014\u2015]/g, '-')
+    .replace(/[\u2018\u2019\u201A\u201B]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"');
+  const re = new RegExp(flexPattern, 'i');
+  const m = re.exec(origForSearch);
+  if (!m) return false;
+
+  const idx = m.index;
+  const matchLen = m[0].length;
+  const matchEnd = idx + matchLen;
+
+  // Find which text nodes this spans and wrap them
+  for (let i = nodeMap.length - 1; i >= 0; i--) {
+    const nm = nodeMap[i];
+    if (nm.end <= idx || nm.start >= matchEnd) continue;
+
+    const node = nm.node;
+    const nodeStart = Math.max(idx - nm.start, 0);
+    const nodeEnd = Math.min(matchEnd - nm.start, node.textContent.length);
+
+    if (nodeStart === 0 && nodeEnd === node.textContent.length) {
+      const mark = document.createElement('span');
+      mark.className = 'doc-highlight-mark';
+      node.parentNode.replaceChild(mark, node);
+      mark.appendChild(node);
+    } else {
+      const text = node.textContent;
+      const before = text.slice(0, nodeStart);
+      const match = text.slice(nodeStart, nodeEnd);
+      const after = text.slice(nodeEnd);
+      const frag = document.createDocumentFragment();
+      if (before) frag.appendChild(document.createTextNode(before));
+      const mark = document.createElement('span');
+      mark.className = 'doc-highlight-mark';
+      mark.textContent = match;
+      frag.appendChild(mark);
+      if (after) frag.appendChild(document.createTextNode(after));
+      node.parentNode.replaceChild(frag, node);
+    }
+  }
+  return true;
+}
+
+// Pane facts search
+document.getElementById('pane-fact-search').addEventListener('input', () => renderPaneFacts());
+
+function closeSlidePane() {
+  document.getElementById('slide-overlay').classList.remove('open');
+  document.getElementById('slide-pane').classList.remove('open');
+  document.body.style.overflow = '';
+  document.querySelectorAll('.doc-table-row').forEach(r => r.classList.remove('active'));
+  hideSelectionPopup();
+  currentPaneDocId = null;
+}
+
+// Close on Escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape' && currentPaneDocId) closeSlidePane();
+});
+
+// --- SELECTION POPUP (highlight text -> find fact) ---
+const selPopup = document.getElementById('selection-popup');
+
+function hideSelectionPopup() {
+  selPopup.style.display = 'none';
+  selectedText = '';
+}
+
+document.addEventListener('mouseup', e => {
+  if (!currentPaneDocId) return;
+  // Only trigger inside the doc body
+  const docBody = document.getElementById('slide-pane-doc-body');
+  if (!docBody || !docBody.contains(e.target)) {
+    if (!selPopup.contains(e.target)) hideSelectionPopup();
+    return;
+  }
+
+  const sel = window.getSelection();
+  const text = sel.toString().trim();
+  if (text.length < 3) { hideSelectionPopup(); return; }
+
+  selectedText = text;
+  const range = sel.getRangeAt(0);
+  const rect = range.getBoundingClientRect();
+
+  selPopup.style.left = (rect.left + rect.width / 2 - 50) + 'px';
+  selPopup.style.top = (rect.top - 40) + 'px';
+  selPopup.style.display = 'block';
+});
+
+function findFactFromSelection() {
+  if (!selectedText || !currentPaneDocId) return;
+  const query = selectedText.toLowerCase();
+
+  // Score each fact by how well it matches the selected text
+  let bestFact = null;
+  let bestScore = 0;
+
+  currentPaneFacts.forEach(f => {
+    const fields = [f.claim, ...(f.source_quotes || []), f.source_excerpt, f.notes].join(' ').toLowerCase();
+    if (fields.includes(query)) {
+      // Exact substring match gets high score
+      const score = query.length;
+      if (score > bestScore) { bestScore = score; bestFact = f; }
+    } else {
+      // Word overlap scoring
+      const queryWords = query.split(/\s+/).filter(w => w.length > 2);
+      const matchCount = queryWords.filter(w => fields.includes(w)).length;
+      const score = matchCount / Math.max(queryWords.length, 1);
+      if (score > bestScore && score > 0.3) { bestScore = score; bestFact = f; }
+    }
+  });
+
+  hideSelectionPopup();
+
+  if (bestFact) {
+    // Clear search, render with highlight
+    document.getElementById('pane-fact-search').value = '';
+    renderPaneFacts(bestFact.id);
+    // Remove highlight after a few seconds
+    setTimeout(() => {
+      const el = document.getElementById('pane-fact-' + bestFact.id);
+      if (el) el.classList.remove('fact-highlight');
+    }, 4000);
+  } else {
+    // No match found — ask user before creating a flagged fact
+    const capturedDocId = currentPaneDocId;
+    const capturedText = selectedText;
+    showConfirm(
+      'No matching fact found',
+      'Would you like to add this as a flagged fact for review?',
+      capturedText,
+      'Add as Flagged', 'btn-danger',
+      () => {
+        const doc = DOC_MAP[capturedDocId];
+        const section = doc ? doc.section : '';
+        const newId = 'FLAG-' + Date.now().toString(36).toUpperCase();
+        const newFact = {
+          id: newId,
+          claim: capturedText,
+          source_quotes: [],
+          source_excerpt: '',
+          source_name: '',
+          source_author: '',
+          source_url: '',
+          source_page: '',
+          source_type: '',
+          source_date: '',
+          sections_used: section ? [section] : [],
+          document: capturedDocId,
+          data_table: '',
+          verified: false,
+          verification_status: 'flagged',
+          verification_notes: 'Flagged: no matching fact found for highlighted text',
+          confidence: '',
+          date_added: new Date().toISOString().slice(0, 10),
+          added_by: 'dashboard',
+          notes: '',
+          _file: 'flagged'
+        };
+        FACTS.push(newFact);
+        if (currentPaneDocId === capturedDocId) {
+          currentPaneFacts.push(newFact);
+          document.getElementById('pane-fact-count').textContent = '(' + currentPaneFacts.length + ')';
+          document.getElementById('pane-fact-search').value = '';
+          renderPaneFacts(newId);
+          setTimeout(() => {
+            const el = document.getElementById('pane-fact-' + newId);
+            if (el) el.classList.remove('fact-highlight');
+          }, 4000);
+        }
+        DOC_FACT_COUNTS[capturedDocId] = (DOC_FACT_COUNTS[capturedDocId] || 0) + 1;
+        refreshAllViews();
+      },
+      () => {}
+    );
+  }
 }
 
 // --- CROSS-NAVIGATION ---
 function navigateToDoc(docId) {
-  // Switch to documents view and open the document
+  // Switch to documents view and open the slide pane
   document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
   document.querySelector('[data-view="documents"]').classList.add('active');
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.getElementById('view-documents').classList.add('active');
-  openDocument(docId);
+  openSlidePane(docId);
 }
 
 function navigateToFact(factId) {
@@ -903,9 +1706,7 @@ function showSectionView(sectionKey) {
     return;
   }
   tbody.innerHTML = facts.map(f => {
-    const badge = f.verified
-      ? '<span class="badge badge-verified">Verified</span>'
-      : '<span class="badge badge-unverified">Unverified</span>';
+    const badge = statusBadgeHtml(f, true);
     const verNotes = f.verification_notes
       ? `<br><span style="font-size:10px;color:var(--orange)">Note: ${esc(f.verification_notes)}</span>` : '';
     const docBadge = f.document && DOC_MAP[f.document]
@@ -949,10 +1750,26 @@ document.querySelectorAll('#view-facts thead th[data-sort]').forEach(th => {
   });
 });
 
+// --- DOC TABLE SORT ---
+document.querySelectorAll('#view-documents thead th[data-doc-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.docSort;
+    if (docSortCol === col) docSortAsc = !docSortAsc;
+    else { docSortCol = col; docSortAsc = true; }
+    document.querySelectorAll('#view-documents thead th .sort-arrow').forEach(s => s.textContent = '');
+    th.querySelector('.sort-arrow').textContent = docSortAsc ? ' \u25B2' : ' \u25BC';
+    renderDocTable();
+  });
+});
+
 // --- EVENTS ---
 ['search','filter-section','filter-verified','filter-source-type','filter-document'].forEach(id => {
   const el = document.getElementById(id);
   el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', renderTable);
+});
+['doc-search','filter-doc-status','filter-doc-type','filter-doc-section'].forEach(id => {
+  const el = document.getElementById(id);
+  el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', renderDocTable);
 });
 
 // --- INIT ---
@@ -960,8 +1777,10 @@ initNav();
 renderCards();
 renderCharts();
 populateFilters();
+populateDocFilters();
 renderTable();
-renderDocGrid();
+renderDocTable();
+renderArchive();
 </script>
 </body>
 </html>"""
