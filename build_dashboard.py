@@ -459,7 +459,16 @@ body {
 .nav-section-label {
   font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
   color: var(--text-muted); padding: 12px 16px 4px; font-weight: 600;
+  display: flex; align-items: center; justify-content: space-between;
+  cursor: pointer; user-select: none;
 }
+.nav-section-label:hover { color: var(--text); }
+.nav-section-label .chevron {
+  font-size: 10px; transition: transform 0.2s;
+}
+.nav-section-label.collapsed .chevron { transform: rotate(-90deg); }
+.nav-section-items { overflow: hidden; transition: max-height 0.2s ease; }
+.nav-section-items.collapsed { max-height: 0 !important; }
 .nav-item {
   display: flex; align-items: center; gap: 8px;
   padding: 7px 16px; font-size: 13px; cursor: pointer;
@@ -1008,33 +1017,37 @@ tbody tr.expanded-row td { border-bottom: none; }
     <div class="subtitle">Maven Libera &middot; %%GENERATED_AT%%</div>
   </div>
   <div class="sidebar-nav">
-    <div class="nav-section-label">Overview</div>
-    <div class="nav-item active" data-view="dashboard">
-      <span class="nav-icon">&#9632;</span> Dashboard
+    <div class="nav-section-label" onclick="toggleSection(this)">Overview <span class="chevron">&#9660;</span></div>
+    <div class="nav-section-items">
+      <div class="nav-item active" data-view="dashboard">
+        <span class="nav-icon">&#9632;</span> Dashboard
+      </div>
     </div>
 
     <div class="nav-divider"></div>
-    <div class="nav-section-label">Databases</div>
-    <div class="nav-item" data-view="facts">
-      <span class="nav-icon">&#10003;</span> Fact Database
-      <span class="nav-count" id="nav-fact-count">0</span>
-    </div>
-    <div class="nav-item" data-view="documents">
-      <span class="nav-icon">&#9776;</span> Documents
-      <span class="nav-count" id="nav-doc-count">0</span>
-    </div>
-    <div class="nav-item" data-view="context">
-      <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/><path d="M5.5 5h5M5.5 8h5M5.5 11h3"/></svg></span> Context
-      <span class="nav-count" id="nav-context-count">0</span>
-    </div>
-    <div class="nav-item" data-view="datasets">
-      <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="14" height="11" rx="1"/><path d="M1 6.5h14M1 10h14M5.5 6.5V14"/></svg></span> Datasets
-      <span class="nav-count" id="nav-dataset-count">0</span>
+    <div class="nav-section-label" onclick="toggleSection(this)">Databases <span class="chevron">&#9660;</span></div>
+    <div class="nav-section-items">
+      <div class="nav-item" data-view="facts">
+        <span class="nav-icon">&#10003;</span> Fact Database
+        <span class="nav-count" id="nav-fact-count">0</span>
+      </div>
+      <div class="nav-item" data-view="documents">
+        <span class="nav-icon">&#9776;</span> Documents
+        <span class="nav-count" id="nav-doc-count">0</span>
+      </div>
+      <div class="nav-item" data-view="context">
+        <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/><path d="M5.5 5h5M5.5 8h5M5.5 11h3"/></svg></span> Context
+        <span class="nav-count" id="nav-context-count">0</span>
+      </div>
+      <div class="nav-item" data-view="datasets">
+        <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="14" height="11" rx="1"/><path d="M1 6.5h14M1 10h14M5.5 6.5V14"/></svg></span> Datasets
+        <span class="nav-count" id="nav-dataset-count">0</span>
+      </div>
     </div>
 
     <div class="nav-divider"></div>
-    <div class="nav-section-label">Sections</div>
-    <div id="nav-sections"></div>
+    <div class="nav-section-label" onclick="toggleSection(this)">Sections <span class="chevron">&#9660;</span></div>
+    <div class="nav-section-items" id="nav-sections"></div>
   </div>
   <div class="sidebar-bottom">
     <div class="nav-item" data-view="claude-instructions">
@@ -1547,6 +1560,19 @@ function showConfirm(title, message, claimText, actionLabel, actionClass, onConf
 }
 
 // --- NAV ---
+function toggleSection(label) {
+  const items = label.nextElementSibling;
+  if (!items || !items.classList.contains('nav-section-items')) return;
+  label.classList.toggle('collapsed');
+  if (items.classList.contains('collapsed')) {
+    items.style.maxHeight = items.scrollHeight + 'px';
+    items.classList.remove('collapsed');
+  } else {
+    items.style.maxHeight = items.scrollHeight + 'px';
+    requestAnimationFrame(() => { items.classList.add('collapsed'); items.style.maxHeight = '0'; });
+  }
+}
+
 function initNav() {
   document.getElementById('nav-fact-count').textContent = FACTS.length;
   document.getElementById('nav-doc-count').textContent = DOCUMENTS.length;
@@ -1573,6 +1599,11 @@ function initNav() {
         showSectionView(item.dataset.section);
       }
     });
+  });
+
+  // Set initial max-height for all section item containers
+  document.querySelectorAll('.nav-section-items').forEach(el => {
+    el.style.maxHeight = el.scrollHeight + 'px';
   });
 }
 
