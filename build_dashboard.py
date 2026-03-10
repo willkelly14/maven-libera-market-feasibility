@@ -137,7 +137,12 @@ def load_documents():
             continue
         doc.setdefault("title", "")
         doc.setdefault("type", "")
-        doc.setdefault("section", "")
+        doc.setdefault("sections", [])
+        # Migrate legacy single-section field
+        if "section" in doc and doc["section"]:
+            if not doc["sections"]:
+                doc["sections"] = [doc["section"]]
+            del doc["section"]
         doc.setdefault("content_file", "")
         doc.setdefault("description", "")
         doc.setdefault("status", "")
@@ -181,6 +186,15 @@ def load_context_files():
             "size": len(content),
         })
     return context_files
+
+
+def load_claude_md():
+    """Load the CLAUDE.md file for editing in the dashboard."""
+    claude_path = os.path.join(BASE_DIR, "CLAUDE.md")
+    if os.path.exists(claude_path):
+        with open(claude_path, "r", encoding="utf-8") as f:
+            return f.read()
+    return ""
 
 
 def build_stats(facts):
@@ -400,6 +414,10 @@ tbody tr.expanded-row td { border-bottom: none; }
 .status-select.s-unverified { background-color: rgba(210, 153, 34, 0.15); color: var(--orange); }
 .status-select.s-flagged { background-color: rgba(248, 81, 73, 0.15); color: var(--red); }
 .status-select.s-archived { background-color: rgba(139, 148, 158, 0.15); color: var(--text-muted); }
+.status-select.s-draft { background-color: rgba(210, 153, 34, 0.15); color: var(--orange); }
+.status-select.s-stub { background-color: rgba(248, 81, 73, 0.15); color: var(--red); }
+.status-select.s-complete { background-color: rgba(63, 185, 80, 0.15); color: var(--green); }
+.status-select.s-in_review { background-color: rgba(188, 140, 255, 0.15); color: var(--purple); }
 .status-select option { background: var(--surface); color: var(--text); }
 
 /* Confirm dialog */
@@ -806,7 +824,7 @@ tbody tr.expanded-row td { border-bottom: none; }
 .context-preview hr { border: none; border-top: 1px solid var(--border); margin: 16px 0; }
 .context-empty {
   display: flex; align-items: center; justify-content: center;
-  height: 100%; color: var(--text-muted); font-size: 14px;
+  flex: 1; width: 100%; color: var(--text-muted); font-size: 14px;
   flex-direction: column; gap: 8px;
 }
 .context-empty .ctx-empty-icon { font-size: 32px; opacity: 0.5; }
@@ -846,6 +864,9 @@ tbody tr.expanded-row td { border-bottom: none; }
     <div id="nav-sections"></div>
   </div>
   <div class="sidebar-bottom">
+    <div class="nav-item" data-view="claude-instructions">
+      <span class="nav-icon" style="font-size:13px">&#9881;</span> Claude Instructions
+    </div>
     <div class="nav-item" data-view="archive">
       <span class="nav-icon" style="font-size:13px">&#128451;</span> Archive
       <span class="nav-count" id="nav-archive-count">0</span>
@@ -935,7 +956,7 @@ tbody tr.expanded-row td { border-bottom: none; }
             <th data-doc-sort="id" style="width:80px">ID <span class="sort-arrow"></span></th>
             <th data-doc-sort="title">Title <span class="sort-arrow"></span></th>
             <th data-doc-sort="type">Type <span class="sort-arrow"></span></th>
-            <th data-doc-sort="section">Section <span class="sort-arrow"></span></th>
+            <th data-doc-sort="sections">Sections <span class="sort-arrow"></span></th>
             <th data-doc-sort="status">Status <span class="sort-arrow"></span></th>
             <th style="width:55px">Facts</th>
             <th data-doc-sort="last_updated" style="width:90px">Updated <span class="sort-arrow"></span></th>
@@ -1015,6 +1036,7 @@ tbody tr.expanded-row td { border-bottom: none; }
             <input type="text" id="context-search" placeholder="Search files...">
             <button class="search-clear" id="context-search-clear" onclick="clearSearchInput('context-search')" title="Clear search">&times;</button>
           </div>
+          <button class="ctx-toolbar-btn" onclick="createContextFile()" style="width:100%;justify-content:center;gap:4px"><span style="font-size:15px">+</span> New File</button>
         </div>
         <div class="context-file-items" id="context-file-items"></div>
       </div>
@@ -1039,8 +1061,33 @@ tbody tr.expanded-row td { border-bottom: none; }
           <div class="context-empty">
             <div class="ctx-empty-icon">&#128196;</div>
             <div>Select a file to view or edit</div>
-            <div style="font-size:12px">Place .md files in the Context/ directory and rebuild</div>
+            <div style="font-size:12px">Or click <b>+ New File</b> to create one</div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CLAUDE INSTRUCTIONS VIEW -->
+  <div class="view" id="view-claude-instructions">
+    <div class="page-title">Claude Instructions</div>
+    <div style="font-size:13px;color:var(--text-muted);margin-bottom:12px">
+      Edit the CLAUDE.md file that configures agent behaviour. Download the file to save changes to disk.
+    </div>
+    <div class="context-layout">
+      <div class="context-editor-area" style="flex:1">
+        <div class="context-editor-toolbar" id="claude-toolbar">
+          <span class="ctx-filename">CLAUDE.md</span>
+          <span class="ctx-unsaved" id="claude-unsaved">Unsaved changes</span>
+          <button class="ctx-toolbar-btn save-btn" id="claude-save-btn" onclick="saveClaudeMd()">Save</button>
+          <div class="ctx-toggle">
+            <button class="ctx-toggle-opt active" id="claude-mode-edit" onclick="setClaudeMode('edit')">Edit</button>
+            <button class="ctx-toggle-opt" id="claude-mode-preview" onclick="setClaudeMode('preview')">Preview</button>
+          </div>
+        </div>
+        <div class="context-editor-body" id="claude-editor-body">
+          <textarea class="context-textarea" id="claude-textarea" placeholder="No CLAUDE.md found..."></textarea>
+          <div class="context-preview" id="claude-preview"></div>
         </div>
       </div>
     </div>
@@ -1078,6 +1125,7 @@ const SOURCE_TYPE_LABELS = %%SOURCE_TYPE_LABELS_JSON%%;
 const DOC_TYPE_LABELS = %%DOC_TYPE_LABELS_JSON%%;
 const DOC_STATUS_LABELS = %%DOC_STATUS_LABELS_JSON%%;
 const CONTEXT_FILES = %%CONTEXT_FILES_JSON%%;
+const CLAUDE_MD_CONTENT = %%CLAUDE_MD_JSON%%;
 
 // Build doc lookup
 const DOC_MAP = {};
@@ -1460,6 +1508,33 @@ function populateFilters() {
   });
 }
 
+// --- DOCUMENT STATUS EDITING ---
+function docStatusSelectHtml(doc) {
+  const s = (!doc.status || doc.status === 'stub') ? 'draft' : doc.status;
+  const sel = (v) => v === s ? ' selected' : '';
+  return `<select class="status-select s-${s}" onchange="event.stopPropagation();changeDocStatus('${esc(doc.id)}',this.value,this)" onclick="event.stopPropagation()">
+    <option value="draft"${sel('draft')}>Draft</option>
+    <option value="in_review"${sel('in_review')}>In Review</option>
+    <option value="complete"${sel('complete')}>Complete</option>
+  </select>`;
+}
+
+function changeDocStatus(docId, newStatus, selectEl) {
+  const doc = DOC_MAP[docId];
+  if (!doc) return;
+  doc.status = newStatus;
+  // Update select styling in-place
+  if (selectEl) {
+    selectEl.className = 'status-select s-' + newStatus;
+  }
+  // Re-render doc table to reflect change (also updates slide pane status if open)
+  renderDocTable();
+  // If the slide pane is open for this doc, update the pane's status dropdown too
+  if (currentPaneDocId === docId) {
+    openSlidePane(docId);
+  }
+}
+
 // --- DOCUMENT TABLE VIEW ---
 let docSortCol = 'id', docSortAsc = true;
 
@@ -1478,10 +1553,11 @@ function getFilteredDocs() {
   return DOCUMENTS.filter(d => {
     if (status && d.status !== status) return false;
     if (type && d.type !== type) return false;
-    if (section && d.section !== section) return false;
+    if (section && !(d.sections || []).includes(section)) return false;
     if (search) {
-      const hay = [d.id, d.title, d.description, d.section,
-        SECTION_LABELS[d.section] || '', DOC_TYPE_LABELS[d.type] || '',
+      const hay = [d.id, d.title, d.description,
+        ...(d.sections || []).map(s => s + ' ' + (SECTION_LABELS[s] || '')),
+        DOC_TYPE_LABELS[d.type] || '',
         DOC_STATUS_LABELS[d.status] || '', d.content || ''
       ].join(' ').toLowerCase();
       if (!hay.includes(search)) return false;
@@ -1489,6 +1565,7 @@ function getFilteredDocs() {
     return true;
   }).sort((a, b) => {
     let va = a[docSortCol] ?? '', vb = b[docSortCol] ?? '';
+    if (docSortCol === 'sections') { va = (a.sections || [])[0] || ''; vb = (b.sections || [])[0] || ''; }
     if (docSortCol === 'facts') { va = DOC_FACT_COUNTS[a.id] || 0; vb = DOC_FACT_COUNTS[b.id] || 0; }
     if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
     return docSortAsc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
@@ -1505,9 +1582,9 @@ function renderDocTable() {
   }
   tbody.innerHTML = docs.map(d => {
     const typeLabel = DOC_TYPE_LABELS[d.type] || d.type;
-    const statusLabel = DOC_STATUS_LABELS[d.status] || d.status;
-    const statusClass = 'badge-status-' + (d.status || 'stub');
-    const secLabel = SECTION_LABELS[d.section] || d.section || '';
+    const secTags = (d.sections || []).map(s =>
+      `<span class="badge badge-section">${esc(SECTION_LABELS[s] || s)}</span>`
+    ).join(' ');
     const factCount = DOC_FACT_COUNTS[d.id] || 0;
     return `<tr class="doc-table-row" onclick="openSlidePane('${esc(d.id)}')" id="doc-row-${esc(d.id)}">
       <td style="font-family:monospace;font-size:11px;color:var(--accent);white-space:nowrap">${esc(d.id)}</td>
@@ -1515,9 +1592,9 @@ function renderDocTable() {
         <div style="font-weight:600;font-size:13px">${esc(d.title)}</div>
         <div style="font-size:11px;color:var(--text-muted);margin-top:2px">${esc(truncate(d.description, 80))}</div>
       </td>
-      <td><span class="badge badge-doc-type">${esc(typeLabel)}</span></td>
-      <td style="font-size:12px;color:var(--text-muted)">${esc(secLabel)}</td>
-      <td><span class="badge badge-status ${statusClass}">${esc(statusLabel)}</span></td>
+      <td style="font-size:12px;color:var(--text-muted)">${esc(typeLabel)}</td>
+      <td>${secTags || '<span style="color:var(--text-muted);font-size:11px">—</span>'}</td>
+      <td>${docStatusSelectHtml(d)}</td>
       <td style="text-align:center;font-size:12px;color:${factCount > 0 ? 'var(--accent)' : 'var(--text-muted)'}">${factCount}</td>
       <td style="white-space:nowrap;font-size:11px;color:var(--text-muted)">${esc(d.last_updated || d.date_created || '')}</td>
     </tr>`;
@@ -1551,16 +1628,16 @@ function openSlidePane(docId) {
   if (row) row.classList.add('active');
 
   const typeLabel = DOC_TYPE_LABELS[doc.type] || doc.type;
-  const statusLabel = DOC_STATUS_LABELS[doc.status] || doc.status;
-  const statusClass = 'badge-status-' + (doc.status || 'stub');
-  const secLabel = SECTION_LABELS[doc.section] || doc.section || '';
+  const secTags = (doc.sections || []).map(s =>
+    `<span class="badge badge-section">${esc(SECTION_LABELS[s] || s)}</span>`
+  ).join(' ');
 
   document.getElementById('slide-pane-title').textContent = doc.title;
   document.getElementById('slide-pane-meta').innerHTML = `
-    <span class="badge badge-doc-type">${esc(typeLabel)}</span>
-    <span class="badge badge-status ${statusClass}">${esc(statusLabel)}</span>
+    <span style="font-size:12px;color:var(--text-muted)">${esc(typeLabel)}</span>
+    ${docStatusSelectHtml(doc)}
     <span style="color:var(--text-muted)">${esc(doc.id)}</span>
-    ${secLabel ? `<span style="color:var(--text-muted)">&middot; ${esc(secLabel)}</span>` : ''}
+    ${secTags}
     ${doc.last_updated ? `<span style="color:var(--text-muted)">&middot; Updated ${esc(doc.last_updated)}</span>` : ''}
   `;
 
@@ -2224,6 +2301,30 @@ let contextMode = 'edit';
 // Track in-memory edits
 const contextEdits = {};
 
+function createContextFile() {
+  const name = prompt('Enter filename (e.g. my_notes.md):');
+  if (!name) return;
+  const filename = name.endsWith('.md') ? name : name + '.md';
+  // Check for duplicate
+  if (CONTEXT_FILES.some(f => f.filename.toLowerCase() === filename.toLowerCase())) {
+    alert('A file named "' + filename + '" already exists.');
+    return;
+  }
+  const newFile = {
+    filename: filename,
+    title: filename.replace('.md', '').replace(/_/g, ' ').replace(/-/g, ' '),
+    content: '',
+    size: 0,
+  };
+  CONTEXT_FILES.push(newFile);
+  const newIdx = CONTEXT_FILES.length - 1;
+  renderContextFileList();
+  openContextFile(newIdx);
+  // Mark as edited so download/save are available
+  contextEdits[newIdx] = '';
+  updateCtxUnsaved();
+}
+
 function renderContextFileList() {
   const search = document.getElementById('context-search').value.toLowerCase();
   const container = document.getElementById('context-file-items');
@@ -2238,7 +2339,7 @@ function renderContextFileList() {
 
   if (filtered.length === 0) {
     container.innerHTML = '<div style="padding:30px 14px;text-align:center;color:var(--text-muted);font-size:13px">' +
-      (CONTEXT_FILES.length === 0 ? 'No context files.<br><span style="font-size:11px">Add .md files to Context/ and rebuild.</span>' : 'No files match your search.') +
+      (CONTEXT_FILES.length === 0 ? 'No context files.<br><span style="font-size:11px">Click <b>+ New File</b> above to create one.</span>' : 'No files match your search.') +
       '</div>';
     return;
   }
@@ -2372,7 +2473,8 @@ function deleteContextFile() {
       document.getElementById('context-toolbar').style.display = 'none';
       document.getElementById('context-editor-body').innerHTML =
         '<div class="context-empty"><div class="ctx-empty-icon">&#128196;</div>' +
-        '<div>Select a file to view or edit</div></div>';
+        '<div>Select a file to view or edit</div>' +
+        '<div style="font-size:12px">Or click <b>+ New File</b> to create one</div></div>';
       renderContextFileList();
     },
     () => {}
@@ -2402,6 +2504,68 @@ document.getElementById('context-search').addEventListener('input', () => {
   renderContextFileList();
 });
 
+// --- CLAUDE INSTRUCTIONS EDITOR ---
+let claudeMode = 'edit';
+let claudeOriginal = CLAUDE_MD_CONTENT;
+let claudeEdited = null;
+
+function initClaudeEditor() {
+  const textarea = document.getElementById('claude-textarea');
+  textarea.value = CLAUDE_MD_CONTENT;
+  textarea.addEventListener('input', () => {
+    claudeEdited = textarea.value;
+    updateClaudeUnsaved();
+    if (claudeMode === 'preview') {
+      document.getElementById('claude-preview').innerHTML = marked.parse(textarea.value);
+    }
+  });
+  textarea.addEventListener('keydown', (e) => {
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      const start = textarea.selectionStart;
+      const end = textarea.selectionEnd;
+      textarea.value = textarea.value.substring(0, start) + '  ' + textarea.value.substring(end);
+      textarea.selectionStart = textarea.selectionEnd = start + 2;
+      textarea.dispatchEvent(new Event('input'));
+    }
+  });
+  updateClaudeUnsaved();
+}
+
+function setClaudeMode(mode) {
+  claudeMode = mode;
+  const textarea = document.getElementById('claude-textarea');
+  const preview = document.getElementById('claude-preview');
+  document.getElementById('claude-mode-edit').classList.toggle('active', mode === 'edit');
+  document.getElementById('claude-mode-preview').classList.toggle('active', mode === 'preview');
+  if (mode === 'edit') {
+    textarea.classList.remove('hidden');
+    preview.classList.remove('active');
+    textarea.focus();
+  } else {
+    textarea.classList.add('hidden');
+    preview.classList.add('active');
+    preview.innerHTML = marked.parse(textarea.value);
+  }
+}
+
+function updateClaudeUnsaved() {
+  const el = document.getElementById('claude-unsaved');
+  const saveBtn = document.getElementById('claude-save-btn');
+  const edited = claudeEdited !== null && claudeEdited !== claudeOriginal;
+  el.classList.toggle('visible', edited);
+  saveBtn.classList.toggle('visible', edited);
+}
+
+function saveClaudeMd() {
+  const textarea = document.getElementById('claude-textarea');
+  claudeOriginal = textarea.value;
+  claudeEdited = null;
+  updateClaudeUnsaved();
+}
+
+initClaudeEditor();
+
 // --- INIT ---
 initNav();
 renderCards();
@@ -2430,6 +2594,10 @@ def main():
     context_files = load_context_files()
     print(f"  {len(context_files)} context files")
 
+    print("Loading CLAUDE.md...")
+    claude_md = load_claude_md()
+    print(f"  {len(claude_md)} chars")
+
     stats = build_stats(facts)
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -2437,6 +2605,7 @@ def main():
     html = html.replace("%%FACTS_JSON%%", json.dumps(facts, default=str))
     html = html.replace("%%DOCUMENTS_JSON%%", json.dumps(documents, default=str))
     html = html.replace("%%CONTEXT_FILES_JSON%%", json.dumps(context_files, default=str))
+    html = html.replace("%%CLAUDE_MD_JSON%%", json.dumps(claude_md))
     html = html.replace("%%STATS_JSON%%", json.dumps(stats, default=str))
     html = html.replace("%%SECTION_LABELS_JSON%%", json.dumps(SECTION_LABELS))
     html = html.replace("%%SOURCE_TYPE_LABELS_JSON%%", json.dumps(SOURCE_TYPE_LABELS))
