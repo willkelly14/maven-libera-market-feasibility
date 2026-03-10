@@ -1445,6 +1445,14 @@ function revertSelect(selectEl, oldStatus) {
 function applyStatus(f, status) {
   setFactStatus(f, status);
   refreshAllViews();
+  // Persist to disk
+  if (f._file) {
+    fetch('/api/save-fact-status', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({id: f.id, status: status, file: f._file})
+    }).catch(err => console.error('Save fact status failed:', err));
+  }
 }
 
 function archiveFact(f) {
@@ -1799,6 +1807,12 @@ function changeDocStatus(docId, newStatus, selectEl) {
   if (currentPaneDocId === docId) {
     openSlidePane(docId);
   }
+  // Persist to disk
+  fetch('/api/save-doc-status', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({id: docId, status: newStatus})
+  }).catch(err => console.error('Save doc status failed:', err));
 }
 
 // --- DOCUMENT TABLE VIEW ---
@@ -2719,6 +2733,12 @@ function createContextFile() {
   // Mark as edited so download/save are available
   contextEdits[newIdx] = '';
   updateCtxUnsaved();
+  // Persist to disk
+  fetch('/api/create-context', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({filename: filename, content: ''})
+  }).catch(err => console.error('Create context failed:', err));
 }
 
 function renderContextFileList() {
@@ -2835,6 +2855,12 @@ function saveContextFile() {
   delete contextEdits[currentContextIdx];
   updateCtxUnsaved();
   renderContextFileList();
+  // Persist to disk
+  fetch('/api/save-context', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({filename: f.filename, content: content})
+  }).catch(err => console.error('Save context failed:', err));
 }
 
 function downloadContextFile() {
@@ -2859,10 +2885,11 @@ function deleteContextFile() {
   const f = CONTEXT_FILES[currentContextIdx];
   showConfirm(
     'Delete this context file?',
-    'This will remove "' + f.filename + '" from the dashboard. The file on disk is not affected until you rebuild.',
+    'This will permanently delete "' + f.filename + '" from the dashboard and from disk.',
     '',
     'Delete', 'btn-danger',
     () => {
+      const filename = f.filename;
       CONTEXT_FILES.splice(currentContextIdx, 1);
       delete contextEdits[currentContextIdx];
       currentContextIdx = -1;
@@ -2872,6 +2899,12 @@ function deleteContextFile() {
         '<div>Select a file to view or edit</div>' +
         '<div style="font-size:12px">Or click <b>+ New File</b> to create one</div></div>';
       renderContextFileList();
+      // Persist to disk
+      fetch('/api/delete-context', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({filename: filename})
+      }).catch(err => console.error('Delete context failed:', err));
     },
     () => {}
   );
@@ -2958,6 +2991,12 @@ function saveClaudeMd() {
   claudeOriginal = textarea.value;
   claudeEdited = null;
   updateClaudeUnsaved();
+  // Persist to disk
+  fetch('/api/save-claude', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({content: claudeOriginal})
+  }).catch(err => console.error('Save CLAUDE.md failed:', err));
 }
 
 initClaudeEditor();
