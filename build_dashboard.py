@@ -1297,6 +1297,7 @@ tbody tr.expanded-row td { border-bottom: none; }
           <div class="ctx-menu-wrap">
             <button class="ctx-dots-btn" id="ctx-dots-btn" onclick="toggleCtxMenu(event)">&middot;&middot;&middot;</button>
             <div class="ctx-dropdown" id="ctx-dropdown">
+              <button class="ctx-dropdown-item" onclick="renameContextFile()">&#9998; Rename</button>
               <button class="ctx-dropdown-item" onclick="downloadContextFile()">&#8615; Download</button>
               <button class="ctx-dropdown-item danger" onclick="deleteContextFile()">&#10005; Delete</button>
             </div>
@@ -2861,6 +2862,29 @@ function saveContextFile() {
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({filename: f.filename, content: content})
   }).catch(err => console.error('Save context failed:', err));
+}
+
+function renameContextFile() {
+  closeCtxMenu();
+  if (currentContextIdx < 0) return;
+  const f = CONTEXT_FILES[currentContextIdx];
+  const oldName = f.filename;
+  const input = prompt('Rename file:', oldName);
+  if (!input || input === oldName) return;
+  const newName = input.endsWith('.md') ? input : input + '.md';
+  if (CONTEXT_FILES.some((cf, i) => i !== currentContextIdx && cf.filename.toLowerCase() === newName.toLowerCase())) {
+    alert('A file named "' + newName + '" already exists.');
+    return;
+  }
+  f.filename = newName;
+  f.title = newName.replace('.md', '').replace(/_/g, ' ').replace(/-/g, ' ');
+  document.getElementById('ctx-filename').textContent = newName;
+  renderContextFileList();
+  fetch('/api/rename-context', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({old_filename: oldName, new_filename: newName})
+  }).catch(err => console.error('Rename context failed:', err));
 }
 
 function downloadContextFile() {

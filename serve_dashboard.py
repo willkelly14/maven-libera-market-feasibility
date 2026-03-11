@@ -64,6 +64,7 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             "/api/save-fact-status": self._save_fact_status,
             "/api/create-context": self._create_context,
             "/api/delete-context": self._delete_context,
+            "/api/rename-context": self._rename_context,
         }
 
         handler = handlers.get(path)
@@ -121,6 +122,28 @@ class DashboardHandler(SimpleHTTPRequestHandler):
             os.remove(filepath)
             print(f"  Deleted context file: {safe_name}")
         self._respond(200, {"ok": True})
+
+    def _rename_context(self, data):
+        old_filename = data.get("old_filename", "")
+        new_filename = data.get("new_filename", "")
+        if not old_filename or not new_filename:
+            self._respond(400, {"error": "Missing old_filename or new_filename"})
+            return
+        old_safe = os.path.basename(old_filename)
+        new_safe = os.path.basename(new_filename)
+        if not new_safe.endswith(".md"):
+            new_safe += ".md"
+        old_path = os.path.join(CONTEXT_DIR, old_safe)
+        new_path = os.path.join(CONTEXT_DIR, new_safe)
+        if not os.path.exists(old_path):
+            self._respond(404, {"error": f"File {old_safe} not found"})
+            return
+        if os.path.exists(new_path):
+            self._respond(409, {"error": f"File {new_safe} already exists"})
+            return
+        os.rename(old_path, new_path)
+        print(f"  Renamed context file: {old_safe} → {new_safe}")
+        self._respond(200, {"ok": True, "filename": new_safe})
 
     def _save_claude(self, data):
         content = data.get("content", "")
