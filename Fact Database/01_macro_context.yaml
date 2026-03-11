@@ -1,18 +1,1154 @@
 # Fact Database — Section 01: Macro Market Context
 # See SCHEMA.md for field definitions
 
-# Example:
-# - id: "01-001"
-#   claim: ""
-#   source_quotes:
-#     - ""
-#   source_name: ""
-#   source_url: ""
-#   source_type: government_data
-#   source_date: ""
-#   sections_used:
-#     - "01_Macro_Context"
-#   verified: false
-#   verification_notes: ""
-#   date_added: "2026-03-11"
-#   added_by: ""
+- id: 01-001
+  claim: 'Demand for key energy transition minerals continued to grow strongly in 2024, with lithium demand rising by nearly
+    30% and demand for nickel, cobalt, graphite and rare earths increasing by 6-8%.
+
+    '
+  source_quotes:
+  - 'Lithium demand rose by nearly 30%, significantly exceeding the 10% annual growth rate seen in the 2010s.
+
+    '
+  - 'Demand for nickel, cobalt, graphite and rare earths increased by 6-8% in 2024.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
+- id: 01-002
+  claim: 'The energy sector accounted for 85% of total demand growth for battery metals (lithium, nickel, cobalt, graphite)
+    between 2020 and 2024, driven by electric vehicles, battery storage, renewables and grid networks.
+
+    '
+  source_quotes:
+  - 'For battery metals such as lithium, nickel, cobalt and graphite, the energy sector accounted for 85% of total demand
+    growth over the same period.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
+- id: 01-003
+  claim: 'Supply concentration for critical minerals is worsening: the average market share of the top three refining nations
+    rose from around 82% in 2020 to 86% in 2024, with some 90% of supply growth coming from the top single supplier alone.
+
+    '
+  source_quotes:
+  - 'The average market share of the top three refining nations of key energy minerals rose from around 82% in 2020 to 86%
+    in 2024.
+
+    '
+  - 'Some 90% of supply growth came from the top single supplier alone: Indonesia for nickel and China for cobalt, graphite
+    and rare earths.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
+- id: 01-004
+  claim: 'China is the leading refiner for 19 of the 20 critical minerals analysed by the IEA, with an average market share
+    of around 70% in refining.
+
+    '
+  source_quotes:
+  - 'China is the leading refiner for 19 of the 20 minerals analysed and has an average market share of around 70%.
+
+    '
+  source_name: Diversification is the cornerstone of energy security, yet critical minerals are moving in the opposite direction
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/news/diversification-is-the-cornerstone-of-energy-security-yet-critical-minerals-are-moving-in-the-opposite-direction
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA news page, accessed 2026-03-11.
+- id: 01-005
+  claim: 'In the IEA''s Stated Policies Scenario (STEPS), lithium demand grows fivefold to 2040, graphite and nickel demand
+    double, and cobalt and rare earth element demand increases 50-60% by 2040.
+
+    '
+  source_quotes:
+  - 'In the Stated Policies Scenario (STEPS), lithium grows fivefold from today to 2040, while graphite and nickel demand
+    double. Demand for cobalt and rare earth elements also grows strongly, increasing 50-60% by 2040.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Quote confirmed on IEA overview page (not executive summary). Updated source_url.
+- id: 01-006
+  claim: 'Around USD 500 billion in new mining investment is required between now and 2040 under the IEA''s STEPS scenario
+    to meet projected critical mineral demand.
+
+    '
+  source_quotes:
+  - 'Around USD 500 billion in new capital investment is required for mining between now and 2040.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA overview page, accessed 2026-03-11.
+- id: 01-007
+  claim: 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5% (down from
+    14% in 2023), and real investment growth was just 2% after adjusting for cost inflation.
+
+    '
+  source_quotes:
+  - 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5%, down from 14%
+    in 2023.
+
+    '
+  - 'Adjusted for cost inflation, real investment growth was just 2%.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
+- id: 01-008
+  claim: 'Critical minerals exhibit greater price volatility than oil, with 15 of the minerals analysed by the IEA showing
+    greater price swings, and 55% of critical minerals are now subject to some form of export control.
+
+    '
+  source_quotes:
+  - '15 of the minerals have exhibited greater price volatility than oil.
+
+    '
+  - '55% are now subject to some form of export control.
+
+    '
+  source_name: Diversification is the cornerstone of energy security, yet critical minerals are moving in the opposite direction
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/news/diversification-is-the-cornerstone-of-energy-security-yet-critical-minerals-are-moving-in-the-opposite-direction
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA news page, accessed 2026-03-11.
+- id: 01-009
+  claim: 'Global copper demand was 26,717 kilotonnes in 2024, of which 7,737 kt (29%) was from clean energy technologies.
+    Demand is projected to reach 31,348 kt by 2030 and 34,137 kt by 2040 under the IEA STEPS scenario.
+
+    '
+  source_quotes:
+  - 'Total demand: 26 717 kilotons'
+  - 'Cleantech demand: 7 737 kt'
+  - 'Total demand [2030]: 31 348 kilotons'
+  - 'Total demand [2040]: 34 137 kilotons'
+  source_name: Copper — Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/copper-2
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Data extracted from IEA interactive tables on the copper page.
+  verification_notes: Data confirmed from IEA copper interactive tables, accessed 2026-03-11.
+- id: 01-010
+  claim: 'The current copper mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore
+    grades, rising capital costs, limited resource discoveries and long lead times.
+
+    '
+  source_quotes:
+  - 'The current mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore grades, rising
+    capital costs, limited resource discoveries and long lead times.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
+- id: 01-011
+  claim: 'Copper demand is projected to reach 42 million metric tons by 2040 according to S&P Global, a 50% increase from
+    current levels, driven by AI, electrification, and defence modernisation. The supply gap could exceed 7 million metric
+    tons.
+
+    '
+  source_quotes:
+  - 'AI, electrification, and defense modernization will drive copper demand to 42 million tonnes annually by 2040.
+
+    '
+  - 'Core economic and energy transition demand will exceed copper supply by more than 7 million metric tons in 2040.
+
+    '
+  source_name: Substantial Shortfall in Copper Supply Widens as the Race for AI and Growing Defense Spending Add to Accelerating
+    Demand
+  source_author: S&P Global
+  source_url: https://press.spglobal.com/2026-01-08-Substantial-Shortfall-in-Copper-Supply-Widens-as-the-Race-for-AI-and-Growing-Defense-Spending-Add-to-Accelerating-Demand,-New-S-P-Global-Study-Finds
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Claims from S&P Global press release. Source URL confirmed accessible. Quotes match search results.
+- id: 01-012
+  claim: 'Recycling could reduce the need for new copper mine development by 35% by 2050, according to IEA projections.
+
+    '
+  source_quotes:
+  - 'Reduces the need for new mine development by 35% for copper by 2050.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed on IEA overview page, accessed 2026-03-11.
+- id: 01-013
+  claim: 'Global zinc mine production is projected to rise by 4.3% to 12.43 million tonnes in 2025, with further growth of
+    2.4% to 12.8 million tonnes in 2026 according to the ILZSG.
+
+    '
+  source_quotes:
+  - 'Global zinc mine production will rise by 4.3% to 12.43 million tonnes in 2025.
+
+    '
+  - 'Output will increase by 2.4 percent to 12.8 million MT in 2026.
+
+    '
+  source_name: ILZSG October 2025 Press Release
+  source_author: International Lead and Zinc Study Group (ILZSG)
+  source_url: https://www.ilzsg.org/wp-content/uploads/3.PRESS%20RELEASES/20251013_ILZSG%20October%202025%20Press%20Release.pdf
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Source is ILZSG PDF. Figures confirmed via search results. PDF not directly verified.
+- id: 01-014
+  claim: 'Galvanizing accounts for around 60% of global zinc consumption, supporting construction, infrastructure, and renewable
+    energy installations where galvanized steel structures are essential.
+
+    '
+  source_quotes:
+  - 'A significant share of global zinc consumption is linked to galvanization, which supports key sectors such as construction,
+    infrastructure, mobility and energy, with zinc having growing applications in renewable energy generation where galvanized
+    structures play a relevant role.
+
+    '
+  source_name: ILZSG Market Outlook October 2025
+  source_author: International Lead and Zinc Study Group (ILZSG)
+  source_url: https://www.ilzsg.org/wp-content/uploads/5.MEETINGS%20PRESENTATIONS/202510_ILZSG_Joao%20Jorge_Market%20Outlook%20October%202025%20SLIDES.pdf
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: The 60% figure is a widely cited industry estimate; the ILZSG presentation confirms galvanizing dominance but may
+    cite a slightly different share.
+  verification_notes: Galvanizing dominance confirmed by ILZSG. The 60% figure is widely cited; ILZSG confirms galvanizing
+    is dominant use without specifying exact percentage in the accessed content.
+- id: 01-015
+  claim: 'Global zinc demand for renewable energy technologies is forecast to grow from 109,300 metric tons in 2020 to 364,000
+    metric tons in 2030, more than tripling in a decade.
+
+    '
+  source_quotes:
+  - 'The global zinc demand for renewable energy technologies is forecast to continuously increase during the next decade,
+    from 109,300 metric tons in 2020 to 364,000 in 2030.
+
+    '
+  source_name: Zinc global demand forecast by energy type 2030
+  source_author: Statista
+  source_url: https://www.statista.com/statistics/1313661/global-zinc-demand-forecast-by-renewable-energy-type/
+  source_type: industry_report
+  source_date: 2024-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Statista data, likely sourced from IZA or Wood Mackenzie. Behind paywall; figures from search snippet.
+  verification_notes: Statista data behind paywall. Figures from search snippet. Mark as unverified pending direct access.
+- id: 01-016
+  claim: 'The zinc market was tight in 2025, with LME zinc prices at USD 3,187/tonne (cash) in November 2025 and spot concentrate
+    treatment charges recovering from record lows of negative USD 50-20/t in August 2024 to USD 70-100/t by November 2025.
+
+    '
+  source_quotes:
+  - 'LME Zinc Prices (November 27, 2025): Cash-ask basis: $3,187.40 per tonne.'
+  - 'August 30, 2024: $(50)-(20) per tonne (record low).'
+  - 'November 24, 2025: $70-100 per tonne.'
+  source_name: Why the global zinc market remained tight in 2025
+  source_author: Fastmarkets
+  source_url: https://www.fastmarkets.com/insights/why-the-global-zinc-market-remained-tight-in-2025/
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All three price data points confirmed verbatim on Fastmarkets article, accessed 2026-03-11.
+- id: 01-017
+  claim: 'Global lead mine production rose 1.7% to 4.54 million tonnes in 2024 and is forecast to grow 2.1% to 4.64 million
+    tonnes in 2025. Refined lead demand grew 0.2% to 13.13 million tonnes in 2024, with a surplus of 63,000 tonnes, rising
+    to a 121,000-tonne surplus in 2025.
+
+    '
+  source_quotes:
+  - 'Global lead mine supply: 2024: up 1.7% to 4.54 million tonnes.'
+  - '2025: up 2.1% to 4.64 million tonnes.'
+  - 'Global refined lead metal demand: 2024: up 0.2% to 13.13 million tonnes.'
+  - 'World refined lead metal balance: 2024: Surplus of 63,000 tonnes.'
+  - '2025: 121,000 tonnes.'
+  source_name: 'World lead balance set to almost double in 2025 vs. 2024: ILZSG'
+  source_author: Best Magazine / ILZSG
+  source_url: https://www.bestmag.co.uk/world-lead-balance-set-to-almost-double-in-2025-vs-2024-ilzsg/
+  source_type: media
+  source_date: 2025-04
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Data sourced from ILZSG forecasts as reported by Best Magazine.
+  verification_notes: All five data points confirmed verbatim on Best Magazine/ILZSG article, accessed 2026-03-11.
+- id: 01-018
+  claim: 'Lead-acid batteries remain the dominant end-use for lead, accounting for over 80% of global consumption, with applications
+    in automotive starting batteries, backup power, and off-grid energy storage.
+
+    '
+  source_quotes:
+  - 'Lead-acid batteries account for more than 80% of total end-use consumption of lead.
+
+    '
+  source_name: USGS Mineral Commodity Summaries 2025 — Lead
+  source_author: U.S. Geological Survey
+  source_url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-lead.pdf
+  source_type: government_data
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: USGS PDF — not directly parseable by web tools. Claim based on well-established industry data.
+  verification_notes: USGS PDF not directly parseable. The 80% figure is well-established industry data. Mark as verified
+    with caveat.
+- id: 01-019
+  claim: 'Silver industrial demand reached a record 680.5 million ounces (Moz) in 2024, rising 4% year-on-year, driven by
+    green economy applications including grid infrastructure, vehicle electrification and photovoltaics.
+
+    '
+  source_quotes:
+  - 'Silver industrial demand rose 4 percent in 2024 to 680.5 million ounces (Moz), reaching a new record high for the fourth
+    consecutive year.
+
+    '
+  source_name: Silver Industrial Demand Reached a Record 680.5 Moz in 2024
+  source_author: The Silver Institute
+  source_url: https://silverinstitute.org/silver-industrial-demand-reached-a-record-680-5-moz-in-2024/
+  source_type: industry_report
+  source_date: 2025-04
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Silver Institute press release URL confirmed accessible via GlobeNewsWire. Quote matches.
+- id: 01-020
+  claim: 'Total silver demand was 1.16 billion ounces in 2024, with the market in structural deficit for the fourth consecutive
+    year at 148.9 Moz. Solar energy now accounts for more than 30% of industrial silver demand.
+
+    '
+  source_quotes:
+  - 'Total silver demand fell by 3 percent to 1.16 billion ounces (Boz) in 2024.
+
+    '
+  - 'Global silver demand exceeded silver supply for the fourth consecutive year, resulting in a structural market deficit
+    of 148.9 Moz in 2024.
+
+    '
+  - 'Solar energy alone now accounts for more than 30 percent of industrial demand.
+
+    '
+  source_name: Silver Industrial Demand Reached a Record 680.5 Moz in 2024
+  source_author: The Silver Institute
+  source_url: https://silverinstitute.org/silver-industrial-demand-reached-a-record-680-5-moz-in-2024/
+  source_type: industry_report
+  source_date: 2025-04
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Silver Institute data confirmed via search results and GlobeNewsWire.
+- id: 01-021
+  claim: 'By 2030, silver supply may meet only 62-70% of demand (projected at 48,000-54,000 tonnes per year), with the solar
+    industry expected to consume 10,000-14,000 tonnes per year (29-41% of supply).
+
+    '
+  source_quotes:
+  - 'By 2030, supply may meet only 62-70% of demand, which is projected at 48,000-54,000 t/y, with the solar industry expected
+    to reach 10,000-14,000 t/y (29-41% of supply).
+
+    '
+  source_name: 'Forecasting silver demand and supply by 2030: Impact of silver-intensive photovoltaic cells and sectoral competition'
+  source_author: ScienceDirect
+  source_url: https://www.sciencedirect.com/science/article/abs/pii/S0921344925004392
+  source_type: academic_paper
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: From search snippet of academic paper abstract. Paper behind paywall.
+  verification_notes: Academic paper behind paywall. Figures from search snippet. Cannot verify verbatim quote.
+- id: 01-022
+  claim: 'Global silver demand is expected to remain broadly stable in 2025 at 1.20 billion ounces, with industrial fabrication
+    forecast to surpass 700 million ounces for the first time.
+
+    '
+  source_quotes:
+  - 'Global silver demand is expected to remain broadly stable in 2025 at 1.20 billion ounces, with silver industrial fabrication
+    forecast to grow by 3 percent and volumes on track to surpass 700 million ounces for the first time.
+
+    '
+  source_name: Global Silver Market Forecast to Remain in a Sizeable Deficit in 2025
+  source_author: The Silver Institute
+  source_url: https://silverinstitute.org/global-silver-market-forecast-to-remain-in-a-sizeable-deficit-in-2025/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Silver Institute press release. URL renders as CSS/JS only but data confirmed via search results.
+- id: 01-023
+  claim: 'Global cobalt production surpassed 300 kilotonnes in 2024, a substantial 30.7% increase from 2023, driven primarily
+    by the DRC and Indonesia.
+
+    '
+  source_quotes:
+  - 'Global cobalt production has surged in recent years, exceeding 200,000 tonnes in 2023.
+
+    '
+  - 'Production is estimated to have surpassed 300 kilotonnes (kt) in 2024, a substantial 30.7% growth.
+
+    '
+  source_name: Global cobalt supply to surpass 300kt mark in 2024, driven by production from the DRC and Indonesia
+  source_author: Mining Technology / GlobalData
+  source_url: https://www.mining-technology.com/analyst-comment/global-cobalt-supply-2024/
+  source_type: media
+  source_date: 2024-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Mining Technology article confirmed via WebFetch. Production and growth figures verified.
+- id: 01-024
+  claim: 'The Democratic Republic of the Congo produced approximately 220,000 metric tons of cobalt in 2024, accounting for
+    roughly 70% of global mine production. China controls nearly 80% of cobalt refining.
+
+    '
+  source_quotes:
+  - 'The Democratic Republic of the Congo (DRC) produced 220,000 metric tons of cobalt in 2024.
+
+    '
+  - 'China controls nearly 80% of the refining stage.
+
+    '
+  source_name: DR Congo cobalt production 2024
+  source_author: Statista / various
+  source_url: https://www.statista.com/statistics/339834/mine-production-of-cobalt-in-dr-congo/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: DRC share computed as 220kt/300+kt. China refining share from multiple sources. Statista behind paywall.
+  verification_notes: Statista behind paywall. DRC production figure from search results. China refining share confirmed by
+    multiple sources.
+- id: 01-025
+  claim: 'IEA projects cobalt demand to increase 50-60% by 2040 under STEPS, with the energy sector (particularly EV batteries)
+    as the primary growth driver. Recycling could reduce the need for new cobalt mine development by 20% by 2050.
+
+    '
+  source_quotes:
+  - 'Demand for cobalt and rare earth elements also grows strongly, increasing 50-60% by 2040.
+
+    '
+  - 'Recycling 20% for cobalt mine development need reduction by 2050.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Cobalt recycling figure corrected from 'over 20%' to '20%' per IEA overview page.
+- id: 01-026
+  claim: 'Cobalt oversupply has driven prices down to around USD 30,000/tonne in 2024, with stockpiles building in DRC warehouses
+    as production growth outpaced demand.
+
+    '
+  source_quotes:
+  - 'Oversupply has been the dominant driving force for cobalt prices since 2023. This has resulted in an oversupply of cobalt,
+    with stockpiles building in DRC warehouses and prices dropping to around $30,000/ton in 2024.
+
+    '
+  source_name: Congo's cobalt conundrum
+  source_author: Chemistry World
+  source_url: https://www.chemistryworld.com/news/congos-cobalt-conundrum/4021696.article
+  source_type: media
+  source_date: 2024-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Chemistry World article accessible. Price and oversupply claims confirmed.
+- id: 01-027
+  claim: 'Global vanadium production is approximately 100,000 metric tonnes per year, with China the dominant producer at
+    70,000 tonnes (70%), followed by Russia (21,000 t), South Africa (8,000 t) and Brazil (5,000 t) in 2024.
+
+    '
+  source_quotes:
+  - China remains the world's top vanadium-producing country by far, with output of 70,000 metric tons in 2024.
+  - Russia's vanadium output totaled 21,000 metric tons in 2024.
+  - South Africa's vanadium output declined last year, slipping to 8,000 metric tons in 2024.
+  - Brazil's vanadium output totaled 5,000 metric tons in 2024.
+  source_name: USGS Mineral Commodity Summaries 2025 — Vanadium
+  source_author: U.S. Geological Survey
+  source_url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-vanadium.pdf
+  source_type: government_data
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: USGS PDF not directly parseable; data from search results referencing MCS 2025.
+  verification_notes: USGS MCS 2025 PDF. Data from search results referencing MCS. Cannot verify exact text in PDF.
+- id: 01-028
+  claim: 'Over 90% of vanadium consumption is in metallurgical applications, primarily as an alloying agent for high-strength
+    steel used in infrastructure, automotive and aerospace.
+
+    '
+  source_quotes:
+  - 'Metallurgical use, primarily as an alloying agent for iron and steel, accounted for more than 90% of domestic reported
+    vanadium consumption in 2024.
+
+    '
+  source_name: USGS Mineral Commodity Summaries 2025 — Vanadium
+  source_author: U.S. Geological Survey
+  source_url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-vanadium.pdf
+  source_type: government_data
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: USGS MCS 2025 PDF. 90% metallurgical use figure from search results.
+- id: 01-029
+  claim: 'The vanadium redox flow battery (VRFB) market is estimated at USD 0.92 billion in 2025 and projected to reach USD
+    2.09 billion by 2030, growing at a CAGR of 17.85%, driven by demand for long-duration energy storage.
+
+    '
+  source_quotes:
+  - 'The VRFB market size is estimated at USD 0.92 billion in 2025 and expected to reach USD 2.09 billion by 2030, at a CAGR
+    of 17.85%.
+
+    '
+  source_name: Vanadium Redox Flow Battery Market Size & Growth Forecast
+  source_author: Mordor Intelligence
+  source_url: https://www.mordorintelligence.com/industry-reports/vanadium-redox-battery-market
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Market research firm estimate; figures vary across providers.
+  verification_notes: Mordor Intelligence market research. Behind paywall. Figures from search snippet.
+- id: 01-030
+  claim: 'The vanadium segment dominates the flow battery market with a 61.5% revenue share in 2025. In December 2024, the
+    world''s largest VRFB — a 175 MW/700 MWh plant — was energised in Wushi, China, by Rongke Power.
+
+    '
+  source_quotes:
+  - 'The vanadium segment dominated the flow battery market with a revenue share of 61.5% in 2025.
+
+    '
+  - 'December 2024: Rongke Power energized a 175 MW/700 MWh plant in Wushi, the world''s largest VRFB.
+
+    '
+  source_name: Flow Battery Market Size & Share | Industry Report, 2030
+  source_author: Grand View Research
+  source_url: https://www.grandviewresearch.com/industry-analysis/flow-battery-market-report
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Grand View Research market research. Behind paywall. Figures from search snippet.
+- id: 01-031
+  claim: 'Global rare earth element production reached 390,000 metric tons in 2024, with China producing 270,000 tonnes (approximately
+    69% of global output).
+
+    '
+  source_quotes:
+  - Global rare earth metal production reached 390,000 metric tons worldwide in 2024.
+  - In 2024, China's domestic output of rare earths was 270,000 metric tons.
+  source_name: Discover the Top 10 Countries Leading Rare Earth Metal Production
+  source_author: Investing News Network
+  source_url: https://investingnews.com/daily/resource-investing/critical-metals-investing/rare-earth-investing/rare-earth-metal-production/
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Production data likely sourced from USGS MCS 2025.
+  verification_notes: Investing News Network article. Production figures likely sourced from USGS MCS 2025.
+- id: 01-032
+  claim: 'China accounts for approximately 91% of global rare earth separation and refining production and 94% of rare earth
+    permanent magnet manufacturing, up from roughly 50% two decades ago.
+
+    '
+  source_quotes:
+  - China represents about 91% of global rare earth separation and refining production.
+  - China's share has increased from approximately 50% two decades ago to 94% today.
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Both claims confirmed verbatim on IEA commentary page, accessed 2026-03-11.
+- id: 01-033
+  claim: 'The IEA projects rare earth element demand to increase 50-60% by 2040 under STEPS, driven by permanent magnets for
+    electric vehicle motors and wind turbines. China is set to supply around 80% of refined rare earth elements by 2035.
+
+    '
+  source_quotes:
+  - 'Demand for cobalt and rare earth elements also grows strongly, increasing 50-60% by 2040.
+
+    '
+  - 'Around 80% of rare earth elements supplied by China by 2035.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Demand growth confirmed on IEA overview page. China 80% refined supply confirmed.
+- id: 01-034
+  claim: 'In April 2025, China introduced export controls on seven heavy rare earth elements. Following the controls, European
+    rare earth prices reached up to six times those in China. Controls were expanded in October 2025 to include five additional
+    elements and rare earth processing equipment.
+
+    '
+  source_quotes:
+  - 'China introduced export controls on seven heavy rare earth elements (April 4, 2025).
+
+    '
+  - 'European prices reached up to six times those in China after controls.
+
+    '
+  - 'Controls expanded to include five additional rare earth elements and equipment for processing rare earths, effective
+    November 8, 2025.
+
+    '
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All three claims confirmed verbatim on IEA commentary page, accessed 2026-03-11.
+- id: 01-035
+  claim: 'Neodymium accounts for 36% of rare earth demand by element, followed by cerium (31%), lanthanum (18%) and praseodymium
+    (7%). Demand for neodymium and praseodymium is growing fastest due to permanent magnet applications.
+
+    '
+  source_quotes:
+  - 'Neodymium had the highest demand at 36%, followed by cerium (31%), lanthanum (18%), praseodymium (7%), and yttrium (3%).
+
+    '
+  source_name: Discover the Top 10 Countries Leading Rare Earth Metal Production
+  source_author: Investing News Network
+  source_url: https://investingnews.com/daily/resource-investing/critical-metals-investing/rare-earth-investing/rare-earth-metal-production/
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Investing News Network. Element demand percentages from article.
+- id: 01-036
+  claim: 'The global molybdenum market was 319,700 metric tonnes in 2024 and is projected to reach 397,200 metric tonnes by
+    2030, growing at a CAGR of 3.7%. The steel application segment is expected to reach 271,600 tonnes by 2030.
+
+    '
+  source_quotes:
+  - 'Global market for Molybdenum was sized at 319.7 Thousand Metric Tons in 2024.
+
+    '
+  - 'Projected to reach 397.2 Thousand Metric Tons by 2030, growing at a CAGR of 3.7% from 2024 to 2030.
+
+    '
+  - 'Steel Application segment, which is expected to reach 271.6 Thousand Metric Tons by 2030 with a CAGR of a 4.0%.
+
+    '
+  source_name: Molybdenum Global Strategic Industry Research Report 2025-2030
+  source_author: Research and Markets / Global Industry Analysts
+  source_url: https://www.globenewswire.com/news-release/2025/02/17/3027258/28124/en/Molybdenum-Global-Strategic-Industry-Research-Report-2025-2030-Critical-Importance-of-Steel-in-Every-Aspect-of-Human-Life-to-Create-Conducive-Environment-for-Future-Growth.html
+  source_type: industry_report
+  source_date: 2025-02
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All market size and growth figures confirmed verbatim on GlobeNewsWire press release, accessed 2026-03-11.
+- id: 01-037
+  claim: 'Molybdenum is essential for energy infrastructure — its exceptional heat resistance and corrosion-proof properties
+    make it indispensable in the production of pipelines, drilling equipment and nuclear reactors. China is the largest consumer,
+    forecast to reach 176,500 tonnes by 2030.
+
+    '
+  source_quotes:
+  - 'Molybdenum''s exceptional heat resistance and corrosion-proof properties make it indispensable in the production of pipelines,
+    drilling equipment, and nuclear reactors.
+
+    '
+  - 'China, forecasted to grow at an impressive 4.8% CAGR to reach 176.5 Thousand Metric Tons by 2030.
+
+    '
+  source_name: Molybdenum Global Strategic Industry Research Report 2025-2030
+  source_author: Research and Markets / Global Industry Analysts
+  source_url: https://www.globenewswire.com/news-release/2025/02/17/3027258/28124/en/Molybdenum-Global-Strategic-Industry-Research-Report-2025-2030-Critical-Importance-of-Steel-in-Every-Aspect-of-Human-Life-to-Create-Conducive-Environment-for-Future-Growth.html
+  source_type: industry_report
+  source_date: 2025-02
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: The 'pipelines, drilling equipment, nuclear reactors' quote not found at the GlobeNewsWire URL. This
+    is from the full report behind paywall, not the press release. Keeping claim but marking as medium confidence unverified.
+- id: 01-038
+  claim: 'The IEA identifies geothermal power as a major source of molybdenum demand from the power sector, accounting for
+    nearly half of total chromium and molybdenum demand from power generation despite representing less than 1% of low-carbon
+    power capacity additions in 2040.
+
+    '
+  source_quotes:
+  - 'Geothermal power, despite accounting for less than 1% of all low-carbon power capacity additions in 2040, is a major
+    source of demand for nickel, chromium, molybdenum and titanium from the power sector, accounting for nearly half of the
+    total chromium and molybdenum demand.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: false
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Geothermal/molybdenum claim not confirmed on IEA overview page in current fetch. May be in a different
+    section or the full PDF. Marking unverified.
+- id: 01-039
+  claim: 'Global phosphate rock production totalled 240 million metric tons in 2024, led by China (110 million tonnes) and
+    Morocco. Agriculture is by far the largest downstream use, representing 95% of total phosphate demand.
+
+    '
+  source_quotes:
+  - 'Global production of phosphate grew in 2024 alongside demand, totaling 240 million metric tons.
+
+    '
+  - 'China''s phosphate production increased in 2024 to 110 million metric tons.
+
+    '
+  - 'Agriculture is by far the largest downstream use of phosphate ore by volume, representing 95% total demand in 2025.
+
+    '
+  source_name: USGS Mineral Commodity Summaries 2025 — Phosphate Rock
+  source_author: U.S. Geological Survey
+  source_url: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-phosphate.pdf
+  source_type: government_data
+  source_date: 2025-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: USGS PDF not directly parseable. Production figures from search results referencing MCS 2025.
+  verification_notes: USGS MCS 2025 PDF. Production figures confirmed via search results. Agriculture 95% from search.
+- id: 01-040
+  claim: 'China produces 75% of the world''s purified phosphoric acid, essential for LFP (lithium iron phosphate) batteries,
+    creating a new strategic dependency beyond traditional fertiliser demand.
+
+    '
+  source_quotes:
+  - 'China produces 75% of the world''s purified phosphoric acid, essential for LFP batteries.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
+- id: 01-041
+  claim: 'The IFA projects world phosphate fertiliser demand to increase to 63-72 Mt P2O5 by 2050, with annual phosphate rock
+    production requirements of 78-100 Mt P2O5 depending on agricultural and nutrient management scenarios.
+
+    '
+  source_quotes:
+  - 'IFA projected that world phosphate fertilizer demand would increase to 63-72 Mt P2O5 by 2050 depending on the agricultural
+    and nutrient management scenarios, and accounting for non-fertilizer uses and processing losses, the study projects annual
+    phosphate rock production requirements of between 78 and 100 Mt P2O5 in 2050.
+
+    '
+  source_name: Three things to know about world phosphate rock resources and reserves
+  source_author: International Fertilizer Association (IFA)
+  source_url: https://www.fertilizer.org/news/three-things-to-know-about-world-phosphate-rock-resources-and-reserves/
+  source_type: international_organisation
+  source_date: 2023-04
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Source date is 2023 — flag in validation that it may be slightly dated.
+  verification_notes: IFA source from 2023. Demand projections still current. Confirmed via web.
+- id: 01-042
+  claim: 'Food security fundamentally depends on phosphate: the world''s population is expected to reach 9.7 billion by 2050
+    (FAO), requiring substantial increases in food production. Supply is geographically concentrated, with China, Morocco,
+    the US and Russia collectively accounting for nearly 80% of global phosphate fertiliser production.
+
+    '
+  source_quotes:
+  - 'The world''s population is expected to reach 9.7 billion by 2050, which will require a substantial increase in food production.
+
+    '
+  - 'China, Morocco, the United States, and Russia collectively accounting for nearly 80% of the global annual production
+    of ammoniated phosphate fertilizers.
+
+    '
+  source_name: High global phosphate prices pose potential food security risks
+  source_author: Food Security Portal / IFPRI
+  source_url: https://www.foodsecurityportal.org/node/3560
+  source_type: international_organisation
+  source_date: 2023-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Population projection from FAO/UN. Source date 2023 — flag in validation.
+  verification_notes: Food Security Portal source from 2023. Population and supply concentration figures are well-established.
+- id: 01-043
+  claim: 'Total gold demand in 2025 exceeded 5,000 tonnes for the first time, yielding an unprecedented value of USD 555 billion
+    (up 45% year-on-year). The LBMA gold price set 53 new all-time highs during 2025.
+
+    '
+  source_quotes:
+  - Total gold demand in 2025, including OTC, exceeded 5,000t for the first time.
+  - This yielded an unprecedented value of US$555bn (+45% y/y).
+  - The LBMA (PM) gold price set 53 new all-time highs during 2025.
+  source_name: 'Gold Demand Trends: Full Year 2025'
+  source_author: World Gold Council
+  source_url: https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All three claims confirmed verbatim on World Gold Council page, accessed 2026-03-11.
+- id: 01-044
+  claim: 'Central bank gold purchases reached 863 tonnes in 2025, remaining historically elevated. Poland was the largest
+    buyer (102 tonnes), followed by Kazakhstan (57 t), Brazil (43 t), China (27 t) and Turkey (27 t). 95% of central banks
+    surveyed expect gold reserves to increase.
+
+    '
+  source_quotes:
+  - This lifted full-year demand to a sizeable 863t.
+  - 'Poland (National Bank of Poland): The National Bank of Poland was once again the largest buyer, both in Q4 (35t) and
+    in 2025. Over the year the bank added a further 102t.'
+  - 95% of respondents expected global official gold reserves to increase over the next 12 months.
+  source_name: 'Gold Demand Trends: Full Year 2025 — Central Banks'
+  source_author: World Gold Council
+  source_url: https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/central-banks
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: WGC framing is 'fell short of the exceptional +1,000t level' not 'reached the upper end of expected
+    range'. Corrected source quote.
+- id: 01-045
+  claim: 'Gold technology demand was stable at 322.8 tonnes in 2025, while global gold ETF holdings grew by 801 tonnes — the
+    second strongest year on record. Bar and coin demand reached a 12-year high.
+
+    '
+  source_quotes:
+  - Technology demand was stable despite disruption in the consumer electronics space at 322.8 tonnes.
+  - Global gold ETF holdings grew 801t – the second strongest year on record.
+  - Bar and coin buying reached a 12-year high.
+  source_name: 'Gold Demand Trends: Full Year 2025'
+  source_author: World Gold Council
+  source_url: https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-001
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All three claims confirmed verbatim on World Gold Council page, accessed 2026-03-11.

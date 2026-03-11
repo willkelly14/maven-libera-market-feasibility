@@ -2011,8 +2011,9 @@ function togglePaneExcerpt(id) {
 }
 
 function scrollToClaimInDoc(factId) {
+  console.log('>>> scrollToClaimInDoc CALLED with', factId);
   const f = FACTS.find(x => x.id === factId) || ARCHIVED.find(x => x.id === factId);
-  if (!f || !f.claim) return;
+  if (!f || !f.claim) { console.log('>>> fact not found or no claim'); return; }
 
   const docBody = document.getElementById('slide-pane-doc-body');
   if (!docBody) return;
@@ -2028,23 +2029,29 @@ function scrollToClaimInDoc(factId) {
     parent.normalize();
   });
 
-  // Try to find the claim text (or significant substrings) in the document
-  const claim = f.claim;
-  const found = highlightTextInElement(docBody, claim);
+  // Strategy 1: Find the fact ID tag (e.g. [01-001]) in the document, then highlight the sentence before it
+  const tagFound = highlightSentenceBeforeTag(docBody, factId);
+  console.log('[scrollToClaimInDoc] factId=' + factId + ', tagFound=' + tagFound);
 
-  if (!found) {
-    const words = claim.split(/\s+/);
-    let partialFound = false;
-    for (let fraction of [0.6, 0.4]) {
-      const partial = words.slice(0, Math.max(Math.ceil(words.length * fraction), 4)).join(' ');
-      if (partial.length >= 10 && highlightTextInElement(docBody, partial)) {
-        partialFound = true;
-        break;
+  // Strategy 2: Fall back to claim text search if no tag found
+  if (!tagFound) {
+    const claim = f.claim;
+    let found = highlightTextInElement(docBody, claim);
+
+    if (!found) {
+      const words = claim.split(/\s+/);
+      let partialFound = false;
+      for (let fraction of [0.6, 0.4]) {
+        const partial = words.slice(0, Math.max(Math.ceil(words.length * fraction), 4)).join(' ');
+        if (partial.length >= 10 && highlightTextInElement(docBody, partial)) {
+          partialFound = true;
+          break;
+        }
       }
-    }
-    if (!partialFound) {
-      for (const q of (f.source_quotes || [])) {
-        if (q && q.length >= 10 && highlightTextInElement(docBody, q)) break;
+      if (!partialFound) {
+        for (const q of (f.source_quotes || [])) {
+          if (q && q.length >= 10 && highlightTextInElement(docBody, q)) break;
+        }
       }
     }
   }
@@ -2072,6 +2079,122 @@ function scrollToClaimInDoc(factId) {
       setTimeout(() => { factRow.style.background = ''; }, 1500);
     }
   }
+}
+
+// Find a fact ID tag like [01-001] in the document text, then highlight the sentence preceding it.
+// Tags may appear as [01-001] or within a comma-separated group like [01-001, 01-002].
+function highlightSentenceBeforeTag(root, factId) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
+  // Build full text with node mapping
+  let fullText = '';
+  const nodeMap = [];
+  for (const node of textNodes) {
+    const start = fullText.length;
+    fullText += node.textContent;
+    nodeMap.push({ node, start, end: fullText.length });
+  }
+
+  // Find the tag — match [01-001] or [..., 01-001, ...] bracket groups containing this fact ID
+  const escapedId = factId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Try multiple patterns: exact tag, tag in group, or just the ID with brackets
+  const patterns = [
+    new RegExp('\\[(?:[\\w-]+,\\s*)*' + escapedId + '(?:,\\s*[\\w-]+)*\\]'),
+    new RegExp('\\[' + escapedId + '\\]'),
+    new RegExp('\\[([^\\]]*,\\s*)?' + escapedId + '(\\s*,[^\\]]*)?\\]')
+  ];
+
+  let tagMatch = null;
+  for (const pat of patterns) {
+    tagMatch = pat.exec(fullText);
+    if (tagMatch) break;
+  }
+  console.log('[highlightSentenceBeforeTag] factId=' + factId + ', fullTextLen=' + fullText.length + ', hasTag=' + !!tagMatch);
+  if (tagMatch) console.log('[highlightSentenceBeforeTag] tagMatch=' + tagMatch[0] + ' at ' + tagMatch.index);
+  else console.log('[highlightSentenceBeforeTag] fullText snippet (first 200):', fullText.slice(0, 200));
+  if (!tagMatch) return false;
+
+  const tagStart = tagMatch.index;
+
+  // Find the sentence before the tag by walking backwards.
+  // The sentence ends just before the tag (at the last period/punctuation before the tag).
+  // The sentence starts after the previous sentence's tag group or punctuation+space, or at a paragraph boundary.
+
+  const textBeforeTag = fullText.slice(0, tagStart);
+
+  // Find sentence end: the last period/punctuation before the tag
+  const lastPuncMatch = /[.!?:][^.!?:]*$/.exec(textBeforeTag);
+  let sentenceEnd = tagStart; // default to tag position
+  if (lastPuncMatch) {
+    sentenceEnd = lastPuncMatch.index + 1; // include the period
+  }
+
+  // Find sentence start: walk back from sentenceEnd to find previous boundary
+  const textBeforeSentence = fullText.slice(0, Math.max(0, sentenceEnd - 1));
+  let sentenceStart = 0;
+
+  // Look for previous tag group end "] " or previous sentence-ending punctuation ". "
+  // Walk backwards to find the last boundary
+  const prevBoundaries = [];
+
+  // Previous tag groups: "] followed by space
+  const tagEndRegex = /\]\s+/g;
+  let te;
+  while ((te = tagEndRegex.exec(textBeforeSentence)) !== null) {
+    prevBoundaries.push(te.index + te[0].length);
+  }
+
+  // Previous sentence endings: ". " followed by uppercase (standard sentence boundary)
+  const sentEndRegex = /[.!?]\s+/g;
+  let se;
+  while ((se = sentEndRegex.exec(textBeforeSentence)) !== null) {
+    prevBoundaries.push(se.index + se[0].length);
+  }
+
+  if (prevBoundaries.length > 0) {
+    sentenceStart = Math.max(...prevBoundaries);
+  }
+
+  // Extract the sentence
+  const sentenceText = fullText.slice(sentenceStart, sentenceEnd).trim();
+  if (sentenceText.length < 3) return false;
+
+  // Find exact position of trimmed sentence in fullText
+  const hStart = sentenceStart + (fullText.slice(sentenceStart, sentenceEnd).length - fullText.slice(sentenceStart, sentenceEnd).trimStart().length);
+  const hEnd = hStart + sentenceText.length;
+
+  // Wrap matched text nodes in highlight spans (iterate in reverse to preserve indices)
+  for (let i = nodeMap.length - 1; i >= 0; i--) {
+    const nm = nodeMap[i];
+    if (nm.end <= hStart || nm.start >= hEnd) continue;
+
+    const node = nm.node;
+    const nStart = Math.max(hStart - nm.start, 0);
+    const nEnd = Math.min(hEnd - nm.start, node.textContent.length);
+
+    if (nStart === 0 && nEnd === node.textContent.length) {
+      const mark = document.createElement('span');
+      mark.className = 'doc-highlight-mark';
+      node.parentNode.replaceChild(mark, node);
+      mark.appendChild(node);
+    } else {
+      const text = node.textContent;
+      const before = text.slice(0, nStart);
+      const match = text.slice(nStart, nEnd);
+      const after = text.slice(nEnd);
+      const frag = document.createDocumentFragment();
+      if (before) frag.appendChild(document.createTextNode(before));
+      const mark = document.createElement('span');
+      mark.className = 'doc-highlight-mark';
+      mark.textContent = match;
+      frag.appendChild(mark);
+      if (after) frag.appendChild(document.createTextNode(after));
+      node.parentNode.replaceChild(frag, node);
+    }
+  }
+  return true;
 }
 
 // Normalize text: collapse whitespace, normalize dashes/quotes/unicode

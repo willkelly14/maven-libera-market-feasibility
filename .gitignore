@@ -17,8 +17,16 @@
 *.jpeg
 *.gif
 
-# Python venv
+# Python venv and cache
 .venv/
+__pycache__/
+
+# Node modules
+node_modules/
+package-lock.json
+
+# R history
+.Rhistory
 
 # Generated dashboard (rebuild with: .venv/bin/python build_dashboard.py)
 dashboard.html

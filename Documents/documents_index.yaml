@@ -1,2 +1,47 @@
 # Documents Index
 # Each document has an ID, metadata, and a content file path (relative to Documents/)
+
+- id: "DOC-001"
+  title: "Global Critical Minerals Demand Outlook"
+  type: research_report
+  section: "01_Macro_Context"
+  description: >
+    Demand projections for NWMP-relevant minerals (copper, zinc, lead, silver,
+    cobalt, vanadium, rare earth elements, molybdenum, phosphate, gold) covering
+    current production, demand growth to 2030/2040, key drivers, and supply
+    bottlenecks.
+  content_file: "01_Global_Critical_Minerals_Demand_Outlook.md"
+  date_created: "2026-03-11"
+  fact_count: 45
+  fact_range: "01-001 to 01-045"
+  status: "draft"
+
+- id: "DOC-002"
+  title: "Exploration and Mining Investment Trends: National and Regional"
+  type: research_report
+  section: "01_Macro_Context"
+  content_file: "exploration_investment_trends.md"
+  description: >
+    Data-focused document tracking mineral exploration expenditure at the national,
+    Queensland, and NWMP levels. Draws on ABS 8412.0 quarterly data, Geoscience
+    Australia annual assessments, and Queensland Government policy data to demonstrate
+    that exploration investment — a leading indicator of demand for testing services —
+    is robust and growing in the MICMRC's target region.
+  status: draft
+  date_created: "2026-03-11"
+  last_updated: "2026-03-11"
+
+- id: "DOC-003"
+  title: "Australian & Queensland Policy Alignment Analysis"
+  type: research_report
+  section: "01_Macro_Context"
+  content_file: "04_Australian_QLD_Policy_Alignment.md"
+  description: >
+    Maps the proposed Critical Minerals Processing Centre against government policy at both
+    federal (Australian Critical Minerals Strategy 2023-2030, Future Made in Australia, NAIF,
+    NRF, CMCI CRC) and state (Queensland Critical Minerals Strategy, Critical Minerals Zones,
+    Battery Technology Fund, CopperString 2032) levels. Assesses alignment with each policy
+    objective and funding mechanism to support government funding applications.
+  status: draft
+  date_created: "2026-03-11"
+  last_updated: "2026-03-11"
