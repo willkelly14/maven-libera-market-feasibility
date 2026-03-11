@@ -45,3 +45,53 @@
   status: draft
   date_created: "2026-03-11"
   last_updated: "2026-03-11"
+
+- id: "DOC-004"
+  title: "Peer Nation Infrastructure Benchmarking"
+  type: research_report
+  section: "07_Growth_Outlook"
+  content_file: "07_Peer_Nation_Infrastructure_Benchmarking.md"
+  description: >
+    Comparative analysis of how five peer mining nations (Canada, Finland, USA, South Africa,
+    Chile) support their critical minerals sectors with shared-use research and testing
+    infrastructure. Profiles CanmetMINING, GTK Mintec, DOE national labs (CMI/METALLIC),
+    Mintek, and CIMM/Codelco — demonstrating that government-supported mineral processing
+    R&D infrastructure is a well-established global model.
+  status: draft
+  date_created: "2026-03-11"
+  last_updated: "2026-03-11"
+
+- id: "DOC-005"
+  title: "Energy Transition & Supply Chain Context"
+  type: research_report
+  section: "01_Macro_Context"
+  content_file: "02_Energy_Transition_Supply_Chain_Context.md"
+  description: >
+    Connects the macro energy transition narrative to minerals demand, providing the
+    "why now" narrative that opens the market feasibility section. Covers four key demand
+    pathways (battery storage/EVs, grid electrification, wind/solar infrastructure, and
+    EV deployment), geopolitical supply chain concentration risks (China's rare earth
+    dominance, DRC cobalt), and the Western sovereign capability response driving
+    investment in alternative processing capacity.
+  status: draft
+  date_created: "2026-03-11"
+  last_updated: "2026-03-11"
+  fact_count: 37
+  fact_range: "01-081 to 01-117"
+
+- id: "DOC-006"
+  title: "Australian Testing & Research Infrastructure Audit"
+  type: research_report
+  section: "01_Macro_Context"
+  content_file: "07_australian_testing_research_infrastructure.md"
+  description: >
+    Maps Australia's existing minerals testing, characterisation, and research
+    infrastructure across public agencies (ANSTO, CSIRO), universities (UQ SMI,
+    Curtin WASM, Murdoch, Adelaide), government facilities (QRCUF), and commercial
+    labs (Intertek, ALS, Bureau Veritas). Establishes the geographic gap in the
+    North West Minerals Province and the case for MICMRC.
+  status: draft
+  date_created: "2026-03-11"
+  last_updated: "2026-03-11"
+  fact_count: 35
+  fact_range: "01-046 to 01-080"

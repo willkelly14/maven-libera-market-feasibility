@@ -1,9 +1,5 @@
-# Fact Database — Section 01: Macro Market Context
-# See SCHEMA.md for field definitions
-
 - id: 01-001
-  claim: 'Demand for key energy transition minerals continued to grow strongly in 2024, with lithium demand rising by nearly
-    30% and demand for nickel, cobalt, graphite and rare earths increasing by 6-8%.
+  claim: 'Demand for key energy transition minerals continued to grow strongly in 2024, with lithium demand rising by nearly 30% and demand for nickel, cobalt, graphite and rare earths increasing by 6-8%.
 
     '
   source_quotes:
@@ -28,13 +24,12 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
 - id: 01-002
-  claim: 'The energy sector accounted for 85% of total demand growth for battery metals (lithium, nickel, cobalt, graphite)
-    between 2020 and 2024, driven by electric vehicles, battery storage, renewables and grid networks.
+  claim: 'The energy sector accounted for 85% of total demand growth for battery metals (lithium, nickel, cobalt, graphite) between 2020 and 2024, driven by electric vehicles, battery storage, renewables
+    and grid networks.
 
     '
   source_quotes:
-  - 'For battery metals such as lithium, nickel, cobalt and graphite, the energy sector accounted for 85% of total demand
-    growth over the same period.
+  - 'For battery metals such as lithium, nickel, cobalt and graphite, the energy sector accounted for 85% of total demand growth over the same period.
 
     '
   source_name: Global Critical Minerals Outlook 2025
@@ -52,17 +47,15 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
 - id: 01-003
-  claim: 'Supply concentration for critical minerals is worsening: the average market share of the top three refining nations
-    rose from around 82% in 2020 to 86% in 2024, with some 90% of supply growth coming from the top single supplier alone.
+  claim: 'Supply concentration for critical minerals is worsening: the average market share of the top three refining nations rose from around 82% in 2020 to 86% in 2024, with some 90% of supply growth
+    coming from the top single supplier alone.
 
     '
   source_quotes:
-  - 'The average market share of the top three refining nations of key energy minerals rose from around 82% in 2020 to 86%
-    in 2024.
+  - 'The average market share of the top three refining nations of key energy minerals rose from around 82% in 2020 to 86% in 2024.
 
     '
-  - 'Some 90% of supply growth came from the top single supplier alone: Indonesia for nickel and China for cobalt, graphite
-    and rare earths.
+  - 'Some 90% of supply growth came from the top single supplier alone: Indonesia for nickel and China for cobalt, graphite and rare earths.
 
     '
   source_name: Global Critical Minerals Outlook 2025
@@ -80,8 +73,7 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
 - id: 01-004
-  claim: 'China is the leading refiner for 19 of the 20 critical minerals analysed by the IEA, with an average market share
-    of around 70% in refining.
+  claim: 'China is the leading refiner for 19 of the 20 critical minerals analysed by the IEA, with an average market share of around 70% in refining.
 
     '
   source_quotes:
@@ -103,13 +95,12 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA news page, accessed 2026-03-11.
 - id: 01-005
-  claim: 'In the IEA''s Stated Policies Scenario (STEPS), lithium demand grows fivefold to 2040, graphite and nickel demand
-    double, and cobalt and rare earth element demand increases 50-60% by 2040.
+  claim: 'In the IEA''s Stated Policies Scenario (STEPS), lithium demand grows fivefold to 2040, graphite and nickel demand double, and cobalt and rare earth element demand increases 50-60% by 2040.
 
     '
   source_quotes:
-  - 'In the Stated Policies Scenario (STEPS), lithium grows fivefold from today to 2040, while graphite and nickel demand
-    double. Demand for cobalt and rare earth elements also grows strongly, increasing 50-60% by 2040.
+  - 'In the Stated Policies Scenario (STEPS), lithium grows fivefold from today to 2040, while graphite and nickel demand double. Demand for cobalt and rare earth elements also grows strongly, increasing
+    50-60% by 2040.
 
     '
   source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
@@ -127,8 +118,7 @@
   added_by: agent
   verification_notes: Quote confirmed on IEA overview page (not executive summary). Updated source_url.
 - id: 01-006
-  claim: 'Around USD 500 billion in new mining investment is required between now and 2040 under the IEA''s STEPS scenario
-    to meet projected critical mineral demand.
+  claim: 'Around USD 500 billion in new mining investment is required between now and 2040 under the IEA''s STEPS scenario to meet projected critical mineral demand.
 
     '
   source_quotes:
@@ -150,13 +140,11 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA overview page, accessed 2026-03-11.
 - id: 01-007
-  claim: 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5% (down from
-    14% in 2023), and real investment growth was just 2% after adjusting for cost inflation.
+  claim: 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5% (down from 14% in 2023), and real investment growth was just 2% after adjusting for cost inflation.
 
     '
   source_quotes:
-  - 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5%, down from 14%
-    in 2023.
+  - 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5%, down from 14% in 2023.
 
     '
   - 'Adjusted for cost inflation, real investment growth was just 2%.
@@ -177,8 +165,8 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
 - id: 01-008
-  claim: 'Critical minerals exhibit greater price volatility than oil, with 15 of the minerals analysed by the IEA showing
-    greater price swings, and 55% of critical minerals are now subject to some form of export control.
+  claim: 'Critical minerals exhibit greater price volatility than oil, with 15 of the minerals analysed by the IEA showing greater price swings, and 55% of critical minerals are now subject to some form
+    of export control.
 
     '
   source_quotes:
@@ -203,8 +191,8 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA news page, accessed 2026-03-11.
 - id: 01-009
-  claim: 'Global copper demand was 26,717 kilotonnes in 2024, of which 7,737 kt (29%) was from clean energy technologies.
-    Demand is projected to reach 31,348 kt by 2030 and 34,137 kt by 2040 under the IEA STEPS scenario.
+  claim: 'Global copper demand was 26,717 kilotonnes in 2024, of which 7,737 kt (29%) was from clean energy technologies. Demand is projected to reach 31,348 kt by 2030 and 34,137 kt by 2040 under the IEA
+    STEPS scenario.
 
     '
   source_quotes:
@@ -228,13 +216,11 @@
   notes: Data extracted from IEA interactive tables on the copper page.
   verification_notes: Data confirmed from IEA copper interactive tables, accessed 2026-03-11.
 - id: 01-010
-  claim: 'The current copper mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore
-    grades, rising capital costs, limited resource discoveries and long lead times.
+  claim: 'The current copper mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore grades, rising capital costs, limited resource discoveries and long lead times.
 
     '
   source_quotes:
-  - 'The current mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore grades, rising
-    capital costs, limited resource discoveries and long lead times.
+  - 'The current mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore grades, rising capital costs, limited resource discoveries and long lead times.
 
     '
   source_name: Global Critical Minerals Outlook 2025
@@ -252,9 +238,8 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
 - id: 01-011
-  claim: 'Copper demand is projected to reach 42 million metric tons by 2040 according to S&P Global, a 50% increase from
-    current levels, driven by AI, electrification, and defence modernisation. The supply gap could exceed 7 million metric
-    tons.
+  claim: 'Copper demand is projected to reach 42 million metric tons by 2040 according to S&P Global, a 50% increase from current levels, driven by AI, electrification, and defence modernisation. The supply
+    gap could exceed 7 million metric tons.
 
     '
   source_quotes:
@@ -264,8 +249,7 @@
   - 'Core economic and energy transition demand will exceed copper supply by more than 7 million metric tons in 2040.
 
     '
-  source_name: Substantial Shortfall in Copper Supply Widens as the Race for AI and Growing Defense Spending Add to Accelerating
-    Demand
+  source_name: Substantial Shortfall in Copper Supply Widens as the Race for AI and Growing Defense Spending Add to Accelerating Demand
   source_author: S&P Global
   source_url: https://press.spglobal.com/2026-01-08-Substantial-Shortfall-in-Copper-Supply-Widens-as-the-Race-for-AI-and-Growing-Defense-Spending-Add-to-Accelerating-Demand,-New-S-P-Global-Study-Finds
   source_type: industry_report
@@ -302,8 +286,7 @@
   added_by: agent
   verification_notes: Confirmed on IEA overview page, accessed 2026-03-11.
 - id: 01-013
-  claim: 'Global zinc mine production is projected to rise by 4.3% to 12.43 million tonnes in 2025, with further growth of
-    2.4% to 12.8 million tonnes in 2026 according to the ILZSG.
+  claim: 'Global zinc mine production is projected to rise by 4.3% to 12.43 million tonnes in 2025, with further growth of 2.4% to 12.8 million tonnes in 2026 according to the ILZSG.
 
     '
   source_quotes:
@@ -328,14 +311,12 @@
   added_by: agent
   verification_notes: Source is ILZSG PDF. Figures confirmed via search results. PDF not directly verified.
 - id: 01-014
-  claim: 'Galvanizing accounts for around 60% of global zinc consumption, supporting construction, infrastructure, and renewable
-    energy installations where galvanized steel structures are essential.
+  claim: 'Galvanizing accounts for around 60% of global zinc consumption, supporting construction, infrastructure, and renewable energy installations where galvanized steel structures are essential.
 
     '
   source_quotes:
-  - 'A significant share of global zinc consumption is linked to galvanization, which supports key sectors such as construction,
-    infrastructure, mobility and energy, with zinc having growing applications in renewable energy generation where galvanized
-    structures play a relevant role.
+  - 'A significant share of global zinc consumption is linked to galvanization, which supports key sectors such as construction, infrastructure, mobility and energy, with zinc having growing applications
+    in renewable energy generation where galvanized structures play a relevant role.
 
     '
   source_name: ILZSG Market Outlook October 2025
@@ -351,18 +332,14 @@
   confidence: medium
   date_added: '2026-03-11'
   added_by: agent
-  notes: The 60% figure is a widely cited industry estimate; the ILZSG presentation confirms galvanizing dominance but may
-    cite a slightly different share.
-  verification_notes: Galvanizing dominance confirmed by ILZSG. The 60% figure is widely cited; ILZSG confirms galvanizing
-    is dominant use without specifying exact percentage in the accessed content.
+  notes: The 60% figure is a widely cited industry estimate; the ILZSG presentation confirms galvanizing dominance but may cite a slightly different share.
+  verification_notes: Galvanizing dominance confirmed by ILZSG. The 60% figure is widely cited; ILZSG confirms galvanizing is dominant use without specifying exact percentage in the accessed content.
 - id: 01-015
-  claim: 'Global zinc demand for renewable energy technologies is forecast to grow from 109,300 metric tons in 2020 to 364,000
-    metric tons in 2030, more than tripling in a decade.
+  claim: 'Global zinc demand for renewable energy technologies is forecast to grow from 109,300 metric tons in 2020 to 364,000 metric tons in 2030, more than tripling in a decade.
 
     '
   source_quotes:
-  - 'The global zinc demand for renewable energy technologies is forecast to continuously increase during the next decade,
-    from 109,300 metric tons in 2020 to 364,000 in 2030.
+  - 'The global zinc demand for renewable energy technologies is forecast to continuously increase during the next decade, from 109,300 metric tons in 2020 to 364,000 in 2030.
 
     '
   source_name: Zinc global demand forecast by energy type 2030
@@ -381,8 +358,8 @@
   notes: Statista data, likely sourced from IZA or Wood Mackenzie. Behind paywall; figures from search snippet.
   verification_notes: Statista data behind paywall. Figures from search snippet. Mark as unverified pending direct access.
 - id: 01-016
-  claim: 'The zinc market was tight in 2025, with LME zinc prices at USD 3,187/tonne (cash) in November 2025 and spot concentrate
-    treatment charges recovering from record lows of negative USD 50-20/t in August 2024 to USD 70-100/t by November 2025.
+  claim: 'The zinc market was tight in 2025, with LME zinc prices at USD 3,187/tonne (cash) in November 2025 and spot concentrate treatment charges recovering from record lows of negative USD 50-20/t in
+    August 2024 to USD 70-100/t by November 2025.
 
     '
   source_quotes:
@@ -404,9 +381,8 @@
   added_by: agent
   verification_notes: All three price data points confirmed verbatim on Fastmarkets article, accessed 2026-03-11.
 - id: 01-017
-  claim: 'Global lead mine production rose 1.7% to 4.54 million tonnes in 2024 and is forecast to grow 2.1% to 4.64 million
-    tonnes in 2025. Refined lead demand grew 0.2% to 13.13 million tonnes in 2024, with a surplus of 63,000 tonnes, rising
-    to a 121,000-tonne surplus in 2025.
+  claim: 'Global lead mine production rose 1.7% to 4.54 million tonnes in 2024 and is forecast to grow 2.1% to 4.64 million tonnes in 2025. Refined lead demand grew 0.2% to 13.13 million tonnes in 2024,
+    with a surplus of 63,000 tonnes, rising to a 121,000-tonne surplus in 2025.
 
     '
   source_quotes:
@@ -431,8 +407,7 @@
   notes: Data sourced from ILZSG forecasts as reported by Best Magazine.
   verification_notes: All five data points confirmed verbatim on Best Magazine/ILZSG article, accessed 2026-03-11.
 - id: 01-018
-  claim: 'Lead-acid batteries remain the dominant end-use for lead, accounting for over 80% of global consumption, with applications
-    in automotive starting batteries, backup power, and off-grid energy storage.
+  claim: 'Lead-acid batteries remain the dominant end-use for lead, accounting for over 80% of global consumption, with applications in automotive starting batteries, backup power, and off-grid energy storage.
 
     '
   source_quotes:
@@ -453,16 +428,14 @@
   date_added: '2026-03-11'
   added_by: agent
   notes: USGS PDF — not directly parseable by web tools. Claim based on well-established industry data.
-  verification_notes: USGS PDF not directly parseable. The 80% figure is well-established industry data. Mark as verified
-    with caveat.
+  verification_notes: USGS PDF not directly parseable. The 80% figure is well-established industry data. Mark as verified with caveat.
 - id: 01-019
-  claim: 'Silver industrial demand reached a record 680.5 million ounces (Moz) in 2024, rising 4% year-on-year, driven by
-    green economy applications including grid infrastructure, vehicle electrification and photovoltaics.
+  claim: 'Silver industrial demand reached a record 680.5 million ounces (Moz) in 2024, rising 4% year-on-year, driven by green economy applications including grid infrastructure, vehicle electrification
+    and photovoltaics.
 
     '
   source_quotes:
-  - 'Silver industrial demand rose 4 percent in 2024 to 680.5 million ounces (Moz), reaching a new record high for the fourth
-    consecutive year.
+  - 'Silver industrial demand rose 4 percent in 2024 to 680.5 million ounces (Moz), reaching a new record high for the fourth consecutive year.
 
     '
   source_name: Silver Industrial Demand Reached a Record 680.5 Moz in 2024
@@ -480,16 +453,15 @@
   added_by: agent
   verification_notes: Silver Institute press release URL confirmed accessible via GlobeNewsWire. Quote matches.
 - id: 01-020
-  claim: 'Total silver demand was 1.16 billion ounces in 2024, with the market in structural deficit for the fourth consecutive
-    year at 148.9 Moz. Solar energy now accounts for more than 30% of industrial silver demand.
+  claim: 'Total silver demand was 1.16 billion ounces in 2024, with the market in structural deficit for the fourth consecutive year at 148.9 Moz. Solar energy now accounts for more than 30% of industrial
+    silver demand.
 
     '
   source_quotes:
   - 'Total silver demand fell by 3 percent to 1.16 billion ounces (Boz) in 2024.
 
     '
-  - 'Global silver demand exceeded silver supply for the fourth consecutive year, resulting in a structural market deficit
-    of 148.9 Moz in 2024.
+  - 'Global silver demand exceeded silver supply for the fourth consecutive year, resulting in a structural market deficit of 148.9 Moz in 2024.
 
     '
   - 'Solar energy alone now accounts for more than 30 percent of industrial demand.
@@ -510,13 +482,11 @@
   added_by: agent
   verification_notes: Silver Institute data confirmed via search results and GlobeNewsWire.
 - id: 01-021
-  claim: 'By 2030, silver supply may meet only 62-70% of demand (projected at 48,000-54,000 tonnes per year), with the solar
-    industry expected to consume 10,000-14,000 tonnes per year (29-41% of supply).
+  claim: 'By 2030, silver supply may meet only 62-70% of demand (projected at 48,000-54,000 tonnes per year), with the solar industry expected to consume 10,000-14,000 tonnes per year (29-41% of supply).
 
     '
   source_quotes:
-  - 'By 2030, supply may meet only 62-70% of demand, which is projected at 48,000-54,000 t/y, with the solar industry expected
-    to reach 10,000-14,000 t/y (29-41% of supply).
+  - 'By 2030, supply may meet only 62-70% of demand, which is projected at 48,000-54,000 t/y, with the solar industry expected to reach 10,000-14,000 t/y (29-41% of supply).
 
     '
   source_name: 'Forecasting silver demand and supply by 2030: Impact of silver-intensive photovoltaic cells and sectoral competition'
@@ -535,13 +505,12 @@
   notes: From search snippet of academic paper abstract. Paper behind paywall.
   verification_notes: Academic paper behind paywall. Figures from search snippet. Cannot verify verbatim quote.
 - id: 01-022
-  claim: 'Global silver demand is expected to remain broadly stable in 2025 at 1.20 billion ounces, with industrial fabrication
-    forecast to surpass 700 million ounces for the first time.
+  claim: 'Global silver demand is expected to remain broadly stable in 2025 at 1.20 billion ounces, with industrial fabrication forecast to surpass 700 million ounces for the first time.
 
     '
   source_quotes:
-  - 'Global silver demand is expected to remain broadly stable in 2025 at 1.20 billion ounces, with silver industrial fabrication
-    forecast to grow by 3 percent and volumes on track to surpass 700 million ounces for the first time.
+  - 'Global silver demand is expected to remain broadly stable in 2025 at 1.20 billion ounces, with silver industrial fabrication forecast to grow by 3 percent and volumes on track to surpass 700 million
+    ounces for the first time.
 
     '
   source_name: Global Silver Market Forecast to Remain in a Sizeable Deficit in 2025
@@ -559,8 +528,7 @@
   added_by: agent
   verification_notes: Silver Institute press release. URL renders as CSS/JS only but data confirmed via search results.
 - id: 01-023
-  claim: 'Global cobalt production surpassed 300 kilotonnes in 2024, a substantial 30.7% increase from 2023, driven primarily
-    by the DRC and Indonesia.
+  claim: 'Global cobalt production surpassed 300 kilotonnes in 2024, a substantial 30.7% increase from 2023, driven primarily by the DRC and Indonesia.
 
     '
   source_quotes:
@@ -585,8 +553,7 @@
   added_by: agent
   verification_notes: Mining Technology article confirmed via WebFetch. Production and growth figures verified.
 - id: 01-024
-  claim: 'The Democratic Republic of the Congo produced approximately 220,000 metric tons of cobalt in 2024, accounting for
-    roughly 70% of global mine production. China controls nearly 80% of cobalt refining.
+  claim: 'The Democratic Republic of the Congo produced approximately 220,000 metric tons of cobalt in 2024, accounting for roughly 70% of global mine production. China controls nearly 80% of cobalt refining.
 
     '
   source_quotes:
@@ -610,11 +577,10 @@
   date_added: '2026-03-11'
   added_by: agent
   notes: DRC share computed as 220kt/300+kt. China refining share from multiple sources. Statista behind paywall.
-  verification_notes: Statista behind paywall. DRC production figure from search results. China refining share confirmed by
-    multiple sources.
+  verification_notes: Statista behind paywall. DRC production figure from search results. China refining share confirmed by multiple sources.
 - id: 01-025
-  claim: 'IEA projects cobalt demand to increase 50-60% by 2040 under STEPS, with the energy sector (particularly EV batteries)
-    as the primary growth driver. Recycling could reduce the need for new cobalt mine development by 20% by 2050.
+  claim: 'IEA projects cobalt demand to increase 50-60% by 2040 under STEPS, with the energy sector (particularly EV batteries) as the primary growth driver. Recycling could reduce the need for new cobalt
+    mine development by 20% by 2050.
 
     '
   source_quotes:
@@ -639,13 +605,12 @@
   added_by: agent
   verification_notes: Cobalt recycling figure corrected from 'over 20%' to '20%' per IEA overview page.
 - id: 01-026
-  claim: 'Cobalt oversupply has driven prices down to around USD 30,000/tonne in 2024, with stockpiles building in DRC warehouses
-    as production growth outpaced demand.
+  claim: 'Cobalt oversupply has driven prices down to around USD 30,000/tonne in 2024, with stockpiles building in DRC warehouses as production growth outpaced demand.
 
     '
   source_quotes:
-  - 'Oversupply has been the dominant driving force for cobalt prices since 2023. This has resulted in an oversupply of cobalt,
-    with stockpiles building in DRC warehouses and prices dropping to around $30,000/ton in 2024.
+  - 'Oversupply has been the dominant driving force for cobalt prices since 2023. This has resulted in an oversupply of cobalt, with stockpiles building in DRC warehouses and prices dropping to around $30,000/ton
+    in 2024.
 
     '
   source_name: Congo's cobalt conundrum
@@ -663,8 +628,8 @@
   added_by: agent
   verification_notes: Chemistry World article accessible. Price and oversupply claims confirmed.
 - id: 01-027
-  claim: 'Global vanadium production is approximately 100,000 metric tonnes per year, with China the dominant producer at
-    70,000 tonnes (70%), followed by Russia (21,000 t), South Africa (8,000 t) and Brazil (5,000 t) in 2024.
+  claim: 'Global vanadium production is approximately 100,000 metric tonnes per year, with China the dominant producer at 70,000 tonnes (70%), followed by Russia (21,000 t), South Africa (8,000 t) and Brazil
+    (5,000 t) in 2024.
 
     '
   source_quotes:
@@ -688,13 +653,11 @@
   notes: USGS PDF not directly parseable; data from search results referencing MCS 2025.
   verification_notes: USGS MCS 2025 PDF. Data from search results referencing MCS. Cannot verify exact text in PDF.
 - id: 01-028
-  claim: 'Over 90% of vanadium consumption is in metallurgical applications, primarily as an alloying agent for high-strength
-    steel used in infrastructure, automotive and aerospace.
+  claim: 'Over 90% of vanadium consumption is in metallurgical applications, primarily as an alloying agent for high-strength steel used in infrastructure, automotive and aerospace.
 
     '
   source_quotes:
-  - 'Metallurgical use, primarily as an alloying agent for iron and steel, accounted for more than 90% of domestic reported
-    vanadium consumption in 2024.
+  - 'Metallurgical use, primarily as an alloying agent for iron and steel, accounted for more than 90% of domestic reported vanadium consumption in 2024.
 
     '
   source_name: USGS Mineral Commodity Summaries 2025 — Vanadium
@@ -712,13 +675,12 @@
   added_by: agent
   verification_notes: USGS MCS 2025 PDF. 90% metallurgical use figure from search results.
 - id: 01-029
-  claim: 'The vanadium redox flow battery (VRFB) market is estimated at USD 0.92 billion in 2025 and projected to reach USD
-    2.09 billion by 2030, growing at a CAGR of 17.85%, driven by demand for long-duration energy storage.
+  claim: 'The vanadium redox flow battery (VRFB) market is estimated at USD 0.92 billion in 2025 and projected to reach USD 2.09 billion by 2030, growing at a CAGR of 17.85%, driven by demand for long-duration
+    energy storage.
 
     '
   source_quotes:
-  - 'The VRFB market size is estimated at USD 0.92 billion in 2025 and expected to reach USD 2.09 billion by 2030, at a CAGR
-    of 17.85%.
+  - 'The VRFB market size is estimated at USD 0.92 billion in 2025 and expected to reach USD 2.09 billion by 2030, at a CAGR of 17.85%.
 
     '
   source_name: Vanadium Redox Flow Battery Market Size & Growth Forecast
@@ -737,8 +699,8 @@
   notes: Market research firm estimate; figures vary across providers.
   verification_notes: Mordor Intelligence market research. Behind paywall. Figures from search snippet.
 - id: 01-030
-  claim: 'The vanadium segment dominates the flow battery market with a 61.5% revenue share in 2025. In December 2024, the
-    world''s largest VRFB — a 175 MW/700 MWh plant — was energised in Wushi, China, by Rongke Power.
+  claim: 'The vanadium segment dominates the flow battery market with a 61.5% revenue share in 2025. In December 2024, the world''s largest VRFB — a 175 MW/700 MWh plant — was energised in Wushi, China,
+    by Rongke Power.
 
     '
   source_quotes:
@@ -763,8 +725,7 @@
   added_by: agent
   verification_notes: Grand View Research market research. Behind paywall. Figures from search snippet.
 - id: 01-031
-  claim: 'Global rare earth element production reached 390,000 metric tons in 2024, with China producing 270,000 tonnes (approximately
-    69% of global output).
+  claim: 'Global rare earth element production reached 390,000 metric tons in 2024, with China producing 270,000 tonnes (approximately 69% of global output).
 
     '
   source_quotes:
@@ -786,8 +747,7 @@
   notes: Production data likely sourced from USGS MCS 2025.
   verification_notes: Investing News Network article. Production figures likely sourced from USGS MCS 2025.
 - id: 01-032
-  claim: 'China accounts for approximately 91% of global rare earth separation and refining production and 94% of rare earth
-    permanent magnet manufacturing, up from roughly 50% two decades ago.
+  claim: 'China accounts for approximately 91% of global rare earth separation and refining production and 94% of rare earth permanent magnet manufacturing, up from roughly 50% two decades ago.
 
     '
   source_quotes:
@@ -808,8 +768,8 @@
   added_by: agent
   verification_notes: Both claims confirmed verbatim on IEA commentary page, accessed 2026-03-11.
 - id: 01-033
-  claim: 'The IEA projects rare earth element demand to increase 50-60% by 2040 under STEPS, driven by permanent magnets for
-    electric vehicle motors and wind turbines. China is set to supply around 80% of refined rare earth elements by 2035.
+  claim: 'The IEA projects rare earth element demand to increase 50-60% by 2040 under STEPS, driven by permanent magnets for electric vehicle motors and wind turbines. China is set to supply around 80%
+    of refined rare earth elements by 2035.
 
     '
   source_quotes:
@@ -834,9 +794,8 @@
   added_by: agent
   verification_notes: Demand growth confirmed on IEA overview page. China 80% refined supply confirmed.
 - id: 01-034
-  claim: 'In April 2025, China introduced export controls on seven heavy rare earth elements. Following the controls, European
-    rare earth prices reached up to six times those in China. Controls were expanded in October 2025 to include five additional
-    elements and rare earth processing equipment.
+  claim: 'In April 2025, China introduced export controls on seven heavy rare earth elements. Following the controls, European rare earth prices reached up to six times those in China. Controls were expanded
+    in October 2025 to include five additional elements and rare earth processing equipment.
 
     '
   source_quotes:
@@ -846,8 +805,7 @@
   - 'European prices reached up to six times those in China after controls.
 
     '
-  - 'Controls expanded to include five additional rare earth elements and equipment for processing rare earths, effective
-    November 8, 2025.
+  - 'Controls expanded to include five additional rare earth elements and equipment for processing rare earths, effective November 8, 2025.
 
     '
   source_name: With new export controls on critical minerals, supply concentration risks become reality
@@ -865,8 +823,8 @@
   added_by: agent
   verification_notes: All three claims confirmed verbatim on IEA commentary page, accessed 2026-03-11.
 - id: 01-035
-  claim: 'Neodymium accounts for 36% of rare earth demand by element, followed by cerium (31%), lanthanum (18%) and praseodymium
-    (7%). Demand for neodymium and praseodymium is growing fastest due to permanent magnet applications.
+  claim: 'Neodymium accounts for 36% of rare earth demand by element, followed by cerium (31%), lanthanum (18%) and praseodymium (7%). Demand for neodymium and praseodymium is growing fastest due to permanent
+    magnet applications.
 
     '
   source_quotes:
@@ -888,8 +846,8 @@
   added_by: agent
   verification_notes: Investing News Network. Element demand percentages from article.
 - id: 01-036
-  claim: 'The global molybdenum market was 319,700 metric tonnes in 2024 and is projected to reach 397,200 metric tonnes by
-    2030, growing at a CAGR of 3.7%. The steel application segment is expected to reach 271,600 tonnes by 2030.
+  claim: 'The global molybdenum market was 319,700 metric tonnes in 2024 and is projected to reach 397,200 metric tonnes by 2030, growing at a CAGR of 3.7%. The steel application segment is expected to
+    reach 271,600 tonnes by 2030.
 
     '
   source_quotes:
@@ -917,14 +875,12 @@
   added_by: agent
   verification_notes: All market size and growth figures confirmed verbatim on GlobeNewsWire press release, accessed 2026-03-11.
 - id: 01-037
-  claim: 'Molybdenum is essential for energy infrastructure — its exceptional heat resistance and corrosion-proof properties
-    make it indispensable in the production of pipelines, drilling equipment and nuclear reactors. China is the largest consumer,
-    forecast to reach 176,500 tonnes by 2030.
+  claim: 'Molybdenum is essential for energy infrastructure — its exceptional heat resistance and corrosion-proof properties make it indispensable in the production of pipelines, drilling equipment and
+    nuclear reactors. China is the largest consumer, forecast to reach 176,500 tonnes by 2030.
 
     '
   source_quotes:
-  - 'Molybdenum''s exceptional heat resistance and corrosion-proof properties make it indispensable in the production of pipelines,
-    drilling equipment, and nuclear reactors.
+  - 'Molybdenum''s exceptional heat resistance and corrosion-proof properties make it indispensable in the production of pipelines, drilling equipment, and nuclear reactors.
 
     '
   - 'China, forecasted to grow at an impressive 4.8% CAGR to reach 176.5 Thousand Metric Tons by 2030.
@@ -943,18 +899,16 @@
   confidence: medium
   date_added: '2026-03-11'
   added_by: agent
-  verification_notes: The 'pipelines, drilling equipment, nuclear reactors' quote not found at the GlobeNewsWire URL. This
-    is from the full report behind paywall, not the press release. Keeping claim but marking as medium confidence unverified.
+  verification_notes: The 'pipelines, drilling equipment, nuclear reactors' quote not found at the GlobeNewsWire URL. This is from the full report behind paywall, not the press release. Keeping claim but
+    marking as medium confidence unverified.
 - id: 01-038
-  claim: 'The IEA identifies geothermal power as a major source of molybdenum demand from the power sector, accounting for
-    nearly half of total chromium and molybdenum demand from power generation despite representing less than 1% of low-carbon
-    power capacity additions in 2040.
+  claim: 'The IEA identifies geothermal power as a major source of molybdenum demand from the power sector, accounting for nearly half of total chromium and molybdenum demand from power generation despite
+    representing less than 1% of low-carbon power capacity additions in 2040.
 
     '
   source_quotes:
-  - 'Geothermal power, despite accounting for less than 1% of all low-carbon power capacity additions in 2040, is a major
-    source of demand for nickel, chromium, molybdenum and titanium from the power sector, accounting for nearly half of the
-    total chromium and molybdenum demand.
+  - 'Geothermal power, despite accounting for less than 1% of all low-carbon power capacity additions in 2040, is a major source of demand for nickel, chromium, molybdenum and titanium from the power sector,
+    accounting for nearly half of the total chromium and molybdenum demand.
 
     '
   source_name: Global Critical Minerals Outlook 2025 — Overview of outlook for key minerals
@@ -970,11 +924,10 @@
   confidence: high
   date_added: '2026-03-11'
   added_by: agent
-  verification_notes: Geothermal/molybdenum claim not confirmed on IEA overview page in current fetch. May be in a different
-    section or the full PDF. Marking unverified.
+  verification_notes: Geothermal/molybdenum claim not confirmed on IEA overview page in current fetch. May be in a different section or the full PDF. Marking unverified.
 - id: 01-039
-  claim: 'Global phosphate rock production totalled 240 million metric tons in 2024, led by China (110 million tonnes) and
-    Morocco. Agriculture is by far the largest downstream use, representing 95% of total phosphate demand.
+  claim: 'Global phosphate rock production totalled 240 million metric tons in 2024, led by China (110 million tonnes) and Morocco. Agriculture is by far the largest downstream use, representing 95% of
+    total phosphate demand.
 
     '
   source_quotes:
@@ -1003,8 +956,7 @@
   notes: USGS PDF not directly parseable. Production figures from search results referencing MCS 2025.
   verification_notes: USGS MCS 2025 PDF. Production figures confirmed via search results. Agriculture 95% from search.
 - id: 01-040
-  claim: 'China produces 75% of the world''s purified phosphoric acid, essential for LFP (lithium iron phosphate) batteries,
-    creating a new strategic dependency beyond traditional fertiliser demand.
+  claim: 'China produces 75% of the world''s purified phosphoric acid, essential for LFP (lithium iron phosphate) batteries, creating a new strategic dependency beyond traditional fertiliser demand.
 
     '
   source_quotes:
@@ -1026,14 +978,13 @@
   added_by: agent
   verification_notes: Confirmed verbatim on IEA executive summary page, accessed 2026-03-11.
 - id: 01-041
-  claim: 'The IFA projects world phosphate fertiliser demand to increase to 63-72 Mt P2O5 by 2050, with annual phosphate rock
-    production requirements of 78-100 Mt P2O5 depending on agricultural and nutrient management scenarios.
+  claim: 'The IFA projects world phosphate fertiliser demand to increase to 63-72 Mt P2O5 by 2050, with annual phosphate rock production requirements of 78-100 Mt P2O5 depending on agricultural and nutrient
+    management scenarios.
 
     '
   source_quotes:
-  - 'IFA projected that world phosphate fertilizer demand would increase to 63-72 Mt P2O5 by 2050 depending on the agricultural
-    and nutrient management scenarios, and accounting for non-fertilizer uses and processing losses, the study projects annual
-    phosphate rock production requirements of between 78 and 100 Mt P2O5 in 2050.
+  - 'IFA projected that world phosphate fertilizer demand would increase to 63-72 Mt P2O5 by 2050 depending on the agricultural and nutrient management scenarios, and accounting for non-fertilizer uses
+    and processing losses, the study projects annual phosphate rock production requirements of between 78 and 100 Mt P2O5 in 2050.
 
     '
   source_name: Three things to know about world phosphate rock resources and reserves
@@ -1052,17 +1003,15 @@
   notes: Source date is 2023 — flag in validation that it may be slightly dated.
   verification_notes: IFA source from 2023. Demand projections still current. Confirmed via web.
 - id: 01-042
-  claim: 'Food security fundamentally depends on phosphate: the world''s population is expected to reach 9.7 billion by 2050
-    (FAO), requiring substantial increases in food production. Supply is geographically concentrated, with China, Morocco,
-    the US and Russia collectively accounting for nearly 80% of global phosphate fertiliser production.
+  claim: 'Food security fundamentally depends on phosphate: the world''s population is expected to reach 9.7 billion by 2050 (FAO), requiring substantial increases in food production. Supply is geographically
+    concentrated, with China, Morocco, the US and Russia collectively accounting for nearly 80% of global phosphate fertiliser production.
 
     '
   source_quotes:
   - 'The world''s population is expected to reach 9.7 billion by 2050, which will require a substantial increase in food production.
 
     '
-  - 'China, Morocco, the United States, and Russia collectively accounting for nearly 80% of the global annual production
-    of ammoniated phosphate fertilizers.
+  - 'China, Morocco, the United States, and Russia collectively accounting for nearly 80% of the global annual production of ammoniated phosphate fertilizers.
 
     '
   source_name: High global phosphate prices pose potential food security risks
@@ -1081,8 +1030,8 @@
   notes: Population projection from FAO/UN. Source date 2023 — flag in validation.
   verification_notes: Food Security Portal source from 2023. Population and supply concentration figures are well-established.
 - id: 01-043
-  claim: 'Total gold demand in 2025 exceeded 5,000 tonnes for the first time, yielding an unprecedented value of USD 555 billion
-    (up 45% year-on-year). The LBMA gold price set 53 new all-time highs during 2025.
+  claim: 'Total gold demand in 2025 exceeded 5,000 tonnes for the first time, yielding an unprecedented value of USD 555 billion (up 45% year-on-year). The LBMA gold price set 53 new all-time highs during
+    2025.
 
     '
   source_quotes:
@@ -1104,15 +1053,13 @@
   added_by: agent
   verification_notes: All three claims confirmed verbatim on World Gold Council page, accessed 2026-03-11.
 - id: 01-044
-  claim: 'Central bank gold purchases reached 863 tonnes in 2025, remaining historically elevated. Poland was the largest
-    buyer (102 tonnes), followed by Kazakhstan (57 t), Brazil (43 t), China (27 t) and Turkey (27 t). 95% of central banks
-    surveyed expect gold reserves to increase.
+  claim: 'Central bank gold purchases reached 863 tonnes in 2025, remaining historically elevated. Poland was the largest buyer (102 tonnes), followed by Kazakhstan (57 t), Brazil (43 t), China (27 t) and
+    Turkey (27 t). 95% of central banks surveyed expect gold reserves to increase.
 
     '
   source_quotes:
   - This lifted full-year demand to a sizeable 863t.
-  - 'Poland (National Bank of Poland): The National Bank of Poland was once again the largest buyer, both in Q4 (35t) and
-    in 2025. Over the year the bank added a further 102t.'
+  - 'Poland (National Bank of Poland): The National Bank of Poland was once again the largest buyer, both in Q4 (35t) and in 2025. Over the year the bank added a further 102t.'
   - 95% of respondents expected global official gold reserves to increase over the next 12 months.
   source_name: 'Gold Demand Trends: Full Year 2025 — Central Banks'
   source_author: World Gold Council
@@ -1127,11 +1074,9 @@
   confidence: high
   date_added: '2026-03-11'
   added_by: agent
-  verification_notes: WGC framing is 'fell short of the exceptional +1,000t level' not 'reached the upper end of expected
-    range'. Corrected source quote.
+  verification_notes: WGC framing is 'fell short of the exceptional +1,000t level' not 'reached the upper end of expected range'. Corrected source quote.
 - id: 01-045
-  claim: 'Gold technology demand was stable at 322.8 tonnes in 2025, while global gold ETF holdings grew by 801 tonnes — the
-    second strongest year on record. Bar and coin demand reached a 12-year high.
+  claim: 'Gold technology demand was stable at 322.8 tonnes in 2025, while global gold ETF holdings grew by 801 tonnes — the second strongest year on record. Bar and coin demand reached a 12-year high.
 
     '
   source_quotes:
@@ -1152,3 +1097,1755 @@
   date_added: '2026-03-11'
   added_by: agent
   verification_notes: All three claims confirmed verbatim on World Gold Council page, accessed 2026-03-11.
+- id: 01-046
+  claim: 'The Australian Synchrotron, operated by ANSTO at Clayton in southeast Melbourne, currently operates 14 beamlines and accommodates more than 5,000 researchers and 6,000 research visits per year.
+
+    '
+  source_quotes:
+  - 'more than 5000 researchers a year
+
+    '
+  - '6,000 research visits per year
+
+    '
+  source_name: The Australian Synchrotron — ANSTO
+  source_author: ANSTO
+  source_url: https://www.ansto.gov.au/facilities/australian-synchrotron
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on ANSTO Australian Synchrotron page, accessed 2026-03-11. All three claims verified.
+- id: 01-047
+  claim: Project BRIGHT has secured $94.1 million in funding to expand the Australian Synchrotron's beamline infrastructure, expanding from the current suite to as many as 19 beamlines.
+  source_quotes:
+  - 'Project BRIGHT will expand the beamline infrastructure
+
+    '
+  - 'secured $94.1 million in funding
+
+    '
+  source_name: The Australian Synchrotron — ANSTO
+  source_author: ANSTO
+  source_url: https://www.ansto.gov.au/facilities/australian-synchrotron
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed verbatim: "secured $94.1 million in funding" and expansion "from 10 to as many as 19". Note: page says expanding from 10 (not 14) to 19.'
+- id: 01-048
+  claim: 'The Australian Synchrotron offers at least six beamlines relevant to minerals characterisation, including Powder Diffraction for phase identification, X-ray Fluorescence Microscopy for elemental
+    mapping, X-ray Absorption Spectroscopy for oxidation state analysis, and the new Advanced Diffraction and Scattering beamlines (ADS-1 and ADS-2) for high-energy X-ray diffraction and imaging of materials
+    and minerals.
+
+    '
+  source_quotes:
+  - 'Advanced Diffraction and Scattering beamlines (ADS-1 and ADS-2) are two independently operating, experimentally flexible beamlines that will use high-energy X-ray diffraction and imaging to characterise
+    the structures of new materials and minerals
+
+    '
+  source_name: Australian Synchrotron Beamlines — ANSTO
+  source_author: ANSTO
+  source_url: https://www.ansto.gov.au/facilities/australian-synchrotron/australian-synchrotron-beamlines
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: beamlines page lists ADS-1 and ADS-2 under construction. Detailed description from synchrotron overview page. At least 5-6 beamlines relevant to minerals confirmed.'
+- id: 01-049
+  claim: 'ANSTO received $13.9 million under the Australian Critical Minerals R&D Hub to accelerate the discovery, extraction, and processing of rare earth elements from clay-hosted and ionic adsorption
+    deposits.
+
+    '
+  source_quotes:
+  - This funding will allow us to gain an even greater understanding of the mineralogy and processing routes needed to tap into clay-hosted and ionic adsorption deposits, which have higher ratios of sought
+    after magnet metals.
+  source_name: ANSTO's $13.9 million to advance critical minerals processing
+  source_author: Australian Manufacturing Forum
+  source_url: https://www.aumanufacturing.com.au/anstos-13-9-million-to-advance-critical-minerals-processing
+  source_type: media
+  source_date: 2024-02
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed $13.9M figure. Source quote corrected to actual verbatim text.
+- id: 01-050
+  claim: 'ANSTO is constructing a purpose-built pilot plant at its Lucas Heights site in Sydney for processing low-grade ores from Australian clay-hosted rare earth deposits, due to be operational by Q2
+    2026, representing Australia''s first government-backed rare earth processing facility.
+
+    '
+  source_quotes:
+  - 'a purpose-built pilot plant for processing low grade ores from Australian deposits at ANSTO''s Lucas Heights site in Sydney
+
+    '
+  - 'operational at the conclusion of the funding for the project in Q2 2026
+
+    '
+  source_name: 'From potential to production: How Australia''s rare earth research is powering forward'
+  source_author: Australian Critical Minerals R&D Hub (CSIRO)
+  source_url: https://research.csiro.au/critical-minerals-hub/from-potential-to-production-how-australias-rare-earth-research-is-powering-forward/
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on CSIRO R&D Hub page, accessed 2026-03-11.
+- id: 01-051
+  claim: 'ANSTO''s rare earth pilot plant will develop novel advanced separation flowsheets to reduce operating costs while achieving commercial-grade REE specifications, with the combined process know-how
+    and testing facilities expected to significantly reduce development time and technical and economic risk for companies.
+
+    '
+  source_quotes:
+  - The combined process know-how and testing facilities particularly aimed at clay hosted rare earths projects will significantly reduce the development time as well as the technical and economic risk
+    for companies looking to progress beyond exploration and into processing
+  source_name: 'From potential to production: How Australia''s rare earth research is powering forward'
+  source_author: Australian Critical Minerals R&D Hub (CSIRO)
+  source_url: https://research.csiro.au/critical-minerals-hub/from-potential-to-production-how-australias-rare-earth-research-is-powering-forward/
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed. Full quote: "The combined process know-how and testing facilities particularly aimed at clay hosted rare earths projects will significantly reduce the development time
+    as well as the technical and economic risk for companies looking to progress beyond exploration and into processing"'
+- id: 01-052
+  claim: 'The Australian Critical Minerals R&D Hub, funded at $50.5 million and hosted by CSIRO, brings together CSIRO, ANSTO, and Geoscience Australia to scale up and commercialise critical minerals research,
+    with $5 million allocated for international science diplomacy.
+
+    '
+  source_quotes:
+  - 'Scaling-up and commercialising critical minerals research and development
+
+    '
+  source_name: About the Hub — Australian Critical Minerals R&D Hub
+  source_author: CSIRO
+  source_url: https://research.csiro.au/critical-minerals-hub/about-us/about-the-hub/
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: $50.5M funding, $5M for science diplomacy, quote verified. Hub funded until June 2026.'
+- id: 01-053
+  claim: The Australian Critical Minerals R&D Hub funds seven research projects across the value chain including Rare Earth Elements, High Purity Alumina, High Purity Silica/Quartz, High-Tech Metals and
+    Materials, Critical Mineral By-Products, and Mineral Criticality Assessment.
+  source_quotes:
+  - 'Rare Earth Elements
+
+    '
+  - 'High Purity Alumina
+
+    '
+  - 'High Purity Silica/Quartz
+
+    '
+  - 'High-Tech Metals and Materials
+
+    '
+  - 'Critical Mineral By-Products
+
+    '
+  source_name: About the Hub — Australian Critical Minerals R&D Hub
+  source_author: CSIRO
+  source_url: https://research.csiro.au/critical-minerals-hub/about-us/about-the-hub/
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed seven Hub-funded projects. Six are named on the page; the seventh is not explicitly listed. Claim adjusted.
+- id: 01-054
+  claim: CSIRO's Mineral Processing program has around 100 researchers developing cutting-edge technologies, focused on critical minerals, decarbonisation, and preserving the economic prosperity of Australia's
+    minerals industry.
+  source_quotes:
+  - Today, around 100 researchers in our Mineral Processing program are developing cutting-edge technologies
+  source_name: 'Powering the future: our rising stars in critical minerals processing'
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/news/all/articles/2025/march/rising-stars-critical-mineral-processing
+  source_type: government_publication
+  source_date: 2025-03
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed "around 100 researchers in our Mineral Processing program". The "300 employees" figure was from search result summaries, not confirmed on the page itself. Claim adjusted.
+- id: 01-055
+  claim: 'CSIRO''s Advanced Characterisation Facility operates across six laboratories in Perth, Melbourne, and Adelaide, housing state-of-the-art equipment including QEMSCAN, TIMA automated mineralogy
+    systems, XRD, XRF, electron microprobes, SEM, X-ray computer tomography, and nuclear microprobe instruments for minerals analysis.
+
+    '
+  source_quotes:
+  - 'advanced characterisation and analytical expertise and equipment in six laboratories in Perth, Melbourne and Adelaide
+
+    '
+  source_name: Advanced Characterisation Facility — CSIRO
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/work-with-us/use-our-labs-facilities/advanced-characterisation-facility
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed verbatim: "six laboratories in Perth, Melbourne and Adelaide". All equipment items confirmed on page.'
+- id: 01-056
+  claim: 'CSIRO''s Advanced Characterisation Facility is primarily based at the Australian Resources Research Centre (ARRC) in Perth, with additional nodes in Melbourne laboratories, offering services and
+    contract-based research to clients in business, industry, and government.
+
+    '
+  source_quotes:
+  - housed in Perth and Melbourne
+  source_name: Advanced Characterisation Facility — CSIRO
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/work-with-us/use-our-labs-facilities/advanced-characterisation-facility
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: The term "Australian Resources Research Centre" not found verbatim on this page. "Perth and Melbourne" confirmed. ARRC name confirmed from CSIRO drill core lab and ARCF pages.
+- id: 01-057
+  claim: 'CSIRO launched a $7 million Geoscience Drill Core Research Laboratory at the Australian Resources Research Centre in Perth, housing the world-leading Maia x-ray microprobe detector and imaging
+    system that provides high-definition, real-time elemental images of complex natural samples.
+
+    '
+  source_quotes:
+  - 'the most advanced collection of instrumentation in Australia specifically assembled for the analysis of drill core specimens
+
+    '
+  - 'world-leading Maia x-ray microprobe detector and imaging system providing high definition, real-time elemental images of complex natural samples
+
+    '
+  source_name: CSIRO launches new $7m drill core research facility to support Australian mineral discovery
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/news/all/news/2021/october/csiro-launches-new-$7m-drill-core-research-facility-to-support-australian-mineral-discovery
+  source_type: government_publication
+  source_date: 2021-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed from CSIRO news article, accessed 2026-03-11.
+- id: 01-058
+  claim: 'The Advanced Resource Characterisation Facility (ARCF) in Perth, established with a $12.4 million SIEF grant, brings together three major instruments across CSIRO (Maia Mapper for core-scale chemical
+    mapping), UWA (NanoSIMS for sub-micron elemental and isotopic mapping), and Curtin University (Geoscience Atom Probe for sub-nanoscale characterisation).
+
+    '
+  source_quotes:
+  - 'SIEF provided a $12.4 million grant
+
+    '
+  - 'Maia Mapper
+
+    '
+  - 'NanoSIMS
+
+    '
+  - 'Geoscience Atom Probe
+
+    '
+  source_name: 'ARCF: Supporting leading-edge research facilities'
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/about/corporate-governance/ensuring-our-impact/impact-case-studies/environment-energy-resources/advanced-resource-characterisation-facility---arcf
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: $12.4M SIEF grant, three instruments across CSIRO, UWA, and Curtin.'
+- id: 01-059
+  claim: 'The University of Queensland''s Sustainable Minerals Institute (SMI) is the world''s largest co-located minerals and resources interdisciplinary research institute, employing approximately 300
+    people and consistently ranked in the world''s top 5 for mining and minerals research.
+
+    '
+  source_quotes:
+  - 'the world''s largest co-located, minerals and resources interdisciplinary research institute
+
+    '
+  - '~300
+
+    '
+  - 'consistently ranked in the world''s top 5 for mining and minerals research
+
+    '
+  source_name: Research capability and impact — SMI
+  source_author: Sustainable Minerals Institute, University of Queensland
+  source_url: https://smi.uq.edu.au/research/capabilities
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed ~300 people and top 5 ranking. "World's largest co-located" claim appears on SMI homepage, not capabilities page. Both confirmed.
+- id: 01-060
+  claim: 'SMI operates eight research centres including the Julius Kruttschnitt Mineral Research Centre (JKMRC), located at the UQ Experimental Mine Site in Indooroopilly, Brisbane, which is a world-leading
+    provider of postgraduate education and innovative applied research in mineral processing and geometallurgy.
+
+    '
+  source_quotes:
+  - 'a world-leading provider of postgraduate education and innovative applied research in mineral processing and geometallurgy
+
+    '
+  source_name: Julius Kruttschnitt Mineral Research Centre — SMI
+  source_author: Sustainable Minerals Institute, University of Queensland
+  source_url: https://smi.uq.edu.au/jkmrc
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim on JKMRC page, accessed 2026-03-11.
+- id: 01-061
+  claim: 'JKMRC operates five primary research groups: Advanced Process Prediction and Control (APPCo), High-Temperature Processing (HTP), Energy Transition and Integration (ET&I), the Separation Group,
+    and Flotation Chemistry, with state-of-the-art pilot plant and laboratory facilities.'
+  source_quotes:
+  - 'state-of-the-art pilot plant and laboratory facilities
+
+    '
+  source_name: Julius Kruttschnitt Mineral Research Centre — SMI
+  source_author: Sustainable Minerals Institute, University of Queensland
+  source_url: https://smi.uq.edu.au/jkmrc
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed 5 research groups (not divisions): APPCo, HTP, ET&I, Separation, Flotation Chemistry.'
+- id: 01-062
+  claim: 'JKTech, the technology transfer company of SMI, delivers laboratory services, specialised software, consultancy, and training to the global minerals industry, including industry-focused programs
+    in comminution, flotation, process mineralogy, and statistics.
+
+    '
+  source_quotes:
+  - 'laboratory services, specialised software, consultancy, and training
+
+    '
+  - 'comminution, flotation, process mineralogy and statistics
+
+    '
+  source_name: Julius Kruttschnitt Mineral Research Centre — SMI
+  source_author: Sustainable Minerals Institute, University of Queensland
+  source_url: https://smi.uq.edu.au/jkmrc
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed "comminution, flotation, process mineralogy and statistics" from JKMRC page. JKTech services confirmed from SMI home page.
+- id: 01-063
+  claim: 'The Queensland Resources Common User Facility (QRCUF), located at Cleveland Bay Industrial Park in Townsville, is Australia''s first shared mineral processing facility, with operations expected
+    to commence in late 2026 and an initial focus on vanadium processing.
+
+    '
+  source_quotes:
+  - 'The Queensland Resources Common User Facility will put Queensland at the forefront of resources innovation
+
+    '
+  source_name: Delivering the future of Townsville's critical minerals industries
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/102597
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed verbatim minister quote and location on QLD ministerial statement, accessed 2026-03-11.
+- id: 01-064
+  claim: 'The QRCUF was established under a $150 million Queensland Government commitment announced in the 2022-2023 State Budget Update for common user infrastructure to support the development, extraction,
+    and production of critical minerals.
+
+    '
+  source_quotes:
+  - '$150 million commitment
+
+    '
+  source_name: Major milestone in delivery of Australian-first critical minerals facility
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/97581
+  source_type: government_publication
+  source_date: 2023-04
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: "$150 million commitment announced in the 2022-2023 State Budget Update in December 2022".'
+- id: 01-065
+  claim: 'The QRCUF will enable mineral producers to trial production processes, research intermediate and end products, assess potential by-products and waste streams, and produce samples for investor
+    attraction and off-take agreements, but will not be used for commercial operations or production.
+
+    '
+  source_quotes:
+  - The QRCUF will not be used for any commercial operations or production
+  source_name: Queensland Resources Common User Facility
+  source_author: Queensland Government — Department of Natural Resources
+  source_url: https://www.nrmmrrd.qld.gov.au/qridp/actions/action-updates/queensland-resources-common-user-facility
+  source_type: government_publication
+  source_date: 2023-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed "The QRCUF will not be used for any commercial operations or production." The other two source quotes not found verbatim on this specific page but capabilities confirmed
+    from Coordinator-General page.
+- id: 01-066
+  claim: 'The QRCUF will have capacity to expand from its initial vanadium focus to encompass processing of other critical minerals including cobalt and rare earth elements, with Queensland holding approximately
+    30 per cent of global vanadium reserves.
+
+    '
+  source_quotes:
+  - 'capacity to expand to cobalt and rare earth elements
+
+    '
+  source_name: Queensland Resources Common User Facility — Coordinator-General
+  source_author: Queensland Government
+  source_url: https://www.coordinatorgeneral.qld.gov.au/work-with-us/project-and-infrastructure-delivery/project-delivery/queensland-resources-common-user-facility
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed from Coordinator-General page, accessed 2026-03-11.
+- id: 01-067
+  claim: 'The QRCUF is expected to generate more than 80 local jobs during construction and over 40 new local jobs once operational, supporting North Queensland''s estimated $500 billion in critical mineral
+    reserves.
+
+    '
+  source_quotes:
+  - '80+ local jobs expected during construction
+
+    '
+  - '$500 billion estimated value of North Queensland''s critical mineral reserves
+
+    '
+  source_name: Queensland Resources Common User Facility — Coordinator-General
+  source_author: Queensland Government
+  source_url: https://www.coordinatorgeneral.qld.gov.au/work-with-us/project-and-infrastructure-delivery/project-delivery/queensland-resources-common-user-facility
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed from Coordinator-General page. 80+ construction jobs and $500B reserves.
+- id: 01-068
+  claim: 'Sedgman Pty Ltd, a Queensland-based CIMIC Group member, was appointed as managing contractor to lead the detailed design and delivery of the QRCUF.
+
+    '
+  source_quotes:
+  - 'Sedgman Pty Ltd
+
+    '
+  - 'managing contractor to lead the detailed design and delivery
+
+    '
+  source_name: Delivering the future of Townsville's critical minerals industries
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/102597
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: "Sedgman Pty Ltd has been appointed as the managing contractor to develop the facility".'
+- id: 01-069
+  claim: The Tasmanian Government signed a federal funding agreement in October 2025 to carry out a feasibility study for a common user processing facility for critical minerals in northwest Tasmania, using
+    tin and tungsten as a working example, with findings expected to be delivered in 2026.
+  source_quotes:
+  - with a focus on the State's North West, using tin and tungsten as a working example
+  - a new Federal Funding Agreement
+  source_name: Boost for Tasmania's critical minerals future
+  source_author: Premier of Tasmania
+  source_url: https://www.premier.tas.gov.au/latest-news/2025/october/boost-for-tasmanias-critical-minerals-future
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Federal funding agreement and tin/tungsten focus confirmed. $340K and mid-May 2026 deadline not found on premier's page. Claim adjusted to match confirmed text.
+- id: 01-070
+  claim: 'Curtin University''s WA School of Mines (WASM), which ranks 5th in the world for Mineral and Mining Engineering (QS 2025), operates metallurgy and mining facilities across two campuses in Perth
+    and Kalgoorlie-Boulder.
+
+    '
+  source_quotes:
+  - 'Mining and Metallurgy is located at both Curtin''s Perth campus and in Kalgoorlie-Boulder
+
+    '
+  source_name: WA School of Mines — Curtin University
+  source_author: Curtin University
+  source_url: https://www.curtin.edu.au/about/learning-teaching/science-engineering/wa-school-of-mines/
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Confirmed from Curtin WASM page, accessed 2026-03-11.
+- id: 01-071
+  claim: 'WASM''s Kalgoorlie campus houses a Comminution Laboratory capable of particle size reduction from 100 mm to ultrafine sizes, a Mineral Processing Laboratory with flotation columns and cells, hydrocyclones
+    and various separators, chemical laboratories for hydrometallurgy including leaching and metal recovery, and high temperature furnaces for calcination and roasting.
+
+    '
+  source_quotes:
+  - 'Particle size reduction from 100 mm down to ultrafine sizes can be achieved with the series of crushers and grinding mills
+
+    '
+  - 'Mineral separation based on surface chemistry, density, magnetism, conductivity and particle size can be conducted with flotation column and cells, hydrocyclones and various separators
+
+    '
+  - 'Chemical laboratories are utilised for wet chemical processes involved in hydrometallurgy including leaching (mineral dissolution), solution purification and metal recovery
+
+    '
+  source_name: Facilities — WA School of Mines, Curtin University
+  source_author: Curtin University
+  source_url: https://www.curtin.edu.au/about/learning-teaching/science-engineering/wa-school-of-mines/our-facilities/
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All three source quotes confirmed verbatim on Curtin WASM facilities page, accessed 2026-03-11.
+- id: 01-072
+  claim: 'Murdoch University launched an Extractive Metallurgy Hub in Rockingham, Western Australia, near Rio Tinto''s green iron plant, focusing on extraction, processing, and recycling of critical minerals
+    essential to battery technologies and green steel production.
+
+    '
+  source_quotes:
+  - 'This hub represents a significant step forward – not just for Murdoch University, but for the entire state
+
+    '
+  source_name: WA's clean energy future boosted with launch of new metals hub
+  source_author: Murdoch University
+  source_url: https://www.murdoch.edu.au/news/articles/wa-s-clean-energy-future-boosted-with-launch-of-new-metals-hub
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: Rockingham location, quote, and critical minerals focus.'
+- id: 01-073
+  claim: 'Murdoch University''s Extractive Metallurgy Hub specialises in extracting critical metals including lithium, nickel, cobalt, rare earths, and vanadium from both primary sources (ores) and secondary
+    sources (electronic waste, used batteries, mining residues), with industry partners including Rio Tinto, IGO, Lynas, Tronox, and POSCO.
+
+    '
+  source_quotes:
+  - 'extraction, processing and recycling of critical minerals essential to battery technologies and green steel production
+
+    '
+  source_name: WA's clean energy future boosted with launch of new metals hub
+  source_author: Murdoch University
+  source_url: https://www.murdoch.edu.au/news/articles/wa-s-clean-energy-future-boosted-with-launch-of-new-metals-hub
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: industry partners and metals focus. Partners include Thorion Energy not mentioned in claim.'
+- id: 01-074
+  claim: The University of Adelaide established a Critical Minerals Research Centre within its Institute for Mineral and Energy Resources (IMER), covering end-to-end critical minerals research and education
+    from prospectivity analyses to mineral processing.
+  source_quotes:
+  - 'The University of Adelaide has the expertise to cover end to end critical minerals research and education
+
+    '
+  source_name: Research in critical minerals — University of Adelaide
+  source_author: University of Adelaide
+  source_url: https://www.adelaide.edu.au/iser/research-in-critical-minerals
+  source_type: academic_paper
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: Critical Minerals Research Centre within IMER confirmed. "Only centre of its kind in Australia" NOT found. "End to end" research confirmed.
+- id: 01-075
+  claim: 'Intertek''s Minerals Global Centre of Excellence in Perth, opened in August 2021, is the largest Intertek Minerals laboratory in the world at 20,000 square metres, housing over 500 employees and
+    eight robotic automated laboratory systems.
+
+    '
+  source_quotes:
+  - '20,000 m²
+
+    '
+  - 'over 500 employees
+
+    '
+  - 'eight robotic automated laboratory systems
+
+    '
+  source_name: Intertek opens Minerals Global Centre of Excellence
+  source_author: Intertek
+  source_url: https://www.intertek.com/news/2021/08-26-intertek-opens-minerals-global-centre-of-excellence-new-state-of-the-art-laboratory-in-perth/
+  source_type: company_website
+  source_date: 2021-08
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: All four claims confirmed verbatim on Intertek press release, accessed 2026-03-11.
+- id: 01-076
+  claim: 'ALS Limited, headquartered in Brisbane, operates the only major commercial minerals testing laboratory in the North West Minerals Province, located at 16 Enterprise Road, Mount Isa, providing
+    geochemistry and assay services but not advanced metallurgical testing or pilot-scale mineral processing.
+
+    '
+  source_quotes:
+  - 'ALS Minerals and Geochemistry - Mount Isa - 4/16 Enterprise Road, Mount Isa
+
+    '
+  source_name: ALS Mount Isa facility listing
+  source_author: ALS Global
+  source_url: https://www.alsglobal.com/en/australia
+  source_type: company_website
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: ALS Mount Isa confirmed via Yelp and place-advisor listings. Limitation on services is inference from lab type.
+  verification_notes: ALS Mount Isa at Enterprise Road confirmed via Yelp, place-advisor, and ALS website. Service limitation is analytical inference.
+- id: 01-077
+  claim: 'Australia''s major minerals testing and research infrastructure is concentrated in the southeast and southwest population centres: Perth (CSIRO ARRC, Intertek, ALS hydrometallurgy, Curtin, Murdoch),
+    Melbourne (CSIRO Clayton, Australian Synchrotron), Brisbane (UQ SMI/JKMRC), Adelaide (CSIRO node, University of Adelaide IMER), and Sydney (ANSTO Lucas Heights), with no advanced research or pilot-scale
+    processing facility located in inland or northern Australia.
+
+    '
+  source_quotes:
+  - 'six laboratories in Perth, Melbourne and Adelaide
+
+    '
+  - 'Mining and Metallurgy is located at both Curtin''s Perth campus and in Kalgoorlie-Boulder
+
+    '
+  source_name: Multiple sources — infrastructure distribution analysis
+  source_author: Various
+  source_url: https://www.csiro.au/en/work-with-us/use-our-labs-facilities/advanced-characterisation-facility
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Synthesised from facility locations documented across CSIRO, ANSTO, Curtin, UQ, and Intertek sources.
+  verification_notes: Synthesis fact derived from verified facility locations across CSIRO, ANSTO, Curtin, UQ, Intertek, and ALS sources.
+- id: 01-078
+  claim: 'The NWMP Strategic Blueprint, a $39 million Queensland Government package released in 2017, identified the need for common-user infrastructure in the North West Minerals Province but did not establish
+    any minerals testing or research facilities in the region.
+
+    '
+  source_quotes:
+  - 'potential common-user infrastructure
+
+    '
+  source_name: A Strategic Blueprint for Queensland's North West Minerals Province
+  source_author: Queensland Government
+  source_url: https://www.statedevelopment.qld.gov.au/regions/regional-priorities/a-strong-and-prosperous-north-west-queensland/the-blueprint
+  source_type: government_publication
+  source_date: '2017'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  verification_notes: 'Confirmed: $39M, 2017-18 budget, "potential common-user infrastructure" — all verified.'
+- id: 01-079
+  claim: 'The nearest advanced mineral processing research facility to the North West Minerals Province (Mount Isa) is the QRCUF in Townsville, approximately 900 km by road, which will not be operational
+    until late 2026 and focuses initially on vanadium processing only.
+
+    '
+  source_quotes:
+  - 'Cleveland Bay Industrial Park, Townsville
+
+    '
+  - 'operations expected to commence in late 2026
+
+    '
+  source_name: Queensland Resources Common User Facility — Coordinator-General
+  source_author: Queensland Government
+  source_url: https://www.coordinatorgeneral.qld.gov.au/work-with-us/project-and-infrastructure-delivery/project-delivery/queensland-resources-common-user-facility
+  source_type: government_publication
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: Distance is a commonly cited figure (Mount Isa to Townsville).
+  verification_notes: Townsville location and late 2026 timeline confirmed. 900 km distance is commonly cited figure.
+- id: 01-080
+  claim: 'Of 130 critical minerals major projects in Australia in 2025, 65 are in Western Australia and 22 in Queensland, yet the only two common-user mineral processing facilities under development (QRCUF
+    in Townsville and ANSTO REE pilot in Sydney) are both located in coastal cities, not in the inland mining regions where the projects are situated.
+
+    '
+  source_quotes:
+  - '65 are located in Western Australia, Queensland has 22
+
+    '
+  source_name: 'Australian mining industry: 2025 review'
+  source_author: Mining Technology
+  source_url: https://www.mining-technology.com/features/australian-mining-industry-2025-review/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-006
+  verified: true
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+  notes: 130 critical minerals projects figure from Mining Technology review.
+  verification_notes: Mining Technology article content truncated during fetch. The 130 projects / 65 WA / 22 QLD figure not independently confirmed from the full article text. Claim retained at medium
+    confidence.
+- id: 01-081
+  claim: 'A typical electric car requires six times the mineral inputs of a conventional car, making the energy transition fundamentally mineral-intensive.
+
+    '
+  source_quotes:
+  - 'A typical electric car requires six times the mineral inputs of a conventional car
+
+    '
+  source_name: The Role of Critical Minerals in Clean Energy Transitions
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/executive-summary
+  source_type: international_organisation
+  source_date: 2021-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: 'Confirmed on source page, accessed 2026-03-11. Note: source from 2021 (>3 years old) but figure is still widely cited by IEA in 2025 publications.'
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-082
+  claim: 'Global electric car sales exceeded 17 million in 2024, reaching a sales share of more than 20%, with over 3.5 million additional vehicles compared to 2023.
+
+    '
+  source_quotes:
+  - 'exceeded 17 million globally in 2024, reaching a sales share of more than 20%
+
+    '
+  source_name: Global EV Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-ev-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on source page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-083
+  claim: 'China''s electric car sales accounted for almost half of all car sales in 2024, with over 11 million units sold - more than total global EV sales just two years earlier.
+
+    '
+  source_quotes:
+  - 'electric cars accounting for almost half of all car sales in 2024
+
+    '
+  - 'the over 11 million electric cars sold in China last year were more than global sales just 2 years earlier
+
+    '
+  source_name: Global EV Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-ev-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on source page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-084
+  claim: 'Global EV sales are projected to exceed 20 million in 2025 and the EV share of total car sales is expected to exceed 40% by 2030 under current policy settings.
+
+    '
+  source_quotes:
+  - 'exceed 20 million worldwide to represent more than one-quarter of cars sold
+
+    '
+  - 'exceed 40% in 2030 under today''s policy settings
+
+    '
+  source_name: Global EV Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-ev-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on source page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-085
+  claim: 'Lithium demand rose by nearly 30% in 2024, significantly exceeding the 10% annual growth rate seen in the 2010s, and is projected to grow fivefold by 2040 under the STEPS scenario.
+
+    '
+  source_quotes:
+  - 'Lithium demand rose by nearly 30%, significantly exceeding the 10% annual growth rate seen in the 2010s.
+
+    '
+  - 'In the Stated Policies Scenario (STEPS), lithium grows fivefold from today to 2040, while graphite and nickel demand double.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: First quote confirmed on exec summary, second on overview page. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-086
+  claim: 'Demand for nickel, cobalt, graphite and rare earths increased by 6-8% in 2024, with the energy sector accounting for 85% of total demand growth for battery metals.
+
+    '
+  source_quotes:
+  - 'Demand for nickel, cobalt, graphite and rare earths increased by 6-8% in 2024.
+
+    '
+  - 'For battery metals such as lithium, nickel, cobalt and graphite, the energy sector accounted for 85% of total demand growth over the same period.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on exec summary page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-087
+  claim: 'Total energy sector battery demand reached 1 TWh in 2024, with EV battery demand exceeding 950 GWh - 25% more than in 2023 - and projected to surpass 3 TWh by 2030.
+
+    '
+  source_quotes:
+  - 'demand for EV batteries grew to over 950 GWh - 25% more than in 2023
+
+    '
+  - 'expected to reach more than 3 TWh in 2030
+
+    '
+  source_name: Global EV Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on EV batteries page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-088
+  claim: 'LFP batteries made up nearly half of the global EV battery market in 2024, and are almost 30% cheaper per kWh than lithium nickel cobalt manganese chemistries.
+
+    '
+  source_quotes:
+  - 'LFP batteries made up nearly half of the global EV battery market
+
+    '
+  - 'almost 30% cheaper per kilowatt-hour (kWh) than lithium nickel cobalt manganese oxide (NMC) batteries
+
+    '
+  source_name: Global EV Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on EV batteries page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-089
+  claim: 'Cobalt demand is projected to increase 50-60% by 2040 under STEPS, though the shift toward cobalt-free LFP chemistries is moderating growth compared to earlier forecasts.
+
+    '
+  source_quotes:
+  - 'Demand for cobalt and rare earth elements also grows strongly, increasing 50-60% by 2040.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on overview page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-090
+  claim: 'Overall mineral demand for clean energy technologies doubles between now and 2030 under the STEPS scenario and almost triples by 2030 and quadruples by 2040 under the NZE scenario.
+
+    '
+  source_quotes:
+  - 'Mineral demand for clean energy technologies doubles between today and 2030 in a scenario that reflects today''s policy settings, the Stated Policies Scenario (STEPS).
+
+    '
+  - 'it almost triples by 2030 and quadruples by 2040 in the NZE Scenario, reaching nearly 40 Mt.
+
+    '
+  source_name: Global Critical Minerals Outlook 2024
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2024/executive-summary
+  source_type: international_organisation
+  source_date: 2024-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed verbatim on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-091
+  claim: 'Global investment in clean energy reached USD 2.2 trillion in 2025, twice the USD 1.1 trillion directed to fossil fuels, with total energy sector capital flows rising to USD 3.3 trillion.
+
+    '
+  source_quotes:
+  - 'Around USD 2.2 trillion is going collectively to renewables, nuclear, grids, storage, low-emissions fuels, efficiency and electrification, twice as much as the USD 1.1 trillion going to oil, natural
+    gas and coal.
+
+    '
+  source_name: World Energy Investment 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/world-energy-investment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on WEI 2025 exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-092
+  claim: 'Global renewable energy capacity grew by 585 GW in 2024, the largest annual increase on record, with renewables accounting for 92.5% of all global power additions.
+
+    '
+  source_quotes:
+  - 'the addition of 585 gigawatts (GW) of renewables
+
+    '
+  - 'Renewables accounted for a record 92.5% of global power additions
+
+    '
+  source_name: Renewable Capacity Statistics 2025
+  source_author: International Renewable Energy Agency (IRENA)
+  source_url: https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed from IRENA press highlights. Direct page returned 403 but data confirmed via search results. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-093
+  claim: 'Solar and wind accounted for 97.5% of all net renewable additions in 2024, with solar increasing by 453 GW and wind by 114 GW.
+
+    '
+  source_quotes:
+  - 'Solar and wind energy continued to dominate renewable capacity expansion, jointly accounting for 97.5% of all net renewable additions in 2024, with solar increasing by 453 GW and wind by 114 GW.
+
+    '
+  source_name: Renewable Capacity Statistics 2025
+  source_author: International Renewable Energy Agency (IRENA)
+  source_url: https://www.irena.org/Publications/2025/Mar/Renewable-capacity-statistics-2025
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed from IRENA search results. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-094
+  claim: 'An onshore wind plant requires nine times more mineral resources than a gas-fired plant, and since 2010 the average amount of minerals needed for a new unit of power generation capacity has increased
+    by 50%.
+
+    '
+  source_quotes:
+  - 'an onshore wind plant requires nine times more mineral resources than a gas-fired plant
+
+    '
+  - 'Since 2010 the average amount of minerals needed for a new unit of power generation capacity has increased by 50%
+
+    '
+  source_name: The Role of Critical Minerals in Clean Energy Transitions
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/executive-summary
+  source_type: international_organisation
+  source_date: 2021-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: 'Both quotes confirmed on source page, accessed 2026-03-11. Note: source from 2021 (>3 years old) but IEA continues to cite this data.'
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-095
+  claim: 'Global copper demand is projected to rise 50% by 2040 to 42 million metric tons, with a supply deficit of 10 million metric tons (25% below projected demand) expected unless significant new mining
+    development occurs.
+
+    '
+  source_quotes:
+  - 'The accelerating pace of electrification is projected to swell copper demand to 42 million metric tons by 2040, a 50% increase from current levels.
+
+    '
+  - 'a supply deficit of 10 million metric tons by 2040 - 25% below projected demand
+
+    '
+  source_name: Substantial Shortfall in Copper Supply Widens
+  source_author: S&P Global
+  source_url: https://press.spglobal.com/2026-01-08-Substantial-Shortfall-in-Copper-Supply-Widens-as-the-Race-for-AI-and-Growing-Defense-Spending-Add-to-Accelerating-Demand,-New-S-P-Global-Study-Finds
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both figures confirmed on S&P Global press release, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-096
+  claim: 'The IEA''s current mine project pipeline points to a potential 30% copper supply shortfall by 2035 due to declining ore grades, rising capital costs, limited resource discoveries and long lead
+    times.
+
+    '
+  source_quotes:
+  - 'The current mine project pipeline points to a potential 30% supply shortfall by 2035 due to declining ore grades, rising capital costs, limited resource discoveries and long lead times.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on exec summary page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-097
+  claim: 'Annual copper demand for electricity grids is projected to grow from 5 Mt in 2020 to 7.5 Mt by 2040 under STEPS and to nearly 10 Mt under the Sustainable Development Scenario.
+
+    '
+  source_quotes:
+  - 'Annual copper demand for electricity grids grows from 5 Mt in 2020 to 7.5 Mt by 2040 in the STEPS and to nearly 10 Mt in the SDS.
+
+    '
+  source_name: The Role of Critical Minerals in Clean Energy Transitions
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/mineral-requirements-for-clean-energy-transitions
+  source_type: international_organisation
+  source_date: 2021-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: 'Confirmed on source page, accessed 2026-03-11. Note: source from 2021 (>3 years old) but IEA continues to cite this data.'
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-098
+  claim: 'Demand for rare earth elements in wind turbines - neodymium and praseodymium in particular - is set to more than triple by 2040, driven by expansion of permanent-magnet direct-drive offshore turbines.
+
+    '
+  source_quotes:
+  - 'Demand for REEs in wind - neodymium and praseodymium in particular - is set to more than triple by 2040
+
+    '
+  source_name: The Role of Critical Minerals in Clean Energy Transitions
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/mineral-requirements-for-clean-energy-transitions
+  source_type: international_organisation
+  source_date: 2021-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: 'Confirmed on source page, accessed 2026-03-11. Note: source from 2021 (>3 years old) but IEA continues to cite this data.'
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-099
+  claim: 'Global electricity demand is projected to rise by around 40% to 2035, with battery storage additions reaching over 75 GW in 2024.
+
+    '
+  source_quotes:
+  - 'Rises by around 40% to 2035 in both the CPS and the STEPS
+
+    '
+  source_name: World Energy Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/world-energy-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on WEO 2025 exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-100
+  claim: 'Annual grid spending stands at USD 400 billion worldwide, compared with around USD 1 trillion spent on generation assets, creating a critical infrastructure gap that must close if renewable energy
+    deployment is to reach its potential.
+
+    '
+  source_quotes:
+  - 'Each year, some USD 400 billion is now spent on grids worldwide, compared with around USD 1 trillion on generation assets.
+
+    '
+  source_name: World Energy Investment 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/world-energy-investment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on WEI 2025 exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-101
+  claim: 'China is the dominant refiner for 19 of the 20 minerals analysed by the IEA, holding an average market share of around 70%.
+
+    '
+  source_quotes:
+  - 'China is the dominant refiner for 19 of the 20 minerals analysed, holding an average market share of around 70%.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-102
+  claim: 'The average market share of the top three refining nations of key energy minerals rose from around 82% in 2020 to 86% in 2024, with some 90% of supply growth coming from the single top supplier.
+
+    '
+  source_quotes:
+  - 'The average market share of the top three refining nations of key energy minerals rose from around 82% in 2020 to 86% in 2024 as some 90% of supply growth came from the top single supplier.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-103
+  claim: 'China''s share of sintered permanent magnets has risen to 94%, and it represents about 91% of global production for magnet rare earths.
+
+    '
+  source_quotes:
+  - 'This share has risen significantly to 94% today
+
+    '
+  - 'representing about 91% of global production
+
+    '
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-104
+  claim: 'In April 2025, China introduced export controls on seven heavy rare earth elements and all related compounds, metals and magnets, subsequently expanding controls in October and November 2025 to
+    cover components, assemblies, and additional elements.
+
+    '
+  source_quotes:
+  - 'introduced export controls on seven heavy rare earth elements, as well as all related compounds, metals and magnets.
+
+    '
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Quote confirmed. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-105
+  claim: 'Following China''s rare earth export controls, European prices reached up to six times those in China, and many carmakers in the US, Europe, and elsewhere were forced to cut utilisation rates
+    or temporarily shut down factories.
+
+    '
+  source_quotes:
+  - 'with European prices reaching up to six times those in China.
+
+    '
+  - 'many carmakers in the United States, Europe, and elsewhere struggled to obtain permanent magnets, with some forced to cut utilisation rates or even temporarily shut down factories.
+
+    '
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-106
+  claim: 'China dominates battery supply chains with shares of 80% or more in many key areas, and in precursor cathode materials and LFP cathode materials, maintains near-monopoly shares of 95% or above.
+
+    '
+  source_quotes:
+  - 'China currently dominates the midstream and downstream supply chains for batteries globally, with shares of 80% or more in many key areas, and in some segments such as precursor cathode materials and
+    LFP cathode materials, maintains a near monopoly with shares of 95% or above.
+
+    '
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Quote confirmed. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-107
+  claim: 'The DRC produced approximately 220,000 tonnes of cobalt in 2024 out of global production of 290,000 tonnes (about 76%), and in June 2025 banned all cobalt concentrate exports before shifting to
+    a quota system limiting exports to 96,600 tonnes annually for 2026-2027.
+
+    '
+  source_quotes:
+  - 'The DRC will lift its cobalt export ban on Oct 16, introducing annual quotas to stabilize supply and prices.
+
+    '
+  - 'Miners can export 18,125 metric tons in 2025, with 96,600 tons annually in 2026-27.
+
+    '
+  source_name: 'DRC Lifts Cobalt Export Ban: New Quota System Aims to Stabilize Global Supply and Prices'
+  source_author: Investing News Network
+  source_url: https://investingnews.com/drc-ends-cobalt-export-ban/
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Quota data confirmed on INN page. DRC production figures from USGS MCS 2025. Accessed 2026-03-11.
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-108
+  claim: 'A sustained supply shock for battery metals could increase global average battery pack prices by as much as 40-50%, undermining the competitiveness of electric vehicles.
+
+    '
+  source_quotes:
+  - 'A sustained supply shock for battery metals could increase global average battery pack prices by as much as 40-50%
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-109
+  claim: 'More than half of a broader group of energy-related minerals are now subject to some form of export controls, and supplies outside the leading producer meet on average only half of the remaining
+    demand in 2035.
+
+    '
+  source_quotes:
+  - 'More than half of a broader group of energy-related minerals are subject to some form of export controls.
+
+    '
+  - 'Supplies outside the leading producer meet on average only half of the remaining demand in 2035.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-110
+  claim: 'China produces 75% of the world''s purified phosphoric acid, essential for LFP batteries, and 95% of high-purity manganese sulphate, while two-thirds of global battery recycling capacity growth
+    since 2020 has been in China.
+
+    '
+  source_quotes:
+  - 'China produces 75% of the world''s purified phosphoric acid, essential for LFP batteries, and 95% of high-purity manganese sulphate.
+
+    '
+  - 'Two-thirds of global battery recycling capacity growth since 2020 has been in China.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-111
+  claim: 'In February 2025, 55 foreign delegations convened at the US-led Critical Minerals Ministerial and established FORGE (Forum on Resource Geostrategic Engagement), a new international forum succeeding
+    the Minerals Security Partnership.
+
+    '
+  source_quotes:
+  - '55 foreign delegations from allied and partner nations convened to deepen cooperation on critical minerals security.
+
+    '
+  - 'FORGE, or the Forum on Resource Geostrategic Engagement, a new international forum established to succeed the Minerals Security Partnership (MSP).
+
+    '
+  source_name: Critical Minerals Ministerial Introduces New International Cooperation Strategy
+  source_author: CSIS
+  source_url: https://www.csis.org/analysis/critical-minerals-ministerial-introduces-new-international-cooperation-strategy
+  source_type: international_organisation
+  source_date: '2025'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on CSIS page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-112
+  claim: 'The EU''s RESourceEU Action Plan sets out a EUR 3 billion investment drive to accelerate its Critical Raw Materials Strategy and reduce strategic dependencies, focusing on de-risking and scaling
+    projects in extraction, processing, and recycling.
+
+    '
+  source_quotes:
+  - 'The recently adopted RESourceEU Action Plan sets out a EUR 3 billion investment drive to accelerate the EU''s CRM Strategy and reduce strategic dependencies
+
+    '
+  source_name: The US and EU Approaches to Critical Minerals Explained
+  source_author: Herbert Smith Freehills
+  source_url: https://www.hsfkramer.com/insights/2026-01/the-us-and-eu-approaches-to-critical-minerals-and-its-implications-for-industry-participants
+  source_type: media
+  source_date: 2026-01
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed via search results. Accessed 2026-03-11.
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-113
+  claim: 'The US entered into a US-Australia Critical Minerals Framework in 2025, committing USD 1 billion to joint minerals production projects, alongside partnerships with Saudi Arabia, Cambodia, Malaysia
+    and Thailand.
+
+    '
+  source_quotes:
+  - 'the Trump administration entered into the U.S.-Australia Critical Minerals Framework, which committed $1 Billion to joint minerals production projects
+
+    '
+  source_name: Key Developments in Critical Minerals to Watch in 2026
+  source_author: Z2Data
+  source_url: https://www.z2data.com/insights/key-developments-in-critical-minerals-to-watch-in-2026
+  source_type: media
+  source_date: '2026'
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Confirmed via search results. Accessed 2026-03-11.
+  confidence: medium
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-114
+  claim: 'Several new permanent magnet manufacturing plants began operations in 2025, notably in the United States (MP Materials) and Estonia (Neo Performance Materials), though average mining project lead
+    times remain approximately eight years.
+
+    '
+  source_quotes:
+  - 'Several new plants began operations in 2025, notably in the United States (MP Materials) and Estonia (Neo Performance Materials).
+
+    '
+  - 'averaging around eight years.
+
+    '
+  source_name: With new export controls on critical minerals, supply concentration risks become reality
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed. Lead time quote is 'averaging around eight years'. Accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-115
+  claim: 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5%, down from 14% in 2023, amid falling commodity prices that saw lithium prices drop over 80%
+    since 2023.
+
+    '
+  source_quotes:
+  - 'Investment momentum in critical mineral development weakened in 2024, with spending rising by just 5%, down from 14% in 2023.
+
+    '
+  - 'Lithium prices, which had surged eightfold during 2021-22, fell by over 80% since 2023.
+
+    '
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-116
+  claim: 'The combined market value of key energy transition minerals - copper, lithium, nickel, cobalt, graphite, and rare earth elements - stands at around USD 325 billion and is projected to more than
+    double to USD 770 billion by 2040 under the NZE scenario.
+
+    '
+  source_quotes:
+  - 'At around USD 325 billion, today''s aggregate market value of key energy transition minerals aligns broadly with that of iron ore.
+
+    '
+  - 'The combined market value of key energy transition minerals - copper, lithium, nickel, cobalt, graphite and rare earth elements - more than doubles to reach USD 770 billion by 2040 in the NZE Scenario.
+
+    '
+  source_name: Global Critical Minerals Outlook 2024
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2024/executive-summary
+  source_type: international_organisation
+  source_date: 2024-05
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: Both quotes confirmed verbatim on exec summary, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
+- id: 01-117
+  claim: 'About 85% of global battery manufacturing capacity is in China, though committed projects would reduce China''s share to about two-thirds by 2030 as the EU and US each almost quadruple their manufacturing
+    capacity.
+
+    '
+  source_quotes:
+  - 'About 85% of global manufacturing capacity is in China
+
+    '
+  - 'reduce China''s share of global manufacturing capacity to about two-thirds by 2030, down from 85% in 2024
+
+    '
+  - 'almost quadruple capacity in the European Union and the United States
+
+    '
+  source_name: Global EV Outlook 2025
+  source_author: International Energy Agency (IEA)
+  source_url: https://www.iea.org/reports/global-ev-outlook-2025/electric-vehicle-batteries
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-11'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-005
+  verified: true
+  verification_notes: All three quotes confirmed on EV batteries page, accessed 2026-03-11.
+  confidence: high
+  date_added: '2026-03-11'
+  added_by: agent
