@@ -26,7 +26,7 @@
     its critical minerals production, processing and supply chains while creating jobs and economic opportunity.
     The strategy has been in force since December 2023 at the national jurisdiction level.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on IEA policy page, accessed 2026-03-11"
@@ -67,7 +67,7 @@
     investment and building international partnerships; First Nations engagement and benefit sharing;
     promoting ESG leadership; unlocking infrastructure investment; and growing a skilled workforce.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on IEA policy page. Corrected Focus Area 4 and 5 names to match source exactly."
@@ -99,7 +99,7 @@
     domestic capability in refining and processing; enable a pipeline of new critical mineral
     discoveries and projects by supporting exploration.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on IEA policy page. Corrected quotes to match exact source language."
@@ -129,7 +129,7 @@
     apply skilled migration settings to industry needs; improve community understanding of mining's
     energy transition role.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on IEA policy page. Corrected quote to match exact source language."
@@ -163,7 +163,7 @@
     nickel, platinum group elements, rare earth elements, rhenium, selenium, silicon, scandium, tantalum,
     tellurium, titanium, tungsten, vanadium and zirconium.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "31 minerals list confirmed via search results from DISR. Government page not directly fetchable."
@@ -192,7 +192,7 @@
     The Australian Government is committed to building up our critical minerals capacity, fast-tracking
     the exploration, extraction, processing, and value-adding of these minerals.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed verbatim on Austrade page, accessed 2026-03-11"
@@ -224,7 +224,7 @@
     costs of processing certain critical minerals in Australia. The offset is available between 1 July
     2027 and 30 June 2040, for a maximum of 10 years. The offset is uncapped and refundable.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed verbatim on ATO CMPTI page, accessed 2026-03-11"
@@ -258,7 +258,7 @@
     mineral into a purer or more refined form of the critical mineral that is chemically distinct from
     the feedstock. Excluded activities: mining, beneficiation, and manufacturing do not qualify.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on ATO CMPTI page. Corrected exclusion language to match source exactly."
@@ -288,7 +288,7 @@
     The Future Made in Australia (Production Tax Credits and Other Measures) Act 2025 established
     the critical minerals production tax incentive.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Budget figure from search results. Government pages not directly fetchable."
@@ -322,7 +322,7 @@
     R&D projects. For companies with annual aggregated turnover of less than $20m, the offset rate is
     43.5%. Metallurgical testing falls within the scope for the R&D offset program.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "From Centre Concept Presentation (internal document). R&D offset rate is standard federal program."
@@ -357,7 +357,7 @@
     Development Plan, along with other previous announcements to deliver a package specifically
     targeted at the critical minerals sector.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on QLD ministerial statement, accessed 2026-03-11"
@@ -394,7 +394,7 @@
     The Critical Minerals Strategy sets out four key objectives: Move faster, smarter; Maximise
     investment; Build value chains; Foster research and ESG excellence.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed via Allens legal analysis of QLD strategy. Four objectives match strategy document."
@@ -426,7 +426,7 @@
     and $75 million in funding to support investment in advanced critical minerals projects.
     Critical Mineral Zones at Julia Creek/Richmond and Mt Isa.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on QLD ministerial statement, accessed 2026-03-11"
@@ -455,7 +455,7 @@
     As of 1 September 2023 the rent for new and existing exploration permits for minerals was reduced
     to $0 for five years (approximately $55 million of forgone revenue).
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Rent reduction confirmed on QLD ministerial statement. Date of 1 September 2023 from secondary sources."
@@ -484,7 +484,7 @@
     of critical minerals" by processing materials and manufacturing renewables domestically rather
     than remaining a "low-end supplier."
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed verbatim quote from Premier Palaszczuk on QLD ministerial statement."
@@ -515,7 +515,7 @@
     North West Minerals Province with the largest renewable energy zone on the east coast of
     Australia to mine and process critical minerals with renewable energy.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "CopperString details from QLD State Development page via search results."
@@ -544,7 +544,7 @@
     richest mineral-producing regions. The North West Minerals Province is assessed to hold deposits
     worth $500 billion dollars.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "NWMP $500 billion figure from QLD Strategic Blueprint via search results."
@@ -579,7 +579,7 @@
     $30 million for growth-stage businesses (QIC administered). Premier Palaszczuk: "Queensland is in
     the enviable position to grow our capabilities right through the supply chain from pit to product."
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed $100 million fund and two streams on QLD ministerial statement. Corrected stream details."
@@ -609,7 +609,7 @@
     Funding allocations include: Circular economy research and development: $8 million;
     Collaborative Exploration Initiative: $5 million; Mining waste/tailings research: $5 million.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Funding allocations from Allens legal analysis of QLD strategy."
@@ -638,7 +638,7 @@
     A dedicated Critical Minerals Queensland office has been established as a centralised point
     for industry, investors and community.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed establishment of Critical Minerals Queensland office on ministerial statement."
@@ -674,7 +674,7 @@
     Mount Isa Line Incentive Scheme to reduce rail access costs. A contribution of $30 million to a
     terminal at the Port of Townsville, with the Port of Townsville providing a further $18 million.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Supply chain investment from QLD Strategic Blueprint via search results."
@@ -713,7 +713,7 @@
     by Export Finance Australia. Projects must align with the Australian Government's Critical
     Minerals Strategy and be in Australia's national interest.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed $5 billion facility on EFA website, accessed 2026-03-11"
@@ -749,7 +749,7 @@
     study); market (buyer commitment); technology (proven processing technology); capability (financial,
     technical, and commercial capacity).
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed six eligibility criteria on EFA website, accessed 2026-03-11"
@@ -780,7 +780,7 @@
     entities and/or State or Territory government agencies undertaking projects that support
     Australia's Critical Minerals Strategy.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed grant range and eligibility on business.gov.au, accessed 2026-03-11"
@@ -813,7 +813,7 @@
     above the Tropic of Capricorn, and the entire Northern Territory. The facility primarily focuses
     on providing loans above $10 million.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed geographic eligibility and loan minimum on NAIF website, accessed 2026-03-11"
@@ -850,7 +850,7 @@
     participation in infrastructure financing; and promote sustainable Indigenous participation,
     procurement and employment.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed four mandate criteria verbatim on NAIF website, accessed 2026-03-11"
@@ -879,7 +879,7 @@
     of funding to develop critical minerals projects. Projects currently under consideration include
     developments in rare earths, vanadium, lithium hydroxide, high-purity alumina, and silicon.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed $500 million earmark on NAIF media page, accessed 2026-03-11"
@@ -912,7 +912,7 @@
     NAIF's current portfolio: 32 projects financed; $4.3 billion in committed loans; $33 billion in
     forecasted public benefit; 18,100+ projected jobs.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed portfolio statistics on NAIF homepage, accessed 2026-03-11"
@@ -944,7 +944,7 @@
     and domestic use of minerals including battery materials; technologies advancing mineral processing,
     refinement, and fabrication.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed $1 billion NRF allocation on Austrade page, accessed 2026-03-11"
@@ -976,7 +976,7 @@
     geoscience data and encouraging investment through Geoscience Australia; $100 million Critical
     Minerals Development Program providing grants to early and mid-stage projects.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Funding amounts from search results. Government pages not directly fetchable."
@@ -1017,7 +1017,7 @@
     43 Australian businesses, 11 research organisations and 4 peak bodies, contributing a further
     $185 million to the CRC.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "$53 million confirmed across multiple media sources. 62 partners/185M from minister media release."
@@ -1054,7 +1054,7 @@
     Acceleration; 3.3 Professional Services Ecosystem; 3.4 Value Chain Integration; 3.5 HDR Training,
     Workforce & Capability Development.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Research themes from CMCI CRC website. Website renders as JS — themes confirmed in search results."
@@ -1085,7 +1085,7 @@
     Rozetta Institute, the WA state government and six Australian universities, including Curtin,
     Swinburne, QUT and the University of Queensland. Total bid value: $240 million from 60 partners.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "University partners confirmed on InnovationAus article, accessed 2026-03-11"
@@ -1114,7 +1114,7 @@
     The CMCI CRC is designed to develop "next-generation onshore refinery capabilities for the
     high-demand ores and rare earths needed to manufacture renewable energy and digital technologies."
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed verbatim quote on InnovationAus article, accessed 2026-03-11"
@@ -1148,7 +1148,7 @@
     NAIF critical minerals earmark ($500 million); NRF value-add in resources ($1 billion);
     CMPTI ($7 billion estimated over the decade from 2024-25 Budget).
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Composite fact — individual components verified from respective sources."
@@ -1181,7 +1181,7 @@
     Bay Industrial Park in Townsville, the facility is intended to be operational for vanadium
     processing in 2025, with capacity to expand to cobalt and rare earth elements.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "QRCUF details from QLD ministerial statement via search results."
@@ -1209,7 +1209,7 @@
     NAIF financing is in the form of commercial loans or equity investments. NAIF does not provide
     grants or fund business cases.
   sections_used:
-    - "04_Demand_Assessment"
+    - "01_Macro_Context"
   document: "DOC-003"
   verified: true
   verification_notes: "Confirmed on NAIF FAQ: 'NAIF does not provide grants or fund business cases', accessed 2026-03-11"

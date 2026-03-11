@@ -639,6 +639,18 @@ tbody tr.expanded-row td { border-bottom: none; }
 .badge-status-in_review { background: rgba(188, 140, 255, 0.15); color: var(--purple); }
 .badge-doc-type { background: rgba(88, 166, 255, 0.1); color: var(--accent); font-weight: 500; }
 
+/* ===== SECTION DOC CARDS ===== */
+.section-doc-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.section-doc-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+  padding: 14px 16px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s;
+}
+.section-doc-card:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+.section-doc-card-title { font-weight: 600; font-size: 13px; margin-bottom: 6px; color: var(--text); }
+.section-doc-card-desc { font-size: 11px; color: var(--text-muted); line-height: 1.4; margin-bottom: 8px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.section-doc-card-meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+
 .claim-text { max-width: 300px; }
 .source-link { color: var(--accent); text-decoration: none; word-break: break-all; font-size: 11px; }
 .source-link:hover { text-decoration: underline; }
@@ -1342,6 +1354,7 @@ tbody tr.expanded-row td { border-bottom: none; }
   <!-- SECTION-FILTERED FACTS VIEW -->
   <div class="view" id="view-section">
     <div class="page-title" id="section-view-title"></div>
+    <div id="section-doc-cards" class="section-doc-cards"></div>
     <div class="results-count" id="section-results-count"></div>
     <div class="fact-table-wrap">
       <table>
@@ -2606,6 +2619,30 @@ function navigateToFact(factId) {
 function showSectionView(sectionKey) {
   const label = SECTION_LABELS[sectionKey] || sectionKey;
   document.getElementById('section-view-title').textContent = label;
+
+  // Render document cards for this section
+  const sectionDocs = DOCUMENTS.filter(d => (d.sections || []).includes(sectionKey));
+  const cardsEl = document.getElementById('section-doc-cards');
+  if (sectionDocs.length > 0) {
+    cardsEl.innerHTML = sectionDocs.map(d => {
+      const typeLabel = DOC_TYPE_LABELS[d.type] || d.type;
+      const statusCls = 'badge-status-' + (d.status || 'draft');
+      const statusLabel = DOC_STATUS_LABELS[d.status] || d.status;
+      const factCount = DOC_FACT_COUNTS[d.id] || 0;
+      return `<div class="section-doc-card" onclick="navigateToDoc('${esc(d.id)}')">
+        <div class="section-doc-card-title">${esc(d.title)}</div>
+        <div class="section-doc-card-desc">${esc(d.description || '')}</div>
+        <div class="section-doc-card-meta">
+          <span class="badge badge-doc-type">${esc(typeLabel)}</span>
+          <span class="badge badge-status ${statusCls}">${esc(statusLabel)}</span>
+          <span style="font-size:11px;color:var(--text-muted)">${factCount} facts</span>
+        </div>
+      </div>`;
+    }).join('');
+  } else {
+    cardsEl.innerHTML = '';
+  }
+
   const facts = FACTS.filter(f => (f.sections_used || []).includes(sectionKey));
   document.getElementById('section-results-count').textContent = `${facts.length} facts`;
   const tbody = document.getElementById('section-fact-body');
