@@ -238,7 +238,9 @@ def main():
     print("Building dashboard...")
     build_dashboard.main()
 
-    server = HTTPServer(("localhost", PORT), DashboardHandler)
+    class ReusableHTTPServer(HTTPServer):
+        allow_reuse_address = True
+    server = ReusableHTTPServer(("localhost", PORT), DashboardHandler)
     url = f"http://localhost:{PORT}"
     print(f"\nDashboard server running at {url}")
     print("Press Ctrl+C to stop.\n")

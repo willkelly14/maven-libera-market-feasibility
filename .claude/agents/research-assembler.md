@@ -79,10 +79,22 @@ Add or update the document entry in `Documents/documents_index.yaml` with the me
   # ... other fields
 ```
 
-### Step 7: Cleanup
-After successful assembly, you may note which staging files can be cleaned up, but do NOT delete them — the research-lead or corrector will handle cleanup after validation.
+### Step 7: Data Integrity Verification (MANDATORY — cannot be skipped)
 
-### Step 8: Assembly Report
+Before reporting success, verify that all data was correctly persisted:
+
+1. **Re-read the main YAML file** and count all facts — the total must equal the number of pre-existing facts plus the newly assembled facts. If the count is wrong, STOP and report the discrepancy.
+2. **Re-read `Documents/documents_index.yaml`** and confirm the new document entry exists with correct fields (`id`, `title`, `content_file`, `section`).
+3. **Re-read the document markdown file** and confirm it has content and contains the expected sections (introduction, all sub-topic sections, conclusion).
+4. **Extract all `[XX-XXX]` fact ID references** from the document and verify each referenced ID exists in the main YAML file. Report any orphaned references.
+5. **Verify no pre-existing fact IDs were deleted** from the YAML — compare the current fact IDs against the set of IDs that existed before assembly began (from Step 1).
+
+**If ANY check fails → STOP immediately, report the failure with details, and do NOT proceed to cleanup.** The research-lead needs to know exactly what went wrong so it can be fixed before the pipeline continues.
+
+### Step 8: Cleanup
+After successful assembly and verification, you may note which staging files can be cleaned up, but do NOT delete them — the research-lead or corrector will handle cleanup after validation.
+
+### Step 9: Assembly Report
 Provide a summary report:
 - Total facts assembled (by source batch)
 - Any facts deduplicated (and why)

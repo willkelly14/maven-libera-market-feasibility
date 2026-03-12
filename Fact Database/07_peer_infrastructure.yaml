@@ -21,7 +21,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on NRCan CanmetMINING page, accessed 2026-03-11"
@@ -47,7 +47,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Innovation.ca facility page, accessed 2026-03-11"
@@ -70,7 +70,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Innovation.ca facility page, accessed 2026-03-11"
@@ -94,7 +94,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on NRCan specialized services page, accessed 2026-03-11"
@@ -120,7 +120,7 @@
   source_date: "2015"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on NRCan page (largest centre) and AIA Top Ten page (177,280 sq-ft), accessed 2026-03-11"
@@ -148,7 +148,7 @@
   source_date: "2024-09"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Government of Saskatchewan news release, accessed 2026-03-11"
@@ -176,7 +176,7 @@
   source_date: "2024"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on SRC news release, accessed 2026-03-11"
@@ -205,7 +205,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on GTK Mintec service page, accessed 2026-03-11"
@@ -232,7 +232,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on GTK Mintec service page, accessed 2026-03-11"
@@ -258,7 +258,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on GTK Mintec pilot plant page, accessed 2026-03-11"
@@ -286,7 +286,7 @@
   source_date: "2021-09"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Finnish Government press release, accessed 2026-03-11"
@@ -312,7 +312,7 @@
   source_date: "2024-09"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on GTK funding announcement, accessed 2026-03-11"
@@ -338,7 +338,7 @@
   source_date: "2021-09"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Finnish Government press release, accessed 2026-03-11"
@@ -365,7 +365,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "300 people confirmed on Ames Lab page; partner numbers confirmed on DOE page, accessed 2026-03-11"
@@ -394,7 +394,7 @@
   source_date: "2024"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "All figures confirmed on DOE 10-year review page, accessed 2026-03-11"
@@ -422,7 +422,7 @@
   source_date: "2025-02"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "$75M confirmed on NETL page; shared-use quote confirmed on NETL METALLIC page, accessed 2026-03-11"
@@ -448,7 +448,7 @@
   source_date: "2025-02"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on NETL METALLIC page, accessed 2026-03-11"
@@ -473,7 +473,7 @@
   source_date: "2025-02"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on NETL METALLIC page, accessed 2026-03-11"
@@ -503,7 +503,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Mandate quote confirmed on Mintek key objectives page, accessed 2026-03-11"
@@ -527,7 +527,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Mintek history page, accessed 2026-03-11"
@@ -550,7 +550,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Three clusters confirmed on Mintek homepage and corporate profile, accessed 2026-03-11"
@@ -576,7 +576,7 @@
   source_date: "2023"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "6% increase and R38.8M confirmed on Mintek annual report summary page, accessed 2026-03-11. 837 employees from secondary source."
@@ -599,7 +599,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Mintek history page, accessed 2026-03-11"
@@ -625,7 +625,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Confirmed on Mintek history page, accessed 2026-03-11"
@@ -653,7 +653,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Founding details confirmed via BNamericas and search results; BNamericas page not fully parseable"
@@ -678,7 +678,7 @@
   source_date: "2011-11"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "Staff count and revenue confirmed on mining.com article; $37M price confirmed via SGS press release (403 paywall)"
@@ -701,7 +701,7 @@
   source_date: "2023"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "USD100M figure confirmed in WIPO article and Codelco annual reports; WIPO page JS-rendered"
@@ -724,7 +724,7 @@
   source_date: "2025"
   source_accessed: "2026-03-11"
   sections_used:
-    - "07_Growth_Outlook"
+    - "01_Macro_Context"
   document: "DOC-004"
   verified: true
   verification_notes: "$11.5 ROI confirmed on DevDiscourse article, accessed 2026-03-11"

@@ -81,6 +81,19 @@ Launch ONE research-assembler agent. Provide it with:
 
 Wait for the assembler to complete before proceeding.
 
+### Phase 4.5: Assembly Checkpoint Commit
+
+After the assembler completes successfully (including its data integrity verification), commit the assembled work as a recovery checkpoint:
+
+1. Stage all relevant files explicitly by path:
+   - The main YAML file (e.g., `Fact Database/01_macro_context.yaml`)
+   - The document file (e.g., `Documents/DOC-XXX_Title.md`)
+   - `Documents/documents_index.yaml`
+2. Commit with a descriptive message: `"Research pipeline checkpoint: assembled N facts for [topic] into [YAML file]"`
+3. Record the commit hash — this is the recovery point if validation or correction fails later
+
+**Do NOT use `git add .` or `git add -A`** — stage files explicitly by path.
+
 ### Phase 5: Parallel Validation
 Read the main YAML file to see all assembled facts. Split them into batches of 8-12 facts each.
 Launch ALL research-validator agents simultaneously. Each agent gets:
@@ -139,15 +152,41 @@ After the corrector completes, go back to the **original user request** and syst
 
 **Only proceed to the summary when you are confident the research is complete.**
 
-### Phase 8: Dashboard Rebuild & Summary
-1. **Rebuild the dashboard**: Run `python3 build_dashboard.py` to ensure the dashboard reflects all final changes.
-2. After confirming completeness, read the final YAML file and document. Provide the user with:
-   - Total facts added and their verification status (all should be verified)
-   - Source breakdown (how many from each source type)
-   - Confidence breakdown
-   - A checklist showing each element of the user's original request and how it was addressed
-   - Any remaining limitations or caveats (e.g., data that simply isn't publicly available)
-   - The document file path
+### Phase 8: Dashboard Rebuild
+Run `python3 build_dashboard.py` to ensure the dashboard reflects all final changes. Confirm the build succeeds.
+
+### Phase 8.5: Data Integrity Verification & Git Commit (MANDATORY)
+
+**Verification** — before committing, verify the entire pipeline's output:
+
+1. **Count all facts** in the main YAML file — confirm the expected number are present
+2. **Verify all documents** listed in `Documents/documents_index.yaml` — each entry should have valid fields
+3. **Verify each document's `content_file` exists** and has content (is not empty)
+4. **Verify `dashboard.html` exists** and was recently rebuilt (check modification time)
+5. **Cross-reference all `[XX-XXX]` fact ID references** in all documents against the YAML — every referenced ID must exist
+6. **Verify no pre-existing data was lost** — compare current fact counts and document counts against the baseline captured in Phase 0/1
+
+**If verification passes → Git commit:**
+
+1. Stage all files explicitly by path — never use `git add .` or `git add -A`:
+   - `Fact Database/*.yaml` (the main YAML file and archive.yaml if it exists)
+   - `Documents/documents_index.yaml`
+   - `Documents/*.md` (the document file)
+   - `dashboard.html`
+2. Commit with a descriptive message including: fact count, document title, YAML file, and archived count. Example: `"Research pipeline complete: 42 facts for 'Global Lithium Demand' in 01_macro_context.yaml (3 archived)"`
+3. Record and report the commit hash
+
+**If verification fails → STOP immediately.** Report the failure with details. Do NOT commit inconsistent data.
+
+### Phase 9: Summary
+After confirming completeness and committing, read the final YAML file and document. Provide the user with:
+- Total facts added and their verification status (all should be verified)
+- Source breakdown (how many from each source type)
+- Confidence breakdown
+- A checklist showing each element of the user's original request and how it was addressed
+- Any remaining limitations or caveats (e.g., data that simply isn't publicly available)
+- The document file path
+- The git commit hash for the final commit
 
 ## Critical Rules
 

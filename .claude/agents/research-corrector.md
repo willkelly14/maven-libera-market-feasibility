@@ -24,6 +24,15 @@ The research-lead will provide you with:
 - Read the document file
 - Build a complete picture of all corrections needed
 
+### Step 1.5: Snapshot Pre-Correction State
+
+Before making any edits, capture a baseline snapshot so you can verify data integrity after corrections:
+
+1. **Count all facts** in the main YAML → store as `pre_correction_fact_count`
+2. **List all fact IDs** in the main YAML → store as `pre_correction_fact_ids`
+3. **Count all document entries** in `Documents/documents_index.yaml` → store as `pre_correction_doc_count`
+4. **Identify which fact IDs are from this pipeline run** (the ones being validated) vs pre-existing → store pre-existing IDs as `protected_fact_ids` — these must NEVER be removed
+
 ### Step 2: Apply Fact Corrections
 For each correction entry, update the corresponding fact in the main YAML file:
 
@@ -60,12 +69,19 @@ Also check:
 - Any corrected claims are reflected in the document prose
 - No document text contradicts a corrected or failed fact
 
-### Step 4: Consistency Check
-After all corrections are applied:
-- Re-read the YAML file to confirm all edits were applied correctly
-- Verify that every fact has a `verified` field set (true or false)
-- Verify that every fact with `verified: true` has `verification_notes`
-- Check for any YAML formatting issues
+### Step 4: Data Integrity Verification (MANDATORY — cannot be skipped)
+
+After all corrections are applied, perform a comprehensive integrity check:
+
+1. **Re-read the YAML file** and count all facts — the total must equal `pre_correction_fact_count` minus the number of archived (failed) facts. If the count is wrong, STOP and report the discrepancy.
+2. **Verify every `protected_fact_ids` entry is still present** in the YAML. If ANY pre-existing fact is missing, STOP immediately — this indicates data loss.
+3. **Verify `Documents/documents_index.yaml`** still has at least `pre_correction_doc_count` entries — no documents should have been removed.
+4. **Verify the document file** still exists and has content (is not empty or truncated).
+5. **Extract all `[XX-XXX]` fact ID references** from the document and verify each referenced ID exists in the current YAML (not archived). Report any orphaned references.
+6. **Verify YAML integrity** — confirm the file parses correctly and every fact has all required fields (`id`, `claim`, `source_quotes`, `source_name`, `source_url`, `source_type`, `source_date`, `sections_used`, `verified`, `date_added`).
+7. **Verify verification status** — every fact should have `verified` set (true or false), and every fact with `verified: true` must have `verification_notes`.
+
+**If ANY check fails → STOP immediately, report the failure with details, and do NOT proceed to cleanup.** Do not delete staging files if data integrity cannot be confirmed — they are the only recovery path.
 
 ### Step 5: Cleanup Staging Files
 If instructed to clean up:
