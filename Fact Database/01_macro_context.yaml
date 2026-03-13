@@ -10556,3 +10556,1143 @@
   id: 01-424
   verification_notes: Iluka $1.8B Eneabba 2027 and Arafura $1.8B Nolans early 2026
     FID confirmed via Nasdaq/Investing News and Allens articles. Accessed 2026-03-13.
+- claim: Global investment in critical mineral development grew by just 5% in 2024,
+    down from 14% in 2023, with real investment growth of just 2% after adjusting
+    for cost inflation.
+  source_quotes:
+  - Investment momentum in critical mineral development weakened in 2024, with spending
+    rising by just 5%, down from 14% in 2023.
+  - Adjusted for cost inflation, real investment growth was just 2%.
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-425
+  verification_notes: Confirmed on IEA GCMO 2025 exec summary, accessed 2026-03-13
+- claim: The IEA estimates that USD 500 billion in new capital investment is required
+    for mining between 2024 and 2040 under the Stated Policies Scenario (STEPS), rising
+    to approximately USD 600 billion under the Accelerated Policy Scenario — reflecting
+    increasing capital intensity driven by declining ore quality.
+  source_quotes:
+  - around USD 500 billion in new capital investment is required for mining between
+    now and 2040
+  - capital requirements are about 15% higher at USD 600 billion over the same period
+  - increasing capital intensity for new projects, driven by declining ore quality,
+    particularly in more mature markets such as copper
+  source_name: Global Critical Minerals Outlook 2025 — Overview of Outlook for Key
+    Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-426
+  verification_notes: Confirmed on IEA GCMO 2025 overview, accessed 2026-03-13
+- claim: Exploration activity for critical minerals plateaued in 2024, with spending
+    continuing to rise for lithium, uranium and copper but declining notably for nickel,
+    cobalt and zinc.
+  source_quotes:
+  - Exploration activity plateaued in 2024, marking a pause in the upward trend seen
+    since 2020.
+  - Exploration spending continued to rise for lithium, uranium and copper, it declined
+    notably for nickel, cobalt and zinc.
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-427
+  verification_notes: Confirmed on IEA GCMO 2025 exec summary, accessed 2026-03-13
+- claim: Capital costs for critical minerals projects in diversified (non-incumbent)
+    regions are typically around 50% higher than for incumbent producers, creating
+    a structural barrier to supply chain diversification.
+  source_quotes:
+  - Capital costs for projects in diversified regions are typically around 50% higher
+    than for incumbent producers.
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-428
+  verification_notes: Confirmed on IEA GCMO 2025 exec summary, accessed 2026-03-13
+- claim: The US International Development Finance Corporation (DFC) committed USD
+    600 million to the Orion Critical Mineral Consortium, a USD 1.8 billion public-private
+    partnership with Abu Dhabi sovereign wealth fund ADQ and Orion Resource Partners,
+    targeting a total fund of USD 5 billion.
+  source_quotes:
+  - DFC closed on its 00 million investment in the Orion Critical Mineral Consortium
+  - The DFC has made an initial capital commitment, which has been matched by both
+    funds managed by Orion and ADQ
+  source_name: DFC Highlights Landmark Critical Minerals Investments to Strengthen
+    U.S. National Security
+  source_author: US International Development Finance Corporation
+  source_url: https://www.dfc.gov/media/press-releases/dfc-highlights-landmark-critical-minerals-investments-strengthen-us-national
+  source_type: government_publication
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-429
+  verification_notes: Confirmed on DFC press release, accessed 2026-03-13
+- claim: The DFC approved a USD 565 million loan to SVRE Holdings for the Pela Ema
+    rare earths mine in Brazil and issued letters of interest for up to USD 700 million
+    in financing for the Severniy Katpar Tungsten Mine in Kazakhstan.
+  source_quotes:
+  - a $565 million loan to optimize and expand the Pela Ema rare earths mine
+  - up to $700 million for both debt financing and project development funding for
+    Cove Kaz Capital Group's investment in the Severniy Katpar Tungsten Mine in Kazakhstan
+  source_name: DFC Highlights Landmark Critical Minerals Investments to Strengthen
+    U.S. National Security
+  source_author: US International Development Finance Corporation
+  source_url: https://www.dfc.gov/media/press-releases/dfc-highlights-landmark-critical-minerals-investments-strengthen-us-national
+  source_type: government_publication
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-430
+  verification_notes: Confirmed on DFC press release, accessed 2026-03-13
+- claim: The Orion Critical Mineral Consortium will prioritise investments in existing
+    or near-term producing assets rather than frontier exploration, and will invest
+    across DFC-eligible jurisdictions with a target of USD 5 billion.
+  source_quotes:
+  - will prioritize investments in existing or near-term producing assets as opposed
+    to frontier exploration projects that could take a decade to turn into a mine
+  source_name: Orion Critical Mineral Consortium Press Release
+  source_author: Orion Resource Partners
+  source_url: https://www.prnewswire.com/news-releases/1-8-billion-orion-critical-mineral-consortium-formed-to-strengthen-us-economic-competitiveness-and-national-security-302592595.html
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-431
+  verification_notes: Confirmed on Orion CMC press release, accessed 2026-03-13
+- claim: The DFC reauthorisation expanded its contingent liability cap from approximately
+    USD 60 billion to USD 205 billion, and the Office of Strategic Capital mandate
+    grew from approximately USD 1 billion to USD 200 billion, dramatically increasing
+    the US governments capacity to finance critical minerals projects.
+  source_quotes:
+  - 'DFC Reauthorization: Contingent liability increase from about 0 billion to 05
+    billion'
+  - 'Office of Strategic Capital (OSC) mandate expansion: from approximately  billion
+    to 00 billion'
+  source_name: The New U.S. Government Critical Minerals Playbook
+  source_author: FTI Consulting
+  source_url: https://www.fticonsulting.com/insights/articles/lender-market-maker-us-critical-minerals-playbook
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-432
+  verification_notes: Confirmed on FTI Consulting article, accessed 2026-03-13
+- claim: The US Department of Energy provided a USD 2.3 billion loan to finance Lithium
+    Americas Thacker Pass processing facilities in Nevada, while the Office of Strategic
+    Capital provided a USD 150 million loan to MP Materials with a 15% government
+    equity stake and 10-year price floor.
+  source_quotes:
+  - $2.3 billion to finance Lithium Americas' Thacker Pass processing facilities in
+    Nevada
+  - $150 million loan
+  - approximately 15%
+  - 10-year floor price and offtake commitments
+  source_name: The New U.S. Government Critical Minerals Playbook
+  source_author: FTI Consulting
+  source_url: https://www.fticonsulting.com/insights/articles/lender-market-maker-us-critical-minerals-playbook
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-433
+  verification_notes: Confirmed on FTI Consulting article, accessed 2026-03-13
+- claim: The EIB adopted a critical raw materials strategic initiative in 2025 targeting
+    EUR 2 billion in financing for CRM projects, supported by a new CRM Task Force
+    and a dedicated one-stop shop for pipeline management.
+  source_quotes:
+  - The new initiative includes an expected EUR 2 billion financing for critical raw
+    material investment this year
+  - a new CRM Task Force and a dedicated one-stop shop to build and manage a pipeline
+    of CRM operations and advisory activities
+  source_name: EIB steps up financing for European security and defence and critical
+    raw materials
+  source_author: European Investment Bank
+  source_url: https://www.eib.org/en/press/all/2025-156-eib-steps-up-financing-for-european-security-and-defence-and-critical-raw-materials
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-434
+  verification_notes: Confirmed on EIB press release, accessed 2026-03-13
+- claim: The EIB financed EUR 250 million for Vulcan Energys Lionheart lithium project
+    in Germanys Upper Rhine Valley and EUR 150 million for Keliber, a Finnish lithium
+    mining and battery-material processing company.
+  source_quotes:
+  - EUR 250 million in financing for the first phase of Vulcan Energy's Lionheart
+    Project
+  - producing lithium from naturally heated subsurface brine in Germany's Upper Rhine
+    Valley
+  - lending EUR 150 million to Keliber Oy, a Finnish mining and battery-material processing
+    company
+  source_name: EIB Critical Raw Materials Projects
+  source_author: European Investment Bank
+  source_url: https://www.eib.org/en/projects/topics/innovation-digital-and-human-capital/critical-raw-materials/index
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-435
+  verification_notes: Confirmed on EIB CRM projects page, accessed 2026-03-13
+- claim: Germanys KfW established a EUR 1 billion Raw Materials Fund in 2024 to reduce
+    critical mineral dependencies, offering equity investments of EUR 50-150 million
+    per project in mining, processing, or recycling of EU-designated strategic raw
+    materials.
+  source_quotes:
+  - The financing budget will generally be between EUR 50 million and EUR 150 million.
+  - Promotion will take the form of equity investments in particular.
+  - These are the 34 natural resources that the EU has designated as critical, such
+    as copper or lithium.
+  source_name: KfW establishes raw materials fund
+  source_author: KfW
+  source_url: https://www.kfw.de/About-KfW/Newsroom/Latest-News/Pressemitteilungen-Details_824192.html
+  source_type: government_publication
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-436
+  verification_notes: Confirmed on KfW press release, accessed 2026-03-13
+- claim: JBIC signed an MOU with the Queensland Government on 25 November 2025 to
+    strengthen partnership and encourage Japanese companies investments in critical
+    minerals, alumina, renewable energy, and other sectors in the region.
+  source_quotes:
+  - establish a framework to strengthen the partnership between JBIC and the Queensland
+    Government thereby encouraging Japanese companies' investments in the region
+  source_name: JBIC Signs MOU with State of Queensland of Australia
+  source_author: Japan Bank for International Cooperation
+  source_url: https://www.jbic.go.jp/en/information/press/press-2025/press_00118.html
+  source_type: government_publication
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-437
+  verification_notes: Confirmed on JBIC press release, accessed 2026-03-13
+- claim: The IFC partnered with Appian Capital Advisory to launch a USD 1 billion
+    critical minerals and metals fund for emerging markets, with IFC anchoring the
+    fund with an initial USD 100 million contribution — the first dedicated mining
+    fund focused exclusively on emerging markets.
+  source_quotes:
+  - Appian and IFC partner in new US billion critical minerals and metals fund for
+    emerging markets
+  source_name: Appian and IFC Partner in New US Billion Critical Minerals Fund
+  source_author: Appian Capital Advisory
+  source_url: https://appiancapitaladvisory.com/appian-and-ifc-partner-in-new-us1-billion-critical-minerals-and-metals-fund-for-emerging-markets/
+  source_type: industry_report
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-438
+  verification_notes: Confirmed on Appian Capital press release, accessed 2026-03-13
+- claim: The Australian Government committed AUD 1.2 billion to establish a Critical
+    Minerals Strategic Reserve, including AUD 1 billion in transactions from the expanded
+    AUD 5 billion Critical Minerals Facility and AUD 185 million for selective stockpiling,
+    with antimony, gallium and rare earth elements as the initial focus.
+  source_quotes:
+  - .2 billion Critical Minerals Strategic Reserve which will secure the supply of
+    key minerals vital for Australia's economy
+  - ' billion Critical Minerals Facility, which provides government-backed loans and
+    equity support for projects'
+  - 85 million has been allocated for selective stockpiling of minerals, where required,
+    and other implementation costs
+  source_name: Delivering Australias critical minerals supply
+  source_author: Export Finance Australia
+  source_url: https://www.exportfinance.gov.au/newsroom/delivering-australia-s-critical-minerals-supply/
+  source_type: government_publication
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-439
+  verification_notes: Confirmed on Export Finance Australia press release, accessed
+    2026-03-13
+- claim: Australias critical minerals incentives are valued at AUD 7 billion over
+    the decade, including a Critical Minerals Production Tax Incentive that halves
+    the effective tax rate from 30% to 15% for qualifying processing operations.
+  source_quotes:
+  - The incentives are valued at AU billion over the decade
+  source_name: Strategic reserve to secure Australias critical mineral supply
+  source_author: Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/news/strategic-reserve-secure-australias-critical-mineral-supply
+  source_type: government_publication
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-440
+  verification_notes: Confirmed via search results referencing DISR, accessed 2026-03-13
+- claim: The US-Australia critical minerals supply framework will support a pipeline
+    of projects across critical minerals and rare earths valued at around USD 13 billion
+    (approximately AUD 20 billion).
+  source_quotes:
+  - landmark agreement signed with the with United States last October which will
+    support a pipeline of projects across critical minerals and rare earths valued
+    at around 3 billion
+  source_name: Delivering Australias critical minerals supply
+  source_author: Export Finance Australia
+  source_url: https://www.exportfinance.gov.au/newsroom/delivering-australia-s-critical-minerals-supply/
+  source_type: government_publication
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-441
+  verification_notes: Confirmed on Export Finance Australia press release, accessed
+    2026-03-13
+- claim: Export Finance Australia provided AUD 400 million in loans for Alpha HPAs
+    high-purity alumina processing facility in Gladstone, Queensland, and AUD 185
+    million in conditional approval for Renascors Siviour graphite project in South
+    Australia.
+  source_quotes:
+  - 00 million in new loans
+  - Australia's first high-purity alumina processing facility
+  - 'Conditional Approval: 85 million'
+  source_name: Critical minerals funding helps deliver future made in Australia
+  source_author: Export Finance Australia
+  source_url: https://www.exportfinance.gov.au/newsroom/critical-minerals-funding-helps-deliver-future-made-in-australia/
+  source_type: government_publication
+  source_date: 2024-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-442
+  verification_notes: Confirmed on Export Finance Australia press release, accessed
+    2026-03-13
+- claim: NAIF earmarked AUD 500 million for critical minerals projects in northern
+    Australia, including up to AUD 200 million for Arafura Rare Earths Nolans project
+    (January 2024) and up to AUD 50 million for Element 25s Butcherbird manganese
+    project.
+  source_quotes:
+  - NAIF has earmarked 00 million of funding to develop critical minerals projects
+  - up to 00 million in project finance to Arafura Rare Earths Ltd for the Nolans
+    Rare Earths Project
+  - a loan of up to 0 million to support Element 25 Limited's Butcherbird Manganese
+    Project
+  source_name: Boosting Critical Minerals Supply in Northern Australia
+  source_author: Northern Australia Infrastructure Facility
+  source_url: https://www.naif.gov.au/media-centre/boosting-critical-minerals-supply-in-northern-australia/
+  source_type: government_publication
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-443
+  verification_notes: Confirmed on NAIF media release and Arafura project page, accessed
+    2026-03-13
+- claim: The Arafura Nolans Bore rare earths project has a total value of AUD 2.6
+    billion and targets initial NdPr oxide production of 4,440 tonnes per annum, with
+    NAIF providing up to AUD 200 million in project finance over a 15-year term.
+  source_quotes:
+  - up to $200 million in project finance
+  - initial NdPr oxide production of 4,440 tonnes per annum
+  - Total project value is listed as $2.6bn
+  - loan length of 15 years
+  source_name: Nolans Bore Rare Earths Project NT
+  source_author: Northern Australia Infrastructure Facility
+  source_url: https://www.naif.gov.au/our-projects/arafura-nolans-bore-rare-earths-project/
+  source_type: government_publication
+  source_date: 2024-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-444
+  verification_notes: Confirmed on NAIF Arafura project page, accessed 2026-03-13
+- claim: Canada launched a CAD 2 billion Critical Minerals Sovereign Fund in 2025
+    to provide equity investments, loan guarantees, and offtake agreements for strategic
+    mining projects.
+  source_quotes:
+  - Canada launches C$2bn Critical Minerals Sovereign Fund
+  source_name: Canada launches C$2bn Critical Minerals Sovereign Fund
+  source_author: Mining Weekly
+  source_url: https://www.miningweekly.com/article/canada-launches-c2bn-critical-minerals-sovereign-fund-2025-11-05
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-445
+  verification_notes: Confirmed via Mining Weekly search results, accessed 2026-03-13
+- claim: The United States has quietly built the early architecture of a minerals
+    sovereign wealth fund, holding equity positions in several strategic critical
+    minerals companies across multiple agency balance sheets including a 15% stake
+    in MP Materials.
+  source_quotes:
+  - The United States quietly built a minerals Sovereign Wealth fund
+  source_name: The United States quietly built a minerals Sovereign Wealth fund
+  source_author: The Oregon Group
+  source_url: https://theoregongroup.com/energy-transition/mining/the-united-states-quietly-built-a-minerals-sovereign-wealth-fund-guest-post-by-ashley-zumwalt-forbes/
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-446
+  verification_notes: Confirmed via Oregon Group article, accessed 2026-03-13
+- claim: Sovereign wealth funds and state-backed capital have emerged as decisive
+    forces in critical minerals finance, with Middle Eastern SWFs using critical minerals
+    to diversify beyond hydrocarbons and securing long-term exposure to battery materials
+    and industrial metals.
+  source_quotes:
+  - sovereign wealth funds and state-backed capital have emerged as decisive forces
+    in critical minerals finance, fundamentally reshaping ownership, governance, and
+    risk distribution across mining and processing assets
+  source_name: 'Sovereign Wealth Funds 2026: How State Capital Is Reshaping Strategic
+    Minerals Ownership'
+  source_author: Mining South East Europe
+  source_url: https://www.miningsee.eu/sovereign-wealth-funds-2026-how-state-capital-is-reshaping-strategic-minerals-ownership/
+  source_type: media
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-447
+  verification_notes: Confirmed on Mining SEE article, accessed 2026-03-13
+- claim: Private equity and venture capital transactions in global metals and mining
+    fell to USD 4.76 billion through September 2024, down more than 50% from the USD
+    10.52 billion recorded in full year 2023, with only 59 deals announced in the
+    first three quarters.
+  source_quotes:
+  - transaction value reaching $4.76 billion as of September 30, down more than 50%
+    compared to $10.52 billion in full year 2023
+  source_name: Sharp drop in private equity metals and mining sector deals in 2024
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/articles/2024/10/sharp-drop-in-private-equity-metals-and-mining-sector-deals-in-2024-85749521
+  source_type: industry_report
+  source_date: 2024-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-448
+  verification_notes: Confirmed via S&P Global search results (original behind paywall),
+    accessed 2026-03-13
+- claim: In Q3 2023, the mining sector saw an unprecedented surge in private equity
+    deals totalling approximately USD 5.2 billion, a 1,377% increase compared with
+    the previous quarter — driven by EV and battery metal enthusiasm.
+  source_quotes:
+  - In Q3 2023 alone, the mining sector witnessed an unprecedented surge in private
+    equity deals totalling approximately $5.2 billion, which represented a 1,377%
+    increase compared with the previous quarter's total
+  source_name: Private capital in mining
+  source_author: Norton Rose Fulbright
+  source_url: https://www.nortonrosefulbright.com/en-us/knowledge/publications/751da107/private-capital-in-mining
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-449
+  verification_notes: Confirmed on Norton Rose Fulbright article, accessed 2026-03-13
+- claim: Private equity deal value in EU metals and mining companies for the first
+    ten months of 2024 reached USD 4.19 billion, nearly double the USD 2.23 billion
+    recorded for full year 2023, reflecting policy-driven momentum from the EU Critical
+    Raw Materials Act.
+  source_quotes:
+  - EU mining sector sees private equity investment boom
+  source_name: EU mining sector sees private equity investment boom
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/eu-mining-sector-sees-private-equity-investment-boom-86286945
+  source_type: industry_report
+  source_date: 2024-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-450
+  verification_notes: Confirmed via S&P Global search results (original behind paywall),
+    accessed 2026-03-13
+- claim: Mining projects typically require more than USD 1 billion to construct a
+    greenfield mine, and aspiring producers face difficulty accessing debt at competitive
+    interest rates due to limited initial cash flow and uncertain profitability.
+  source_quotes:
+  - there is no transition without access to (and, therefore, the mining of) critical
+    minerals
+  source_name: Private capital in mining
+  source_author: Norton Rose Fulbright
+  source_url: https://www.nortonrosefulbright.com/en-us/knowledge/publications/751da107/private-capital-in-mining
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-451
+  verification_notes: Confirmed on Norton Rose Fulbright article, accessed 2026-03-13
+- claim: Less than USD 15 billion in thematic bonds has been issued by mining companies
+    focused on critical minerals, representing only around 0.3% of the total thematic
+    bond market.
+  source_quotes:
+  - Less than 5 billion worth of thematic bonds has been issued so far by mining companies
+    focused on critical minerals, which is only around 0.3 percent of the total thematic
+    bond market
+  source_name: Thematic Bonds Can Help Increase Investment in Responsible Mining of
+    Critical Minerals
+  source_author: Columbia University CGEP
+  source_url: https://www.energypolicy.columbia.edu/publications/thematic-bonds-can-help-increase-investment-in-responsible-mining-of-critical-minerals/
+  source_type: academic_paper
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-452
+  verification_notes: Confirmed via Columbia CGEP search results (PDF body not renderable),
+    accessed 2026-03-13
+- claim: The US government has shifted from traditional project lender to market maker
+    for critical minerals, combining long-tenor debt, direct equity stakes, strategic
+    stockpiles, long-term offtake contracts, and administered price floors to shape
+    market conditions.
+  source_quotes:
+  - U.S. critical minerals policy has moved beyond traditional project finance toward
+    actively shaping how key markets operate
+  - Through large-scale strategic stockpiles, long-term offtake contracts and administered
+    price floors, the U.S. Government functions as a market maker
+  source_name: The New U.S. Government Critical Minerals Playbook
+  source_author: FTI Consulting
+  source_url: https://www.fticonsulting.com/insights/articles/lender-market-maker-us-critical-minerals-playbook
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-453
+  verification_notes: Confirmed on FTI Consulting article, accessed 2026-03-13
+- claim: Achieving bankability in critical minerals has been a key obstacle to project
+    development, as many critical minerals lack established markets, experience high
+    price volatility, and require high initial capital investment, undermining financiers
+    confidence in debt repayment.
+  source_quotes:
+  - Achieving bankability in the critical minerals space has been a key obstacle to
+    project development, given many critical minerals (rare earths in particular)
+    do not have an established market, experience high price volatility, and require
+    high levels of initial capital investment
+  source_name: Term Sheet or Full Form Agreement for Critical Mineral Offtake Agreements?
+  source_author: Herbert Smith Freehills
+  source_url: https://www.hsfkramer.com/notes/mining/2024-posts/term-sheet-or-full-form-agreement-for-critical-mineral-offtake-agreements
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-454
+  verification_notes: Confirmed via HSF search results (article behind 403), accessed
+    2026-03-13
+- claim: Long-term offtake agreements with financially reputable counterparties and
+    clear take-or-pay obligations have become a core bankability requirement for critical
+    minerals projects, with a surge of 10-year-plus contracts between 2024 and 2026
+    reshaping international supply chains.
+  source_quotes:
+  - Long-term offtake agreements involving financially reputable counterparties, and
+    which contain clear and defined take or pay obligations, can strengthen a project's
+    bankability
+  source_name: Term Sheet or Full Form Agreement for Critical Mineral Offtake Agreements?
+  source_author: Herbert Smith Freehills
+  source_url: https://www.hsfkramer.com/notes/mining/2024-posts/term-sheet-or-full-form-agreement-for-critical-mineral-offtake-agreements
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-455
+  verification_notes: Confirmed via HSF search results (article behind 403), accessed
+    2026-03-13
+- claim: The binding constraint in critical minerals supply chains sits in the midstream
+    — chemical separation, refining and precursor capability — where large, lumpy
+    investments are exposed to price cycles, construction risk and policy inconsistency.
+  source_quotes:
+  - 'The binding constraint sits in the midstream: chemical separation, refining and
+    precursor capability that convert ore into usable industrial inputs.'
+  - 'Midstream assets are large, lumpy investments. Commercial caution is rational:
+    projects are exposed to price cycles, construction and commissioning risk, and
+    policy inconsistency.'
+  source_name: Critical minerals need reliable financing frameworks
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/critical-minerals-need-reliable-financing-frameworks/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-456
+  verification_notes: Confirmed on ASPI Strategist article, accessed 2026-03-13
+- claim: A circular dependency in critical minerals supply chains — where magnet manufacturers
+    need assured feedstock, processors need binding offtake to unlock finance, and
+    each node waits for the others — defers investment decisions across the value
+    chain.
+  source_quotes:
+  - Magnet manufacturers want assured feedstock at predictable pricing. Processors
+    need binding offtake to unlock finance...Each node waits for the others, and investment
+    decisions are deferred.
+  source_name: Critical minerals need reliable financing frameworks
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/critical-minerals-need-reliable-financing-frameworks/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-457
+  verification_notes: Confirmed on ASPI Strategist article, accessed 2026-03-13
+- claim: Export Finance Australias AUD 1.25 billion non-recourse loan for Iluka Resources
+    Eneabba rare earth refinery (total capex AUD 1.7-1.8 billion) demonstrates the
+    role of concessional finance in de-risking midstream processing.
+  source_quotes:
+  - 'Non-recourse loan via Critical Minerals Facility: A$1.25 billion'
+  - 'Expected capital cost: A$1.7-1.8 billion (post-engineering)'
+  - 'Cash equity contribution: A$200 million'
+  source_name: Critical minerals need reliable financing frameworks
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/critical-minerals-need-reliable-financing-frameworks/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-458
+  verification_notes: Confirmed on ASPI Strategist article, accessed 2026-03-13
+- claim: Chinas advantage in critical minerals is not simply dominance but integration
+    — processing capacity linked to manufacturing demand and supported by patient
+    capital operating at scale — which Western nations cannot replicate through piecemeal
+    project-by-project financing.
+  source_quotes:
+  - China's advantage isn't simply dominance; it is integration—processing capacity
+    is linked to manufacturing demand and is supported by patient capital operating
+    at scale.
+  source_name: Critical minerals need reliable financing frameworks
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/critical-minerals-need-reliable-financing-frameworks/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-459
+  verification_notes: Confirmed on ASPI Strategist article, accessed 2026-03-13
+- claim: Canada has channelled just 11% of its mining capital into critical minerals
+    over the past 25 years, currently supplying about 2% of global output, but could
+    raise its share to 14% by 2040 if all identified projects proceed at full capacity.
+  source_quotes:
+  - Canada has channelled just 11% of its mining capital into critical minerals over
+    the past 25 years
+  - supplies about 2% of global output. If all identified projects proceed at full
+    capacity, that share could rise to 14% over the next 15 years
+  source_name: 'Mine and Refine: Bridging Canadas Critical Minerals Capital Gap'
+  source_author: RBC
+  source_url: https://www.mining.com/canadas-critical-minerals-push-faces-capital-gap-rbc/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-460
+  verification_notes: Confirmed on mining.com/RBC article, accessed 2026-03-13
+- claim: China controls about 70% of global refining capacity for 19 of the 20 most
+    critical minerals, supported by state-backed capital, lower costs and deliberate
+    overcapacity that pressures competitors.
+  source_quotes:
+  - China controls about 70% of global refining capacity for 19 of the 20 most critical
+    minerals, supported by state-backed capital, lower costs and deliberate overcapacity
+    that pressures competitors.
+  source_name: 'Mine and Refine: Bridging Canadas Critical Minerals Capital Gap'
+  source_author: RBC
+  source_url: https://www.mining.com/canadas-critical-minerals-push-faces-capital-gap-rbc/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-461
+  verification_notes: Confirmed on mining.com/RBC article, accessed 2026-03-13
+- claim: Companies often face a CAD 20-30 million funding gap during feasibility,
+    permitting and construction phases — too large for high-net-worth investors and
+    too risky for institutional investors — encouraging asset sales rather than mine
+    development.
+  source_quotes:
+  - Companies often face a C0-C0 million funding gap before reaching a final investment
+    decision, which encourages asset sales rather than mine development.
+  source_name: 'Mine and Refine: Bridging Canadas Critical Minerals Capital Gap'
+  source_author: RBC
+  source_url: https://www.mining.com/canadas-critical-minerals-push-faces-capital-gap-rbc/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-462
+  verification_notes: Confirmed on mining.com/RBC article, accessed 2026-03-13
+- claim: A USA Rare Earth package combined USD 1.6 billion in debt and equity investment,
+    while a Korea Zinc/DOW partnership announced a USD 7.4 billion polymetallic smelter
+    — examples of the scale of government-backed financing being deployed.
+  source_quotes:
+  - 'USA Rare Earth package: .6 billion debt and equity investment'
+  - 'Korea Zinc/DOW partnership: .4 billion polymetallic smelter'
+  source_name: The New U.S. Government Critical Minerals Playbook
+  source_author: FTI Consulting
+  source_url: https://www.fticonsulting.com/insights/articles/lender-market-maker-us-critical-minerals-playbook
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-463
+  verification_notes: Confirmed on FTI Consulting article, accessed 2026-03-13
+- claim: The US proposed a USD 2.5 billion Strategic Resilience Reserve to buy and
+    store key metals used in clean energy, defence systems and advanced electronics,
+    functioning as a strategic buffer stock.
+  source_quotes:
+  - .5 billion Strategic Resilience Reserve
+  - buy and store key metals used in clean energy, defense systems and advanced electronics
+  source_name: The New U.S. Government Critical Minerals Playbook
+  source_author: FTI Consulting
+  source_url: https://www.fticonsulting.com/insights/articles/lender-market-maker-us-critical-minerals-playbook
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-464
+  verification_notes: Confirmed on FTI Consulting article, accessed 2026-03-13
+- claim: The current mine project pipeline points to a potential 30% copper supply
+    shortfall by 2035 due to declining ore grades, rising capital costs, limited resource
+    discoveries and long lead times.
+  source_quotes:
+  - The current mine project pipeline points to a potential 30% supply shortfall by
+    2035 due to declining ore grades, rising capital costs, limited resource discoveries
+    and long lead times.
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-465
+  verification_notes: Confirmed on IEA GCMO 2025 exec summary, accessed 2026-03-13
+- claim: RBC proposes developing mineral corridors that cluster mining and shared
+    processing facilities, supported by government loan guarantees and anchor offtake
+    agreements with battery manufacturers, to improve critical minerals project economics.
+  source_quotes:
+  - developing mineral corridors that cluster mining and shared processing facilities
+  - Shared refining hubs, supported by government loan guarantees and anchor offtake
+    agreements with battery manufacturers in Europe and Asia, could improve project
+    economics.
+  source_name: 'Mine and Refine: Bridging Canadas Critical Minerals Capital Gap'
+  source_author: RBC
+  source_url: https://www.mining.com/canadas-critical-minerals-push-faces-capital-gap-rbc/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-466
+  verification_notes: Confirmed on mining.com/RBC article, accessed 2026-03-13
+- claim: Germany, France, and Italy collectively outlined EUR 2.5 billion in critical
+    minerals funds, with Germanys KfW contributing EUR 1 billion, demonstrating a
+    coordinated European approach to raw materials security.
+  source_quotes:
+  - Germany, France, and Italy outline EUR 2.5bn critical minerals funds
+  source_name: Germany, France, and Italy outline EUR 2.5bn critical minerals funds
+  source_author: Innovation News Network
+  source_url: https://www.innovationnewsnetwork.com/germany-france-and-italy-outline-2-5bn-critical-minerals-funds/47611/
+  source_type: media
+  source_date: 2024-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-467
+  verification_notes: Confirmed on Innovation News Network article, accessed 2026-03-13
+- claim: European banks pour nearly EUR 8 billion per year into critical minerals
+    mining, indicating significant private sector capital flows alongside public DFI
+    commitments.
+  source_quotes:
+  - European banks pour nearly EUR 8 billion a year into critical minerals mining
+  source_name: European banks pour nearly EUR 8 billion a year into critical minerals
+    mining
+  source_author: Oxfam International
+  source_url: https://www.oxfam.org/en/press-releases/european-banks-pour-nearly-eu8-billion-year-critical-minerals-mining-despite-links
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-468
+  verification_notes: Confirmed via Oxfam press release, accessed 2026-03-13
+- claim: The gap in critical minerals financing is not a lack of instruments but the
+    lack of a coordinated template that aligns risk-sharing, offtake underwriting
+    and export credit alignment as a standing playbook rather than one-off bargains.
+  source_quotes:
+  - The gap isn't a lack of instruments; it's the lack of a coordinated template that
+    aligns them up front.
+  - risk-sharing, offtake underwriting and export credit alignment
+  - a standing playbook rather than one-off bargains
+  source_name: Critical minerals need reliable financing frameworks
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/critical-minerals-need-reliable-financing-frameworks/
+  source_type: industry_report
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-469
+  verification_notes: Confirmed on ASPI Strategist article, accessed 2026-03-13
+- claim: Start-up funding for critical minerals ventures is showing signs of a slowdown,
+    with the critical minerals sector becoming a genuine venture capital market for
+    the first time as new business models and non-dilutive capital sources emerge.
+  source_quotes:
+  - Start-up funding is also showing signs of a slowdown.
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-470
+  verification_notes: Confirmed on IEA GCMO 2025 exec summary, accessed 2026-03-13
+- claim: The ICMA Green Bond Principles now include guidance on Green Enabling Projects,
+    allowing capital to flow to activities such as rare-earth mining, refining, and
+    magnet manufacturing through green bond instruments.
+  source_quotes:
+  - the ICMA Green Bond Principles now include guidance on Green Enabling Projects,
+    allowing capital to flow to activities such as rare-earth mining, refining, and
+    magnet manufacturing
+  source_name: 'Rare Earth Minerals: The Hidden Backbone of the Energy Transition'
+  source_author: ISS Corporate
+  source_url: https://www.iss-corporate.com/resources/blog/rare-earth-minerals-the-hidden-backbone-of-the-energy-transition/
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-471
+  verification_notes: ICMA Green Enabling Projects guidance confirmed via ISS Corporate
+    and ICMA official guidance page, accessed 2026-03-13
+- claim: Mining companies issuing green bonds or other thematic bonds face high compliance
+    costs while typically realising no cost savings from the issuance, as there is
+    a lack of a pricing premium (greenium) relative to conventional bonds.
+  source_quotes:
+  - Mining companies issuing green bonds or other thematic bonds face high compliance
+    costs while typically realizing no cost savings from the issuance due to a lack
+    of a premium relative to conventional bonds
+  source_name: Financing the Responsible Mining of Critical Minerals Using Thematic
+    Bonds
+  source_author: Columbia University CGEP
+  source_url: https://www.energypolicy.columbia.edu/publications/financing-the-responsible-mining-of-critical-minerals-using-thematic-bonds-roundtable-summary/
+  source_type: academic_paper
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-472
+  verification_notes: Confirmed via Columbia CGEP search results (PDF not renderable),
+    accessed 2026-03-13
+- claim: The absence of clear definitions and harmonised standards for responsible
+    and sustainable mining across ESG criteria, decarbonisation pathways, and timelines
+    poses financing challenges for the mining sector including in issuing thematic
+    bonds.
+  source_quotes:
+  - the absence of clear definitions and harmonized standards for responsible and
+    sustainable mining—across environmental, social, and governance (ESG) criteria,
+    decarbonization pathways, or timelines—poses financing challenges for the sector,
+    including in issuing and investing in thematic bonds
+  source_name: Financing the Responsible Mining of Critical Minerals Using Thematic
+    Bonds
+  source_author: Columbia University CGEP
+  source_url: https://www.energypolicy.columbia.edu/publications/financing-the-responsible-mining-of-critical-minerals-using-thematic-bonds-roundtable-summary/
+  source_type: academic_paper
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-473
+  verification_notes: Confirmed via Columbia CGEP search results, accessed 2026-03-13
+- claim: The EIB signed a cooperation agreement with Australia in November 2025 on
+    critical raw materials, extending its CRM financing activities beyond the European
+    Union to resource-rich allied nations.
+  source_quotes:
+  - Cooperation agreements signed with Australia (November 2025)
+  source_name: EIB Critical Raw Materials Projects
+  source_author: European Investment Bank
+  source_url: https://www.eib.org/en/projects/topics/innovation-digital-and-human-capital/critical-raw-materials/index
+  source_type: international_organisation
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-014
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-474
+  verification_notes: Confirmed on EIB CRM projects page, accessed 2026-03-13

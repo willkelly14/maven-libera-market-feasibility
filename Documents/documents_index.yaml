@@ -204,3 +204,20 @@
   last_updated: '2026-03-13'
   fact_count: 47
   fact_range: 01-378 to 01-424
+- title: Critical Minerals Investment Landscape & Capital Flows
+  type: research_report
+  section: 01_Macro_Context
+  description: Examines how capital is flowing into critical minerals development
+    globally and into Australia specifically. Covers development finance institution
+    (DFI) commitments from US DFC, EIB, JBIC, Export Finance Australia and NAIF; sovereign
+    wealth fund activity; private equity and venture capital trends; green bonds and
+    sustainable finance; project finance conditions and bankability requirements;
+    the gap between announced and deployed capital; and whether capital availability
+    is constraining new supply development.
+  content_file: 12_Critical_Minerals_Investment_Landscape_Capital_Flows.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 50
+  fact_range: 01-425 to 01-474
+  id: DOC-014
