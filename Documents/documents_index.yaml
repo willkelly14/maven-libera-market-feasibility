@@ -256,3 +256,21 @@
   last_updated: '2026-03-13'
   fact_count: 50
   fact_range: 01-525 to 01-574
+- id: DOC-017
+  title: Global Macroeconomic Environment & Commodity Demand Outlook
+  type: research_report
+  section: 01_Macro_Context
+  description: Documents the current and projected global macroeconomic conditions
+    relevant to commodity demand and mining investment. Covers IMF and World Bank
+    GDP growth forecasts for major economies through 2030, prevailing and forecast
+    interest rate environments across key central banks (Fed, ECB, RBA, BoJ), global
+    inflation trends and their effect on mining input costs, how macroeconomic cycles
+    historically correlate with mineral exploration and development expenditure, and
+    an assessment of whether current macroeconomic conditions are supportive, neutral,
+    or constraining for new mineral supply investment.
+  content_file: 15_Global_Macroeconomic_Environment_Commodity_Demand_Outlook.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 51
+  fact_range: 01-575 to 01-625

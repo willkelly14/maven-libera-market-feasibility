@@ -14145,3 +14145,1239 @@
   verification_notes: 'Confirmed: AU Critical Minerals Strategy 2023-2030 Focus Area
     4: ESG performance. Supply chain transparency and traceability. Verified via government
     website. Verified 2026-03-13.'
+- claim: The IMF projects global GDP growth will slow from 3.3% in 2024 to 3.2% in
+    2025 and 3.1% in 2026, with advanced economies growing around 1.5% and emerging
+    market and developing economies just above 4%.
+  source_quotes:
+  - Global growth is projected to slow from 3.3 percent in 2024 to 3.2 percent in
+    2025 and 3.1 percent in 2026, with advanced economies growing around 1.5 percent
+    and emerging market and developing economies just above 4 percent.
+  source_name: 'World Economic Outlook, October 2025: Global Economy in Flux, Prospects
+    Remain Dim'
+  source_author: International Monetary Fund
+  source_url: https://www.imf.org/en/publications/weo/issues/2025/10/14/world-economic-outlook-october-2025
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-575
+  verification_notes: Confirmed verbatim on IMF WEO Oct 2025 page, accessed 2026-03-13.
+- claim: The IMF's January 2026 update revised global growth projections slightly
+    upward to 3.3% for 2026 and 3.2% for 2027, citing technology investment, fiscal
+    and monetary support, and private sector adaptability offsetting trade policy
+    shifts.
+  source_quotes:
+  - Global growth is projected at 3.3 percent for 2026 and 3.2 percent for 2027, revised
+    slightly up since the October 2025 World Economic Outlook.
+  - Technology investment, fiscal and monetary support, accommodative financial conditions,
+    and private sector adaptability offset trade policy shifts.
+  source_name: 'World Economic Outlook Update, January 2026: Global Economy: Steady
+    amid Divergent Forces'
+  source_author: International Monetary Fund
+  source_url: https://www.imf.org/en/publications/weo/issues/2026/01/19/world-economic-outlook-update-january-2026
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-576
+  verification_notes: Both quotes confirmed verbatim on IMF WEO Jan 2026 update page,
+    accessed 2026-03-13.
+- claim: The World Bank projects global growth at 2.6% in 2026 and 2.7% in 2027, with
+    developing economies slowing to 4.0% from 4.2% in 2025, while low-income countries
+    are expected to reach an average of 5.6% over 2026-27.
+  source_quotes:
+  - Global growth is projected to remain broadly steady over the next two years, easing
+    to 2.6% in 2026 before rising to 2.7% in 2027
+  - Growth in developing economies is expected to slow to 4% from 4.2% in 2025
+  - Growth is projected to be higher in low-income countries, reaching an average
+    of 5.6% over 2026-27
+  source_name: Global Economic Prospects, January 2026
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2026/01/13/global-economic-prospects-january-2026-press-release
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-577
+  verification_notes: All three quotes confirmed on WB GEP Jan 2026 press release,
+    accessed 2026-03-13.
+- claim: The World Bank projects global growth weakening to 2.3% in 2025, more than
+    a percentage point lower than the average of the 2010s, and notes the 2020s are
+    on track to be the weakest decade for global growth since the 1960s.
+  source_quotes:
+  - the 2020s are on track to be the weakest decade for global growth since the 1960s
+  - easing to 2.6% in 2026 before rising to 2.7% in 2027
+  source_name: Global Economic Prospects, January 2026
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2026/01/13/global-economic-prospects-january-2026-press-release
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-578
+  verification_notes: The 2020s-weakest-decade quote confirmed verbatim on WB Jan
+    2026 press release. 2.3% figure from WB June 2025 GEP, confirmed via secondary
+    sources. Slowest since 2008 phrasing from initial search snippet, not found on
+    Jan 2026 page -- removed from claim.
+- claim: The World Bank projects South Asia as the fastest-growing region at 6.2%
+    in 2026 and 6.5% in 2027, followed by East Asia and Pacific at 4.4% in 2026, and
+    Sub-Saharan Africa at 4.3% in 2026.
+  source_quotes:
+  - 'South Asia 2026: 6.2%, 2027: 6.5%'
+  - 'East Asia and Pacific 2026: 4.4%, 2027: 4.3%'
+  - 'Sub-Saharan Africa 2026: 4.3%, 2027: 4.5%'
+  source_name: Global Economic Prospects, January 2026
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2026/01/13/global-economic-prospects-january-2026-press-release
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-579
+  verification_notes: All three regional figures confirmed on WB GEP Jan 2026 press
+    release, accessed 2026-03-13.
+- claim: The OECD projects global GDP growth of around 3.2% for 2026, with G20 consumer
+    price inflation easing from 3.4% in 2025 to 2.8% in 2026 and 2.5% in 2027, and
+    central banks expected to lower policy rates to around neutral levels by end-2026.
+  source_quotes:
+  - Annual consumer price inflation in the G20 is projected to ease from 3.4% this
+    year to 2.8% in 2026 and 2.5% in 2027
+  - Central banks are assumed to lower monetary policy rates further as inflation
+    continues to fall and labour market pressures ease, with real interest rates declining
+    to around neutral levels by the end of 2026 in most economies
+  source_name: OECD Economic Outlook, Volume 2025 Issue 2
+  source_author: Organisation for Economic Co-operation and Development
+  source_url: https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2025-issue-2_9f653ca1-en.html
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-580
+  verification_notes: OECD EO Dec 2025 quotes confirmed via search results. OECD page
+    returns 403 on direct fetch but quotes consistent across multiple secondary sources.
+- claim: China's GDP officially grew 5.0% in 2025 but independent analysis from Rhodium
+    Group estimates actual growth at 2.5-3.0%, noting that China has faced ten consecutive
+    quarters of persistent deflation inconsistent with 5% real growth.
+  source_quotes:
+  - History offers no examples of economies that have recorded 5% real GDP growth
+    while facing years of persistent deflation, as China has for ten consecutive quarters
+  source_name: 'China''s Economy: Rightsizing 2025, Looking Ahead to 2026'
+  source_author: Rhodium Group
+  source_url: https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-581
+  verification_notes: Ten consecutive quarters deflation quote confirmed on Rhodium
+    Group page, accessed 2026-03-13.
+- claim: China set its lowest economic growth target in decades for 2026 at 4.5-5%,
+    with Goldman Sachs forecasting 4.8% and UBS forecasting 4.5%, as the property
+    sector enters its fifth year of crisis with new construction starts more than
+    75% below their 2021 peak.
+  source_quotes:
+  - China set its lowest economic growth target in decades, announcing it would aim
+    for 4.5-5% expansion
+  - new construction starts more than 75% below the peak level in early 2021 and are
+    at the lowest point since the early 2000s
+  source_name: 'China''s Economy: Rightsizing 2025, Looking Ahead to 2026'
+  source_author: Rhodium Group
+  source_url: https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-582
+  verification_notes: Both quotes confirmed on Rhodium Group page and CNN Business
+    (China NPC), accessed 2026-03-13.
+- claim: India's real GDP is projected to grow by 7.4% in FY2025-26 according to MoSPI
+    First Advance Estimates, up from 6.5% in FY2024-25, with the country reinforcing
+    its position among the fastest-growing major economies globally.
+  source_quotes:
+  - Real GDP is projected to grow by 7.4 percent in FY 2025-26, up from 6.5 percent
+    in FY 2024-25
+  source_name: MoSPI Projects 7.4% GDP Growth for India in FY 2025-26
+  source_author: India Briefing / MoSPI
+  source_url: https://www.india-briefing.com/news/india-gdp-growth-forecast-fy-2025-26-41786.html/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-583
+  verification_notes: Confirmed 7.4% FY2025-26 estimate from MoSPI First Advance Estimates.
+    Removed unverified IMF and $7.3T claims.
+- claim: Deloitte projects Australia's GDP growth at 2.1% in 2026, up from 1.8% in
+    2025, with inflation not expected to return to target until the second half of
+    2026.
+  source_quotes:
+  - 'Australia GDP Growth 2026: 2.1% (up from 1.8% in 2025)'
+  - inflation not expected to return to target until second half of 2026
+  source_name: Global Economic Outlook 2026
+  source_author: Deloitte
+  source_url: https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook-2026.html
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-584
+  verification_notes: All claims confirmed on Deloitte Global Economic Outlook 2026,
+    accessed 2026-03-13.
+- claim: The US Federal Reserve's December 2025 FOMC projections show the median federal
+    funds rate declining from 3.6% in 2025 to 3.4% in 2026, 3.1% in 2027, and a longer-run
+    neutral rate of 3.0%, with GDP growth projected at 2.3% in 2026.
+  source_quotes:
+  - 'Federal Funds Rate median: 2025: 3.6%, 2026: 3.4%, 2027: 3.1%, 2028: 3.1%, Longer
+    run: 3.0%'
+  - 'Real GDP Growth median: 2025: 1.7%, 2026: 2.3%, 2027: 2.0%, 2028: 1.9%, Longer
+    run: 1.8%'
+  source_name: FOMC Summary of Economic Projections, December 2025
+  source_author: Federal Reserve
+  source_url: https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20251210.htm
+  source_type: government_data
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-585
+  verification_notes: All FOMC projection figures confirmed on Federal Reserve FOMC
+    projections table Dec 2025, accessed 2026-03-13.
+- claim: The Federal Reserve cut interest rates by a cumulative 175 basis points between
+    September 2024 and December 2025, bringing the federal funds rate to 3.50-3.75%,
+    before holding steady at its January 2026 meeting.
+  source_quotes:
+  - the Fed shifted to easing, cutting rates 1% in 2024s second half and 0.75% over
+    the last three meetings in 2025
+  - The Federal Reserve held its target federal funds interest rate in the 3.50%-3.75%
+    range at the January meeting
+  source_name: Federal Reserve holds interest rates steady after three rate cuts in
+    2025
+  source_author: U.S. Bank
+  source_url: https://www.usbank.com/investing/financial-perspectives/market-news/federal-reserve-interest-rate.html
+  source_type: media
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-586
+  verification_notes: Confirmed on US Bank page accessed 2026-03-13. 175bp total (100bp
+    in 2024 H2 + 75bp in 2025) confirmed. Rate held at 3.50-3.75% in Jan 2026 confirmed.
+- claim: The ECB held its deposit facility rate at 2.00%, main refinancing rate at
+    2.15%, and marginal lending facility at 2.40% as of December 2025, with economists
+    expecting rates to remain at 2% throughout 2026 in a neutral stance.
+  source_quotes:
+  - The Governing Council decided to keep the three key ECB interest rates unchanged
+  - 'deposit facility: 2.00%, main refinancing operations: 2.15%, marginal lending
+    facility: 2.40%'
+  source_name: ECB Monetary Policy Decisions, December 2025
+  source_author: European Central Bank
+  source_url: https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html
+  source_type: government_publication
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-587
+  verification_notes: All ECB rates confirmed on ECB monetary policy decisions Dec
+    2025 page, accessed 2026-03-13.
+- claim: The ECB's December 2025 staff projections forecast eurozone headline inflation
+    averaging 2.1% in 2025, 1.9% in 2026, 1.8% in 2027 and 2.0% in 2028, with GDP
+    growth revised upward to 1.4% in 2025, 1.2% in 2026, and 1.4% in 2027.
+  source_quotes:
+  - 'Headline inflation: 2.1% (2025), 1.9% (2026), 1.8% (2027), 2.0% (2028)'
+  - 'Economic growth revised upward: 2025: 1.4%, 2026: 1.2%, 2027: 1.4%'
+  source_name: ECB Monetary Policy Decisions, December 2025
+  source_author: European Central Bank
+  source_url: https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp251218~58b0e415a6.en.html
+  source_type: government_publication
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-588
+  verification_notes: All ECB staff projections confirmed on ECB Dec 2025 page, accessed
+    2026-03-13.
+- claim: The Reserve Bank of Australia raised the cash rate by 25 basis points to
+    3.85% in February 2026, citing that inflation had picked up materially in the
+    second half of 2025 and that capacity pressures were greater than previously assessed.
+  source_quotes:
+  - While inflation has fallen substantially since its peak in 2022, it picked up
+    materially in the second half of 2025
+  - capacity pressures are greater than previously assessed
+  - private demand is growing more quickly than expected
+  source_name: 'Statement by the Monetary Policy Board: Monetary Policy Decision'
+  source_author: Reserve Bank of Australia
+  source_url: https://www.rba.gov.au/media-releases/2026/mr-26-03.html
+  source_type: government_publication
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-589
+  verification_notes: All RBA quotes confirmed on RBA media release Feb 2026, accessed
+    2026-03-13.
+- claim: The Bank of Japan is expected to raise its policy rate from 0.5% to 1.0%
+    through 2026, while Deloitte projects Japan's GDP growth at only 0.4% in 2026,
+    down from 1.1% in 2025.
+  source_quotes:
+  - Bank of Japan expected to raise from 0.5% to 1% through 2026
+  - 'Japan GDP Growth 2026: 0.4% (down from 1.1% in 2025)'
+  source_name: Global Economic Outlook 2026
+  source_author: Deloitte
+  source_url: https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook-2026.html
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-590
+  verification_notes: All BoJ and Japan GDP claims confirmed on Deloitte Global Economic
+    Outlook 2026, accessed 2026-03-13.
+- claim: The FOMC's December 2025 projections show US PCE inflation declining from
+    2.9% in 2025 to 2.4% in 2026 and 2.1% in 2027, with core PCE following a similar
+    path from 3.0% to 2.5% to 2.1%.
+  source_quotes:
+  - 'PCE Inflation median: 2025: 2.9%, 2026: 2.4%, 2027: 2.1%, 2028: 2.0%, Longer
+    run: 2.0%'
+  - 'Core PCE Inflation median: 2025: 3.0%, 2026: 2.5%, 2027: 2.1%, 2028: 2.0%'
+  source_name: FOMC Summary of Economic Projections, December 2025
+  source_author: Federal Reserve
+  source_url: https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20251210.htm
+  source_type: government_data
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-591
+  verification_notes: All FOMC PCE inflation projections confirmed on Federal Reserve
+    FOMC projections table Dec 2025, accessed 2026-03-13.
+- claim: The World Bank projects global inflation declining to 2.6% in 2026, with
+    one in four developing economies still poorer than pre-pandemic 2019 levels.
+  source_quotes:
+  - 'Global inflation projection (2026): 2.6%'
+  - One in four developing economies remains poorer than 2019 levels
+  source_name: Global Economic Prospects, January 2026
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2026/01/13/global-economic-prospects-january-2026-press-release
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-592
+  verification_notes: Global inflation 2.6% and one-in-four developing economies claims
+    confirmed on WB GEP Jan 2026, accessed 2026-03-13.
+- claim: Germany announced a 500-billion-euro multi-year infrastructure package in
+    2025, representing a significant fiscal stimulus that contrasts with the eurozone's
+    otherwise subdued growth outlook of 1.2% in 2026.
+  source_quotes:
+  - 500-billion-euro multiyear infrastructure package
+  - 'Germany GDP Growth 2025: ~0.2%; 2026: 1.2%'
+  source_name: Global Economic Outlook 2026
+  source_author: Deloitte
+  source_url: https://www.deloitte.com/us/en/insights/topics/economy/global-economic-outlook-2026.html
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-593
+  verification_notes: Germany EUR500B package and GDP 1.2% confirmed on Deloitte Global
+    Economic Outlook 2026, accessed 2026-03-13.
+- claim: China's retail sales growth collapsed from 6.4% year-on-year in May to just
+    1.3% in November 2025, while consumer prices have not increased on net in three
+    years, reflecting deep deflationary pressures that weigh on metals demand.
+  source_quotes:
+  - Retail sales growth dropped from 6.4% y/y in May to just 1.3% y/y in November
+  - Consumer price index has not increased on net in three years
+  source_name: 'China''s Economy: Rightsizing 2025, Looking Ahead to 2026'
+  source_author: Rhodium Group
+  source_url: https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-594
+  verification_notes: Both Rhodium Group quotes confirmed on RHG page, accessed 2026-03-13.
+- claim: The IMF projects global inflation to ease to 4.2% in 2025 and 3.6% in 2026,
+    while G20 consumer price inflation is projected to ease from 3.4% in 2025 to 2.8%
+    in 2026 according to the OECD.
+  source_quotes:
+  - the IMF anticipating global inflation to ease to 4.2% in 2025, further dipping
+    to 3.6% in 2026
+  - Annual consumer price inflation in the G20 is projected to ease from 3.4% this
+    year to 2.8% in 2026 and 2.5% in 2027
+  source_name: OECD Economic Outlook, Volume 2025 Issue 2
+  source_author: Organisation for Economic Co-operation and Development
+  source_url: https://www.oecd.org/en/publications/oecd-economic-outlook-volume-2025-issue-2_9f653ca1-en.html
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-595
+  verification_notes: OECD quotes confirmed via search results. Page returns 403 on
+    direct fetch but consistent across sources.
+- claim: S&P Global's Mine Cost Outlook 2026 finds that persistent inflation, rising
+    energy costs, and declining ore grades are forging a new, elevated cost standard
+    across all metals, with structural upward pressure on all-in sustaining costs.
+  source_quotes:
+  - Persistent inflation, rising energy costs, and fundamental geological challenges—such
+    as declining ore grades—are forging a new, elevated cost standard across all metals
+  - Persistent inflation, higher energy and labor costs, and the geological challenges
+    of mining deeper, lower-grade ore bodies will continue to exert upward pressure
+    on all-in sustaining costs
+  source_name: 'Mine Cost Outlook 2026: Inflation, New Supply Reshape Global Mining
+    Landscape'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/mine-cost-outlook-2026-inflation-new-supply-reshape-global-mining-landscape
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-596
+  verification_notes: S&P Global Mine Cost Outlook 2026 quotes confirmed via search
+    result summaries and Seeking Alpha reprint. Primary page returns 403.
+- claim: Gold producers are positioned for record-high margins of approximately US$2,800/oz
+    in 2026, supported by a projected 24% increase in gold prices and a 5% decline
+    in global average AISC, while gold AISC is expected to rise modestly by 6% to
+    US$1,521/oz.
+  source_quotes:
+  - Producers are well-positioned to capitalize on favorable market conditions, supported
+    by a projected 24% increase in gold prices, and a 5% decline in global average
+    AISCs, resulting in record-high margins of approximately $2,800/oz
+  - A modest 6% rise in AISC to $1,521/oz is expected
+  source_name: 'Mine Cost Outlook 2026: Inflation, New Supply Reshape Global Mining
+    Landscape'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/mine-cost-outlook-2026-inflation-new-supply-reshape-global-mining-landscape
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-597
+  verification_notes: S&P Global Mine Cost Outlook 2026 gold AISC data confirmed via
+    search summaries. Primary page returns 403.
+- claim: The copper mining stripping ratio rebounded from a historical low of 1.47:1
+    in 2021 to 1.78:1 in 2024, while declining ore quality forces operators to process
+    more material to yield the same amount of copper, with S&P projecting a 543,000
+    metric ton concentrate deficit in 2026.
+  source_quotes:
+  - The copper mining stripping ratio is rising. After hitting a historical low of
+    1.47-1 in 2021, the ratio rebounded to 1.78-to-1 in 2024
+  - S&P has lifted its 2026 copper price forecast to US$11,400 per metric ton, projecting
+    a 543,000 metric ton concentrate deficit next year
+  source_name: 'Mine Cost Outlook 2026: Inflation, New Supply Reshape Global Mining
+    Landscape'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/mine-cost-outlook-2026-inflation-new-supply-reshape-global-mining-landscape
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-598
+  verification_notes: S&P copper stripping ratio and deficit figures confirmed via
+    search summaries. Primary page returns 403.
+- claim: Lithium and nickel producers face severe margin pressure, with 47% of lithium
+    and 14% of nickel production likely unprofitable at consensus 2026 prices, driving
+    further cost-cutting and potential mine closures.
+  source_quotes:
+  - Lithium and nickel producers face severe margin pressure, with 47% of lithium
+    and 14% of nickel production likely unprofitable at consensus prices, driving
+    further cost-cutting and potential closures
+  source_name: 'Mine Cost Outlook 2026: Inflation, New Supply Reshape Global Mining
+    Landscape'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/mine-cost-outlook-2026-inflation-new-supply-reshape-global-mining-landscape
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-599
+  verification_notes: S&P 47% lithium unprofitable figure confirmed via search summaries.
+    Primary page returns 403.
+- claim: The average nickel AISC is forecast to rise 3.9% in 2026 to US$5.89/lb, with
+    the consensus nickel price only slightly higher at US$7.49/lb, resulting in a
+    squeezed AISC margin of US$1.60/lb.
+  source_quotes:
+  - The average nickel AISC is forecast to rise 3.9% in 2026 to $5.89/lb, alongside
+    the consensus nickel price increasing slightly to $7.49/lb; this will result in
+    the AISC margin remaining squeezed at $1.60/lb
+  source_name: 'Mine Cost Outlook 2026: Inflation, New Supply Reshape Global Mining
+    Landscape'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/mine-cost-outlook-2026-inflation-new-supply-reshape-global-mining-landscape
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-600
+  verification_notes: S&P nickel AISC $5.89/lb and margin figures confirmed via search
+    summaries. Primary page returns 403.
+- claim: Global commodity prices are projected to fall to their lowest level in six
+    years in 2026, marking the fourth consecutive year of decline, with overall prices
+    forecast to drop by 7% in both 2025 and 2026, though remaining 23% and 14% above
+    2019 pre-pandemic levels respectively.
+  source_quotes:
+  - Global commodity prices are projected to fall to their lowest level in six years
+    in 2026, marking the fourth consecutive year of decline
+  - prices forecast to drop by 7% in both 2025 and 2026
+  - prices in 2025 and 2026 projected to be 23% and 14% higher, respectively, than
+    in 2019
+  source_name: Commodity Markets Outlook, October 2025
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2025/10/28/commodity-markets-outlook-october-2025-press-release
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-601
+  verification_notes: All WB commodity price decline figures confirmed on WB CMO Oct
+    2025 press release, accessed 2026-03-13.
+- claim: The World Bank projects base metal prices to rise 3% in 2025, remain broadly
+    stable in 2026, and increase 2% in 2027, with copper and tin projected to reach
+    new record highs in nominal US dollar terms, driven by clean energy technology
+    demand and supply constraints.
+  source_quotes:
+  - Base metal prices are projected to rise 3 percent in 2025, remain broadly stable
+    in 2026, and increase modestly by 2 percent in 2027
+  - copper and tin—both essential for clean-energy technologies—projected to reach
+    new record highs in nominal U.S. dollar terms
+  source_name: 'Metal prices outlook: supply constraints, clean energy demand, and
+    market risks'
+  source_author: World Bank
+  source_url: https://blogs.worldbank.org/en/opendata/metal-prices-poised-to-strengthen-further
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-602
+  verification_notes: WB base metal price projections confirmed on WB blog post, accessed
+    2026-03-13.
+- claim: World Bank energy price forecasts show Brent crude falling from US$68/barrel
+    in 2025 to US$60 in 2026 (a five-year low), with overall energy prices declining
+    12% in 2025 and a further 10% in 2026, providing some relief to mining input costs.
+  source_quotes:
+  - 'Oil (Brent crude): Forecast to fall from $68 average (2025) to $60 (2026)—described
+    as a five-year low'
+  - 'Overall energy prices: Down 12% in 2025, further 10% decline in 2026'
+  source_name: Commodity Markets Outlook, October 2025
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2025/10/28/commodity-markets-outlook-october-2025-press-release
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-603
+  verification_notes: Brent crude and energy price forecasts confirmed on WB CMO Oct
+    2025 press release, accessed 2026-03-13.
+- claim: Gold prices are expected to increase by 42% in 2025 and a further 5% in 2026,
+    with silver prices rising 34% in 2025 and 8% in 2026, while precious metal prices
+    are projected to reach new all-time highs in 2026.
+  source_quotes:
+  - The price of gold is expected to increase by 42% in 2025 and is projected to increase
+    by a further 5% next year
+  - silver prices are expected to hit a record annual average in 2025, rising by 34%
+    and further 8% in 2026
+  - Precious metal prices are projected to reach new all-time highs in 2026, following
+    an estimated 41 percent increase this year
+  source_name: Commodity Markets Outlook, October 2025
+  source_author: World Bank
+  source_url: https://www.worldbank.org/en/news/press-release/2025/10/28/commodity-markets-outlook-october-2025-press-release
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-604
+  verification_notes: Gold 42% and silver 34% figures confirmed on WB CMO Oct 2025
+    press release, accessed 2026-03-13.
+- claim: 'The mining sector is bifurcating: precious metals and manganese producers
+    are capitalising on prices outpacing cost inflation, while lithium and nickel
+    producers are being forced to cut costs to survive a period of oversupply.'
+  source_quotes:
+  - 'The mining sector is bifurcating into groups: one including producers of precious
+    metals and manganese is positioned to capitalize on value, as prices outpace inflation;
+    the other, led by lithium and nickel, is being forced to cut costs to survive
+    a period of oversupply'
+  source_name: 'Mine Cost Outlook 2026: Inflation, New Supply Reshape Global Mining
+    Landscape'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/01/mine-cost-outlook-2026-inflation-new-supply-reshape-global-mining-landscape
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-605
+  verification_notes: Mining sector bifurcation quote confirmed via search summaries
+    of S&P Mine Cost Outlook 2026.
+- claim: McKinsey finds that the correlation between commodity prices and mining investment
+    spending is 73% over the past decade, with companies typically underinvesting
+    during downcycles and overinvesting during upcycles, especially for junior mines
+    and exploration projects.
+  source_quotes:
+  - The correlation between price and investment spend is high—73 percent over the
+    past decade—and is expected to continue going forward
+  - The impact of this is highly variable valuations, as well as underinvestment during
+    downcycles and overinvestment during upcycles—especially for junior mines and
+    exploration projects
+  source_name: Through-cycle investment in mining
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/through-cycle-investment-in-mining
+  source_type: industry_report
+  source_date: 2022-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-606
+  verification_notes: McKinsey 73% correlation confirmed via search results. Page
+    timed out on WebFetch but figure widely cited.
+- claim: Mining has experienced five commodity price cycles since 2000, with peaks
+    in 2001, 2007, 2010, 2013, and early 2015 followed by abrupt drops, and McKinsey
+    recommends that miners save during upcycles and invest during downcycles.
+  source_quotes:
+  - Commodity prices are notoriously cyclical—mining has seen five cycles since 2000,
+    with peaks in 2001, 2007, 2010, 2013, and the early part of 2015 followed by abrupt
+    drops
+  - Price cycles suggest that it is more relevant for miners to save during upcycles
+    and invest during downcycles
+  source_name: Through-cycle investment in mining
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/through-cycle-investment-in-mining
+  source_type: industry_report
+  source_date: 2022-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-607
+  verification_notes: McKinsey five cycles and counter-cyclical recommendation confirmed
+    via search results.
+- claim: Global nonferrous mineral exploration spending fell 3% to US$12.5 billion
+    in 2024, the second consecutive year of decline, with junior mining company funding
+    falling 12% to US$10.3 billion, the lowest in five years.
+  source_quotes:
+  - 'Total global nonferrous exploration spending: $12.5 billion (down 3% year-over-year)'
+  - Junior mining company funding fell 12% to $10.3 billion in 2024 (lowest in five
+    years)
+  source_name: 'Global exploration budgets fall as juniors tighten belts: S&P'
+  source_author: S&P Global Market Intelligence / MINING.COM
+  source_url: https://www.mining.com/global-exploration-budgets-fall-as-juniors-tighten-belts-sp/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-608
+  verification_notes: All 8 of 9 specific figures confirmed on MINING.COM article,
+    accessed 2026-03-13.
+- claim: Grassroots exploration allocation continued its downward trend in 2024, falling
+    8% to a record low of just 22% of global exploration budgets (US$2.79 billion),
+    signalling reduced pipeline replenishment for future mine development.
+  source_quotes:
+  - Allocation towards grassroots exploration (nonferrous metals) continued its downward
+    trend in 2024, down 8% to a new record low of 22%, totalling $2.79 billion
+  source_name: 'Global exploration budgets fall as juniors tighten belts: S&P'
+  source_author: S&P Global Market Intelligence / MINING.COM
+  source_url: https://www.mining.com/global-exploration-budgets-fall-as-juniors-tighten-belts-sp/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-609
+  verification_notes: Grassroots 22% record low confirmed in article. $2.79B figure
+    from S&P full report, confirmed via CES 2024 coverage.
+- claim: Gold exploration budgets fell 7% to US$5.6 billion in 2024 despite record
+    gold prices, while copper exploration rose 2% to US$3.2 billion and lithium surged
+    30% to over US$1 billion, reflecting the energy transition's growing influence
+    on exploration capital allocation.
+  source_quotes:
+  - Gold $5.6 billion -7%
+  - Copper $3.2 billion +2%
+  - Lithium >$1 billion +30%
+  source_name: 'Global exploration budgets fall as juniors tighten belts: S&P'
+  source_author: S&P Global Market Intelligence / MINING.COM
+  source_url: https://www.mining.com/global-exploration-budgets-fall-as-juniors-tighten-belts-sp/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-610
+  verification_notes: Gold -7% $5.6B, Copper +2% $3.2B, Lithium +30% >$1B all confirmed
+    on MINING.COM article.
+- claim: 'Baker Steel Capital identifies three converging investment themes for the
+    mining sector in 2026: the New Industrial Revolution (AI, data centres, electrification),
+    geopolitical and industrial strategy (critical minerals security), and shifting
+    macroeconomic conditions (monetary easing, inflation hedging).'
+  source_quotes:
+  - 'Miners currently sit at the centre of three key global investment themes: 1)
+    the New Industrial Revolution, 2) geopolitical and industrial strategy, and 3)
+    shifting macroeconomic conditions'
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-611
+  verification_notes: Baker Steel three themes quote confirmed on Baker Steel 2026
+    outlook page, accessed 2026-03-13.
+- claim: Baker Steel reports that gold rose 64.6% in 2025 with gold miners surging
+    163.0%, copper exceeded US$12,000 per tonne, and the mining sector trades at just
+    7x EV/EBITDA, accounting for only 1% of global listed equities despite record
+    commodity prices.
+  source_quotes:
+  - 'Gold price 2025: +64.6% rise; gold miners surged +163.0%'
+  - copper exceeded USD 12k per tonne
+  - 'Overall sector multiple: 7x EV/EBITDA (significantly below broader markets)'
+  - Miners account for just 1% of global listed equities
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-612
+  verification_notes: Gold +64.6%, miners +163%, copper >$12k, 7x EV/EBITDA, 1% of
+    equities all confirmed on Baker Steel page.
+- claim: Baker Steel reports that copper faces its largest supply deficit in 22 years
+    in 2026, with mine lead times grown to over 15 years from discovery to production,
+    and treatment charges at negative US$45/t compared to a typical US$50+/t in balanced
+    markets.
+  source_quotes:
+  - Largest supply deficit for 22 years
+  - Mine lead times grown to over 15 years from discovery to production
+  - 'Treatment charges: Currently ~-USD 45/t (vs. typical USD 50/t+ in balanced markets)'
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-613
+  verification_notes: Copper 22-year deficit, 15+ year lead times, -$45/t TC all confirmed
+    on Baker Steel page.
+- claim: Central bank gold reserves increased by 15% as a percentage of global foreign
+    reserves over the past five years, while US dollar holdings declined 3% over the
+    same period, reflecting a structural shift in reserve management that supports
+    gold demand.
+  source_quotes:
+  - Gold increased 15% as percentage of global foreign reserves
+  - 'US dollar holdings decline: -3% over same period'
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-614
+  verification_notes: Central bank gold reserves +15%, USD -3% confirmed on Baker
+    Steel page.
+- claim: Major mining M&A activity in 2025 included the proposed US$50+ billion Anglo
+    American-Teck Resources merger, the US$3.3 billion Northern Star-De Grey acquisition,
+    and the US$2.4 billion Gold Fields-Gold Road deal, with producers preferring to
+    buy rather than build given mine development challenges.
+  source_quotes:
+  - 'Anglo American/Teck merger: USD 50+ billion transaction'
+  - 'Northern Star/De Grey: ~USD 3.3 billion acquisition'
+  - 'Gold Fields/Gold Road: ~USD 2.4 billion acquisition'
+  - Given the challenges in developing new mines, miners prefer to buy rather than
+    build
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-615
+  verification_notes: All M&A figures confirmed on Baker Steel page. Anglo/Teck $50B+,
+    Northern Star/De Grey $3.3B, Gold Fields/Gold Road $2.4B.
+- claim: The combined capital expenditure of the top 19 mining companies is expected
+    to reach US$71.0 billion in 2024, a rise of 10.6% compared with 2023, though project
+    spending appears to be peaking and may slow as moderate base metals prices and
+    a slowing energy transition constrain activity.
+  source_quotes:
+  - The combined capital expenditure (capex) of the top 19 mining companies is expected
+    to reach $71.0bn in 2024, a rise of 10.6% compared with 2023
+  source_name: Miners prioritise critical minerals, decarbonisation in 10.6% capex
+    rise in 2024
+  source_author: Mining Technology / GlobalData
+  source_url: https://www.mining-technology.com/analyst-comment/miners-prioritise-critical-minerals-decarbonisation-capex/
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-616
+  verification_notes: Top 19 miners $71.0B capex confirmed on Mining Technology page.
+    Original E&MJ source (8 majors $23.9B to $48.4B) returned 403; replaced with verified
+    alternative.
+- claim: China's fixed asset investment declined 11% nominally from July to November
+    2025 versus the prior year, while manufacturing investment growth slowed sharply
+    from 9.2% in 2024 to 1.9% through November 2025, with credit growth reaching all-time
+    lows.
+  source_quotes:
+  - 'Fixed Asset Investment (FAI): declined 11% nominally July-November 2025 vs. prior
+    year'
+  - Manufacturing investment fell from 9.2% growth in 2024 to 1.9% through November
+    2025
+  - Credit growth reached all-time lows on multiple measures this year, including
+    RMB loans, by only 6.3% y/y
+  source_name: 'China''s Economy: Rightsizing 2025, Looking Ahead to 2026'
+  source_author: Rhodium Group
+  source_url: https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-617
+  verification_notes: China FAI -11%, manufacturing investment 9.2% to 1.9%, credit
+    6.3% all confirmed on Rhodium Group page.
+- claim: Baker Steel reports that rare earth magnet metals are in structural deficit
+    projected to widen to around 22% of supply by 2030, with EV demand currently representing
+    33% of magnet REE demand and forecast to approach 60% by 2035.
+  source_quotes:
+  - 'Magnet metals deficit: Currently in structural deficit, projected to widen to
+    around 22% of supply by 2030'
+  - 'EV demand trajectory: Currently ~33% of magnet REE demand, forecast to approach
+    60% by 2035'
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-618
+  verification_notes: REE 22% deficit by 2030, EV 33% to 60% by 2035 confirmed on
+    Baker Steel page.
+- claim: Iron ore prices are expected to fall 10% in 2025, with additional declines
+    of 4% in both 2026 and 2027, dropping below 2019 levels, reflecting the structural
+    downturn in Chinese property construction which has driven metals demand for decades.
+  source_quotes:
+  - Iron ore prices expected to decline further in 2026-27, falling below 2019 levels
+  - Iron ore prices are expected to fall by 10 percent in 2025, with additional declines
+    of 4 percent in both 2026 and 2027
+  source_name: 'Metal prices outlook: supply constraints, clean energy demand, and
+    market risks'
+  source_author: World Bank
+  source_url: https://blogs.worldbank.org/en/opendata/metal-prices-poised-to-strengthen-further
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-619
+  verification_notes: Iron ore -10% in 2025, -4% in 2026 and 2027, below 2019 levels
+    confirmed on WB metals blog.
+- claim: Base metals production growth was subdued through the first three quarters
+    of 2025 and is expected to remain weak over the forecast period, with output constrained
+    by operational disruptions and production limits for aluminum and copper, while
+    China nears its self-imposed 45 million metric ton annual aluminum production
+    cap.
+  source_quotes:
+  - Base metals production growth was subdued through the first three quarters of
+    the year and is expected to remain weak over the forecast period
+  - output growth is being constrained by operational disruptions and production limits
+    for several key metals, including aluminum and copper
+  - China nearing its self-imposed 45-million-metric-ton annual cap
+  source_name: 'Metal prices outlook: supply constraints, clean energy demand, and
+    market risks'
+  source_author: World Bank
+  source_url: https://blogs.worldbank.org/en/opendata/metal-prices-poised-to-strengthen-further
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-620
+  verification_notes: Base metals production subdued, aluminum/copper constraints,
+    China 45Mt cap all confirmed on WB metals blog.
+- claim: The US expanded its critical minerals list in November 2025 to include copper,
+    silver, potash, and uranium, signalling the growing strategic importance of minerals
+    previously considered purely industrial commodities.
+  source_quotes:
+  - 'US critical minerals list expansion (November 2025): Added copper, silver, potash,
+    and uranium'
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-621
+  verification_notes: US critical minerals list expansion Nov 2025 adding copper,
+    silver, potash, uranium confirmed on Baker Steel page.
+- claim: China's trade surplus surpassed nearly US$1 trillion through November 2025,
+    driven by 10% export volume growth, while US-bound exports declined 20-30% year-on-year
+    every month since April due to trade tensions, forcing Chinese manufacturers to
+    redirect output.
+  source_quotes:
+  - China's trade surplus already surpassed that total [nearly $1 trillion] through
+    November 2025
+  - 10% growth in the volume of China's exports
+  - US exports declined by 20-30% y/y every month since April
+  source_name: 'China''s Economy: Rightsizing 2025, Looking Ahead to 2026'
+  source_author: Rhodium Group
+  source_url: https://rhg.com/research/chinas-economy-rightsizing-2025-looking-ahead-to-2026/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-622
+  verification_notes: China trade surplus ~$1T, export volume +10%, US exports -20-30%
+    confirmed on Rhodium Group page.
+- claim: S&P Global reports that nickel exploration budgets fell 30% to US$534 million
+    and cobalt exploration budgets fell 35% to US$51.1 million in 2024, while uranium
+    exploration surged 33% to US$331 million, reflecting the divergent investment
+    signals across critical mineral categories.
+  source_quotes:
+  - Nickel $534 million -30%
+  - Cobalt $51.1 million -35%
+  - Uranium $331 million +33%
+  source_name: 'Global exploration budgets fall as juniors tighten belts: S&P'
+  source_author: S&P Global Market Intelligence / MINING.COM
+  source_url: https://www.mining.com/global-exploration-budgets-fall-as-juniors-tighten-belts-sp/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-623
+  verification_notes: Nickel -30% $534M, cobalt -35% $51.1M, uranium +33% $331M all
+    confirmed on MINING.COM article.
+- claim: Silver is in structural deficit for the fifth consecutive year in 2025, with
+    prices reaching approximately US$80/oz in December 2025, while a significant portion
+    of silver supply is produced as a byproduct of other mining operations, constraining
+    supply response.
+  source_quotes:
+  - Structural deficit for the fifth consecutive year in 2025
+  - 'Silver price: Reached ~USD 80/oz in December 2025'
+  - Significant portion produced as byproduct of other mining
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-624
+  verification_notes: Silver structural deficit 5th year, ~$80/oz, byproduct nature
+    confirmed on Baker Steel page.
+- claim: Baker Steel reports that lithium demand is expected to grow by nearly 150%
+    by 2030, with the market currently in surplus but early recovery signs emerging
+    as high-cost producers curtail output.
+  source_quotes:
+  - 'Demand forecast: Expected to grow by nearly 150% by 2030'
+  - 'Market status: Currently surplus; early recovery signs emerging'
+  source_name: 'Outlook 2026: Miners in the spotlight - Are we at the start of a multi-year
+    upcycle for commodities?'
+  source_author: Baker Steel Capital Managers
+  source_url: https://www.bakersteelcap.com/2026/01/21/outlook-2026-miners-in-the-spotlight-are-we-at-the-start-of-a-multi-year-upcycle-for-commodities/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-017
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-625
+  verification_notes: Lithium demand +150% by 2030, current surplus, recovery signs
+    confirmed on Baker Steel page.
