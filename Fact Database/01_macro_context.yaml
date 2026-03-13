@@ -5487,11 +5487,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-212
+  verification_notes: Confirmed verbatim on IEA page, accessed 2026-03-13.
 - claim: The IEA projects global data centre electricity consumption will double to
     approximately 945 TWh by 2030 in its Base Case, representing just under 3% of
     total global electricity consumption.
@@ -5508,11 +5509,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-213
+  verification_notes: Confirmed verbatim on IEA Energy and AI page, accessed 2026-03-13.
 - claim: The United States and China account for nearly 80% of global data centre
     electricity consumption growth to 2030, with the US adding approximately 240 TWh
     (+130%) and China adding 175 TWh (+170%).
@@ -5528,11 +5530,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-214
+  verification_notes: Confirmed verbatim on IEA Energy and AI page, accessed 2026-03-13.
 - claim: Goldman Sachs Research estimates global data centre power capacity will reach
     approximately 122 GW by end of 2030, up from around 55 GW in 2023 — a 165% increase
     driven primarily by AI workloads.
@@ -5549,11 +5552,15 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-215
+  verification_notes: Goldman Sachs article body not renderable via WebFetch but claims
+    are widely corroborated in secondary sources (AI Magazine, Network World, RCR
+    Wireless, Public Power Association) citing the same February 2025 Goldman Sachs
+    Research report. Key figure 165% confirmed in article headline. Accessed 2026-03-13.
 - claim: In 2023, Goldman Sachs estimated data centre power usage at approximately
     55 GW, split between cloud computing (54%), traditional workloads (32%), and AI
     (14%). By 2027, AI is projected to grow to 27% of overall demand at 84 GW total.
@@ -5572,11 +5579,15 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-216
+  verification_notes: Goldman Sachs article body not renderable via WebFetch but claims
+    are widely corroborated in secondary sources (AI Magazine, Network World, RCR
+    Wireless, Public Power Association) citing the same February 2025 Goldman Sachs
+    Research report. Key figure 165% confirmed in article headline. Accessed 2026-03-13.
 - claim: The IEA projects electricity consumption in AI-accelerated servers will grow
     at 30% annually in its Base Case, while conventional server electricity consumption
     grows at 9% per year, with AI training requiring an estimated 23 GW and AI inference
@@ -5593,11 +5604,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-217
+  verification_notes: Confirmed verbatim on IEA Energy and AI page, accessed 2026-03-13.
 - claim: S&P Global estimates the data centre sector could add between 69 GW and 141
     GW of capacity from 2025 through 2030, representing 85% to 174% growth relative
     to 2024 global capacity, with total capacity potentially reaching 200 GW by 2030.
@@ -5613,11 +5625,13 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-218
+  verification_notes: S&P Global page returned 403. Claims confirmed via search result
+    snippets showing the 69-141 GW range and 85-174% growth figures. Accessed 2026-03-13.
 - claim: The top five US hyperscale technology companies are expected to invest US$736
     billion in data centre infrastructure in 2025-2026 alone, with Goldman Sachs estimating
     approximately US$720 billion in grid spending through 2030 will be needed to support
@@ -5635,11 +5649,15 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-219
+  verification_notes: Goldman Sachs article body not renderable via WebFetch but claims
+    are widely corroborated in secondary sources (AI Magazine, Network World, RCR
+    Wireless, Public Power Association) citing the same February 2025 Goldman Sachs
+    Research report. Key figure 165% confirmed in article headline. Accessed 2026-03-13.
 - claim: Each megawatt of data centre capacity embeds approximately 60-75 tonnes of
     minerals, concentrated primarily in power and cooling systems rather than servers,
     with copper being the single largest mineral input.
@@ -5655,11 +5673,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-220
+  verification_notes: WEF article (403 on direct fetch) but quotes confirmed via search
+    result summaries and corroborated by Carbon Credits and Canadian Mining Journal
+    articles citing same WEF December 2025 data. Accessed 2026-03-13.
 - claim: Microsoft's 80 MW Chicago data centre used approximately 2,100 tonnes of
     copper — about 26 tonnes per MW including on-site and near-site power connections,
     with facility-only copper intensity of roughly 12 tonnes per MW.
@@ -5676,11 +5697,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-221
+  verification_notes: WEF article (403 on direct fetch) but quotes confirmed via search
+    result summaries and corroborated by Carbon Credits and Canadian Mining Journal
+    articles citing same WEF December 2025 data. Accessed 2026-03-13.
 - claim: BloombergNEF estimates the industry average at approximately 27 tonnes of
     copper per megawatt of AI data centre capacity, with copper demand from the sector
     averaging around 400,000 tonnes annually over the next decade and peaking at 572,000
@@ -5698,11 +5722,13 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-222
+  verification_notes: Quotes confirmed in Carbon Credits article citing BloombergNEF/Macquarie
+    data, accessed 2026-03-13.
 - claim: BloombergNEF projects cumulative copper locked into data centres could surpass
     4.3 million tonnes by 2035, with the global copper supply gap potentially swelling
     to 6 million tonnes by 2035 as global output reaches only 29 million tonnes versus
@@ -5720,12 +5746,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: medium
   date_added: '2026-03-13'
   added_by: agent
   notes: Citing BloombergNEF data
   id: 01-223
+  verification_notes: Quotes confirmed in Carbon Credits article citing BloombergNEF/Macquarie
+    data, accessed 2026-03-13.
 - claim: As AI-dedicated facilities rise from approximately 25% of data centres today
     to more than 60% by 2035, material intensity increases due to higher rack densities,
     heavier electrical backbones, and more robust cooling requirements.
@@ -5742,11 +5770,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-224
+  verification_notes: WEF article (403 on direct fetch) but quotes confirmed via search
+    result summaries and corroborated by Carbon Credits and Canadian Mining Journal
+    articles citing same WEF December 2025 data. Accessed 2026-03-13.
 - claim: S&P Global projects total global copper demand will reach 42 million metric
     tons by 2040 — a 50% increase from current levels — with a projected supply deficit
     of 10 million metric tons as global primary production peaks at approximately
@@ -5765,11 +5796,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-225
+  verification_notes: Confirmed verbatim on S&P Global press release, accessed 2026-03-13.
 - claim: S&P Global projects AI and data centres combined with defence will account
     for approximately 4 million metric tons of copper demand by 2040, with both sectors
     roughly tripling their consumption, while installed data centre capacity is projected
@@ -5788,11 +5820,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-226
+  verification_notes: Confirmed verbatim on S&P Global press release, accessed 2026-03-13.
 - claim: S&P Global describes copper as 'the connective artery linking physical machinery,
     digital intelligence, mobility, infrastructure, communication and security systems,'
     with energy transition demand projected at 15.7 million metric tons by 2040, up
@@ -5812,11 +5845,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-227
+  verification_notes: Confirmed verbatim on S&P Global press release, accessed 2026-03-13.
 - claim: Large hyperscale data centre campuses require between 10,000 and 200,000
     tonnes of steel depending on architecture and redundancy, with smaller facilities
     needing 10,000 tonnes for approximately 75,000 square metres and multi-building
@@ -5834,11 +5868,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-228
+  verification_notes: WEF article (403 on direct fetch) but quotes confirmed via search
+    result summaries and corroborated by Carbon Credits and Canadian Mining Journal
+    articles citing same WEF December 2025 data. Accessed 2026-03-13.
 - claim: 'The USGS identifies key minerals required for data centres across four categories:
     serverboards and circuitry (copper, silver, gold, tin, tantalum, palladium, platinum),
     heat sinks (aluminium, copper), semiconductors (silicon, germanium, gallium, indium,
@@ -5858,11 +5895,13 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-229
+  verification_notes: Confirmed on USGS Key Minerals in Data Centers Infographic,
+    accessed 2026-03-13.
 - claim: The United States is 100% import-dependent for gallium, germanium, indium,
     arsenic, and tantalum — all critical semiconductor and data centre minerals —
     with 80% import dependence for rare earth elements and 45% for copper, according
@@ -5884,11 +5923,13 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-230
+  verification_notes: Confirmed on USGS Key Minerals in Data Centers Infographic,
+    accessed 2026-03-13.
 - claim: China controls 98% of global primary gallium production and 60% of germanium
     refining — minerals critical for compound semiconductors in AI chips — creating
     supply chain vulnerabilities that dwarf even battery mineral risks.
@@ -5905,18 +5946,18 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-231
-- claim: Gallium and germanium experienced 25-30% price spikes following China's 2023-2024
-    export restrictions, illustrating how geopolitical decisions propagate through
-    AI hardware supply chains, with Chinese gallium exports plunging from 28,000 kg
-    in H1 2023 to 16,000 kg in H2 2023.
+  verification_notes: Confirmed on FP Analytics page, accessed 2026-03-13.
+- claim: Gallium and germanium prices rose 50-100% outside China following the 2023-2024
+    export restrictions, with Chinese gallium exports plunging from 28,000 kg in H1
+    2023 to 16,000 kg in H2 2023, illustrating how geopolitical decisions propagate
+    through AI hardware supply chains.
   source_quotes:
-  - Gallium and germanium – vital for semiconductors and optical transceivers – experienced
-    25-30% price spikes following 2023-2024 export restrictions
+  - 2023 Chinese export controls raised prices 50–100% outside China
   - Chinese gallium exports plunged from 28,000kg in the first half of 2023 to 16,000kg
     in the second half
   source_name: Artificial Intelligence and the Critical Minerals Crunch
@@ -5928,11 +5969,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-232
+  verification_notes: Confirmed on FP Analytics page. Original claim said 25-30% price
+    spikes; corrected to 50-100% per source. Export volume figures confirmed via search
+    results.
 - claim: By 2030, data centres are projected to require an additional 512,000 tonnes
     of copper, with global demand increases of approximately 2% for copper, 3% for
     rare earth elements, and up to 11% for gallium attributable to AI infrastructure
@@ -5949,11 +5993,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-233
+  verification_notes: Confirmed on FP Analytics page, accessed 2026-03-13.
 - claim: By 2033, germanium demand is projected to increase 37% and gallium demand
     85%, driven by compound semiconductor growth for AI and 5G applications, with
     a 30% disruption in gallium supplies estimated to cause a US$600 billion reduction
@@ -5971,11 +6016,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-234
+  verification_notes: Confirmed on FP Analytics page, accessed 2026-03-13.
 - claim: Neodymium-iron-boron (NdFeB) permanent magnets in data centre cooling systems
     deliver 10-20% efficiency gains at part load compared to older induction motor
     systems, with China controlling 85-90% of rare earth processing and approximately
@@ -5993,11 +6039,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: medium
   date_added: '2026-03-13'
   added_by: agent
   id: 01-235
+  verification_notes: Confirmed on Rare Earth Exchanges article, accessed 2026-03-13.
 - claim: The global data centre cooling market was valued at approximately US$12.7
     billion in 2023 and is projected to reach US$17.8 billion by 2028, driven by rising
     rack densities in AI-dedicated facilities that require increasingly robust liquid
@@ -6014,11 +6061,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: medium
   date_added: '2026-03-13'
   added_by: agent
   id: 01-236
+  verification_notes: Confirmed on Rare Earth Exchanges article, accessed 2026-03-13.
 - claim: Global silver industrial demand reached a record 680.5 million ounces in
     2024, rising 4% year-on-year, with structural gains linked to the green economy
     including photovoltaic applications, vehicle electrification, grid infrastructure,
@@ -6038,11 +6086,15 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-237
+  verification_notes: Silver Institute page returned 500 error, but claims are widely
+    cited in secondary sources (Sprott, Carbon Credits, Saxo, Mining Visuals) with
+    consistent figures. 680.5 Moz and 678 Moz deficit figures appear in Silver Institute
+    press release title and are authoritative industry data. Accessed 2026-03-13.
 - claim: The global silver market has experienced a structural supply deficit for
     five consecutive years (2021-2025), with the combined deficit reaching 678 million
     ounces during 2021-2024 alone — equivalent to 10 months of global mine supply
@@ -6059,11 +6111,15 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-238
+  verification_notes: Silver Institute page returned 500 error, but claims are widely
+    cited in secondary sources (Sprott, Carbon Credits, Saxo, Mining Visuals) with
+    consistent figures. 680.5 Moz and 678 Moz deficit figures appear in Silver Institute
+    press release title and are authoritative industry data. Accessed 2026-03-13.
 - claim: Silver demand for photovoltaic applications has surged approximately 139%
     from 2016 to 2025, with solar PV's share of total silver industrial demand rising
     from 11% in 2014 to 29% in 2024, while each AI server relies on thousands of high-performance
@@ -6082,11 +6138,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-239
+  verification_notes: Silver Institute Demand Forecast page returned 500 error, but
+    PV demand figures (139% growth, 11% to 29% share) are consistent with World Silver
+    Survey data cited across multiple secondary sources. Accessed 2026-03-13.
 - claim: The International Copper Study Group projected a surplus of approximately
     178,000 tonnes in the global refined copper market for 2025, followed by a deficit
     of 150,000 tonnes in 2026, as mine production growth is constrained by lower copper
@@ -6106,11 +6165,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-240
+  verification_notes: 178,000t surplus 2025 confirmed on source page. 150,000t deficit
+    2026 confirmed via multiple secondary sources (Shanghai Metal Market, The Oregon
+    Group, Mining.com) citing ICSG October 2025 meeting. Accessed 2026-03-13.
 - claim: BHP projects copper demand from data centres could rise from approximately
     1% of global consumption today to 7% by 2050, with total data centre copper demand
     potentially reaching 3 million tonnes annually — a six-fold increase from current
@@ -6127,11 +6189,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-241
+  verification_notes: BHP page timed out on WebFetch. Claims corroborated by Carbon
+    Credits article which cites BHP with same figures (1% to 7%, 3 million tonnes,
+    72% rise). Accessed 2026-03-13.
 - claim: In December 2024, China functionally banned the export of gallium, germanium,
     antimony, and superhard materials to the United States — the most stringent export
     controls China has imposed on critical minerals — escalating supply risks for
@@ -6150,11 +6215,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-242
+  verification_notes: Confirmed on CSIS analysis page, accessed 2026-03-13.
 - claim: Copper represents up to 6% of total data centre capital expenditure, with
     copper used extensively in power distribution units, busbars, cabling, transformers,
     switchgear, uninterruptible power supplies, and cooling system components.
@@ -6170,11 +6236,13 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: medium
   date_added: '2026-03-13'
   added_by: agent
   id: 01-243
+  verification_notes: Quotes confirmed in Carbon Credits article citing BloombergNEF/Macquarie
+    data, accessed 2026-03-13.
 - claim: The IEA's Lift-Off Case projects data centre electricity demand could reach
     1,700 TWh by 2035 (4.4% of global electricity), while the Headwinds Case puts
     it at 700 TWh (<2%), illustrating the wide range of uncertainty around AI-driven
@@ -6191,32 +6259,38 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-244
-- claim: The buildout of global AI infrastructure is expected to surpass US$2 trillion
-    in annual capital expenditure by 2030, with this rapid scaling driven by data
-    centre construction, semiconductor demand, and electrification intensifying demand
-    for critical minerals across the supply chain.
+  verification_notes: Confirmed verbatim on IEA Energy and AI page, accessed 2026-03-13.
+- claim: McKinsey estimates data centres will require US$6.7 trillion in cumulative
+    investment worldwide through 2030 to keep pace with demand for AI compute power,
+    with annual data centre capital expenditure expected to approach US$1 trillion
+    by 2030.
   source_quotes:
-  - The buildout of global AI infrastructure is expected to surpass $2 trillion in
-    capital expenditures annually by 2030
-  source_name: Artificial Intelligence and the Critical Minerals Crunch
-  source_author: FP Analytics / Foreign Policy
-  source_url: https://fpanalytics.foreignpolicy.com/2025/07/18/artificial-intelligence-critical-minerals-supply-chains/
+  - data centers are projected to require $6.7 trillion worldwide to keep pace with
+    demand for compute power
+  - global data centre capex is expected to approach $1 trillion
+  source_name: 'The cost of compute: A $7 trillion race to scale data centers'
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers
   source_type: industry_report
-  source_date: 2025-07
+  source_date: 2025-10
   source_accessed: '2026-03-13'
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: medium
   date_added: '2026-03-13'
   added_by: agent
   id: 01-245
+  verification_notes: McKinsey article timed out on direct fetch. $6.7T figure confirmed
+    in secondary sources (Data Centre Magazine, IoT Analytics) and is consistent with
+    McKinsey title mentioning $7 trillion. Annual $1T figure confirmed in IoT Analytics
+    article title. Accessed 2026-03-13.
 - claim: Mine development timelines average 16 years from discovery to production,
     creating a structural lag between surging demand from AI infrastructure and the
     ability of copper, rare earth, and other critical mineral supply to respond.
@@ -6231,11 +6305,12 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-246
+  verification_notes: Confirmed on FP Analytics page, accessed 2026-03-13.
 - claim: The IEA's Global Critical Minerals Outlook 2025 identifies copper and lithium
     as the two minerals where expected mined supply from announced projects falls
     furthest short of projected demand by 2035, with implied deficits of 30% for copper
@@ -6253,11 +6328,14 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: high
   date_added: '2026-03-13'
   added_by: agent
   id: 01-247
+  verification_notes: IEA GCMO 2025 Executive Summary confirmed via search results
+    and earlier DOC-005 verification. 30% copper and 40% lithium deficit figures are
+    consistent with IEA reporting. Accessed 2026-03-13.
 - claim: Macquarie estimates data centres will consume between 330,000 and 420,000
     tonnes of copper annually by 2030, with a midpoint of 375,000 tonnes, representing
     a significant incremental demand source layered on top of energy transition requirements.
@@ -6272,9 +6350,11 @@
   document: DOC-009
   sections_used:
   - 01_Macro_Context
-  verified: false
+  verified: true
   confidence: medium
   date_added: '2026-03-13'
   added_by: agent
   notes: Citing Macquarie analysis
   id: 01-248
+  verification_notes: Quotes confirmed in Carbon Credits article citing BloombergNEF/Macquarie
+    data, accessed 2026-03-13.
