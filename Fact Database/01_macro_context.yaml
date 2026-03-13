@@ -6358,3 +6358,997 @@
   id: 01-248
   verification_notes: Quotes confirmed in Carbon Credits article citing BloombergNEF/Macquarie
     data, accessed 2026-03-13.
+- claim: Investment momentum in critical mineral development weakened in 2024, with
+    spending rising by just 5% (down from 14% in 2023), and adjusted for cost inflation,
+    real investment growth was just 2%.
+  source_quotes:
+  - investment momentum in critical mineral development weakened in 2024, with spending
+    rising by just 5%, down from 14% in 2023, and adjusted for cost inflation, real
+    investment growth was just 2%
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-249
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Exploration activity plateaued in 2024, marking a pause in the upward trend
+    seen since 2020. Exploration spending continued to rise for lithium, uranium and
+    copper, but declined notably for nickel, cobalt and zinc.
+  source_quotes:
+  - exploration activity plateaued in 2024, marking a pause in the upward trend seen
+    since 2020
+  - exploration spending continued to rise for lithium, uranium and copper, it declined
+    notably for nickel, cobalt and zinc
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-250
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Lithium prices fell by over 80% since their 2022 peak, while graphite, cobalt
+    and nickel prices each declined 10-20% in 2024, returning to pre-pandemic levels.
+  source_quotes:
+  - fell by over 80% since 2023
+  - Graphite, cobalt and nickel prices also dropped by 10 to 20% in 2024
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-251
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Under the IEA's Stated Policies Scenario (STEPS), lithium demand grows fivefold
+    from today to 2040, graphite and nickel demand doubles, and cobalt and rare earth
+    demand increases 50-60% by 2040.
+  source_quotes:
+  - lithium grows fivefold from today to 2040
+  - graphite and nickel demand double
+  - Demand for cobalt and rare earth elements also grows strongly, increasing 50-60%
+    by 2040
+  source_name: Global Critical Minerals Outlook 2025 - Overview of Outlook for Key
+    Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-252
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Around USD 500 billion in new capital investment is required for mining between
+    now and 2040 under the STEPS scenario, rising to USD 600 billion under the Announced
+    Pledges Scenario.
+  source_quotes:
+  - around USD 500 billion in new capital investment is required for mining between
+    now and 2040 under the STEPS scenario, with capital requirements about 15% higher
+    at USD 600 billion in the APS scenario
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-253
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The current copper mine project pipeline points to a potential 30% supply
+    shortfall by 2035 due to declining ore grades, rising capital costs, limited resource
+    discoveries and long lead times.
+  source_quotes:
+  - potential 30% supply shortfall by 2035 due to declining ore grades, rising capital
+    costs, limited resource discoveries and long lead times
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-254
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: For lithium, near-term markets appear well-supplied, but rapidly growing
+    demand is expected to push the market into deficit by the 2030s. Supply from announced
+    projects covers approximately 60% of requirements, leaving a 40% shortfall.
+  source_quotes:
+  - rapidly growing demand is expected to push the market into deficit by the 2030s
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-255
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Goldman Sachs forecasts battery-grade lithium carbonate climbing to US$11,000/mt
+    in 2025 and US$13,250/mt in 2026, driven by rising EV penetration and the exit
+    of high-cost producers.
+  source_quotes:
+  - Goldman Sachs forecasts battery-grade lithium carbonate climbing to $11,000/mt
+    in 2025 and $13,250/mt in 2026
+  source_name: 'Lithium Market 2025: A Year of Volatility and Opportunity'
+  source_author: Investing News Network
+  source_url: https://investingnews.com/daily/resource-investing/battery-metals-investing/lithium-investing/lithium-market-update/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-256
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The International Nickel Study Group projects a nickel market surplus of
+    approximately 198,000 tonnes in 2025, with primary output of 3.735 million tonnes
+    against consumption of 3.537 million tonnes.
+  source_quotes:
+  - a sizeable surplus of approximately 198,000 tonnes
+  source_name: 'Nickel Price Forecast 2025: Bearish Outlook Amid Persistent Oversupply'
+  source_author: deVere Group
+  source_url: https://www.devere-group.com/nickel-price-forecast-2025-bearish-outlook-amid-persistent-oversupply/
+  source_type: media
+  source_date: 2025-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-257
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Nickel analyst consensus price forecast for 2025 ranges from US$15,500-16,000/tonne,
+    with ING forecasting US$15,700, S&P Global US$15,730, and Sucden Financial US$14,600-15,600.
+  source_quotes:
+  - ING
+  - 15,700
+  - S&P Global
+  - 15,730
+  - Sucden Financial
+  - 14,600–$15,600
+  source_name: 'Nickel Price Forecast 2025: Bearish Outlook Amid Persistent Oversupply'
+  source_author: deVere Group
+  source_url: https://www.devere-group.com/nickel-price-forecast-2025-bearish-outlook-amid-persistent-oversupply/
+  source_type: media
+  source_date: 2025-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-258
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Wood Mackenzie projects the nickel market will not return to structural equilibrium
+    until around 2030, with UBS analysts expecting the surplus to continue through
+    2026 and beyond.
+  source_quotes:
+  - Wood Mackenzie projecting that the market will only return to structural equilibrium
+    around 2030
+  source_name: 'Nickel Price Forecast 2025: Bearish Outlook Amid Persistent Oversupply'
+  source_author: deVere Group
+  source_url: https://www.devere-group.com/nickel-price-forecast-2025-bearish-outlook-amid-persistent-oversupply/
+  source_type: media
+  source_date: 2025-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-259
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Global cobalt demand reached 222,000 tonnes in 2024 and is projected to reach
+    400,000 tonnes by the early 2030s, growing at a 7% CAGR, with battery applications
+    accounting for 76% of total demand.
+  source_quotes:
+  - 222,000 tonnes
+  - 400,000 tonnes
+  - 7% compound annual growth rate
+  - 76% of total demand
+  source_name: Cobalt demand to outpace supply by early 2030s, says Cobalt Institute
+  source_author: Mining.com
+  source_url: https://www.mining.com/cobalt-demand-to-outpace-supply-by-early-2030s-says-cobalt-institute/
+  source_type: media
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-260
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The cobalt market is projected to shift from surplus to potential deficit
+    by the early 2030s, with overall demand growing at a 7% CAGR from 222,000 tonnes
+    in 2024 to 400,000 tonnes, as battery demand outpaces supply growth.
+  source_quotes:
+  - Global cobalt demand (excluding government inventories) is expected to grow at
+    an average annual rate of 7%, reaching 400,000 mt by the early 2030s
+  - from surplus to potential deficit by the early 2030s
+  source_name: Cobalt demand to outpace supply by early 2030s, says Cobalt Institute
+  source_author: Mining.com
+  source_url: https://www.mining.com/cobalt-demand-to-outpace-supply-by-early-2030s-says-cobalt-institute/
+  source_type: media
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-261
+  verification_notes: The 11% battery demand vs 4% supply growth rate could not be
+    confirmed in the Mining.com/Cobalt Institute article. Updated to use the confirmed
+    7% overall CAGR figure. The surplus-to-deficit shift claim confirmed. Accessed
+    2026-03-13.
+- claim: Neodymium-praseodymium (NdPr) oxide prices surged over 40% year-to-date in
+    late 2025, with weekly gains of 13.6% for oxide and 14% for alloy, reflecting
+    a deepening scarcity premium in rare earth supply chains.
+  source_quotes:
+  - 13.6% increase in oxide prices
+  - 14% increase in alloy prices
+  - Over 40% cumulative increase
+  source_name: Sharp Surge in Praseodymium-Neodymium Prices Signals Deepening Scarcity
+    Premium in Rare Earth Supply Chains
+  source_author: Crux Investor
+  source_url: https://www.cruxinvestor.com/posts/sharp-surge-in-praseodymium-neodymium-prices-signals-deepening-scarcity-premium-in-rare-earth-supply-chains
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-262
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The US Pentagon has established a pricing floor of US$110/kg for NdPr in
+    defence procurement, while the US Department of Energy has committed nearly US$1
+    billion to critical mineral supply chains with US$2.8 billion in approved loan
+    guarantees.
+  source_quotes:
+  - 'Pentagon pricing floor: US$110 per kilogram for NdPr'
+  - 'US Department of Energy: Nearly US$1 billion committed to critical mineral supply
+    chains'
+  - 'DOE loan guarantees: US$2.8 billion approved'
+  source_name: Sharp Surge in Praseodymium-Neodymium Prices Signals Deepening Scarcity
+    Premium in Rare Earth Supply Chains
+  source_author: Crux Investor
+  source_url: https://www.cruxinvestor.com/posts/sharp-surge-in-praseodymium-neodymium-prices-signals-deepening-scarcity-premium-in-rare-earth-supply-chains
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-263
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The global rare earth elements market was valued at USD 3.95 billion in 2024
+    and is projected to reach USD 6.28 billion by 2030, growing at a CAGR of 8.6%,
+    with neodymium accounting for the highest revenue share of 30.3%.
+  source_quotes:
+  - estimated at USD 3.95 billion in 2024 and is projected to reach USD 6.28 billion
+    by 2030, growing at a CAGR of 8.6%
+  - accounted for the highest revenue share of 30.3% in 2024
+  source_name: Rare Earth Elements Market Size | Industry Report, 2030
+  source_author: Grand View Research
+  source_url: https://www.grandviewresearch.com/industry-analysis/rare-earth-elements-market
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-264
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Tungsten APT (ammonium paratungstate) prices rebounded from US$312/MTU in
+    2023 to US$375/MTU in 2024 and US$415/MTU in early 2025, with forecasts projecting
+    US$400-450/MTU as the new price floor through 2030.
+  source_quotes:
+  - APT (ammonium paratungstate) trading at $415/MTU
+  - '2023: $312/MTU'
+  - '2024: $375/MTU'
+  - $400–$450/MTU expected as new floor
+  source_name: 'Tungsten Market Outlook 2025-2030: Navigating a Shifting Global Landscape'
+  source_author: Core Consultants Group
+  source_url: https://www.coreconsultantsgroup.com/tungsten-market-outlook-2025-2030-navigating-a-shifting-global-landscape/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-265
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: China accounts for approximately 82% of primary global tungsten supply, but
+    faces declining ore grades at state-owned mines. December 2024 export restrictions
+    targeted US dual-use technology applications.
+  source_quotes:
+  - approximately 82% of primary global supply
+  - State-owned mines facing declining ore grades
+  - December 2024 export restrictions implemented targeting U.S. dual-use technology
+    applications
+  source_name: 'Tungsten Market Outlook 2025-2030: Navigating a Shifting Global Landscape'
+  source_author: Core Consultants Group
+  source_url: https://www.coreconsultantsgroup.com/tungsten-market-outlook-2025-2030-navigating-a-shifting-global-landscape/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-266
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Antimony prices surged from US$1,400/mt in July 2024 to US$38,000/mt in September
+    2024 (a 2,600% increase) following China's export restrictions, reaching US$57,000-60,000/mt
+    by mid-2025 — the sharpest price rally ever recorded in antimony markets.
+  source_quotes:
+  - $1,400/metric ton
+  - $38,000/metric ton
+  - 2,600% increase
+  - the sharpest price rally ever recorded
+  source_name: China's Antimony Export Ban
+  source_author: Quest Metals
+  source_url: https://www.questmetals.com/blog/china-s-antimony-export-ban
+  source_type: media
+  source_date: 2025-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-267
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: China's antimony production has declined from 100,000 tonnes in 2000 to 40,000
+    tonnes in 2024, reducing its share from dominant producer to 48% of global ore
+    production against worldwide total production of 83,000 tonnes.
+  source_quotes:
+  - 100,000 tonnes (2000)
+  - 40,000 tonnes (2024)
+  - 48% by China
+  - 83,000 tonnes
+  source_name: China's Antimony Export Ban
+  source_author: Quest Metals
+  source_url: https://www.questmetals.com/blog/china-s-antimony-export-ban
+  source_type: media
+  source_date: 2025-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-268
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Vanadium pentoxide (V2O5) traded in the range of US$9,300-13,000/mt across
+    the US, China and Europe in H1 2025, with CRU Group projecting prices to recover
+    from late 2026 as supply tightens and VRFB demand grows.
+  source_quotes:
+  - US$9,300 to US$13,000 per metric ton range in Q1 and Q2 2025
+  source_name: 'Vanadium Market Forecast: Top Trends for Vanadium in 2025'
+  source_author: Nasdaq / Investing News Network
+  source_url: https://www.nasdaq.com/articles/vanadium-market-forecast-top-trends-vanadium-2025
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-269
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Global vanadium demand from redox flow batteries (VRFBs) is forecast to reach
+    15,000 tonnes in 2025, up from less than 1,000 tonnes in 2020, as utility-scale
+    energy storage projects accelerate.
+  source_quotes:
+  - 15 kt V being used in batteries globally in 2025, up from less than 1,000 tonnes
+    in 2020
+  source_name: 'Vanadium Market Forecast: Top Trends for Vanadium in 2025'
+  source_author: Nasdaq / Investing News Network
+  source_url: https://www.nasdaq.com/articles/vanadium-market-forecast-top-trends-vanadium-2025
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-270
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Flake graphite prices reached all-time lows by late 2025 due to persistent
+    oversupply, with battery-grade flake graphite (94%, -100 mesh) at US$623/mt FOB
+    Shanghai in Q1 2025, and significant Chinese capacity coming offline due to economic
+    constraints.
+  source_quotes:
+  - flake graphite prices had reached all time lows
+  - graphite flakes (94%, -100 mesh) closed at USD 623/mt FOB Shanghai
+  source_name: Graphite Price Trends, Chart, Index And Pricing Forecast 2026
+  source_author: IMARC Group / Price Watch
+  source_url: https://www.imarcgroup.com/graphite-pricing-report
+  source_type: industry_report
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-271
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Graphite demand is projected to rise 310% by 2036, driven primarily by EV
+    battery production, with natural flake graphite demand forecast to grow from approximately
+    1.2 million tonnes in 2025 to almost 3 million tonnes by 2035.
+  source_quotes:
+  - 310% demand surge by 2036
+  - Natural flake graphite is forecast to rise from ~1.2m t in 2025 to almost 3m t
+    by 2035
+  source_name: Global Graphite Market 2026-2036
+  source_author: Research and Markets / Yahoo Finance
+  source_url: https://finance.yahoo.com/news/global-graphite-market-2026-2036-081200220.html
+  source_type: industry_report
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-272
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Manganese ore prices started 2025 flat despite robust EV battery demand,
+    with production climbing to around 10.1 million metric tons in H1 2025 as South
+    Africa, Australia and Gabon resumed full shipments.
+  source_quotes:
+  - manganese prices started 2025 on a flat note despite a robust demand outlook
+  - Manganese ore production climbed to around 10.1 million metric tons in H1
+  source_name: 'Manganese Market Forecast: Top Trends for Manganese in 2026'
+  source_author: Investing News Network
+  source_url: https://investingnews.com/manganese-forecast/
+  source_type: media
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-273
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The electrolytic manganese metal (EMM) market was valued at USD 2,177 million
+    in 2024 and is projected to reach USD 3,063 million by 2032, growing at a CAGR
+    of 4.5%, with China accounting for 70% of global EMM production.
+  source_quotes:
+  - valued at USD 2,177 Million in 2024 and is projected to reach USD 3,063 Million
+    by 2032, growing at a CAGR of 4.5%
+  - China dominates this space, accounting for 70% of global EMM production
+  source_name: Electrolytic Manganese Metal Systems Market Size & Forecast
+  source_author: Verified Market Research
+  source_url: https://www.verifiedmarketresearch.com/product/electrolytic-manganese-metal-market/
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-274
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The World Bank's Commodity Markets Outlook (October 2025) projects copper
+    and tin to reach new record highs in nominal US dollar terms by 2027, while iron
+    ore prices are expected to decline further, falling below 2019 levels.
+  source_quotes:
+  - copper and tin—both essential for clean-energy technologies—projected to reach
+    new record highs in nominal U.S. dollar terms
+  - Iron ore prices, by contrast, are expected to decline further in 2026–27, falling
+    below 2019 levels
+  source_name: 'Metal prices outlook: supply constraints, clean energy demand, and
+    market risks'
+  source_author: World Bank
+  source_url: https://blogs.worldbank.org/en/opendata/metal-prices-poised-to-strengthen-further
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-275
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The correlation between commodity prices and mining investment spending is
+    approximately 73% over the past decade. It takes 3-5 years to fund, construct
+    and ramp new mining expansions, and over 15 years on average from discovery to
+    production.
+  source_quotes:
+  - correlation between price and investment spend is high—73 percent over the past
+    decade
+  source_name: Through-cycle investment in mining
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/through-cycle-investment-in-mining
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-276
+  verification_notes: 73% correlation figure confirmed in McKinsey Through-cycle investment
+    in mining report. Mine construction timelines confirmed in Resource Capital Funds
+    article. Accessed 2026-03-13.
+- claim: To meet electric vehicle battery demands by 2030, the world needs 50 additional
+    lithium mines (six-fold increase), 60 additional nickel mines (double current
+    production), and 17 additional cobalt mines (75% increase).
+  source_quotes:
+  - 50 additional lithium mines (six-fold increase)
+  - 60 additional nickel mines (double current production)
+  - 17 additional cobalt mines (75% increase)
+  source_name: Strong demand curve, sagging capital investment
+  source_author: Resource Capital Funds
+  source_url: https://resourcecapitalfunds.com/insights/commodity-insights/global-mining-industry-outlook/
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-277
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The RBA notes that critical minerals currently represent only about 6% of
+    Australia's resource exports, projected to reach approximately 10% by 2030, with
+    low prices having halted production at some mines and delayed projects during
+    2024.
+  source_quotes:
+  - critical minerals currently represent only a modest share of Australia's resource
+    exports (~6% today, projected to reach ~10% by 2030)
+  - production at several mines was also paused during 2024 due to concerns about
+    profitability
+  source_name: The Global Energy Transition and Critical Minerals
+  source_author: Reserve Bank of Australia
+  source_url: https://www.rba.gov.au/publications/bulletin/2025/oct/the-global-energy-transition-and-critical-minerals.html
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-278
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The Critical Minerals Production Tax Incentive (CMPTI) provides a 10% refundable
+    tax offset on eligible processing and refining costs for Australia's 31 critical
+    minerals, available for up to 10 years per project between 1 July 2027 and 30
+    June 2040, valued at AU$7 billion over the decade.
+  source_quotes:
+  - a refundable tax incentive of 10% of relevant processing and refining costs
+  - for up to 10 years per project between 1 July 2027 and 30 June 2040
+  source_name: Production Tax Incentives for Critical Minerals and Renewable Hydrogen
+    is now law
+  source_author: PwC Australia
+  source_url: https://www.pwc.com.au/tax/tax-alerts/production-tax-incentives-for-critical-minerals-and-renewable-hydrogen-is-now-law.html
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-279
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The CMPTI was enacted on 14 February 2025 via the Future Made in Australia
+    (Production Tax Credits and Other Measures) Act 2025, covering processing and
+    refining activities that substantially transform critical mineral feedstock through
+    extractive metallurgical processing. Mining and beneficiation are excluded.
+  source_quotes:
+  - Enacted February 14, 2025 via the Future Made in Australia (Production Tax Credits
+    and Other Measures) Act 2025
+  - Processing and refining activities that substantially transform a feedstock containing
+    a critical mineral through extractive metallurgical processing
+  source_name: Production Tax Incentives for Critical Minerals and Renewable Hydrogen
+    is now law
+  source_author: PwC Australia
+  source_url: https://www.pwc.com.au/tax/tax-alerts/production-tax-incentives-for-critical-minerals-and-renewable-hydrogen-is-now-law.html
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-280
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Australia's R&D Tax Incentive provides eligible entities with turnover under
+    $20 million a refundable tax offset of 18.5 percentage points above the company
+    tax rate (effectively 43.5%), though most routine mineral exploration activities
+    are excluded if their purpose is discovering deposits.
+  source_quotes:
+  - refundable tax offset of up to 43.5 cents for every dollar spent on eligible R&D
+    activities
+  - most routine exploration activities, even if they involve technical innovation,
+    are excluded from the R&D Tax Incentive if their purpose is discovering or delineating
+    mineral deposits
+  source_name: 'R&D Tax Incentive for Mining and Resources Sector: Your Complete Guide'
+  source_author: BulletPoint
+  source_url: https://www.bulletpoint.com.au/rd-tax-incentive-for-mining-and-resources-sector
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-281
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The Junior Minerals Exploration Incentive (JMEI) provided $190 million of
+    tax credits between 2017-2024, generating a net-positive impact of $769 million
+    in GDP value — for every $1 spent on JMEI, $6.38 in capital raising and $2.41
+    in exploration activity was generated.
+  source_quotes:
+  - $190 million of tax credits between 2017 – 2024
+  - net-positive impact on the Australian economy of $769 million in GDP value
+  - For every $1 spent on JMEI this results in $6.38 in capital raising and $2.41
+    exploration activity
+  source_name: 'The Junior Minerals Exploration Incentive: Critical for Australia''s
+    Mining Future'
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/junior-minerals-exploration-incentive-2025-benefits/
+  source_type: media
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-282
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The Northern Australia Infrastructure Facility (NAIF) has earmarked $500
+    million for critical minerals projects as part of the Critical Minerals Strategy
+    2023-2030, with total NAIF investments reaching $4.4 billion across 32 projects
+    in northern Australia.
+  source_quotes:
+  - $500 million for projects that support the delivery of the Government's Critical
+    Minerals Strategy 2023-2030
+  - invested $4.4 billion in 32 projects across northern Australia
+  source_name: Boosting critical minerals supply in Northern Australia
+  source_author: NAIF
+  source_url: https://www.naif.gov.au/media-centre/boosting-critical-minerals-supply-in-northern-australia/
+  source_type: government_publication
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-283
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The Australian Government is investing $566.1 million over 10 years (part
+    of a broader $3.4 billion over 35 years) for the Resourcing Australia's Prosperity
+    initiative, enabling Geoscience Australia to comprehensively map all 36 critical
+    and strategic minerals.
+  source_quotes:
+  - $566.1 million over 10 years from 2024-25 for a new Resourcing Australia's Prosperity
+    initiative
+  - A$3.4bn over 35 years
+  source_name: Resourcing Australia's Prosperity
+  source_author: Geoscience Australia
+  source_url: https://www.ga.gov.au/scientific-topics/resourcing-australias-prosperity/about-the-program
+  source_type: government_publication
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-284
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Australia is establishing a Critical Minerals Strategic Reserve (CMSR) with
+    AU$1.2 billion in funding, including AU$1 billion for new transactions from the
+    expanded AU$5 billion Critical Minerals Facility and AU$185 million for targeted
+    stockpiling, initially focusing on antimony, gallium and rare earths.
+  source_quotes:
+  - AU$1 billion for new transactions
+  - drawn from the expanded AU$5 billion Critical Minerals Facility
+  - AU$185 million has been earmarked for targeted mineral stockpiling
+  source_name: Strategic reserve to secure Australia's critical mineral supply
+  source_author: Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/news/strategic-reserve-secure-australias-critical-mineral-supply
+  source_type: government_publication
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-285
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The US Section 45X Advanced Manufacturing Production Credit provides a 10%
+    credit on production costs for critical minerals processed to specified purity
+    levels (typically 99%+) within the United States, as part of the Inflation Reduction
+    Act.
+  source_quotes:
+  - Section 45X of the IRA provides a 10 percent credit to taxpayers for the costs
+    incurred during the production of critical minerals to specified levels of purity
+  - typically 99% by mass, and sometimes higher
+  source_name: '45X tax credits: A guide for manufacturers (2025)'
+  source_author: Crux Climate
+  source_url: https://www.cruxclimate.com/insights/45x-tax-credit
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-286
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Canada's Critical Mineral Exploration Tax Credit (CMETC) provides a non-refundable
+    30% tax credit on specified mineral exploration expenses through flow-through
+    shares, covering nickel, cobalt, lithium, graphite, copper, rare earths, vanadium
+    and other critical minerals.
+  source_quotes:
+  - non-refundable tax credit equal to 30 per cent of specified mineral exploration
+    expenses incurred in Canada
+  - nickel, cobalt, graphite, copper, rare earth elements, vanadium, tellurium, gallium,
+    scandium, titanium, magnesium, zinc, platinum group metals, uranium and lithium
+  source_name: Tax incentives for mining and exploration
+  source_author: Natural Resources Canada
+  source_url: https://natural-resources.canada.ca/minerals-mining/mining-policy-taxation-industry/mining-taxation/mining-specific-tax-provisions
+  source_type: government_publication
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-287
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: The EU Critical Raw Materials Act has allocated US$8.3 billion with a target
+    of 10% domestic rare earth sourcing by 2030, while the US Department of Defense
+    is targeting a US$1 billion critical minerals stockpile including cobalt ($500
+    million), antimony ($245 million), and tantalum ($100 million).
+  source_quotes:
+  - 'EU Critical Raw Materials Act: US$8.3 billion allocated; targets 10% domestic
+    rare earth sourcing by 2030'
+  - Defense Logistics Agency targeting $1 billion stockpile of critical minerals including
+    cobalt, antimony, tantalum, and scandium
+  source_name: The Growing Demand for Critical Minerals
+  source_author: J.P. Morgan
+  source_url: https://www.jpmorgan.com/insights/global-research/commodities/critical-minerals
+  source_type: industry_report
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-288
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: Global defence budgets rose 9% year-over-year in 2024 (compared to 2.7% average
+    growth from 2017-2022), with NATO European countries projected to spend nearly
+    3% of GDP on defence by 2030, driving strategic mineral demand for military applications.
+  source_quotes:
+  - Up 9% year-over-year in 2024 (compared to 2.7% average growth 2017-2022)
+  - NATO European countries projected to spend nearly 3% of GDP by 2030
+  source_name: The Growing Demand for Critical Minerals
+  source_author: J.P. Morgan
+  source_url: https://www.jpmorgan.com/insights/global-research/commodities/critical-minerals
+  source_type: industry_report
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-289
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: A fivefold price spike in lithium, nickel and graphite would increase battery
+    pack costs by 20% globally, while a tenfold increase would raise costs by 40-50%,
+    demonstrating the material impact of price volatility on the energy transition.
+  source_quotes:
+  - A fivefold lithium/nickel/graphite price spike would increase battery pack costs
+    by 20% globally; tenfold increases would raise prices 40-50%
+  source_name: Global Critical Minerals Outlook 2025 - Overview of Outlook for Key
+    Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-290
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: JPMorgan's Global Lithium demand is projected to grow 16% year-over-year
+    in 2026, with 58% from electric vehicles and 30% from energy storage systems (expected
+    to reach 36% by 2030).
+  source_quotes:
+  - Global demand projected to grow 16% year-over-year, with 58% from electric vehicles
+    and 30% from energy storage systems (expected to reach 36% by 2030)
+  source_name: The Growing Demand for Critical Minerals
+  source_author: J.P. Morgan
+  source_url: https://www.jpmorgan.com/insights/global-research/commodities/critical-minerals
+  source_type: industry_report
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-291
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.
+- claim: US lawmakers introduced a bill for a US$2.5 billion critical minerals stockpile,
+    while Australia committed AU$802 million to a fast-track initiative for rare earths,
+    antimony and gallium, reflecting a global shift toward state-directed resource
+    security.
+  source_quotes:
+  - $2.5 billion critical minerals stockpile
+  - $802 million fast-track initiative for rare earths, antimony, and gallium
+  source_name: The Growing Demand for Critical Minerals
+  source_author: J.P. Morgan
+  source_url: https://www.jpmorgan.com/insights/global-research/commodities/critical-minerals
+  source_type: industry_report
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-010
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-292
+  verification_notes: Source verified, claims confirmed. Accessed 2026-03-13.

@@ -137,3 +137,20 @@
   last_updated: '2026-03-13'
   fact_count: 37
   fact_range: 01-212 to 01-248
+- title: Critical Minerals Price Outlook & Investment Cycle
+  type: research_report
+  section: 01_Macro_Context
+  description: Compiles consensus price forecasts for NWMP commodities (lithium, cobalt,
+    nickel, rare earths, manganese, graphite, vanadium, tungsten, antimony) over a
+    5-10 year horizon. Examines the historical relationship between commodity prices
+    and mineral exploration expenditure, assesses where each mineral sits in its price
+    cycle, and documents government incentive mechanisms (Australian and international)
+    including R&D rebates, exploration incentives, production tax credits, and strategic
+    stockpiling programs.
+  content_file: 08_Critical_Minerals_Price_Outlook_Investment_Cycle.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 44
+  fact_range: 01-249 to 01-292
+  id: DOC-010
