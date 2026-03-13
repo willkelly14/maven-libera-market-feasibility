@@ -122,3 +122,18 @@
   last_updated: '2026-03-13'
   fact_count: 44
   fact_range: 01-168 to 01-211
+- id: DOC-009
+  title: AI & Data Centre Infrastructure Mineral Demand
+  type: research_report
+  section: 01_Macro_Context
+  content_file: 06_AI_Data_Centre_Mineral_Demand.md
+  description: Examines the mineral demand implications of global AI and data centre
+    infrastructure buildout. Quantifies projected data centre capacity growth in GW
+    and estimates mineral intensity per GW for copper, silver, and rare earths. Assesses
+    how this demand pathway interacts with existing NWMP commodity supply and demand
+    dynamics.
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 37
+  fact_range: 01-212 to 01-248
