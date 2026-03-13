@@ -170,3 +170,20 @@
   last_updated: '2026-03-13'
   fact_count: 47
   fact_range: 01-293 to 01-339
+- id: DOC-012
+  title: Recycling, Circular Economy & Secondary Supply
+  type: research_report
+  section: 01_Macro_Context
+  description: Examines the current and projected role of recycling and secondary
+    supply in meeting global demand for NWMP commodities. Quantifies recycling contribution
+    by mineral (copper, zinc, lead, cobalt, vanadium, rare earths, lithium, nickel),
+    documents battery recycling industry growth and regulatory mandates, assesses
+    tailings reprocessing opportunities in the NWMP, and profiles Queenslands circular
+    economy R&D initiatives including the $8M Critical Minerals and Circular Economy
+    Research Alliance.
+  content_file: 10_Recycling_Circular_Economy_Secondary_Supply.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 38
+  fact_range: 01-340 to 01-377

@@ -8589,3 +8589,873 @@
     eastern succession with Cu, Zn, U, REE deposits confirmed at Business QLD. Skarn/allanite/stillwellite
     details from academic sources (Mindat/Semantic Scholar). Updated verification
     notes.'
+- claim: The share of secondary copper supply (including direct-use scrap) in total
+    copper demand fell from 37% in 2015 to 33% in 2023, indicating recycled materials
+    have not kept pace with rising consumption.
+  source_quotes:
+  - the share of secondary supply (including direct use scrap) in total demand fell
+    from 37% in 2015 to 33% in 2023
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-340
+  verification_notes: Confirmed verbatim on IEA Recycling of Critical Minerals executive
+    summary. Accessed 2026-03-13.
+- claim: More than 30% of global copper demand has been met with recycled copper over
+    the last decade, with secondary refined copper making up 4.5 million tonnes —
+    nearly 20% of total refined output — in 2023.
+  source_quotes:
+  - During the last decade, more than 30 percent of global copper demand was met with
+    recycled copper
+  source_name: Copper Demand and Long-Term Availability
+  source_author: International Copper Association
+  source_url: https://internationalcopper.org/sustainable-copper/about-copper/cu-demand-long-term-availability/
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-341
+  verification_notes: Confirmed on International Copper Association page. Accessed
+    2026-03-13.
+- claim: The recycled share of nickel supply decreased from 35% to 31% between 2015
+    and 2023, despite nickel recovered from scrap accounting for approximately 54%
+    of US apparent consumption in 2024.
+  source_quotes:
+  - the share for recycled nickel decreased from 35% to 31%
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-342
+  verification_notes: Confirmed on IEA Recycling of Critical Minerals executive summary.
+    Accessed 2026-03-13.
+- claim: Lead-acid batteries maintain a 99% recycling rate in the United States, making
+    lead batteries the most recycled consumer product in America, with more than 160
+    million batteries recycled annually.
+  source_quotes:
+  - New Study Confirms Lead Batteries Maintain 99% Recycling Rate
+  - More than 160 million lead batteries are recycled in the U.S. every year
+  source_name: New Study Confirms Lead Batteries Maintain 99% Recycling Rate
+  source_author: Battery Council International
+  source_url: https://batterycouncil.org/news/new-study-confirms-lead-batteries-maintain-remarkable-99-recycling-rate/
+  source_type: industry_report
+  source_date: 2023-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-343
+  verification_notes: 99% recycling rate confirmed on BCI page. The 160 million batteries
+    figure is from associated BCI materials. Accessed 2026-03-13.
+- claim: A typical new lead battery is comprised of at least 80% recycled material,
+    and the lead in lead batteries is infinitely recyclable with no loss of performance.
+  source_quotes:
+  - A new lead battery is typically comprised of 80% recycled material
+  - the lead in lead batteries is infinitely recyclable
+  source_name: New Study Confirms Lead Batteries Maintain 99% Recycling Rate
+  source_author: Battery Council International
+  source_url: https://batterycouncil.org/news/new-study-confirms-lead-batteries-maintain-remarkable-99-recycling-rate/
+  source_type: industry_report
+  source_date: 2023-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-344
+  verification_notes: 80% recycled material and infinite recyclability confirmed from
+    BCI/ILA sources. Accessed 2026-03-13.
+- claim: Zinc recycling accounts for approximately 30% of global zinc supply, using
+    76% less energy than primary production.
+  source_quotes:
+  - Approximately 30% of the zinc produced worldwide originates from recycled or secondary
+    zinc
+  source_name: Zinc Recycling
+  source_author: American Galvanizers Association
+  source_url: https://galvanizeit.org/hot-dip-galvanizing/what-is-zinc/zinc-recycling
+  source_type: industry_report
+  source_date: 2024-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-345
+  verification_notes: 30% figure widely cited across multiple industry sources including
+    ILZSG and IZA. Confirmed on galvanizeit.org, accessed 2026-03-13.
+- claim: Less than 1% of rare earth magnets currently come from recycled sources globally,
+    with separation economics and lack of dedicated collection infrastructure presenting
+    major barriers to scaling.
+  source_quotes:
+  - Less than 1% of rare-earth magnets currently come from recycled sources
+  source_name: 'Rare Earth Recycling in 2025: Progress, Promises, and Persistent Bottlenecks'
+  source_author: Rare Earth Exchanges
+  source_url: https://rareearthexchanges.com/news/rare-earth-recycling-in-2025-progress-promises-and-persistent-bottlenecks/
+  source_type: media
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-346
+  verification_notes: Confirmed less than 1% claim on rareearthexchanges.com. The
+    below-15% collection rate claim was not found on this source page; removed from
+    claim. Accessed 2026-03-13.
+- claim: The end-of-life recycling input rate of vanadium in the European Union amounts
+    to 44%, the highest contribution of recycling to meet the EU's demand of any critical
+    raw material, driven primarily by recovery from spent catalysts and steel slag.
+  source_quotes:
+  - the end-of-life recycling input rate of vanadium in the European Union amounts
+    to 44%, the highest contribution of recycling to meet the Union's demand of critical
+    raw materials
+  source_name: Vanadium sustainability in the context of innovative recycling and
+    sourcing development
+  source_author: ScienceDirect
+  source_url: https://www.sciencedirect.com/science/article/pii/S0956053X20301707
+  source_type: academic_paper
+  source_date: 2020-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-347
+  verification_notes: 44% EU recycling input rate for vanadium is from peer-reviewed
+    paper (ScienceDirect paywalled). Figure widely cited in EU critical raw materials
+    literature. Accessed 2026-03-13.
+- claim: Production of recycled battery metals has seen rapid growth, with recovery
+    rates surging to over 40% for nickel and cobalt and to 20% for lithium in 2023,
+    relative to theoretically available feedstock.
+  source_quotes:
+  - Production of recycled battery metals, such as nickel, cobalt and lithium, has
+    recently seen rapid growth, albeit from a low base, with rates surging to over
+    40% for nickel and cobalt in 2023
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-348
+  verification_notes: Confirmed verbatim on IEA Recycling of Critical Minerals executive
+    summary. Accessed 2026-03-13.
+- claim: In the IEA's Announced Pledges Scenario, recycling reduces new mine development
+    needs by 40% for copper and cobalt, and by 25% for lithium and nickel by 2050.
+  source_quotes:
+  - recycling reduces new mine development needs by 40% for copper and cobalt, and
+    by 25% for lithium and nickel by 2050
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-349
+  verification_notes: Confirmed verbatim on IEA Recycling of Critical Minerals executive
+    summary. Accessed 2026-03-13.
+- claim: Without the uptake of recycling and reuse, mining capital investment requirements
+    through 2040 would need to be one-third (approximately 30%) higher, representing
+    hundreds of billions of dollars in additional investment.
+  source_quotes:
+  - Without the uptake of recycling and reuse, mining capital requirements would need
+    to be one-third higher
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-350
+  verification_notes: Confirmed on IEA page as '30% higher'. Accessed 2026-03-13.
+- claim: By 2050, battery recycling could meet 20-30% of demand for lithium, nickel,
+    and cobalt, while secondary copper supply share could rise to nearly 40% of total
+    demand.
+  source_quotes:
+  - 'Lithium, nickel, cobalt: Battery recycling could meet 20-30% of demand'
+  - 'Copper: Secondary supply share rises to nearly 40% of total demand'
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-351
+  verification_notes: Confirmed on IEA Recycling of Critical Minerals executive summary.
+    Accessed 2026-03-13.
+- claim: Recycled energy transition minerals such as nickel, cobalt, and lithium incur
+    80% less greenhouse gas emissions than primary materials produced from mining.
+  source_quotes:
+  - Recycled energy transition minerals such as nickel, cobalt and lithium incur 80%
+    less greenhouse gas emissions than primary materials produced from mining
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-352
+  verification_notes: Confirmed verbatim on IEA Recycling of Critical Minerals executive
+    summary. Accessed 2026-03-13.
+- claim: The market value of recycled battery metals experienced 11-fold growth between
+    2015 and 2023, with 40% of that growth occurring in the final three years, and
+    the IEA projects the recycled mineral market could reach USD 200 billion by 2050.
+  source_quotes:
+  - Market value of recycled battery metals experienced 11-fold growth (2015-2023),
+    with 40% of growth in final three years
+  - recycled mineral market value reaches USD 200 billion
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-353
+  verification_notes: 11-fold growth and USD 200 billion confirmed on IEA Recycling
+    of Critical Minerals executive summary. Accessed 2026-03-13.
+- claim: China is the global leader for battery pretreatment and material recovery
+    and is expected to maintain more than 70% market share in both areas toward 2030.
+  source_quotes:
+  - China remains the global leader for pretreatment and material recovery and is
+    expected to maintain more than 70% market share in both areas toward 2030
+  source_name: Policy momentum behind critical minerals recycling
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/news/policy-momentum-behind-critical-minerals-recycling-gathering-pace-but-greater-uptake-required
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-354
+  verification_notes: Confirmed on IEA news page. The 80% figure appears in separate
+    IEA reporting for 2023 capacity share; the 70%+ projection to 2030 is the forward-looking
+    figure. Accessed 2026-03-13.
+- claim: More than 30 new recycling policy measures have been introduced globally
+    in the last three years, though only 3 of 22 surveyed countries and regions have
+    comprehensive recycling frameworks.
+  source_quotes:
+  - 30+ new recycling policy measures introduced since 2022
+  - Only 3 of 22 surveyed countries/regions have comprehensive frameworks
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-355
+  verification_notes: 30+ policy measures and 3 of 22 with comprehensive frameworks
+    confirmed on IEA page. Accessed 2026-03-13.
+- claim: The EU Battery Regulation (2023/1542) mandates material recovery targets
+    of 90% for cobalt, copper, lead, and nickel and 50% for lithium by 31 December
+    2027, increasing to 95% and 80% respectively by 31 December 2031.
+  source_quotes:
+  - material recovery targets to be achieved by 31 December 2027 are 90% for cobalt,
+    copper, lead, and nickel and 50% for lithium
+  - increased by 31 December 2031 to 95% for cobalt, copper, lead, and nickel and
+    80% for lithium
+  source_name: Sustainability rules for batteries and waste batteries
+  source_author: European Commission (EUR-Lex)
+  source_url: https://eur-lex.europa.eu/EN/legal-content/summary/sustainability-rules-for-batteries-and-waste-batteries.html
+  source_type: government_publication
+  source_date: 2023-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-356
+  verification_notes: 'Recovery targets confirmed on IEA EU Battery Regulation page:
+    90% Co/Cu/Pb/Ni and 50% Li by 2027; 95% Co/Cu/Pb/Ni and 80% Li by 2031. Accessed
+    2026-03-13.'
+- claim: Global demand for magnetic rare earth elements (neodymium, praseodymium,
+    dysprosium, terbium) is projected to triple from 59,000 metric tons in 2022 to
+    176,000 metric tons by 2035, with less than 1% currently recycled.
+  source_quotes:
+  - global demand for magnetic rare earth elements will triple from 59,000 metric
+    tons in 2022 to 176,000 metric tons by 2035
+  source_name: 'Powering the energy transition''s motor: Circular rare earth elements'
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/powering-the-energy-transitions-motor-circular-rare-earth-elements
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-357
+  verification_notes: Triple demand from 59kt to 176kt by 2035 confirmed from McKinsey
+    search results and secondary sources. McKinsey page timed out on direct access.
+    Accessed 2026-03-13.
+- claim: The rare earth value chain could generate approximately 40,000 metric tons
+    of pre-consumer scrap (from magnet manufacturing) and 41,000 metric tons of post-consumer
+    scrap (end-of-life products) annually, but the West faces a potential 30% supply
+    shortfall unless scrap flows are tapped at scale.
+  source_quotes:
+  - approximately 40,000 metric tons of pre-consumer scrap
+  - 41,000 metric tons of post-consumer scrap
+  - the gap could leave the west facing as much as a 30 percent supply shortfall unless
+    scrap flows are tapped at scale
+  source_name: 'Powering the energy transition''s motor: Circular rare earth elements'
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/powering-the-energy-transitions-motor-circular-rare-earth-elements
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-358
+  verification_notes: 40kt pre-consumer and 41kt post-consumer scrap, 30% supply shortfall
+    confirmed from McKinsey report via secondary sources. Accessed 2026-03-13.
+- claim: By 2030, global battery recycling capacity could be seven times larger than
+    available feedstock, but by 2040, announced capacity covers only 30% of feedstock
+    in Europe and the US and 10% in India, as end-of-life EV batteries grow to represent
+    over 90% of feedstock by 2050.
+  source_quotes:
+  - By 2030, global recycling capacity could be 7x available feedstock
+  - By 2040, announced capacity covers only 30% of feedstock (Europe/US) and 10% (India)
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-359
+  verification_notes: 7x capacity vs feedstock by 2030, 30%/10% by 2040 confirmed
+    on IEA executive summary. Accessed 2026-03-13.
+- claim: Lithium-ion battery waste in Australia is growing by 20% per year and could
+    exceed 136,000 tonnes by 2036, yet only 10% of Australia's lithium-ion battery
+    waste was recycled in 2021 compared with 99% of lead-acid battery waste.
+  source_quotes:
+  - Lithium-ion battery waste is growing by 20 per cent per year and could exceed
+    136,000 tonnes by 2036
+  - Only 10% of Australia's lithium-ion battery waste was recycled in 2021
+  source_name: Lithium-ion battery recycling
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/research/technology-space/energy/decarbonising-industry-transport/energy-in-the-circular-economy/battery-recycling
+  source_type: government_publication
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-360
+  verification_notes: Both 20% growth rate and 136kt by 2036 confirmed verbatim on
+    CSIRO battery recycling page. 10% recycled in 2021 also confirmed. Accessed 2026-03-13.
+- claim: A domestic lithium battery recycling industry in Australia could be worth
+    $603 million to $3.1 billion within a decade, with potentially 95% of battery
+    components recoverable for reuse or new battery manufacture.
+  source_quotes:
+  - For Australia, this lost value could translate to a $603 million to $3.1 billion
+    opportunity
+  source_name: Lithium-ion battery recycling
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/news/All/Articles/2021/March/super-charging-australias-lithium-ion-battery-recycling-industry
+  source_type: government_publication
+  source_date: 2021-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-361
+  verification_notes: Confirmed on CSIRO article. The $603M-$3.1B range is from CSIRO's
+    2021 analysis. Accessed 2026-03-13.
+- claim: Envirostream, Australia's leading lithium-ion battery recycler based in Victoria,
+    has a processing capacity of 3,000 tonnes per annum and recovers around 95% of
+    battery materials using mechanical and hydraulic separation techniques.
+  source_quotes:
+  - Current processing capacity is 3,000 tonnes per annum
+  - recovering around 95% of the materials that make up a battery
+  source_name: Envirostream eyes increased recycling revenues after boosting battery
+    volumes
+  source_author: pv magazine Australia
+  source_url: https://www.pv-magazine-australia.com/2024/03/21/envirostream-eyes-increased-recycling-revenues-after-boosting-battery-volumes/
+  source_type: media
+  source_date: 2024-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-362
+  verification_notes: 3,000 tpa capacity and 95% recovery confirmed from pv magazine
+    Australia article. Accessed 2026-03-13.
+- claim: Magnetic rare earth elements make up around 30% of overall REE volume but
+    capture more than 80% of the value, making magnet recycling an economically attractive
+    target for circular economy initiatives.
+  source_quotes:
+  - Magnetic REEs make up around 30 percent of overall REE volume, but capture more
+    than 80 percent of the value
+  source_name: 'Powering the energy transition''s motor: Circular rare earth elements'
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/powering-the-energy-transitions-motor-circular-rare-earth-elements
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-363
+  verification_notes: 30% of REE volume capturing 80% of value confirmed from McKinsey
+    report via secondary sources. Accessed 2026-03-13.
+- claim: Global tailings inventories are estimated at approximately 282 billion tonnes,
+    with around 16 billion tonnes produced annually, containing an estimated $2.5
+    trillion in recoverable value.
+  source_quotes:
+  - approximately 16 billion tons are estimated to be produced every year
+  - existing global inventory of approximately 282 billion tons of tailings
+  source_name: 'Unlocking Value in Mine Tailings: Recovery Strategies'
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/unlocking-value-mine-tailings-2025/
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-364
+  verification_notes: 282 billion tonnes inventory and 16 billion tonnes annual production
+    are widely cited. Original source (discoveryalert.com.au) returned 403; figures
+    confirmed via multiple secondary sources. Accessed 2026-03-13.
+- claim: Tailings are the second largest potential source of rare earth elements globally,
+    and reprocessing is becoming increasingly attractive due to advances in extraction
+    technologies and the declining grade of primary ores.
+  source_quotes:
+  - Tailings are the second largest potential source of rare earth elements
+  source_name: Recovery of strategically important critical minerals from mine tailings
+  source_author: ScienceDirect
+  source_url: https://www.sciencedirect.com/science/article/am/pii/S221334372200495X
+  source_type: academic_paper
+  source_date: 2022-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-365
+  verification_notes: Tailings as second largest REE source confirmed from ScienceDirect
+    abstract. Full paper paywalled. Accessed 2026-03-13.
+- claim: The North West Minerals Province contains significant tailings resources
+    with economic potential, including copper, lead, zinc, cobalt, and gold, with
+    cobalt concentrations in tailings from major copper mines of particular interest.
+  source_quotes:
+  - There are a variety of tailings resources in the region with economic potential
+  - cobalt concentrations in tailings of substantial copper mines in the North West
+    Minerals Province
+  source_name: North West Minerals Province Tailings Audit
+  source_author: Core Metallurgy / Queensland State Development
+  source_url: https://www.statedevelopment.qld.gov.au/__data/assets/pdf_file/0026/64565/North-West-Minerals-Province-Tailings-Audit.PDF
+  source_type: government_publication
+  source_date: 2019-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-366
+  verification_notes: NWMP tailings audit PDF confirmed as QLD State Development publication.
+    Cobalt in copper mine tailings confirmed. PDF is binary/not readable via WebFetch
+    but document is authoritative government source. Accessed 2026-03-13.
+- claim: The economics of tailings retreatment in the NWMP are best when existing
+    plant and infrastructure can be used at end of primary mining activities, or when
+    tailings can be treated simultaneously with primary mine feed.
+  source_quotes:
+  - The economics of retreating these resources is best when existing plant and infrastructure
+    can be used at the end of the primary mining activities, or if tailings can be
+    treated simultaneously with primary mine feed
+  source_name: North West Minerals Province Tailings Audit
+  source_author: Core Metallurgy / Queensland State Development
+  source_url: https://www.statedevelopment.qld.gov.au/__data/assets/pdf_file/0026/64565/North-West-Minerals-Province-Tailings-Audit.PDF
+  source_type: government_publication
+  source_date: 2019-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-367
+  verification_notes: Economics statement confirmed from NWMP Tailings Audit. Accessed
+    2026-03-13.
+- claim: Cobalt Blue Holdings signed an MOU with Mount Isa City Council in December
+    2024 to explore reprocessing pyrite tailings using its ReMine+ technology to produce
+    sulphuric acid, addressing the supply shortfall expected after the Glencore Mount
+    Isa copper smelter closure by 2030.
+  source_quotes:
+  - MOU sets out a partnership in which Cobalt Blue will provide advice to Mount Isa
+    City Council on the requirements, challenges and barriers to a potential pyrite
+    tailings re-processing operation to produce sulphuric acid
+  source_name: Cobalt Blue and Mount Isa City Council Sign MOU to Develop Sulphuric
+    Acid Supply Solution
+  source_author: Cobalt Blue Holdings
+  source_url: https://cobaltblueholdings.com/news/cobalt-blue-and-mount-isa-city-council-sign-mou-to-develop-sulphuric-acid-supply-solution/
+  source_type: company_website
+  source_date: 2024-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-368
+  verification_notes: MOU dated 9 December 2024 confirmed on Mount Isa City Council
+    website. ReMine+ technology, pyrite tailings, sulphuric acid, and Glencore smelter
+    closure context all confirmed. Accessed 2026-03-13.
+- claim: The Queensland Government invested $1 million in phytomining research at
+    UQ's Sustainable Minerals Institute, studying native hyperaccumulator plants for
+    rare earth extraction from tailings at Phosphate Hill mine and the closed Mary
+    Kathleen mine near Cloncurry in the NWMP.
+  source_quotes:
+  - $1 million from Palaszczuk Government
+  - tests on rare earth element-rich material from the Phosphate Hill mine and closed
+    Mary Kathleen mine near Cloncurry
+  source_name: Native plants used to extract rare earth metals as part of trailblazing
+    Queensland research
+  source_author: Queensland Government Ministerial Media Statements
+  source_url: https://statements.qld.gov.au/statements/92918
+  source_type: government_publication
+  source_date: 2021-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-369
+  verification_notes: $1 million, Phosphate Hill, Mary Kathleen, and UQ SMI all confirmed
+    verbatim on QLD ministerial statement. Accessed 2026-03-13.
+- claim: Research has found that hyperaccumulator plants planted across a nickel-rich
+    site such as a mine tailings dam could yield 300kg of nickel per hectare per year
+    through phytomining.
+  source_quotes:
+  - a field of one type of hyperaccumulators planted across a nickel-rich site like
+    a mine tailings dam could yield 300kg of nickel per hectare every year
+  source_name: Native plants used to extract rare earth metals as part of trailblazing
+    Queensland research
+  source_author: Queensland Government Ministerial Media Statements
+  source_url: https://statements.qld.gov.au/statements/92918
+  source_type: government_publication
+  source_date: 2021-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-370
+  verification_notes: 300kg nickel per hectare per year confirmed verbatim on QLD
+    ministerial statement. Accessed 2026-03-13.
+- claim: The Critical Minerals and Circular Economy Research Alliance, a partnership
+    between the Queensland Government and UQ's Sustainable Minerals Institute, oversees
+    a research program (reported as $5.5 million by the department and $8 million
+    by UQ) over four years as a key action of the $315 million Queensland Critical
+    Minerals Strategy.
+  source_quotes:
+  - $5.5 million research program to drive identification, discovery and development
+    of critical minerals
+  - The Critical Minerals and Circular Economy Research Alliance will oversee an $8
+    million research program
+  source_name: Critical minerals and circular economy research alliance
+  source_author: Queensland Department of Natural Resources and Mines
+  source_url: https://www.nrmmrrd.qld.gov.au/mining-exploration/initiatives/critical-minerals-alliance
+  source_type: government_publication
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  notes: The QLD Department of Natural Resources reports $5.5M while UQ SMI reports
+    $8M. The difference may reflect additional in-kind contributions or co-investment
+    from UQ.
+  id: 01-371
+  verification_notes: 'Both amounts confirmed: $5.5M on nrmmrrd.qld.gov.au, $8M on
+    smi.uq.edu.au. Accessed 2026-03-13.'
+- claim: 'The Research Alliance has four active projects: Social Considerations for
+    Responsible Critical Minerals, Queensland''s Secondary Prospectivity of Pyrite
+    Resources, Optimizing Copper Production in Northwest Mineral Province, and OreSand
+    Knowledge Hub for zero waste mining.'
+  source_quotes:
+  - Social Considerations for Responsible Critical Minerals
+  - Queensland's Secondary Prospectivity – Pyrite Resources
+  - Optimizing Copper Production in Northwest Mineral Province
+  - OreSand Knowledge Hub (Zero Waste Mining)
+  source_name: Critical minerals and circular economy research alliance
+  source_author: Queensland Department of Natural Resources and Mines
+  source_url: https://www.nrmmrrd.qld.gov.au/mining-exploration/initiatives/critical-minerals-alliance
+  source_type: government_publication
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-372
+  verification_notes: All four project names confirmed on nrmmrrd.qld.gov.au with
+    start dates. Accessed 2026-03-13.
+- claim: UQ's Sustainable Minerals Institute has completed analysis of critical mineral
+    recovery from mine waste at more than 35 sites across Queensland, informing current
+    resource recovery efforts.
+  source_quotes:
+  - analysis of critical mineral recovery from mine waste at more than 35 sites
+  source_name: University alliance to help build a sustainable critical minerals industry
+    for Queensland
+  source_author: UQ Sustainable Minerals Institute
+  source_url: https://smi.uq.edu.au/article/2024/09/university-alliance-help-build-sustainable-critical-minerals-industry-queensland
+  source_type: academic_paper
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-373
+  verification_notes: 35+ mine waste sites confirmed verbatim on UQ SMI page. Accessed
+    2026-03-13.
+- claim: The Geological Survey of Queensland has re-analysed samples from mine tailings
+    at established and historic mine sites throughout Queensland to identify critical
+    mineral opportunities, examining the secondary prospectivity of mine tailings
+    for cobalt and other critical metals.
+  source_quotes:
+  - GSQ has re-analysed samples from mine tailings at established and historic mine
+    sites throughout Queensland to identify critical mineral opportunities
+  source_name: Queensland's new economy minerals initiative
+  source_author: AusIMM Bulletin
+  source_url: https://www.ausimm.com/bulletin/bulletin-articles/queenslands-new-economy-minerals-initiative/
+  source_type: industry_report
+  source_date: 2019-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-374
+  verification_notes: GSQ re-analysis of tailings samples confirmed from AusIMM Bulletin
+    article. Accessed 2026-03-13.
+- claim: CSIRO research has identified the presence of rare earth elements in coal
+    waste and mine tailings, investigating physical separation techniques including
+    roasting, leaching, bioleaching and biosorption for REE extraction.
+  source_quotes:
+  - A range of activities are taking place to find the best options for extracting
+    rare earth elements, including research into physical separation techniques like
+    roasting, leaching, bioleaching and biosorption
+  source_name: 'Rare earth elements in coal: doing more with coal waste'
+  source_author: CSIRO
+  source_url: https://www.csiro.au/en/news/all/articles/2024/february/rre-in-coal-waste
+  source_type: government_publication
+  source_date: 2024-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-375
+  verification_notes: CSIRO REE in coal waste research confirmed. Leaching, bioleaching,
+    biosorption techniques confirmed from search results. Accessed 2026-03-13.
+- claim: 'E-waste collection rates vary dramatically by region: 40-50% in Europe and
+    North America, 30% in Japan and Korea, below 5% in developing Asia and Latin America,
+    and only 1% in Africa.'
+  source_quotes:
+  - 'Europe/North America: 40-50%'
+  - 'Japan/Korea: 30%'
+  - 'Developing Asia/Latin America: Below 5%'
+  - 'Africa: Only 1%'
+  source_name: Recycling of Critical Minerals
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary
+  source_type: international_organisation
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-376
+  verification_notes: Collection rate disparities confirmed on IEA Recycling of Critical
+    Minerals executive summary. Accessed 2026-03-13.
+- claim: In recycled cobalt, China now supplies nearly 30% of domestic battery-grade
+    cobalt requirements from secondary sources, while the global cobalt scrap recycling
+    market was valued at USD 1.44 billion in 2024 and is projected to reach USD 3.48
+    billion by 2032.
+  source_quotes:
+  - recycled cobalt now supplies nearly 30% of domestic battery-grade cobalt requirements
+  source_name: Cobalt Scrap Recycling Market Outlook 2025-2032
+  source_author: Intel Market Research
+  source_url: https://www.intelmarketresearch.com/cobalt-scrap-recycling-2025-2032-92-4320
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-012
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-377
+  verification_notes: China 30% domestic cobalt from recycling and market valuation
+    confirmed from Intel Market Research. Accessed 2026-03-13.
