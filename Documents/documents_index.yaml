@@ -154,3 +154,19 @@
   fact_count: 44
   fact_range: 01-249 to 01-292
   id: DOC-010
+- id: DOC-011
+  title: NWMP Regional Mineral Endowment Profile
+  type: research_report
+  section: 01_Macro_Context
+  description: Data-backed profile of the mineral endowment across the North West
+    Minerals Province (Queensland, Australia). Catalogues JORC-compliant resource
+    estimates by commodity, current production tonnages, major operating mines and
+    deposits, NWMP share of national resources, project development pipeline, and
+    mineralogical characteristics including polymetallic IOCG deposits, vanadium-bearing
+    oil shales, and rare earth mineralogy.
+  content_file: 09_NWMP_Regional_Mineral_Endowment_Profile.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 47
+  fact_range: 01-293 to 01-339
