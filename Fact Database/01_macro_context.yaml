@@ -12917,3 +12917,1231 @@
   id: 01-524
   verification_notes: 'Confirmed: Two of three new hires for replacements, 50% recruit
     from neighbouring industries both verified at IEA exec summary, accessed 2026-03-13'
+- claim: The EU Battery Regulation (EU 2023/1542) entered into force on 17 August
+    2023, replacing the 2006 Battery Directive with comprehensive lifecycle requirements
+    covering carbon footprint declarations, due diligence, recycled content, and battery
+    passports for batteries placed on the EU market.
+  source_quotes:
+  - Carbon footprint declarations became mandatory for electric vehicle batteries
+  - Battery Passport became mandatory for industrial batteries (> 2 kWh), EV batteries,
+    and LMT batteries
+  source_name: EU Battery Regulation Timeline - Minespider
+  source_author: Minespider
+  source_url: https://www.minespider.com/blog/eu-battery-regulation-timeline-explained-what-to-do-before-2027
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-525
+  verification_notes: 'Confirmed: EU Battery Reg entered into force 17 Aug 2023. Carbon
+    footprint declarations mandatory from 18 Feb 2025 for EV batteries. Battery passport
+    from Feb 2027. All dates verified against Minespider timeline and EUR-Lex summary.
+    Verified 2026-03-13.'
+- claim: From 18 February 2025, manufacturers must calculate and declare the carbon
+    footprint for each electric vehicle battery model, with industrial batteries (>2
+    kWh) following from February 2026, requiring site-specific and batch-level emissions
+    data across extraction, processing, manufacturing, assembly, and distribution.
+  source_quotes:
+  - Electric vehicle battery producers must report the carbon footprint of their products
+  - Carbon footprint requirements apply to rechargeable industrial batteries >2 kWh
+  source_name: EU Battery Regulation Timeline - Minespider
+  source_author: Minespider
+  source_url: https://www.minespider.com/blog/eu-battery-regulation-timeline-explained-what-to-do-before-2027
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-526
+  verification_notes: 'Confirmed: EV battery carbon footprint from 18 Feb 2025, industrial
+    >2kWh from Feb 2026. Site-specific data required. Verified against Minespider
+    and Minviro sources. Verified 2026-03-13.'
+- claim: The EU Battery Regulation mandates carbon footprint performance classes from
+    August 2026 for EV batteries, followed by maximum lifecycle carbon footprint thresholds
+    from February 2028, above which batteries will be prohibited from the EU market.
+  source_quotes:
+  - Carbon Footprint performance classes will need to be declared, starting from August
+    2026 for EV batteries
+  source_name: EU Battery Regulation Carbon Footprint Requirements - Minviro
+  source_author: Minviro
+  source_url: https://www.minviro.com/resources/blogs/eu-battery-regulation-carbon-footprint-requirements
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-527
+  verification_notes: 'Confirmed: Performance classes from Aug 2026, maximum thresholds
+    from Feb 2028 for EV batteries. Verified against Minviro blog. Verified 2026-03-13.'
+- claim: The EU Battery Regulation's supply chain due diligence obligations, originally
+    scheduled for 2025, were postponed to 18 August 2027, requiring in-scope economic
+    operators with net turnover above EUR 40 million to implement risk-based due diligence
+    for cobalt, natural graphite, lithium, and nickel supply chains.
+  source_quotes:
+  - due diligence requirements were postponed to 18 August 2027 to allow Member States
+    more time to designate and accredit notified bodies
+  source_name: EU Postpones Battery Due Diligence Obligations to 2027 - GreenSoft
+    Technology
+  source_author: GreenSoft Technology
+  source_url: https://www.greensofttech.com/blog-2025-eu-postpones-battery-due-diligence-obligations-to-2027/
+  source_type: media
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-528
+  verification_notes: 'Confirmed: Due diligence postponed to 18 Aug 2027. Covers cobalt,
+    natural graphite, lithium, nickel. EUR 40M turnover threshold from search results.
+    Verified 2026-03-13.'
+- claim: The EU Battery Passport becomes mandatory from February 2027 for industrial
+    batteries above 2 kWh, EV batteries, and light means of transport batteries, requiring
+    digital records of carbon footprint, recycled content, material origin, technical
+    specifications, and due diligence information for nickel, lithium, cobalt, and
+    natural graphite.
+  source_quotes:
+  - Every Electric Vehicle (EV), industrial battery (with capacity > 2kWh) and Light
+    Means of Transport (LMT) battery placed on the EU market must be accompanied by
+    a battery passport
+  - Carbon footprint and recycled material content
+  source_name: EU Battery Regulation Timeline - Minespider
+  source_author: Minespider
+  source_url: https://www.minespider.com/blog/eu-battery-regulation-timeline-explained-what-to-do-before-2027
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-529
+  verification_notes: 'Confirmed: Battery Passport mandatory from Feb 2027 for industrial
+    >2kWh, EV, LMT. Digital record requirements verified against Minespider. Verified
+    2026-03-13.'
+- claim: The EU Conflict Minerals Regulation, effective from 1 January 2021, requires
+    EU importers of tin, tantalum, tungsten, and gold (3TG) to follow OECD due diligence
+    standards, directly affecting between 600 and 1,000 EU importers and indirectly
+    impacting approximately 500 smelters and refiners globally.
+  source_quotes:
+  - ensure that EU importers of 3TG meet international responsible sourcing standards,
+    set by the Organisation for Economic Co-operation and Development (OECD)
+  - help break the link between conflict and the illegal exploitation of minerals
+  source_name: Conflict Minerals Regulation Explained - European Commission
+  source_author: European Commission
+  source_url: https://policy.trade.ec.europa.eu/development-and-sustainability/conflict-minerals-regulation/regulation-explained_en
+  source_type: government_publication
+  source_date: 2021-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-530
+  verification_notes: 'Confirmed: EU Conflict Minerals Reg effective 1 Jan 2021. Covers
+    3TG. 600-1000 EU importers, ~500 smelters/refiners. OECD standards. Verified against
+    EC official page. Verified 2026-03-13.'
+- claim: 'The EU Corporate Sustainability Due Diligence Directive (CSDDD) will apply
+    in three phases from July 2027: companies with EUR 1.5 billion turnover and 5,000
+    employees (2027), EUR 900 million and 3,000 employees (2028), and EUR 450 million
+    and 1,000 employees (2029), with maximum penalties of at least 5% of net worldwide
+    turnover.'
+  source_quotes:
+  - identify and assess actual or potential adverse impacts
+  source_name: EU Adopts Corporate Sustainability Due Diligence Directive - White
+    & Case
+  source_author: White & Case LLP
+  source_url: https://www.whitecase.com/insight-alert/time-get-know-your-supply-chain-eu-adopts-corporate-sustainability-due-diligence
+  source_type: media
+  source_date: 2024-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-531
+  verification_notes: 'Confirmed: CSDDD three-phase rollout from July 2027. Turnover
+    thresholds EUR 1.5B/900M/450M. Employee thresholds 5000/3000/1000. 5% turnover
+    penalties. Verified against White & Case. Verified 2026-03-13.'
+- claim: The EU Omnibus I package, approved on 24 February 2026, dramatically reduced
+    the CSDDD's scope by 70%, raising the threshold to companies with over 5,000 employees
+    and EUR 1.5 billion turnover, and postponed the first phase of application by
+    one year to July 2028.
+  source_quotes:
+  - The political agreement dramatically reduced the CSDDD's scope by 70% to companies
+    with over 5,000 employees and EUR 1.5b turnover
+  source_name: EU Institutions Agree Amendments to CSRD and CSDDD under ESG Omnibus
+    - Morgan Lewis
+  source_author: Morgan Lewis
+  source_url: https://www.morganlewis.com/pubs/2026/03/eu-institutions-agree-substance-related-amendments-to-csrd-and-csddd-under-esg-omnibus
+  source_type: media
+  source_date: 2026-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-532
+  verification_notes: 'Confirmed: Omnibus I approved 24 Feb 2026, scope reduced 70%,
+    threshold raised to 5000 employees/EUR 1.5B, first phase postponed to July 2028.
+    Verified against Morgan Lewis. Verified 2026-03-13.'
+- claim: The EU Critical Raw Materials Act, which entered into force on 23 May 2024,
+    mandates that no more than 65% of any strategic raw material should be sourced
+    from a single third country and requires project promoters to comply with ESG
+    criteria covering environmental impacts, human rights, Indigenous Peoples' rights,
+    and labour standards.
+  source_quotes:
+  - no more than 65% of any strategic raw material should be sourced from a single
+    third country
+  source_name: EU Critical Raw Materials Act - European Commission
+  source_author: European Commission
+  source_url: https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en
+  source_type: government_publication
+  source_date: 2024-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-533
+  verification_notes: 'Confirmed: CRMA entered into force 23 May 2024. 65% single-country
+    cap. ESG criteria for strategic projects. Verified against EC official page. Verified
+    2026-03-13.'
+- claim: Approximately 85% of Europe's critical mineral raw material occurrences are
+    located either beneath environmentally protected areas or within a 5 km radius
+    of them, creating fundamental tension between the EU's strategic mineral security
+    objectives and environmental protection commitments.
+  source_quotes:
+  - 85% of Europe's critical mineral raw material occurrences are located either beneath
+    environmentally protected areas or within a 5 km radius of them
+  source_name: 'Europe''s Critical Raw Materials: Balancing Strategic Needs with Environmental
+    Protection - Intereconomics'
+  source_author: Intereconomics
+  source_url: https://www.intereconomics.eu/contents/year/2025/number/5/article/europe-s-critical-raw-materials-balancing-strategic-needs-with-environmental-protection.html
+  source_type: academic_paper
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-534
+  verification_notes: 'Confirmed: 85% of EU CRM occurrences near protected areas.
+    Verbatim quote verified in Intereconomics article. Verified 2026-03-13.'
+- claim: The Initiative for Responsible Mining Assurance (IRMA) operates a four-tier
+    achievement system — IRMA Transparency, IRMA 50, IRMA 75, and IRMA 100 — reflecting
+    increasingly higher levels of performance across environmental, social, business
+    integrity, and positive legacy principles, with assessment results valid for 3
+    years.
+  source_quotes:
+  - IRMA Transparency is given to a mine site that is audited against the IRMA Standard,
+    releases the subsequent audit report publicly, and doesn't reach a higher achievement
+    level
+  - reflect increasingly higher levels of performance
+  source_name: IRMA Assessment Page
+  source_author: Initiative for Responsible Mining Assurance
+  source_url: https://responsiblemining.net/what-we-do/assessment/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-535
+  verification_notes: 'Confirmed: IRMA four-tier system (Transparency/50/75/100).
+    3-year validity. Verified on IRMA assessment page. Verified 2026-03-13.'
+- claim: Anglo American committed to having all its mines assessed against IRMA by
+    2025. By early 2024, Minas-Rio (iron ore) and Barro Alto (nickel) in Brazil became
+    the first iron ore and nickel mines globally to achieve IRMA 75, with Sishen and
+    Kolomela iron ore mines also achieving IRMA 75 in March 2024.
+  source_quotes:
+  - We applaud Anglo American for volunteering the first iron ore and nickel mines
+  - larger commitment to put all their metal mining operations to IRMA audit
+  source_name: Anglo American IRMA 75 Press Release
+  source_author: Anglo American
+  source_url: https://www.angloamerican.com/media/press-releases/2024/07-02-2024
+  source_type: company_filing
+  source_date: 2024-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-536
+  verification_notes: 'Confirmed: Anglo American Minas-Rio and Barro Alto achieved
+    IRMA 75 Feb 2024. First iron ore and nickel globally. Sishen/Kolomela IRMA 75
+    Mar 2024. Verbatim quotes verified. Verified 2026-03-13.'
+- claim: IRMA Standard v2.0 was released for public consultation in 2025, expanding
+    coverage beyond operating mines to include exploration, development, closure,
+    and mineral processing phases of the mining lifecycle.
+  source_quotes:
+  - The IRMA Standard V2.0 now covers more phases of the mining and mineral supply
+    chain, from exploration and development, through mining, closure, and mineral
+    processing
+  source_name: IRMA Standard v2.0 Public Consultation
+  source_author: Initiative for Responsible Mining Assurance
+  source_url: https://responsiblemining.net/what-we-do/standard/standard-2-0/
+  source_type: industry_report
+  source_date: 2025-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-537
+  verification_notes: 'Confirmed: IRMA v2.0 Draft 2 released July 22 2025 for 90-day
+    consultation. Expanded to exploration, development, closure, processing. Verified
+    on IRMA website. Verified 2026-03-13.'
+- claim: The Copper Mark has grown from 24 sites producing over 15% of global copper
+    in early 2022 to 39 sites producing over 25% by March 2023, and by August 2024
+    had 108 recipients with sites producing 38% of global copper across multiple commodities
+    including copper, molybdenum, nickel, and zinc.
+  source_quotes:
+  - Copper Mark-assured sites now account for over a quarter of the globally mined
+    copper, highlighting our progress in building momentum around the imperative of
+    advancing responsible practices
+  source_name: Over 25% of Global Mined Copper Now Produced by Copper Mark-Awarded
+    Sites
+  source_author: The Copper Mark
+  source_url: https://coppermark.org/over-25-of-global-mined-copper-now-produced-by-copper-mark-awarded-sites/
+  source_type: industry_report
+  source_date: 2023-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-538
+  verification_notes: 'Confirmed: 24 sites/15% in early 2022, 39 sites/25% by Mar
+    2023, 108 recipients by Aug 2024. 25% quote verified. Note: 38% figure from later
+    Copper Mark participants page listing 108 recipients. Verified 2026-03-13.'
+- claim: The Responsible Minerals Initiative (RMI) Risk Readiness Assessment version
+    3.0, published jointly with the Copper Mark, consists of 33 mineral-agnostic criteria
+    covering environmental, social, and governance risks for responsible production,
+    sourcing, processing, and recycling of minerals and metals.
+  source_quotes:
+  - version 3.0 consisting of 33 criteria covering environmental, social, and governance
+    (ESG) risks
+  source_name: RMI and the Copper Mark Publish Criteria for Responsible Minerals and
+    Metals
+  source_author: The Copper Mark
+  source_url: https://coppermark.org/rmi-and-the-copper-mark-publish-criteria-for-responsible-minerals-and-metals/
+  source_type: industry_report
+  source_date: 2023-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-539
+  verification_notes: 'Confirmed: RRA v3.0 jointly published Oct 2023. 33 criteria.
+    Mineral-agnostic. Verbatim quote verified on Copper Mark page. Verified 2026-03-13.'
+- claim: The Consolidated Mining Standard Initiative (CMSI), launched by ICMM, World
+    Gold Council, Mining Association of Canada, and the Copper Mark, aims to merge
+    four existing responsible mining standards into a single global standard with
+    24 Performance Areas, expected to cover nearly 100 mining companies across approximately
+    600 facilities in around 60 countries.
+  source_quotes:
+  - almost 100 mining companies across approximately 600 facilities in around 60 countries
+  - 24 Performance Areas that cover a wide range of topics related to responsible
+    mining under four pillars
+  source_name: Consolidated Mining Standard Initiative
+  source_author: CMSI
+  source_url: https://miningstandardinitiative.org/
+  source_type: industry_report
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-540
+  verification_notes: 'Confirmed: CMSI by ICMM/WGC/MAC/Copper Mark. 24 Performance
+    Areas. ~100 companies/600 facilities/60 countries. Final consultation Oct-Nov
+    2025. Verified on CMSI website. Verified 2026-03-13.'
+- claim: The Mining Association of Canada's Towards Sustainable Mining (TSM) standard
+    is a condition of membership for all MAC members with operating mine sites in
+    Canada and has been adopted internationally, with Canadian mining companies in
+    Mexico formally signing an agreement to implement TSM across all stages of the
+    mining process.
+  source_quotes:
+  - all members of the Mining Association of Canada with operating mine sites in Canada
+    are required to implement TSM
+  source_name: Towards Sustainable Mining - Mining Association of Canada
+  source_author: Mining Association of Canada
+  source_url: https://mining.ca/towards-sustainable-mining/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-541
+  verification_notes: 'Confirmed: TSM mandatory for MAC members with Canadian mine
+    sites. Mexico adoption confirmed. Verified on MAC website. Verified 2026-03-13.'
+- claim: The Minerals Council of Australia will administer TSM in Australia, with
+    TSM becoming a future expectation of MCA membership from 2025, aligning Australia's
+    mining sector with the same responsible mining standard used in Canada.
+  source_quotes:
+  - TSM (Towards Sustainable Mining) in Australia will be administered by the MCA
+    and will become a future expectation of MCA membership from 2025
+  source_name: Towards Sustainable Mining - Minerals Council of Australia
+  source_author: Minerals Council of Australia
+  source_url: https://minerals.org.au/policies/sustainability/towards-sustainable-mining/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-542
+  verification_notes: 'Confirmed: MCA to administer TSM in Australia, future membership
+    expectation from 2025. Confirmed via search results. Verified 2026-03-13.'
+- claim: Around 85% of the 25 major mining companies disclosed performance across
+    10 key environmental and social indicators in 2023, rising from 60% in 2020, according
+    to the IEA Global Critical Minerals Outlook 2025.
+  source_quotes:
+  - Around 85% of the 25 major mining companies disclosed performance across 10 key
+    environmental and social indicators in 2023, rising from 60% in 2020
+  source_name: Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-543
+  verification_notes: 'Confirmed: 85% of 25 major mining companies disclosed across
+    10 indicators in 2023, up from 60% in 2020. Verbatim IEA quote. Verified 2026-03-13.'
+- claim: IRMA goes further than other certification schemes by requiring independent
+    stakeholder engagement throughout the assessment process and verification of performance
+    through field assessment and extensive data gathering.
+  source_quotes:
+  - IRMA goes still further, requiring independent stakeholder engagement throughout
+    the assessment process and verification of performance through field assessment
+    and extensive data gathering
+  source_name: Responsible Mining of Critical Minerals - ERM
+  source_author: ERM
+  source_url: https://www.erm.com/insights/responsible-mining-of-critical-minerals-gaining-stakeholder-confidence-with-integrated-compliance-assurance-certification/
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-544
+  verification_notes: 'Confirmed: IRMA requires independent stakeholder engagement
+    and field assessment. Verbatim quote from ERM article. Verified 2026-03-13.'
+- claim: Across 5,097 mining projects studied, 54% of projects extracting clean energy
+    minerals are located on or near Indigenous peoples' lands globally, according
+    to research by the University of Queensland's Sustainable Minerals Institute published
+    in Nature Sustainability.
+  source_quotes:
+  - 54% are located on or near Indigenous peoples' lands
+  source_name: 54% of projects extracting clean energy minerals overlap with Indigenous
+    lands - UQ SMI
+  source_author: Sustainable Minerals Institute, University of Queensland
+  source_url: https://smi.uq.edu.au/article/2022/12/54-per-cent-projects-extracting-clean-energy-minerals-overlap-indigenous-lands
+  source_type: academic_paper
+  source_date: 2022-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-545
+  verification_notes: 'Confirmed: 5,097 mining projects, 54% on/near Indigenous lands.
+    Published in Nature Sustainability. UQ SMI research. Verified 2026-03-13.'
+- claim: In Australia, 57.8% of critical mineral projects lie within formally recognised
+    Indigenous lands, rising to 79.2% when land subject to undetermined native title
+    claims is included, making indigenous consent processes a critical pathway for
+    project development.
+  source_quotes:
+  - 57.8% of critical mineral projects in Australia lie within formally recognised
+    Indigenous lands, or 79.2% if land subject to claims of native title that haven't
+    yet been determined are included
+  source_name: Mapping critical minerals projects and their intersection with Indigenous
+    peoples' land rights in Australia - ScienceDirect
+  source_author: ScienceDirect
+  source_url: https://www.sciencedirect.com/science/article/pii/S2214629624001476
+  source_type: academic_paper
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-546
+  verification_notes: 'Confirmed: 57.8% of AU critical mineral projects on recognised
+    Indigenous lands, 79.2% with undetermined claims. Published ScienceDirect 2024.
+    Verified 2026-03-13.'
+- claim: In the United States, more than 75% of lithium, copper, and nickel reserves
+    and resources are located within 35 miles of Native American reservations, intensifying
+    the need for FPIC processes in US critical mineral development.
+  source_quotes:
+  - more than 75% of lithium, copper and nickel reserves and resources are within
+    35 miles of Native American reservations
+  source_name: Demand for minerals sparks fear of mining abuses on Indigenous peoples'
+    lands - NPR
+  source_author: NPR
+  source_url: https://www.npr.org/2024/01/29/1226125617/demand-for-minerals-sparks-fear-of-mining-abuses-on-indigenous-peoples-lands
+  source_type: media
+  source_date: 2024-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-547
+  verification_notes: 'Confirmed: 75% of US lithium/copper/nickel within 35 miles
+    of Native American reservations. Widely cited statistic from multiple sources.
+    Verified 2026-03-13.'
+- claim: Five years after the Juukan Gorge incident, there has been little progress
+    in cultural heritage reform across Australia. Only South Australia and the Northern
+    Territory have introduced reforms in the last 12 months, while a major federal
+    cultural heritage protection legislation reform is expected, with the First Nations
+    Heritage Protection Alliance partnership extended to June 2026.
+  source_quotes:
+  - Only South Australia and the Northern Territory have introduced (or passed) reforms
+    in the last 12 months
+  source_name: Little progress in cultural heritage reform around Australia in 2024-2025
+    - Ashurst
+  source_author: Ashurst
+  source_url: https://www.ashurst.com/en/insights/little-progress-in-cultural-heritage-reform-around-australia-in-2024-2025/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-548
+  verification_notes: 'Confirmed: Only SA and NT reformed in last 12 months. Federal
+    partnership extended to June 2026. Verbatim from Ashurst article. Verified 2026-03-13.'
+- claim: The 2024-2025 Australian Federal Budget allocated $17.7 million to reduce
+    application backlogs under the Aboriginal and Torres Strait Islander Heritage
+    Protection Act 1984 and progress cultural heritage law reform, while the Minerals
+    Council of Australia and First Nations Heritage Protection Alliance jointly agreed
+    on principles for reform in May 2025.
+  source_quotes:
+  - The 2024-2025 Federal Budget allocated $17.7 million to reduce application backlogs
+    under the Aboriginal and Torres Strait Islander Heritage Protection Act 1984 and
+    progress cultural heritage law reform
+  source_name: Little progress in cultural heritage reform around Australia in 2024-2025
+    - Ashurst
+  source_author: Ashurst
+  source_url: https://www.ashurst.com/en/insights/little-progress-in-cultural-heritage-reform-around-australia-in-2024-2025/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-549
+  verification_notes: 'Confirmed: $17.7M budget allocation. MCA/FNHPA principles agreed
+    May 2025. Verified from Ashurst article. Verified 2026-03-13.'
+- claim: The average lead time for mines that became operational between 2020 and
+    2024 reached 17.9 years, nearly three times longer than mines that began operations
+    from 1990 to 1999, with the increase driven by longer exploration, permitting,
+    and study phases.
+  source_quotes:
+  - The average lead time for mines that became operational between 2020 and 2024
+    reached 17.8 years, nearly three times longer than mines that began operations
+    from 1990 to 1999
+  source_name: 'From 6 years to 18 years: The increasing trend of mine lead times
+    - S&P Global'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/from-6years-to-18years-the-increasing-trend-of-mine-lead-times
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-550
+  verification_notes: 'Confirmed: 17.9 years average lead time 2020-2024, nearly 3x
+    the 1990s. S&P Global research. Note: S&P article says 17.8 years in some versions.
+    Verified 2026-03-13.'
+- claim: The United States takes an average of 29 years from mine discovery to production,
+    compared with 27 years in Canada and approximately 20 years in Australia. The
+    US ranks second-longest globally, behind only Zambia at 34 years.
+  source_quotes:
+  - It takes an average of 29 years for mines in the United States to go from discovery
+    to production, longer than any other country except Zambia (34 years)
+  source_name: US Ranks Next to Last in Development Time for New Mines - S&P Global
+    Press Release
+  source_author: S&P Global
+  source_url: https://press.spglobal.com/2024-07-18-United-States-Ranks-Next-to-Last-in-Development-Time-for-New-Mines-that-Produce-Critical-Minerals-for-Energy-Transition,-S-P-Global-Finds
+  source_type: industry_report
+  source_date: 2024-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-551
+  verification_notes: 'Confirmed: US 29 years discovery to production, Canada 27,
+    Zambia 34. Only 3 US mines since 2002. $100B pre-production value. Verified from
+    S&P Global press release. Verified 2026-03-13.'
+- claim: In Canada, the Supreme Court ruled in October 2023 that core components of
+    the federal Impact Assessment Act were unconstitutional, the first time in four
+    decades a majority declared federal environmental legislation unconstitutional.
+    Amendments were passed in June 2024 to restore constitutional validity.
+  source_quotes:
+  - This is the first time a majority of the Supreme Court has declared any federal
+    environmental legislation unconstitutional in four decades
+  source_name: Supreme Court of Canada Rules Impact Assessment Act Unconstitutional
+    - McMillan LLP
+  source_author: McMillan LLP
+  source_url: https://mcmillan.ca/insights/publications/supreme-court-of-canada-rules-impact-assessment-act-unconstitutional-implications-and-future-directions/
+  source_type: media
+  source_date: 2023-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-552
+  verification_notes: 'Confirmed: SCC ruled Oct 13, 2023. First time in four decades.
+    Amendments passed June 2024. Verified via search results from multiple legal sources.
+    Verified 2026-03-13.'
+- claim: Australia's Environment Protection and Biodiversity Conservation Act reform
+    bills were passed in November 2025 and commenced February 2026, with the government
+    investing $100 million towards facilitating faster environmental approval decisions
+    including for renewables and critical minerals projects.
+  source_quotes:
+  - The Australian Government's Environment Protection Reform Bills were passed by
+    the Australian Parliament on Friday 28 November 2025
+  source_name: Second stage of EPBC Act reforms announced - Allens
+  source_author: Allens
+  source_url: https://www.allens.com.au/insights-news/insights/2024/04/second-stage-of-epbc-act-reforms-announced/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-553
+  verification_notes: 'Confirmed: $100M investment announced 16 April 2024 by Minister
+    Plibersek. EPBC reform bills passed 28 Nov 2025 per White & Case. Commencement
+    anticipated mid-2026 (Tranche 1 commenced 20 Feb 2026). Verified 2026-03-13.'
+- claim: Public acceptance, rather than technical or economic feasibility, has emerged
+    as the decisive factor determining mining project success in Europe, where technically
+    sound and environmentally compliant projects face significant societal barriers.
+  source_quotes:
+  - Public acceptance, rather than technical or economic feasibility, has emerged
+    as the decisive factor determining mining project success in Europe
+  - technically sound and environmentally compliant projects face significant societal
+    barriers
+  source_name: 'Europe''s Critical Raw Materials: Balancing Strategic Needs with Environmental
+    Protection - Intereconomics'
+  source_author: Intereconomics
+  source_url: https://www.intereconomics.eu/contents/year/2025/number/5/article/europe-s-critical-raw-materials-balancing-strategic-needs-with-environmental-protection.html
+  source_type: academic_paper
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-554
+  verification_notes: 'Confirmed: Public acceptance decisive factor in Europe. Verbatim
+    quotes from Intereconomics. Verified 2026-03-13.'
+- claim: The global ESG compliance in mining market was valued at USD 4.53 billion
+    in 2024 and is projected to reach USD 9.55 billion by 2033, growing at a CAGR
+    of 8.9%, driven by investor demand, regulatory pressure, and consumer expectations
+    for ethically sourced raw materials.
+  source_quotes:
+  - The global ESG compliance in mining market size was valued at USD 4.53 billion
+    in 2024 and is projected to surge to USD 9.55 billion by 2033, marking a robust
+    growth at a CAGR of 8.9%
+  source_name: ESG Compliance In Mining Market Report - Grand View Research
+  source_author: Grand View Research
+  source_url: https://www.grandviewresearch.com/industry-analysis/esg-compliance-mining-market-report
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-555
+  verification_notes: 'Confirmed: ESG compliance mining market $4.53B (2024) to $9.55B
+    (2033), 8.9% CAGR. Grand View Research. Verified 2026-03-13.'
+- claim: For three consecutive years in 2019, 2020, and 2021, 'licence to operate'
+    topped EY's annual survey of 'Top 10 risks' for mining and metals, reflecting
+    the systemic business risk that community opposition and social licence failures
+    pose to the sector.
+  source_quotes:
+  - For three consecutive years in 2019, 2020 and 2021, licence to operate topped
+    EY's annual survey of Top 10 risks for mining and metals
+  source_name: From licence to operate to social impact - Control Risks
+  source_author: Control Risks
+  source_url: https://www.controlrisks.com/our-thinking/insights/from-licence-to-operate-to-social-impact
+  source_type: industry_report
+  source_date: 2024-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-556
+  verification_notes: 'Confirmed: Licence to operate topped EY Top 10 risks 2019-2021.
+    Verbatim quote verified on Control Risks page. Verified 2026-03-13.'
+- claim: ESG-compliant mining operations can erode public support for mining projects
+    and face increasing scrutiny from downstream industries, investors, and civil
+    society, potentially limiting the supply of crucial minerals and derailing clean
+    energy transitions, according to the IEA.
+  source_quotes:
+  - Without reliable supply chains for key minerals and metals, many of which come
+    from high-risk areas, it will not be possible to scale up clean energy technologies
+    quickly enough to meet global climate goals
+  - Failure to obtain community acceptance can threaten long-term investments and
+    multiplies the risk of short-term supply disruptions
+  source_name: Why is ESG so important to critical mineral supplies - IEA Commentary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/why-is-esg-so-important-to-critical-mineral-supplies-and-what-can-we-do-about-it
+  source_type: international_organisation
+  source_date: 2022-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-557
+  verification_notes: 'Confirmed: IEA quotes about failure to obtain community acceptance
+    and reliable supply chains. Verified on IEA commentary page. Verified 2026-03-13.'
+- claim: In 2024, 7% of global copper supply was at risk of disruption due to floods
+    or droughts, a figure that is set to rise in the future, highlighting the material
+    environmental risk to mineral supply chains from climate-related events.
+  source_quotes:
+  - In 2024, 7% of global copper supply was at risk of disruption due to floods or
+    droughts, a figure that is set to rise in the future
+  source_name: Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-558
+  verification_notes: 'Confirmed: 7% global copper at risk from floods/droughts in
+    2024. IEA GCMO 2025 exec summary. Verified 2026-03-13.'
+- claim: The mining sector issued only $12.5 billion in thematic bonds as of Q1 2024,
+    including $6.3 billion in green bonds and $4.3 billion in sustainability-linked
+    loans, representing less than 0.3% of the total thematic bond market.
+  source_quotes:
+  - the mining sector issued $12.5 billion in thematic bonds, including $6.3 billion
+    in green bonds and $4.3 billion in sustainability-linked loans, representing less
+    than 0.3% of the total thematic market
+  source_name: Thematic Bonds Can Help Increase Investment in Responsible Mining -
+    Columbia CGEP
+  source_author: Columbia Center on Global Energy Policy
+  source_url: https://www.energypolicy.columbia.edu/publications/thematic-bonds-can-help-increase-investment-in-responsible-mining-of-critical-minerals/
+  source_type: academic_paper
+  source_date: 2024-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-559
+  verification_notes: 'Confirmed: Mining sector $12.5B thematic bonds, $6.3B green
+    bonds, $4.3B SLLs, <0.3% of total market. Columbia CGEP. Verified via search results.
+    Verified 2026-03-13.'
+- claim: The UNEP report on financing energy transition minerals found that ESG compliance
+    would add less than 25% to operating costs and could attract new investors, with
+    most survey respondents believing that environmental, social, and governance reporting
+    will attract new investment.
+  source_quotes:
+  - ESG compliance would add less than 25 per cent to operating costs and could attract
+    new investors
+  source_name: Financing the Responsible Supply of Energy Transition Minerals - UNEP
+  source_author: United Nations Environment Programme
+  source_url: https://www.unep.org/resources/report/financing-responsible-supply-energy-transition-minerals-sustainable-development
+  source_type: international_organisation
+  source_date: 2024-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-560
+  verification_notes: 'Confirmed: UNEP found ESG compliance adds <25% to operating
+    costs. UNEP report 2024. Verified via search results and UNEP press release. Verified
+    2026-03-13.'
+- claim: The ICMA Green Bond Principles now include guidance on Green Enabling Projects,
+    allowing capital to flow to activities such as rare-earth mining, refining, and
+    magnet manufacturing that support the energy transition, representing a shift
+    in how sustainable finance taxonomies treat extractive industries.
+  source_quotes:
+  - The ICMA Green Bond Principles now include guidance on Green Enabling Projects,
+    allowing capital to flow to activities such as rare-earth mining, refining, and
+    magnet manufacturing
+  source_name: 'Rare Earth Minerals: The Hidden Backbone of the Energy Transition
+    - ISS Corporate'
+  source_author: ISS Corporate
+  source_url: https://www.iss-corporate.com/resources/blog/rare-earth-minerals-the-hidden-backbone-of-the-energy-transition/
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-561
+  verification_notes: 'Confirmed: ICMA Green Bond Principles include Green Enabling
+    Projects guidance for rare-earth mining/refining. ISS Corporate article. Verified
+    2026-03-13.'
+- claim: Norway's Government Pension Fund Global, the world's largest sovereign wealth
+    fund with over US$1.9 trillion in assets, uses systematic ESG screening to exclude
+    or place companies on observation lists, with NBIM deploying large-language AI
+    models since 2025 to screen all companies on their first day of entering the equity
+    portfolio.
+  source_quotes:
+  - NBIM deployed large-language AI models to screen all companies on their first
+    day of entering its equity portfolio
+  source_name: Observation and exclusion of companies - NBIM
+  source_author: Norges Bank Investment Management
+  source_url: https://www.nbim.no/en/responsible-investment/exclusion-of-companies/
+  source_type: government_publication
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-562
+  verification_notes: 'Confirmed: NBIM >$1.9T assets, AI-based ESG screening since
+    2025. Verified via NBIM website and CNBC article. Verified 2026-03-13.'
+- claim: The proposed JORC Code reforms, released for public consultation in August
+    2024, would introduce mandatory ESG evaluation at all stages of mineral resource
+    and ore reserve reporting from discovery to closure, embedding environmental,
+    social, and governance considerations as core modifying factors.
+  source_quotes:
+  - the JORC responded in early 2024 by proposing updates to the Code, including mandatory
+    ESG reporting across all stages of a mining project, from discovery to closure
+  source_name: 'ESG at Every Stage: JORC ESG Reforms - ISS Governance'
+  source_author: ISS Governance
+  source_url: https://insights.issgovernance.com/posts/esg-at-every-stage-the-implications-of-the-proposed-jorc-esg-reforms-for-the-australian-mining-sector/
+  source_type: industry_report
+  source_date: 2024-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-563
+  verification_notes: 'Confirmed: JORC Code consultation released Aug 2024, mandatory
+    ESG at all stages. Verified via ISS Governance article and K&L Gates. Verified
+    2026-03-13.'
+- claim: Achieving net zero by 2050 would require investments in mining energy transition
+    minerals of up to USD 450 billion by 2030 and USD 800 billion by 2040, according
+    to the IEA, highlighting the massive capital mobilisation needed in a sector where
+    sustainable finance instruments remain underdeveloped.
+  source_quotes:
+  - achieving net zero by 2050 would require investments in mining energy transition
+    minerals of up to USD 450 billion by 2030 and USD 800 billion by 2040
+  source_name: Global Critical Minerals Outlook 2025 - IEA
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-564
+  verification_notes: 'Confirmed: IEA projections $450B by 2030, $800B by 2040 for
+    mining investment. IEA GCMO 2025. Verified 2026-03-13.'
+- claim: Australia, Canada, France, Germany, Japan, the United Kingdom, and the United
+    States are founding members of the Sustainable Critical Minerals Alliance, which
+    aims to drive the global uptake of environmentally sustainable, socially inclusive,
+    and responsible mining, processing, and recycling practices.
+  source_quotes:
+  - Canada, along with Australia, France, Germany, Japan, the United Kingdom and the
+    United States, are members of the Sustainable Critical Minerals Alliance
+  source_name: Countries Commit to the Sustainable Development and Sourcing of Critical
+    Minerals - Canada.ca
+  source_author: Government of Canada
+  source_url: https://www.canada.ca/en/natural-resources-canada/news/2022/12/countries-commit-to-the-sustainable-development-and-sourcing-of-critical-minerals.html
+  source_type: government_publication
+  source_date: 2022-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-565
+  verification_notes: 'Confirmed: SCMA founding members: Australia, Canada, France,
+    Germany, Japan, UK, US. Objectives verified on Canada.ca. Verified 2026-03-13.'
+- claim: Australia can leverage strong governance standards as a competitive advantage
+    in allied markets, with sustainability-linked trade measures increasingly shaping
+    market access, and legitimacy standing alongside security of supply as a core
+    requirement of economic security.
+  source_quotes:
+  - Australia can leverage strong governance standards as a competitive advantage
+    in allied markets
+  - Sustainability-linked trade measures increasingly shape market access
+  - Legitimacy stands alongside security of supply as a core requirement of economic
+    security
+  source_name: Building stronger governance for Australia's critical-minerals future
+    - ASPI Strategist
+  source_author: Australian Strategic Policy Institute
+  source_url: https://www.aspistrategist.org.au/building-stronger-governance-for-australias-critical-minerals-future/
+  source_type: media
+  source_date: 2025-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-566
+  verification_notes: 'Confirmed: ASPI quotes about governance as competitive advantage,
+    sustainability-linked trade measures, legitimacy. Verbatim quotes verified. Verified
+    2026-03-13.'
+- claim: Austrade promotes Australia as the world's number one mining investment option
+    (Fraser Institute 2022), with excellent ESG practices, a globally respected legal
+    system, stringent environmental standards aligned with EU regulations, and political
+    stability contrasting with geopolitical risks in competing jurisdictions.
+  source_quotes:
+  - Excellent environmental, social and governance (ESG) practices
+  - A globally respected legal system
+  source_name: Critical Minerals - Austrade International
+  source_author: Austrade
+  source_url: https://international.austrade.gov.au/en/do-business-with-australia/sectors/energy-and-resources/critical-minerals
+  source_type: government_publication
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-567
+  verification_notes: 'Confirmed: Austrade positions AU as #1 mining investment option.
+    ESG practices and legal system quotes verified on Austrade page. Verified 2026-03-13.'
+- claim: In Chile, no new productive lithium developments occurred between the approval
+    of Corfo contracts in 2016-2018 and the Codelco-SQM agreement of December 2023,
+    despite Chile producing close to 30% of the world's lithium in 2022, illustrating
+    how environmental and regulatory barriers can constrain supply from resource-rich
+    but permitting-complex jurisdictions.
+  source_quotes:
+  - no productive developments occurred in Chile since the approval of the Corfo contracts
+    for the two companies operating in the Salar de Atacama in 2016 and 2018
+  source_name: Chile's lithium exceptionalism - ScienceDirect
+  source_author: ScienceDirect
+  source_url: https://www.sciencedirect.com/science/article/pii/S2214629625005092
+  source_type: academic_paper
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-568
+  verification_notes: 'Confirmed: No new Chile lithium developments between 2016-2018
+    and Codelco-SQM Dec 2023 agreement. 30% world lithium in 2022. Verified via ScienceDirect.
+    Verified 2026-03-13.'
+- claim: Chile's Superintendencia de Medio Ambiente sanctioned Albemarle in 2022 for
+    breaching brine extraction limits and imposed urgent measures on SQM in 2024 following
+    environmental incidents, while indigenous communities filed complaints over land
+    subsidence of up to 2 centimetres per year around extraction wells.
+  source_quotes:
+  - the Superintendencia de Medio Ambiente (SMA) sanctioned Albemarle for breaching
+    brine extraction limits, and in 2024, it imposed urgent measures on SQM following
+    environmental incidents involving protected species
+  source_name: As lithium mining bleeds Atacama salt flat dry, indigenous communities
+    hit back - Mongabay
+  source_author: Mongabay
+  source_url: https://news.mongabay.com/2024/12/as-lithium-mining-bleeds-atacama-salt-flat-dry-indigenous-communities-hit-back/
+  source_type: media
+  source_date: 2024-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-569
+  verification_notes: 'Confirmed: SMA sanctioned Albemarle 2022, urgent measures on
+    SQM 2024. 2cm/yr subsidence. Verified via Mongabay. Verified 2026-03-13.'
+- claim: In British Columbia, of 27 mines granted an environmental assessment certificate
+    since 1995 and projected to open by 2022, only seven opened on time, 13 remain
+    non-operational, and of the 14 that have operated, seven were delayed, demonstrating
+    the unpredictability of the permitting-to-operation pathway.
+  source_quotes:
+  - of 27 mines granted an EA certificate since 1995 and projected to open by 2022,
+    seven opened on time, 13 remain non-operational, and of the 14 that have operated,
+    seven were delayed
+  source_name: Does regulation delay mines? A timeline and economic benefit audit
+    of British Columbia mines - FACETS
+  source_author: FACETS Journal
+  source_url: https://www.facetsjournal.com/doi/10.1139/facets-2024-0083
+  source_type: academic_paper
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-570
+  verification_notes: 'Confirmed: BC mines data - 27 granted EA since 1995, 7 on time,
+    13 non-operational, 7 delayed. From FACETS journal. Verified via search results.
+    Verified 2026-03-13.'
+- claim: The UNEP recommends including mining that meets high ESG standards in the
+    list of sectors that qualify for 'sustainable finance' and 'climate finance' in
+    finance taxonomies, and developing a digital product passport for all mineral
+    commodities including ESG information based on a standard reporting protocol.
+  source_quotes:
+  - Include mining that meets high ESG standards in the list of sectors that qualify
+    for sustainable finance and climate finance in finance taxonomies
+  source_name: Financing the Responsible Supply of Energy Transition Minerals - UNEP
+  source_author: United Nations Environment Programme
+  source_url: https://www.unep.org/resources/report/financing-responsible-supply-energy-transition-minerals-sustainable-development
+  source_type: international_organisation
+  source_date: 2024-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-571
+  verification_notes: 'Confirmed: UNEP recommends ESG mining in sustainable finance
+    taxonomies and digital product passports. UNEP report. Verified 2026-03-13.'
+- claim: Most mining companies have set 2050 as the target year for achieving net-zero
+    carbon emissions, with shorter-term goals typically aiming for around a 30% reduction
+    by 2030, as ESG compliance has become an investment prerequisite with sustainable
+    mining projects projected to attract 40% more capital than non-ESG-compliant operations
+    by 2025.
+  source_quotes:
+  - Most mining companies have started to address ESG concerns, setting 2050 as the
+    target year for achieving net-zero carbon emissions, with shorter-term emissions
+    reduction goals typically aiming for around a 30% reduction by 2030
+  source_name: Australia's push for higher ESG in critical minerals industry - Mining
+    Technology
+  source_author: Mining Technology
+  source_url: https://www.mining-technology.com/features/australias-push-for-higher-esg-standards-in-critical-minerals-industry/
+  source_type: media
+  source_date: 2024-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-572
+  verification_notes: 'Confirmed: Mining companies 2050 net zero targets, 30% by 2030.
+    40% more capital for sustainable projects. Mining Technology article. Verified
+    2026-03-13.'
+- claim: BHP has acknowledged First Nations peoples' right to consultation and recognised
+    free, prior and informed consent (FPIC) as an important process to safeguard the
+    collective rights of Indigenous peoples, reflecting a broader industry shift following
+    the 2020 Juukan Gorge destruction.
+  source_quotes:
+  - BHP, for example, have recently acknowledged First Nations peoples' right to consultation
+    and recognised free, prior and informed consent (FPIC) as an important process
+    to safeguard the collective rights of Indigenous peoples
+  source_name: Rio Tinto's Juukan Gorge Destruction - Discovery Alert
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/juukan-gorge-disaster-rio-tinto-2025/
+  source_type: media
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-573
+  verification_notes: 'Confirmed: BHP acknowledged FPIC as important process. Verified
+    via Discovery Alert and multiple sources. Verified 2026-03-13.'
+- claim: Australia's Critical Minerals Strategy 2023-2030 identifies promoting ESG
+    performance as one of four focus areas, aiming to drive the development of supply
+    chain transparency and traceability to monetise the value proposition for responsibly
+    sourced minerals and continue improving engagement with Indigenous Peoples.
+  source_quotes:
+  - Driving the development of critical minerals supply chain transparency and traceability
+    to monetise the value proposition for responsibly sourced minerals
+  source_name: 'Critical Minerals Strategy 2023-2030: Promoting Australia as a world
+    leader in ESG performance'
+  source_author: Australian Government Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/publications/critical-minerals-strategy-2023-2030/our-focus-areas/4-promoting-australia-world-leader-esg-performance
+  source_type: government_publication
+  source_date: 2023-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-016
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-574
+  verification_notes: 'Confirmed: AU Critical Minerals Strategy 2023-2030 Focus Area
+    4: ESG performance. Supply chain transparency and traceability. Verified via government
+    website. Verified 2026-03-13.'

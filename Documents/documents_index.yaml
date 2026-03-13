@@ -238,3 +238,21 @@
   last_updated: '2026-03-13'
   fact_count: 50
   fact_range: 01-475 to 01-524
+- id: DOC-016
+  title: ESG Requirements, Responsible Sourcing Standards & Mineral Supply Availability
+  type: research_report
+  section: 01_Macro_Context
+  description: Examines how ESG frameworks are reshaping which mineral supply downstream
+    manufacturers and allied governments will accept. Covers the EU Battery Regulation
+    due diligence and carbon footprint requirements, responsible mining certification
+    schemes (IRMA, Copper Mark, RMI, TSM, CMSI), indigenous consent and FPIC requirements
+    across key mining jurisdictions, environmental permitting timelines and rejection
+    rates, ESG screening by institutional investors and sustainable finance gaps,
+    and the net effect of these frameworks on mineral supply availability and the
+    governance premium for well-governed jurisdictions like Australia.
+  content_file: 14_ESG_Requirements_Responsible_Sourcing_Mineral_Supply.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 50
+  fact_range: 01-525 to 01-574
