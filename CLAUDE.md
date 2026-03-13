@@ -1,7 +1,42 @@
 NEVER delete facts or documents that have previously been added to the dashboard, unless explicitly told
 All fact entries must follow `Fact Database/SCHEMA.md` exactly
 Use today's date (YYYY-MM-DD) for `date_added` and `source_accessed`
-IDs are never reused — check the relevant YAML file for the next available sequence number
+IDs are never reused — use `python3 research_api.py next-id <prefix>` to get the next available ID
+
+## Research API
+
+`research_api.py` is the CLI interface for all YAML I/O in the research pipeline. All agents must use this API instead of reading/writing YAML files directly.
+
+```bash
+# Facts
+python3 research_api.py list-facts [--section 01] [--verified true] [--document DOC-001]
+python3 research_api.py get-fact <id>
+echo '<json>' | python3 research_api.py add-fact --section 01
+echo '<json>' | python3 research_api.py update-fact <id>
+python3 research_api.py archive-fact <id> --reason "..."
+python3 research_api.py next-id <section_prefix>
+
+# Documents
+python3 research_api.py list-docs
+python3 research_api.py get-doc <id>
+echo '<json>' | python3 research_api.py add-doc
+echo '<json>' | python3 research_api.py update-doc <id>
+echo '<text>' | python3 research_api.py write-doc-content <id>
+
+# Staging
+echo '<json>' | python3 research_api.py write-staging-facts <filename>
+python3 research_api.py read-staging-facts [pattern]
+echo '<text>' | python3 research_api.py write-staging-doc <filename>
+python3 research_api.py read-staging-docs [pattern]
+echo '<json>' | python3 research_api.py write-corrections <filename>
+python3 research_api.py read-corrections [pattern]
+python3 research_api.py clean-staging
+
+# Utility
+python3 research_api.py build
+echo '<json>' | python3 research_api.py validate-fact
+python3 research_api.py count-facts [--section 01]
+```
 
 ## Research Pipeline
 
@@ -39,7 +74,8 @@ When the user asks for research on a topic, launch the **research-lead** agent. 
 - Prefer primary sources (government data, company filings, peer-reviewed papers) over secondary sources (media, industry commentary), but you can use them if you have verified the information to be correct and the source reputable.
 - Set `confidence` honestly: "high" only when the source is authoritative and the quote is unambiguous
 - Set `verified` to `false` — verification is done separately by the validation phase
-- When adding facts to a section YAML file, read the file first to avoid duplicate claims or IDs
+- Use `research_api.py` for all fact and document I/O — never read or write YAML files directly
+- Use `python3 research_api.py next-id <prefix>` before adding facts to avoid duplicate IDs
 - Link facts to existing documents in `documents_index.yaml` where applicable
 
 ## Rules for all validation agents
