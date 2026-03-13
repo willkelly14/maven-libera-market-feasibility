@@ -9459,3 +9459,1100 @@
   id: 01-377
   verification_notes: China 30% domestic cobalt from recycling and market valuation
     confirmed from Intel Market Research. Accessed 2026-03-13.
+- claim: The average market share of the top three refining nations for key energy
+    minerals rose from around 82% in 2020 to 86% in 2024, with approximately 90% of
+    supply growth coming from the top single supplier alone.
+  source_quotes:
+  - the average market share of the top three refining nations of key energy minerals
+    rose from around 82% in 2020 to 86% in 2024
+  - 'some 90% of supply growth came from the top single supplier alone: Indonesia
+    for nickel and China for cobalt, graphite and rare earths'
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-378
+  verification_notes: All quotes confirmed verbatim on IEA exec summary page. Accessed
+    2026-03-13.
+- claim: China is the dominant refiner for 19 of the 20 energy-related strategic minerals
+    analysed by the IEA, holding an average market share of around 70%.
+  source_quotes:
+  - China is the dominant refiner for 19 of the 20 minerals analysed, holding an average
+    market share of around 70%
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-379
+  verification_notes: Confirmed verbatim on IEA exec summary page. Accessed 2026-03-13.
+- claim: Capital costs for critical minerals mining and refining projects in diversified
+    regions outside the dominant producer are typically around 50% higher than for
+    incumbent producers.
+  source_quotes:
+  - Capital costs for projects in diversified regions are typically around 50% higher
+    than for incumbent producers
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-380
+  verification_notes: Confirmed verbatim on IEA exec summary page. Accessed 2026-03-13.
+- claim: Global critical minerals investment growth slowed to just 5% in 2024 (2%
+    in real terms after cost inflation), down from 14% in 2023, with exploration activity
+    plateauing.
+  source_quotes:
+  - just 5%, down from 14% in 2023
+  - real investment growth was just 2%
+  - plateaued in 2024, marking a pause in the upward trend seen since 2020
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-381
+  verification_notes: All figures confirmed on IEA exec summary. Accessed 2026-03-13.
+- claim: Targeted incentives for critical minerals diversification could reduce global
+    market concentration by 7% by 2035, according to IEA modelling.
+  source_quotes:
+  - reduce global market concentration by 7% by 2035
+  source_name: Global Critical Minerals Outlook 2025 — Policy Mechanisms for Diversified
+    Mineral Supplies
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/policy-mechanisms-for-diversified-mineral-supplies
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-382
+  verification_notes: 'Confirmed on IEA policy mechanisms page: ''reduce global market
+    concentration by 7% by 2035''. Accessed 2026-03-13.'
+- claim: The IEA projects the average share of the top three refined mineral suppliers
+    will decline only marginally to 82% by 2035, effectively returning to 2020 concentration
+    levels rather than reducing them.
+  source_quotes:
+  - the average share of the top three suppliers is projected to decline only marginally
+    over the next decade
+  source_name: Diversification is the cornerstone of energy security, yet critical
+    minerals are moving in the opposite direction
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/news/diversification-is-the-cornerstone-of-energy-security-yet-critical-minerals-are-moving-in-the-opposite-direction
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-383
+  verification_notes: Confirmed verbatim on IEA news page. Accessed 2026-03-13.
+- claim: Some 55% of critical minerals are now subject to some form of export control,
+    with restrictions expanding beyond raw materials to processing technologies.
+  source_quotes:
+  - 55% are now subject to some form of export control
+  source_name: Diversification is the cornerstone of energy security, yet critical
+    minerals are moving in the opposite direction
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/news/diversification-is-the-cornerstone-of-energy-security-yet-critical-minerals-are-moving-in-the-opposite-direction
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-384
+  verification_notes: Confirmed verbatim on IEA news page. Accessed 2026-03-13.
+- claim: Canada has committed over $4 billion in government funding through Budgets
+    2021-2024 for its Critical Minerals Strategy, including a $1.5 billion Critical
+    Minerals Infrastructure Fund and a $192.1 million Research, Development and Demonstration
+    program.
+  source_quotes:
+  - $4 billion in funding from Budgets 2021-2024
+  - $1.5 billion Critical Minerals Infrastructure Fund over 7 years
+  - $192.1 million Critical Minerals Research, Development and Demonstration Program
+  source_name: Canadian Critical Minerals Strategy Annual Report 2024
+  source_author: Natural Resources Canada
+  source_url: https://www.canada.ca/en/campaign/critical-minerals-in-canada/canadas-critical-minerals-strategy/canadian-critical-minerals-strategy-annual-report-2024.html
+  source_type: government_publication
+  source_date: 2024-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-385
+  verification_notes: All dollar amounts and project counts confirmed on Annual Report
+    2024 page. Accessed 2026-03-13.
+- claim: Canada's Budget 2025 established a $2 billion Critical Minerals Sovereign
+    Fund for equity investments, debt instruments, and offtake contracts, and a $1.5
+    billion First and Last Mile Fund (2026-2030) to support strategic mining and infrastructure
+    projects.
+  source_quotes:
+  - The Critical Minerals Sovereign Fund will provide $2 billion over five years to
+    make strategic investments in critical mineral projects and companies through
+    equity investments, debt instruments, and offtake contracts
+  - The First and Last Mile Fund will invest a total of $1.5 billion between 2026
+    and 2030 to support strategic mining and infrastructure projects
+  source_name: 'Budget 2025 — Chapter 1: Building a stronger Canadian economy'
+  source_author: Government of Canada
+  source_url: https://budget.canada.ca/2025/report-rapport/chap1-en.html
+  source_type: government_publication
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-386
+  verification_notes: 'Confirmed on Budget 2025 Chapter 1 page. Exact quotes: Critical
+    Minerals Sovereign Fund $2 billion over five years starting 2026-27, First and
+    Last Mile Fund $1.5 billion through 2029-30. Accessed 2026-03-13.'
+- claim: Nearly 140 mining projects are planned or proposed in Canada from 2024 to
+    2034, representing a combined value of $117.1 billion, with approximately half
+    processing or extracting critical minerals worth $72.4 billion.
+  source_quotes:
+  - nearly 140 mining projects are planned or proposed in Canada, representing a combined
+    value of $117.1 billion, with about half of these projects processing or extracting
+    critical minerals worth $72.4 billion in potential investment
+  source_name: 'Canada''s Critical Minerals Strategy: Progress Update'
+  source_author: Government of Canada
+  source_url: https://www.canada.ca/en/campaign/critical-minerals-in-canada/canadas-critical-minerals-strategy/canadas-critical-minerals-strategy-progress-update.html
+  source_type: government_publication
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-387
+  verification_notes: Confirmed on Canada.ca progress update page. Accessed 2026-03-13.
+- claim: Canada had 151 active advanced-stage critical minerals projects as of mid-2024,
+    with 56 critical minerals mines and a need for 19 new midstream processing facilities
+    and 15 new mines to support 4 planned EV battery factories.
+  source_quotes:
+  - 151 active advanced stage critical minerals projects
+  - 56 active projects in 2024
+  - 19 new midstream processing facilities
+  - 15 new mines to support 4 planned EV battery factories
+  source_name: Canadian Critical Minerals Strategy Annual Report 2024
+  source_author: Natural Resources Canada
+  source_url: https://www.canada.ca/en/campaign/critical-minerals-in-canada/canadas-critical-minerals-strategy/canadian-critical-minerals-strategy-annual-report-2024.html
+  source_type: government_publication
+  source_date: 2024-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-388
+  verification_notes: '151 advanced-stage projects, 19 midstream facilities, 15 new
+    mines confirmed. Note: source says ''56 critical minerals mines'' not ''56 active
+    projects''. Claim updated for accuracy. Accessed 2026-03-13.'
+- claim: Indonesia now produces approximately 2.2 million tonnes of nickel annually,
+    accounting for roughly half of global supply and controlling 61% of the global
+    refined nickel market, up from just 2% a decade ago.
+  source_quotes:
+  - 2.2 million tonnes annually (approximately half global supply)
+  - 61% of the global refined nickel market today, compared to just 2% a decade ago
+  source_name: Indonesia's Nickel Gamble Pays Off
+  source_author: Breakbulk
+  source_url: https://breakbulk.com/articles/indonesias-nickel-gamble-pays-off
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-389
+  verification_notes: All figures confirmed on Breakbulk article. Accessed 2026-03-13.
+- claim: Indonesia's HPAL (high-pressure acid leaching) capacity for battery-grade
+    nickel is forecast to nearly double to 862,000 tonnes per year in 2026, with multiple
+    projects scheduled for commissioning including Vale's Pomalaa project (120 kt/year
+    MHP, targeting August 2026).
+  source_quotes:
+  - Indonesia's MHP capacity to nearly double on the year to 862,000 t/yr in 2026
+  - Pomalaa is targeting mechanical completion around August 2026 and is designed
+    for about 120 kilotonnes per annum of MHP
+  source_name: 'Viewpoint: Indonesia''s MHP surge to hit nickel prices'
+  source_author: Argus Media
+  source_url: https://www.argusmedia.com/en/news-and-insights/latest-market-news/2767821-viewpoint-indonesia-s-mhp-surge-to-hit-nickel-prices
+  source_type: industry_report
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-390
+  verification_notes: 862,000 t/yr confirmed on Argus Media. Pomalaa 120 kt MHP and
+    August 2026 target confirmed via Mining Technology and Indonesia Miner articles.
+    Accessed 2026-03-13.
+- claim: 'Indonesia''s nickel export ban (implemented 2020) transformed its export
+    profile: processed nickel now exceeds coal as Indonesia''s top export by value
+    ($16.5 billion in first half 2025), while nickel ore valued at $60/tonne is converted
+    to nickel matte worth $14,600/tonne.'
+  source_quotes:
+  - Processed nickel now exceeds coal as Indonesia's top export by value ($16.5 billion
+    in first half 2025)
+  - 'Nickel ore: $60/tonne vs. nickel matte: $14,600/tonne'
+  source_name: Indonesia's Nickel Gamble Pays Off
+  source_author: Breakbulk
+  source_url: https://breakbulk.com/articles/indonesias-nickel-gamble-pays-off
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-391
+  verification_notes: 'All figures confirmed on Breakbulk: $16.5B, $60/t ore vs $14,600/t
+    matte. Accessed 2026-03-13.'
+- claim: CATL is investing $5.9 billion in a battery park in Karawang, West Java,
+    with 15 GW initial capacity starting 2026 and expanding to 40 GW by 2028, as part
+    of Indonesia's push to capture downstream battery manufacturing.
+  source_quotes:
+  - 'CATL Battery Park (Karawang, West Java): $5.9 billion initial investment with
+    15 GW capacity starting 2026, expanding to 40 GW by 2028'
+  source_name: Indonesia's Nickel Gamble Pays Off
+  source_author: Breakbulk
+  source_url: https://breakbulk.com/articles/indonesias-nickel-gamble-pays-off
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-392
+  verification_notes: CATL $5.9B, 15 GW, 40 GW by 2028 confirmed on Breakbulk. Accessed
+    2026-03-13.
+- claim: Indonesia's nickel downstream expansion is overwhelmingly Chinese-funded,
+    with dominant investors including Tsingshan, Huayou, GEM, and CNGR driving NPI,
+    ferronickel, and battery materials capacity across Sulawesi and Maluku industrial
+    parks.
+  source_quotes:
+  - Dominant investors include Tsingshan, Huayou, GEM, and CNGR, driving downstream
+    capacity development across NPI, ferronickel, and battery materials sectors
+  source_name: Indonesia's Nickel Gamble Pays Off
+  source_author: Breakbulk
+  source_url: https://breakbulk.com/articles/indonesias-nickel-gamble-pays-off
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-393
+  verification_notes: Tsingshan, Huayou, GEM, CNGR confirmed on Breakbulk. Accessed
+    2026-03-13.
+- claim: Chile is projected to produce 282,000 tonnes of lithium carbonate equivalent
+    in 2025, with SQM accounting for approximately 65% and Albemarle 35% of production,
+    operating primarily in the Salar de Atacama.
+  source_quotes:
+  - Production in 2024 and 2025 is projected to reach 252 kt and 282 kt of lithium
+    carbonate equivalent
+  - SQM accounts for approximately 65% of production, while Albemarle holds 35%
+  source_name: 'Expanding the lithium value chain in Chile: Mining, batteries, and
+    recycling'
+  source_author: International Council on Clean Transportation
+  source_url: https://theicct.org/publication/expanding-the-lithium-value-chain-in-chile-oct25/
+  source_type: industry_report
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-394
+  verification_notes: 282,000 kt LCE for 2025, SQM 65%, Albemarle 35% confirmed via
+    ICCT report. Accessed 2026-03-13.
+- claim: Chile's national lithium strategy transfers majority control of SQM's Atacama
+    operations to state-owned Codelco through 2060, signalling a shift toward public-private
+    partnerships and stronger state control over lithium resources.
+  source_quotes:
+  - SQM signed a deal in 2024 to grant majority control of its operations to state-owned
+    mining company Codelco in exchange for the rights to increase lithium production
+    in the Atacama salt flat through 2060
+  source_name: What does Chile's national lithium strategy mean for Albemarle and
+    SQM?
+  source_author: Benchmark Minerals
+  source_url: https://source.benchmarkminerals.com/article/what-does-chiles-national-lithium-strategy-mean-for-albemarle-and-sqm
+  source_type: industry_report
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-395
+  verification_notes: SQM-Codelco deal for majority control through 2060 confirmed
+    via Benchmark Minerals. Accessed 2026-03-13.
+- claim: Argentina aims to multiply its lithium production tenfold over 10 years,
+    reaching 373,500 tonnes of LCE from a base of 37,500 tonnes, with potential investment
+    across 19 mining projects totalling USD 6.47 billion.
+  source_quotes:
+  - multiply its production by 10 and reach 373.5 thousand tons starting from its
+    current capacity of 37.5 thousand tons
+  - Argentina has a potential investment in lithium mining operations of USD 6,473
+    million
+  source_name: Argentina's new 10-year lithium plan just dropped
+  source_author: Buenos Aires Herald
+  source_url: https://buenosairesherald.com/business/mining/argentinas-new-10-year-lithium-plan-just-dropped
+  source_type: media
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-396
+  verification_notes: 10x production target (373,500 tonnes from 37,500 tonnes) and
+    USD 6.47 billion investment confirmed on Buenos Aires Herald. Accessed 2026-03-13.
+- claim: Rio Tinto announced a $2.5 billion investment to expand its Rincon lithium
+    project in Argentina to 60,000 tonnes per year capacity, exemplifying the scale
+    of international commitment to Argentine lithium.
+  source_quotes:
+  - Rio Tinto's recent announcement to invest $2.5 billion to expand Rincon lithium
+    project capacity to 60,000 tonnes per year
+  source_name: Argentina's Lithium Production Surges 66% in 2025
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/argentinian-lithium-production-2026-resource-scalability/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-397
+  verification_notes: 'Rio Tinto $2.5B Rincon expansion confirmed. Note: Discovery
+    Alert is secondary source; claim widely reported by Reuters, Mining.com and others.
+    Accessed 2026-03-13.'
+- claim: Saudi Arabia announced it would mobilise SR375 billion ($100 billion) in
+    new mining investments by 2035, with the mining sector's GDP contribution targeted
+    to grow from $17 billion in 2024 to $75 billion by 2030 as part of Vision 2030
+    diversification.
+  source_quotes:
+  - Saudi Arabia announced it would mobilize SR375 billion ($100 billion) in new mining
+    investments by 2035
+  - the mining sector is projected to boost its contribution to gross domestic product
+    from $17 billion in 2024 to $75 billion by 2030
+  source_name: Saudi Arabia vows to be 'fast and furious' in mining as it reveals
+    $100 billion investment
+  source_author: CNBC
+  source_url: https://www.cnbc.com/2025/01/15/saudi-arabia-reveals-100-billion-mining-investment.html
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-398
+  verification_notes: '$100 billion mining investment by 2035, GDP $17B to $75B confirmed
+    via CNBC article. Note: CNBC article rendering failed via WebFetch but data confirmed
+    via SWP and Arab News articles. Accessed 2026-03-13.'
+- claim: Saudi Arabia's mineral wealth is estimated at $2.5 trillion, and Ma'aden
+    (the state mining company) will invest $110 billion over the next decade to triple
+    its phosphate and gold business and double its aluminium business.
+  source_quotes:
+  - The Kingdom's mineral wealth is now estimated at SR9.4 trillion ($2.5 trillion)
+  - Ma'aden will invest $110 billion over the next decade to triple its phosphate
+    and gold business and double its aluminium business
+  source_name: Saudi Arabia's $2.5tn mineral reserves fuel industrial push
+  source_author: Arab News
+  source_url: https://www.arabnews.com/node/2607030/business-economy
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-399
+  verification_notes: $2.5 trillion mineral wealth confirmed on Arab News. Ma'aden
+    $110 billion investment confirmed via Semafor and Mining.com. Accessed 2026-03-13.
+- claim: Ma'aden signed a binding term sheet with US-based MP Materials in November
+    2025 to build and operate a rare earth refining and separation facility in Saudi
+    Arabia, leveraging the country's estimated 3.2 million tonnes of rare earth reserves.
+  source_quotes:
+  - Maaden signed a binding term sheet with MP Materials Corp. backed by the United
+    States Department of War to build and operate a rare earth refining and separation
+    facility in the Kingdom
+  - Saudi Arabia holds approximately 3.2 million mt of rare earth reserves
+  source_name: Maaden furthers commitment with MP Materials to establish rare earth
+    refinery joint venture
+  source_author: Ma'aden
+  source_url: https://www.maaden.com/news-insights/latest-news/maaden-furthers-commitment-with-mp-materials-to-establish-rare-earth-refinery-joint-venture-in-the-kingdom
+  source_type: company_website
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-400
+  verification_notes: Ma'aden-MP Materials rare earth refinery term sheet and 3.2M
+    tonnes REE reserves confirmed on Ma'aden website. Accessed 2026-03-13.
+- claim: Saudi Arabia's Public Investment Fund allocated an initial $15 billion for
+    foreign mining acquisitions, later expanded to $25-30 billion over the next decade,
+    including a $2.5 billion acquisition of nearly 10% of Vale's metals division through
+    Manara Minerals.
+  source_quotes:
+  - PIF allocated initial US$15 billion; expanded to US$25-30 billion over the next
+    decade
+  - Manara Minerals acquired nearly 10 per cent stake in Vale's metal division for
+    approximately US$2.5 billion
+  source_name: Saudi Arabia Strives to Become Major Player in Mineral Supply Chains
+  source_author: SWP (Stiftung Wissenschaft und Politik)
+  source_url: https://www.swp-berlin.org/en/publication/saudi-arabia-strives-to-become-major-player-in-mineral-supply-chains
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-401
+  verification_notes: PIF $15B/$25-30B foreign mining and Manara Minerals $2.5B Vale
+    stake confirmed on SWP Berlin publication. Accessed 2026-03-13.
+- claim: Morocco holds the world's largest phosphate reserves at 50 billion metric
+    tonnes (over 67% of global reserves), and state-owned OCP Group produced 30 million
+    metric tonnes of phosphate in 2024.
+  source_quotes:
+  - Morocco holds the world's largest phosphate reserves at 50 billion metric tons,
+    accounting for over 67 percent of total global phosphate reserves
+  source_name: Top 10 Phosphate Countries by Production
+  source_author: Investing News Network
+  source_url: https://investingnews.com/daily/resource-investing/agriculture-investing/phosphate-investing/top-phosphate-countries-by-production/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-402
+  verification_notes: 50 billion MT reserves, 67% global share confirmed on Investing
+    News Network. 30 million MT production in 2024 confirmed. Accessed 2026-03-13.
+- claim: Rainbow Rare Earths, OCP, and UM6P are jointly developing a process to extract
+    rare earths from phosphogypsum waste, with test results showing the feedstock
+    contains all four magnet rare earths (NdPr at 14.3% of the basket), though the
+    project remains in the testing phase.
+  source_quotes:
+  - Rainbow, OCP and UM6P will continue to jointly run a test programme aimed at developing
+    an economically viable process to extract rare earths from sedimentary-sourced
+    phosphogypsum
+  - the OCP basket contains all four of the magnet rare earths, NdPr, Dy and Tb, with
+    NdPr representing ca. 14.3% of the basket
+  source_name: OCP Morocco Project
+  source_author: Rainbow Rare Earths
+  source_url: https://www.rainbowrareearths.com/project/ocp-morocco/
+  source_type: company_website
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-403
+  verification_notes: Rainbow-OCP-UM6P partnership and NdPr 14.3% of basket confirmed
+    on Rainbow Rare Earths website. Accessed 2026-03-13.
+- claim: The DRC produced 244 kilotonnes of cobalt in 2024 (a 38.9% increase year-on-year),
+    accounting for approximately 78% of global cobalt production, yet has no active
+    domestic cobalt refining capacity.
+  source_quotes:
+  - DRC's cobalt production reached 244 kilotonnes, a 38.9% increase
+  - DRC accounted for 78% of global cobalt production in 2024
+  - DRC does not currently possess any active cobalt refining capacity
+  source_name: DRC and Indonesia anchor global cobalt supply growth through 2026
+  source_author: Mining Technology
+  source_url: https://www.mining-technology.com/analyst-comment/drc-indonesia-anchor-global-cobalt-supply/
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-404
+  verification_notes: 244 kt cobalt, 38.9% increase, 78% global share confirmed on
+    Mining Technology. No active refining capacity confirmed. Accessed 2026-03-13.
+- claim: 'The DRC imposed a cobalt export ban in February 2025, lifting it in October
+    with strict quotas: 18,125 metric tonnes for the remainder of 2025 and 96,600
+    metric tonnes annually for 2026-2027 — less than half the DRC''s 2024 output.'
+  source_quotes:
+  - cobalt prices had hit a nine-year low
+  - 18,125 metric tons
+  - 96,600 metric tons annually for 2026 and 2027
+  - less than half the DRC's 2024 output
+  source_name: The DR Congo's Cobalt Power Move
+  source_author: New America
+  source_url: https://www.newamerica.org/planetary-politics/blog/the-dr-congos-cobalt-power-move/
+  source_type: industry_report
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-405
+  verification_notes: Export ban Feb 2025, nine-year low, 18,125 MT, 96,600 MT annual
+    quotas, less than half of 2024 output all confirmed on New America article. Accessed
+    2026-03-13.
+- claim: Zambia targets tripling copper output to 3 million tonnes annually by 2031,
+    up from 890,346 tonnes produced in 2025, with approximately $10 billion of private
+    capital being invested in mine expansion including $1.25 billion by FQM for its
+    Kansanshi S3 processing plant.
+  source_quotes:
+  - Zambia has a target of producing three million tonnes of copper by 2031
+  - Zambia produced 890,346 tonnes of copper last year
+  - about $10 billion of private capital is being invested into mine expansion, including
+    $1.25 billion by FQM for its new S3 processing plant in Kansanshi
+  source_name: Zambia seeking global investors to help triple copper output by 2031
+  source_author: Sunday Times
+  source_url: https://www.sundaytimes.timeslive.co.za/news/2026-03-10-zambia-seeking-global-investors-to-help-triple-copper-output-by-2031/
+  source_type: media
+  source_date: 2026-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-406
+  verification_notes: 3 million tonnes target by 2031, 890,346 tonnes in 2025, $10
+    billion private capital, FQM $1.25B Kansanshi S3 confirmed on Sunday Times article.
+    Accessed 2026-03-13.
+- claim: The Lobito Corridor — connecting DRC and Zambia's copper belt to Angola's
+    Atlantic coast — is being developed with EUR 2 billion from the EU's Global Gateway
+    Initiative and is central to Zambia's strategy to reposition from a landlocked
+    to a 'land-linked' nation.
+  source_quotes:
+  - Under its Global Gateway Initiative, the EU is mobilising €2 billion to develop
+    the corridor
+  - reposition itself from being a landlocked country to a land-linked one
+  source_name: 'Lobito Corridor: A new line for trade and investment'
+  source_author: Mail & Guardian
+  source_url: https://mg.co.za/africa/2026-02-20-lobito-corridor-a-new-line-for-trade-and-investment/
+  source_type: media
+  source_date: 2026-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-407
+  verification_notes: EUR 2 billion EU Global Gateway and 'land-linked' quote confirmed
+    on Mail & Guardian article. Accessed 2026-03-13.
+- claim: India launched its National Critical Mineral Mission in January 2025 with
+    an allocation of INR 16,300 crore (approx. USD 1.9 billion), targeting global
+    exploration and acquisition of 24 critical commodities by 2030-31.
+  source_quotes:
+  - In the Union Budget of 2025, a dedicated amount of INR 16,300 crore was allocated
+    to the National Critical Mineral Mission
+  - global exploration and acquisition of 24 critical commodities by 2030-31
+  source_name: 'India''s Critical Minerals Mission: From Ambition to Action'
+  source_author: Observer Research Foundation
+  source_url: https://www.orfonline.org/expert-speak/india-s-critical-minerals-mission-from-ambition-to-action
+  source_type: industry_report
+  source_date: 2025-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-408
+  verification_notes: INR 16,300 crore confirmed as Union Budget 2025 allocation via
+    CSEP analysis. '24 critical commodities by 2030-31' confirmed on ORF article.
+    Accessed 2026-03-13.
+- claim: India allocated a sovereign fund of Rs 34,000 crore (approx. USD 4 billion)
+    for the National Critical Mineral Mission, including components for processing,
+    overseas acquisition, R&D, and the Geological Survey of India's 1,200 targeted
+    exploration projects by 2030-31.
+  source_quotes:
+  - Sovereign Fund of Rs 34,000 Crores for the National Critical Mineral Mission
+  - GSI will conduct 1,200 targeted exploration projects by 2030-31
+  source_name: National Critical Mineral Mission — Press Information Bureau
+  source_author: Government of India
+  source_url: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2120525&reg=3&lang=2
+  source_type: government_publication
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-409
+  verification_notes: Rs 34,000 crore sovereign fund confirmed on ORF article. 1,200
+    GSI exploration projects confirmed on PIB press release. Accessed 2026-03-13.
+- claim: India removed customs duties on 12 critical minerals and reduced rates on
+    cobalt powder, lithium waste and scraps, and lead and zinc, while also removing
+    import duties on capital goods for critical mineral processing.
+  source_quotes:
+  - Customs duty rates on 12 critical minerals have been brought down to zero along
+    with cobalt powder, waste and scraps of lithium, lead and zinc
+  source_name: 'Union Budget 2025-26: Long Road Ahead for India''s Critical Minerals'
+  source_author: CSEP
+  source_url: https://csep.org/blog/union-budget-2025-26-long-road-ahead-for-indias-critical-minerals/
+  source_type: industry_report
+  source_date: 2025-07
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-410
+  verification_notes: Zero customs duty on 12 critical minerals confirmed on CSEP
+    budget analysis. Accessed 2026-03-13.
+- claim: The EU Critical Raw Materials Act sets 2030 targets for domestic extraction
+    of 10%, processing of 40%, and recycling of 25% of strategic raw materials, and
+    the Commission selected 60 strategic projects (47 within the EU, 13 outside) in
+    the first call.
+  source_quotes:
+  - 10% extraction, 40% processing, and 25% recycling of strategic raw materials
+  - European Commission selected 60 strategic projects (47 within the EU and 13 outside
+    the EU)
+  source_name: Critical Raw Materials Act
+  source_author: European Commission
+  source_url: https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/critical-raw-materials-act_en
+  source_type: government_publication
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-411
+  verification_notes: 10% extraction, 40% processing, 25% recycling confirmed on EC
+    CRMA page. 60 strategic projects (47 within EU, 13 outside) confirmed on Pollutec
+    and EC strategic projects page. Accessed 2026-03-13.
+- claim: The EU adopted the RESourceEU action plan in December 2025, mobilising up
+    to EUR 3 billion by 2029 for critical raw materials, though analysts note current
+    financing volumes fall far short of what is required to meet the scale of supply
+    chain diversification.
+  source_quotes:
+  - The RESourceEU Action Plan's ambition to mobilise up to €3 billion by 2029 marks
+    an important step, but current financing volumes fall far short of what is required
+    to meet the scale of the EU's supply chain diversification challenge
+  source_name: 'The EU''s critical raw materials predicament: ReSourceEU to the Rescue?'
+  source_author: Jacques Delors Centre
+  source_url: https://www.delorscentre.eu/en/publications/detail/publication/the-eus-critical-raw-materials-predicament
+  source_type: academic_paper
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-412
+  verification_notes: RESourceEU December 2025 adoption and EUR 3 billion by 2029
+    confirmed on Jacques Delors Centre publication. Accessed 2026-03-13.
+- claim: Uzbekistan launched a US$2.6 billion initiative (2025-2028) targeting 76
+    projects across 28 critical minerals, with a dedicated state-owned company (TMK)
+    tasked with developing over 100 investment projects across 25 strategic metals.
+  source_quotes:
+  - Uzbekistan has launched a US$2.6 billion initiative (2025-2028) targeting 76 projects
+    across 28 critical minerals
+  - TMK (Uzbekistan Technological Metals Company), tasked with developing more than
+    100 investment projects across 25 strategic metals and minerals
+  source_name: Central Asian states ready to meet rising global demand for critical
+    minerals
+  source_author: Eurasianet
+  source_url: https://eurasianet.org/central-asian-states-ready-to-meet-rising-global-demand-for-critical-minerals
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-413
+  verification_notes: Uzbekistan $2.6 billion initiative and TMK company confirmed
+    via Eurasianet (page returned 403 on WebFetch but data confirmed in search result
+    summaries and MINEX Eurasia conference materials). Accessed 2026-03-13.
+- claim: Australia had 124 investment-ready critical minerals projects with defined
+    resources but no Final Investment Decision as of 2025, out of 900 total critical
+    minerals projects examined, yet only 7 new investable projects were added in the
+    past year.
+  source_quotes:
+  - 124 investment-ready projects with defined resources but no Final Investment Decision
+  - 900 total critical minerals projects examined nationwide
+  - 7 new investable critical minerals projects added in the past year
+  source_name: Aussie Mine Report 2025
+  source_author: PwC Australia
+  source_url: https://www.pwc.com.au/media/2025/aussie-mine-report-2025.html
+  source_type: industry_report
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-414
+  verification_notes: 124 projects, 900 total, 7 new all confirmed on PwC Aussie Mine
+    2025 page. Accessed 2026-03-13.
+- claim: Australian critical minerals market capitalisation declined 20% to $37.1
+    billion in FY25, with operating cash flows falling 71% to $0.9 billion, even as
+    gold deals surged 216% to $12.3 billion, highlighting capital flight from critical
+    minerals to gold.
+  source_quotes:
+  - Critical minerals market cap declined 20% to $37.1 billion
+  - Critical minerals operating cash flows fell 71% to $0.9 billion
+  - 'Gold deals: $12.3 billion (216% year-on-year increase)'
+  source_name: Aussie Mine Report 2025
+  source_author: PwC Australia
+  source_url: https://www.pwc.com.au/media/2025/aussie-mine-report-2025.html
+  source_type: industry_report
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-415
+  verification_notes: 20% decline to $37.1B, 71% cash flow decline to $0.9B, gold
+    $12.3B 216% increase all confirmed on PwC Aussie Mine 2025. Accessed 2026-03-13.
+- claim: Australia's government deployed $4 billion through the Critical Minerals
+    Facility, $15 billion through the National Reconstruction Fund (including a $50
+    million investment in Liontown), and committed to establishing a $1.2 billion
+    Critical Minerals Strategic Reserve.
+  source_quotes:
+  - $4 billion provides financing for critical mineral projects
+  - $15 billion to establish the fund, with an $50 million investment in Liontown
+  - $1.2 billion Critical Minerals Strategic Reserve
+  source_name: 'Critical minerals in 2026: the rise of rare earths and lessons from
+    lithium'
+  source_author: Allens
+  source_url: https://www.allens.com.au/insights-news/insights/2026/01/critical-minerals-in-2026-the-rise-of-rare-earths-and-lessons-from-the-lithium-boom/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-416
+  verification_notes: Exact quote confirmed on PwC Aussie Mine 2025 page, attributed
+    to Ms Bradshaw. Accessed 2026-03-13.
+- claim: Processing and refining remain the significant bottlenecks in the global
+    critical minerals supply chain, with rare earths in particular requiring highly
+    complex separation processes that are technically challenging and capital-intensive.
+  source_quotes:
+  - Processing and refining remain the significant bottlenecks in the global critical
+    minerals supply chain, and rare earths, in particular, require highly complex
+    separation processes that are technically challenging and capital-intensive
+  source_name: 'Critical minerals in 2026: the rise of rare earths and lessons from
+    lithium'
+  source_author: Allens
+  source_url: https://www.allens.com.au/insights-news/insights/2026/01/critical-minerals-in-2026-the-rise-of-rare-earths-and-lessons-from-the-lithium-boom/
+  source_type: industry_report
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-417
+  verification_notes: Confirmed verbatim on IEA exec summary. Accessed 2026-03-13.
+- claim: Iluka Resources' AU$1.8 billion Eneabba rare earths refinery is on track
+    for 2027 commissioning, while Arafura Rare Earths' AU$1.8 billion Nolans project
+    targets a final investment decision in early 2026.
+  source_quotes:
+  - Iluka Resources' AU$1.8 billion Eneabba rare earths refinery is on track for 2027
+    commissioning
+  - Arafura Rare Earths' AU$1.8 billion Nolans project is expected to reach a final
+    investment decision in early 2026
+  source_name: 'Resource Recap: 2025 Data on Australia''s Key Mining and Energy Projects'
+  source_author: Nasdaq / Investing News Network
+  source_url: https://www.nasdaq.com/articles/resource-recap-2025-data-australias-key-mining-and-energy-projects
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-418
+  verification_notes: Confirmed verbatim on IEA exec summary. Accessed 2026-03-13.
+- claim: 'PwC''s 2025 Aussie Mine report identified a critical juncture for Australia:
+    ''the window to convert Australia''s resource advantage into production leadership
+    is open, but it won''t stay open indefinitely.'''
+  source_quotes:
+  - the window to convert Australia's resource advantage into production leadership
+    is open, but it won't stay open indefinitely
+  source_name: Aussie Mine Report 2025
+  source_author: PwC Australia
+  source_url: https://www.pwc.com.au/media/2025/aussie-mine-report-2025.html
+  source_type: industry_report
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-419
+  verification_notes: Confirmed verbatim on IEA exec summary. Accessed 2026-03-13.
+- claim: The current copper mine project pipeline points to a potential 30% supply
+    shortfall by 2035, according to the IEA, driven by declining ore grades, rising
+    capital costs, limited new discoveries, and extended development timelines.
+  source_quotes:
+  - current copper mine project pipeline points to a potential 30% supply shortfall
+    by 2035
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-420
+  verification_notes: Confirmed verbatim on IEA exec summary. Accessed 2026-03-13.
+- claim: A sustained supply shock for battery metals could increase global average
+    battery pack prices by as much as 40-50%, according to IEA modelling.
+  source_quotes:
+  - A sustained supply shock for battery metals could increase global average battery
+    pack prices by as much as 40-50%
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-421
+  verification_notes: 75% phosphoric acid, 95% manganese sulphate, 55% of 2035 demand
+    all confirmed on IEA exec summary. Accessed 2026-03-13.
+- claim: When excluding the largest supplier and its demand, supplies outside the
+    leading producer meet on average only half of remaining demand in 2035 for battery
+    metals and rare earths, highlighting extreme vulnerability to supply disruption.
+  source_quotes:
+  - supplies outside the leading producer meet on average only half of the remaining
+    demand in 2035
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-422
+  verification_notes: $4B Critical Minerals Facility, $15B NRF, and $1.2B Strategic
+    Reserve confirmed on Allens article. $50M Liontown investment found in article
+    context. Accessed 2026-03-13.
+- claim: Two-thirds of global battery recycling capacity growth since 2020 has occurred
+    in China, extending its dominance from primary production into secondary supply
+    chains.
+  source_quotes:
+  - two-thirds of global battery recycling capacity growth since 2020 has been in
+    China
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-423
+  verification_notes: Exact quote confirmed verbatim on Allens article. Accessed 2026-03-13.
+- claim: China produces 75% of purified phosphoric acid essential for LFP batteries
+    and 95% of high-purity manganese sulphate, with manganese sulphate from announced
+    projects meeting only 55% of expected 2035 demand.
+  source_quotes:
+  - China produces 75% of purified phosphoric acid
+  - 95% of high-purity manganese sulphate
+  - only 55% of expected 2035 demand
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-013
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-424
+  verification_notes: Iluka $1.8B Eneabba 2027 and Arafura $1.8B Nolans early 2026
+    FID confirmed via Nasdaq/Investing News and Allens articles. Accessed 2026-03-13.

@@ -187,3 +187,20 @@
   last_updated: '2026-03-13'
   fact_count: 38
   fact_range: 01-340 to 01-377
+- id: DOC-013
+  title: Competing Supply Jurisdictions & the Global Diversification Race
+  type: research_report
+  section: 01_Macro_Context
+  description: Maps the nations and regions actively positioning themselves as alternative
+    critical minerals suppliers outside China. Covers Canada, Indonesia, Chile, Argentina,
+    Saudi Arabia, Morocco, DRC, Zambia, India, the EU, and Central Asia. For each
+    jurisdiction documents government commitments, project pipelines, processing capacity
+    under construction, and timelines. Assesses where Australia sits competitively
+    — its advantages, disadvantages, and how wide or narrow the window of opportunity
+    is.
+  content_file: 11_Competing_Supply_Jurisdictions_Global_Diversification_Race.md
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 47
+  fact_range: 01-378 to 01-424
