@@ -1,0 +1,16 @@
+- claim: Test claim
+  source_quotes:
+  - test quote
+  source_name: Test
+  source_url: https://example.com
+  source_type: media
+  source_date: 2025-01
+  sections_used:
+  - 01_Macro_Context
+  verified: false
+  date_added: '2026-03-13'
+  added_by: agent
+  confidence: high
+  id: 01-167
+  archive_reason: Test fact, removing
+  archive_date: '2026-03-13'

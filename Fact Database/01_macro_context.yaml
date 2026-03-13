@@ -4429,3 +4429,1045 @@
   id: 01-166
   verification_notes: Japan-Australia bilateral framework confirmed from IEA policy
     database. Accessed 2026-03-13.
+- claim: The United States and Australia signed the Framework for Securing of Supply
+    in the Mining and Processing of Critical Minerals and Rare Earths on 20 October
+    2025, committing both governments to invest at least USD $1 billion each in financing
+    to critical minerals projects within six months.
+  source_quotes:
+  - at least $1 billion in financing to projects located in each of the United States
+    and Australia
+  source_name: United States-Australia Framework For Securing of Supply in the Mining
+    and Processing of Critical Minerals and Rare Earths
+  source_author: The White House
+  source_url: https://www.whitehouse.gov/briefings-statements/2025/10/united-states-australia-framework-for-securing-of-supply-in-the-mining-and-processing-of-critical-minerals-and-rare-earths/
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-168
+  verification_notes: Confirmed in White House framework text. USD 1B each commitment
+    verified. Accessed 2026-03-13.
+- claim: The US-Australia critical minerals framework established an USD $8.5 billion
+    pipeline of priority mining and processing projects, with both nations committing
+    to invest more than $3 billion together in critical mineral projects within six
+    months.
+  source_quotes:
+  - U.S. and Australian governments intend to invest more than $3 billion together
+    in critical mineral projects in the next six months
+  source_name: 'Fact Sheet: President Donald J. Trump Closes Billion-Dollar Deals
+    with Australia'
+  source_author: The White House
+  source_url: https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-closes-billion-dollar-deals-with-australia/
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-169
+  verification_notes: Confirmed in White House fact sheet. USD 8.5B pipeline and USD
+    3B within 6 months verified. Accessed 2026-03-13.
+- claim: The US Export-Import Bank issued seven letters of interest totalling more
+    than USD $2.2 billion in potential financing to advance critical minerals projects
+    in Australia, which could support up to USD $5 billion in total investment.
+  source_quotes:
+  - Export-Import Bank issuing seven Letters of Interest for $2.2+ billion in financing
+    (unlocking $5 billion total investment)
+  source_name: 'Fact Sheet: President Donald J. Trump Closes Billion-Dollar Deals
+    with Australia'
+  source_author: The White House
+  source_url: https://www.whitehouse.gov/fact-sheets/2025/10/fact-sheet-president-donald-j-trump-closes-billion-dollar-deals-with-australia/
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-170
+  verification_notes: Confirmed in White House fact sheet. EXIM Bank USD 2.2B letters
+    of interest, USD 5B total verified. Accessed 2026-03-13.
+- claim: Under the US-Australia framework, the Australian Government committed up
+    to USD $200 million in concessional equity finance to the Alcoa-Sojitz Gallium
+    Recovery Project at Wagerup, Western Australia, expected to deliver approximately
+    10% of global gallium supply through a trilateral partnership with Japan.
+  source_quotes:
+  - Up to USD $200 million in concessional equity finance
+  - Expected to deliver 10% of global gallium supply
+  source_name: Historic critical minerals framework signed by President Trump and
+    Prime Minister Albanese
+  source_author: Prime Minister of Australia
+  source_url: https://www.pm.gov.au/media/historic-critical-minerals-framework-signed-president-trump-and-prime-minister-albanese
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-171
+  verification_notes: Confirmed in PM.gov.au press release. USD 200M for Alcoa-Sojitz
+    gallium, 10% global supply verified. Accessed 2026-03-13.
+- claim: The Australian Government invested USD $100 million in equity in the Arafura
+    Nolans rare earth project in the Northern Territory, which will produce approximately
+    5% of global rare earths supply once operational.
+  source_quotes:
+  - USD $100 million equity investment
+  - Will produce 5% of global rare earths once operational
+  source_name: Historic critical minerals framework signed by President Trump and
+    Prime Minister Albanese
+  source_author: Prime Minister of Australia
+  source_url: https://www.pm.gov.au/media/historic-critical-minerals-framework-signed-president-trump-and-prime-minister-albanese
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-172
+  verification_notes: Confirmed in PM.gov.au press release. USD 100M equity in Arafura
+    Nolans, 5% global rare earths verified. Accessed 2026-03-13.
+- claim: The US-Australia framework includes measures to accelerate and streamline
+    permitting timelines for mining operations, develop price-support mechanisms including
+    price floors to counter unfair trade practices, and coordinate investment screening
+    to prevent adversarial mining acquisitions.
+  source_quotes:
+  - measures to accelerate, streamline, or deregulate permitting timelines and processes
+  - price floors or similar measures
+  source_name: United States-Australia Framework For Securing of Supply in the Mining
+    and Processing of Critical Minerals and Rare Earths
+  source_author: The White House
+  source_url: https://www.whitehouse.gov/briefings-statements/2025/10/united-states-australia-framework-for-securing-of-supply-in-the-mining-and-processing-of-critical-minerals-and-rare-earths/
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-173
+  verification_notes: Confirmed in White House framework text. Price floors, permitting
+    acceleration, investment screening verified. Accessed 2026-03-13.
+- claim: The framework established a US-Australia Critical Minerals Supply Security
+    Response Group, led by the US Secretary of Energy and Australian Minister for
+    Resources, to oversee implementation of the bilateral critical minerals agenda.
+  source_quotes:
+  - US-Australia Critical Minerals Supply Security Response Group will be established,
+    led by the US Secretary of Energy and Australian Minister for Resources
+  source_name: Historic critical minerals framework signed by President Trump and
+    Prime Minister Albanese
+  source_author: Prime Minister of Australia
+  source_url: https://www.pm.gov.au/media/historic-critical-minerals-framework-signed-president-trump-and-prime-minister-albanese
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-174
+  verification_notes: Confirmed in PM.gov.au press release. Response Group led by
+    US Sec Energy and AU Minister for Resources verified. Accessed 2026-03-13.
+- claim: The May 2023 Australia-United States Climate, Critical Minerals and Clean
+    Energy Transformation Compact advanced Australias treatment as a domestic source
+    under the US Defense Production Act of 1950, opening pathways to US financing
+    and procurement for Australian critical minerals projects.
+  source_quotes:
+  - advanced Australia's treatment as a "domestic source" under the U.S. Defense Production
+    Act of 1950, opening pathways to U.S. financing and procurement for Australian
+    projects in critical minerals and clean energy
+  source_name: Australia-United States Climate, Critical Minerals and Clean Energy
+    Transformation Compact
+  source_author: The White House
+  source_url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2023/05/20/australia-united-states-climate-critical-minerals-and-clean-energy-transformation-compact/
+  source_type: government_publication
+  source_date: 2023-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-175
+  verification_notes: Confirmed in Biden White House archives. Defense Production
+    Act domestic source treatment verified. Accessed 2026-03-13.
+- claim: Iluka Resources received a $1.25 billion Australian Government loan for its
+    rare earth refinery, with allied offtake agreements ensuring production serves
+    allied nation supply chains.
+  source_quotes:
+  - 'Iluka Resources: $1.25 billion government loan for rare earth refinery with allied
+    offtake agreements'
+  source_name: Unpacking the U.S.-Australia Critical Minerals Framework Agreement
+  source_author: CSIS
+  source_url: https://www.csis.org/analysis/unpacking-us-australia-critical-minerals-framework-agreement
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-176
+  verification_notes: Confirmed in CSIS analysis. Iluka USD 1.25B government loan
+    with allied offtake verified. Accessed 2026-03-13.
+- claim: Australia hosted 45% of worldwide rare earth exploration investment in 2024,
+    totalling approximately USD $64 million, with 89 active exploration projects and
+    three universities ranking in the global top six for mining engineering.
+  source_quotes:
+  - Australia hosted 45% of worldwide rare earth exploration investment in 2024 ($64
+    million)
+  - 89 active exploration projects
+  - Three universities rank in global top six for mining engineering
+  source_name: Unpacking the U.S.-Australia Critical Minerals Framework Agreement
+  source_author: CSIS
+  source_url: https://www.csis.org/analysis/unpacking-us-australia-critical-minerals-framework-agreement
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-177
+  verification_notes: Confirmed in CSIS analysis. 45% rare earth exploration investment,
+    USD 64M, 89 projects, top-6 mining universities verified. Accessed 2026-03-13.
+- claim: Under the Inflation Reduction Act Section 30D, electric vehicles qualify
+    for a USD $3,750 tax credit if the applicable percentage of critical minerals
+    in the battery are extracted or processed in the US or a country with a free trade
+    agreement, with Australia explicitly listed as an eligible FTA partner.
+  source_quotes:
+  - extracted or processed in the United States or a country with which the United
+    States has a free trade agreement or be recycled in North America
+  source_name: Treasury Releases Proposed Guidance to Continue US Manufacturing Boom
+    in Batteries and Clean Vehicles
+  source_author: US Department of the Treasury
+  source_url: https://home.treasury.gov/news/press-releases/jy1939
+  source_type: government_publication
+  source_date: 2023-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-178
+  verification_notes: Confirmed in US Treasury press release jy1939. FTA country eligibility
+    for USD 3,750 credit verified. Accessed 2026-03-13.
+- claim: 'The IRA critical mineral sourcing requirements escalate over time: 40% in
+    2023, 50% in 2024, 60% in 2025, 70% in 2026, and 80% from 2027 onward must come
+    from FTA countries or be recycled in North America, creating increasing structural
+    demand for Australian-sourced minerals.'
+  source_quotes:
+  - For 2023, the applicable percentage is 40 percent. For 2024, the applicable percentage
+    is 50 percent. For 2025, the applicable percentage is 60 percent. For 2026, the
+    applicable percentage is 70 percent. Beginning in 2027, the applicable percentage
+    is 80 percent
+  source_name: Treasury Releases Proposed Guidance to Continue US Manufacturing Boom
+    in Batteries and Clean Vehicles
+  source_author: US Department of the Treasury
+  source_url: https://home.treasury.gov/news/press-releases/jy1939
+  source_type: government_publication
+  source_date: 2023-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-179
+  verification_notes: Confirmed in US Treasury press release jy1939. Escalating thresholds
+    40%-80% verified. Accessed 2026-03-13.
+- claim: From 2025, electric vehicles cannot contain any critical minerals extracted,
+    processed, or recycled by a foreign entity of concern (FEOC), defined as entities
+    in China, Russia, Iran, or North Korea, or where 25% or more of voting rights,
+    board seats, or equity interests are held by governments of those nations.
+  source_quotes:
+  - Beginning in 2025 an eligible clean vehicle may not contain any critical minerals
+    that were extracted, processed, or recycled by a foreign entity of concern
+  - 25% or more of voting rights, board seats or equity interests
+  source_name: 'Critical minerals: Ripple effects from the US to Australia to Asia'
+  source_author: Norton Rose Fulbright
+  source_url: https://www.nortonrosefulbright.com/en-us/knowledge/publications/7d2a03dd/critical-minerals-ripple-effects-from-the-us-to-australia-to-asia
+  source_type: media
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-180
+  verification_notes: Confirmed in Norton Rose Fulbright analysis. FEOC definition
+    and 25% ownership threshold verified. Accessed 2026-03-13.
+- claim: Australian mining companies have benefited from approximately US$13 billion
+    in IRA-related deals with US car manufacturers, leveraging Australias FTA status
+    to supply critical minerals for EV battery production.
+  source_quotes:
+  - Australian mining companies have reportedly benefited from US$13 billion in IRA-related
+    deals with US car manufacturers
+  source_name: 'Critical minerals: Ripple effects from the US to Australia to Asia'
+  source_author: Norton Rose Fulbright
+  source_url: https://www.nortonrosefulbright.com/en-us/knowledge/publications/7d2a03dd/critical-minerals-ripple-effects-from-the-us-to-australia-to-asia
+  source_type: media
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: medium
+  date_added: '2026-03-13'
+  added_by: agent
+  notes: Figure is reportedly from Norton Rose Fulbright analysis. Should be verified
+    against primary sources.
+  id: 01-181
+  verification_notes: Confirmed in Norton Rose Fulbright analysis. US13B in IRA-related
+    deals verified as reported figure. Accessed 2026-03-13.
+- claim: A significant challenge for Australian minerals under the IRA is that 90%
+    of all lithium produced in Australia is refined in China; EVs with batteries containing
+    Australian-mined, Chinese-refined minerals would be ineligible for EV tax credits
+    under the FEOC rules.
+  source_quotes:
+  - 90% of all lithium produced in Australia is refined in China
+  - EVs with batteries containing Australian-mined, Chinese-refined minerals would
+    be ineligible for the EV tax credits
+  source_name: Proposed US rule for electric vehicles could shut out Australias critical
+    minerals
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/proposed-us-rule-for-electric-vehicles-could-shut-out-australias-critical-minerals/
+  source_type: media
+  source_date: 2024-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-182
+  verification_notes: Confirmed in ASPI Strategist article. 90% Australian lithium
+    refined in China verified. Accessed 2026-03-13.
+- claim: 'The European Critical Raw Materials Act, in force since May 2024, establishes
+    benchmarks for EU domestic capacity by 2030: at least 10% of annual consumption
+    from EU extraction, 40% from EU processing, 25% from recycling, and no more than
+    65% from any single third country at any stage of processing.'
+  source_quotes:
+  - 10% of the EU's annual needs
+  - 40% for processing
+  - 25% for recycling
+  - No more than 65% of EU's annual needs of each strategic raw material at any relevant
+    stage of processing should come from a single third country
+  source_name: European Critical Raw Materials Act
+  source_author: European Commission
+  source_url: https://commission.europa.eu/topics/competitiveness/green-deal-industrial-plan/european-critical-raw-materials-act_en
+  source_type: government_publication
+  source_date: 2024-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-183
+  verification_notes: Confirmed on European Commission CRMA page. 10% extraction,
+    40% processing, 25% recycling, 65% single-country cap verified. Accessed 2026-03-13.
+- claim: The EU and Australia signed a Memorandum of Understanding on 28 May 2024
+    establishing a bilateral partnership for sustainable critical and strategic minerals
+    cooperation, covering the entire value chain from exploration, extraction, processing,
+    refining, recycling, and processing of extractive waste.
+  source_quotes:
+  - diversify its supplies of materials necessary for the green and digital transitions
+  source_name: EU and Australia Sign Partnership on Sustainable Critical and Strategic
+    Minerals
+  source_author: European External Action Service
+  source_url: https://www.eeas.europa.eu/delegations/australia/eu-and-australia-sign-partnership-sustainable-critical-and-strategic-minerals_en
+  source_type: government_publication
+  source_date: 2024-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-184
+  verification_notes: Confirmed in EEAS announcement. MoU signed 28 May 2024, full
+    value chain scope verified. Accessed 2026-03-13.
+- claim: Australian-linked companies account for over 10% of the first 47 EU Strategic
+    Projects under the Critical Raw Materials Act, including Vulcan Energy (lithium,
+    Germany), Talga Group (graphite, Sweden), European Metals (lithium, Czech Republic),
+    Euro Manganese (manganese, Czech Republic), and Jervois Finland (cobalt), from
+    a total expected investment of EUR 22.5 billion.
+  source_quotes:
+  - Australian-run projects now account for over ten percent of the first Strategic
+    Projects in Europe
+  - 47 Strategic Projects have an expected overall capital investment of EUR 22.5
+    billion
+  source_name: Australian companies awarded Strategic Projects under EUs Critical
+    Raw Materials Act
+  source_author: European External Action Service
+  source_url: https://www.eeas.europa.eu/delegations/australia/australian-companies-awarded-strategic-projects-under-eus-critical-raw-materials-act_en
+  source_type: government_publication
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-185
+  verification_notes: Confirmed in EEAS announcement. Over 10% of 47 Strategic Projects,
+    EUR 22.5B total, 5 Australian companies verified. Accessed 2026-03-13.
+- claim: 'The EU CRMA projects significant demand growth for strategic minerals: rare
+    earth metals demand to increase 7-fold and lithium demand to increase 21-fold
+    by 2050, creating substantial long-term opportunities for Australian mineral exports
+    to Europe.'
+  source_quotes:
+  - 'Rare earth metals: 7x increase by 2050'
+  - 'Lithium: 21x increase by 2050'
+  source_name: Unearthing opportunities with the EUs Critical Raw Materials Act
+  source_author: Austrade
+  source_url: https://www.austrade.gov.au/en/news-and-analysis/analysis/unearthing-opportunities-with-the-eus-critical-raw-materials-act
+  source_type: government_publication
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-186
+  verification_notes: Confirmed in Austrade analysis. 7x rare earths and 21x lithium
+    demand by 2050 verified. Accessed 2026-03-13.
+- claim: 'EU Strategic Projects under the CRMA receive accelerated permitting: 27
+    months for extraction permits and 15 months for processing and recycling permits,
+    reducing barriers for Australian companies operating in the EU.'
+  source_quotes:
+  - 'Extraction permits: 27 months'
+  - 'Processing/recycling permits: 15 months'
+  source_name: Unearthing opportunities with the EUs Critical Raw Materials Act
+  source_author: Austrade
+  source_url: https://www.austrade.gov.au/en/news-and-analysis/analysis/unearthing-opportunities-with-the-eus-critical-raw-materials-act
+  source_type: government_publication
+  source_date: 2024-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-187
+  verification_notes: Confirmed in Austrade analysis. 27-month extraction and 15-month
+    processing permits verified. Accessed 2026-03-13.
+- claim: Australia also signed bilateral critical minerals agreements with France
+    (September 2023) and Germany (April 2023), establishing joint feasibility studies
+    and cooperation on critical mineral supply chain development with major EU member
+    states.
+  source_quotes:
+  - Australia also negotiated bilateral deals with France (September 2023) and Germany
+    (April 2023) to develop joint feasibility studies on critical-mineral supply chains
+  source_name: Australia and EU strengthen critical-minerals engagement, but challenges
+    lie ahead
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/australia-and-eu-strengthen-critical-minerals-engagement-but-challenges-lie-ahead/
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-188
+  verification_notes: Confirmed in ASPI Strategist analysis. France Sept 2023 and
+    Germany April 2023 bilateral deals verified. Accessed 2026-03-13.
+- claim: Australia and the United Kingdom signed a Joint Statement of Intent on critical
+    minerals collaboration on 4 April 2023, committing to increase investment links,
+    support downstream processing, enhance R&D collaboration, promote ESG standards,
+    and encourage skills exchange between Australian and UK firms.
+  source_quotes:
+  - increase investment links for critical minerals projects
+  - enhance collaboration on research and development
+  - encourage the exchange of skills and expertise between Australian and UK firms
+  source_name: Australia-UK boost cooperation on critical minerals
+  source_author: Australian Minister for Resources
+  source_url: https://www.minister.industry.gov.au/ministers/king/media-releases/australia-uk-boost-cooperation-critical-minerals
+  source_type: government_publication
+  source_date: 2023-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-189
+  verification_notes: Confirmed via Minister King media release search results. 4
+    April 2023 Statement of Intent, cooperation areas verified. Accessed 2026-03-13.
+- claim: In November 2024, Australia and the UK announced the Australia-UK Climate
+    and Clean Energy Partnership on the sidelines of COP29, enhancing bilateral cooperation
+    including on opportunities in green metals.
+  source_quotes:
+  - London and Canberra announced the Australia-UK Climate and Clean Energy Partnership,
+    enhancing bilateral cooperation, including over opportunities on "green metals"
+  source_name: The Strategic Imperative of Critical Minerals in AUKUS
+  source_author: Australian Institute of International Affairs
+  source_url: https://www.internationalaffairs.org.au/australianoutlook/the-strategic-imperative-of-critical-minerals-in-aukus/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-190
+  verification_notes: Confirmed in AIIA article. COP29 announcement of Climate and
+    Clean Energy Partnership verified. Accessed 2026-03-13.
+- claim: Japan and Australia signed a Critical Minerals Partnership in October 2022
+    to establish secure critical mineral supply chains, with cooperation areas including
+    co-financing projects, R&D initiatives, combating supply chain disinformation,
+    and streamlining permit processes.
+  source_quotes:
+  - enhance their partnership in the area of critical mineral supply chains
+  - establish secure critical mineral supply chains between Japan and Australia
+  source_name: Partnership between Japan METI and Australia DISR on Critical Minerals
+  source_author: Prime Ministers Office of Japan
+  source_url: https://japan.kantei.go.jp/101_kishida/documents/2022/_00019.html
+  source_type: government_publication
+  source_date: 2022-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-191
+  verification_notes: Confirmed in Japan PM Office document. Oct 2022 partnership,
+    cooperation areas verified. Accessed 2026-03-13.
+- claim: The Australia-Japan partnership established an officials-level bilateral
+    working group on critical minerals under the Japan-Australia Energy and Resources
+    Dialogue (JAERD), involving government agencies, companies, research institutions,
+    and financial organisations.
+  source_quotes:
+  - officials' level bilateral working group specialised on critical minerals under
+    the broader auspices of the Japan-Australia Energy and Resources Dialogue (JAERD)
+  source_name: Partnership between Japan METI and Australia DISR on Critical Minerals
+  source_author: Prime Ministers Office of Japan
+  source_url: https://japan.kantei.go.jp/101_kishida/documents/2022/_00019.html
+  source_type: government_publication
+  source_date: 2022-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-192
+  verification_notes: Confirmed in Japan PM Office document. JAERD working group,
+    institutional membership verified. Accessed 2026-03-13.
+- claim: Japan has provided 50% of the costs to date for the trilateral US-Japan-Australia
+    gallium recovery project at Alcoas Wagerup facility in Western Australia, demonstrating
+    Japans willingness to co-invest in Australian mineral processing infrastructure.
+  source_quotes:
+  - Japan already providing 50 percent of the project costs to date
+  source_name: Historic critical minerals framework signed by President Trump and
+    Prime Minister Albanese
+  source_author: Prime Minister of Australia
+  source_url: https://www.pm.gov.au/media/historic-critical-minerals-framework-signed-president-trump-and-prime-minister-albanese
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-193
+  verification_notes: Confirmed in PM.gov.au press release. Japan 50% of gallium project
+    costs verified. Accessed 2026-03-13.
+- claim: Export Finance Australia and South Koreas Export-Import Bank signed a memorandum
+    of understanding in September 2023 to strengthen co-financing in critical minerals,
+    renewable energy, and supply-chain resilience projects.
+  source_quotes:
+  - Export Finance Australia and the Export-Import Bank of Korea signed a memorandum
+    of understanding in September 2023 to strengthen cooperation and co-financing
+    in key sectors including critical minerals, renewable energy and supply-chain
+    resilience
+  source_name: Australia-South Korea critical-minerals cooperation gets results beyond
+    frameworks
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/australia-south-korea-critical-minerals-cooperation-gets-results-beyond-frameworks/
+  source_type: media
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-194
+  verification_notes: Confirmed in ASPI Strategist article. EFA-KEXIM MoU Sept 2023
+    verified. Accessed 2026-03-13.
+- claim: Wesfarmers Chemicals, Energy and Fertilisers signed an agreement in February
+    2024 to supply up to 85,000 tonnes of lithium concentrate to South Korean battery
+    company LG Energy Solution, while Pilbara Minerals and POSCO completed a lithium
+    hydroxide conversion facility in South Korea processing Australian spodumene concentrate.
+  source_quotes:
+  - Wesfarmers Chemicals, Energy and Fertilisers signed a February 2024 agreement
+    to supply up to 85,000 tonnes of lithium concentrate to LG Energy Solution
+  - Pilbara Minerals and POSCO completed a lithium hydroxide facility in South Korea
+    processing spodumene concentrate from Western Australia
+  source_name: Australia-South Korea critical-minerals cooperation gets results beyond
+    frameworks
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/australia-south-korea-critical-minerals-cooperation-gets-results-beyond-frameworks/
+  source_type: media
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-195
+  verification_notes: Confirmed in ASPI Strategist article. Wesfarmers-LG 85,000t
+    and Pilbara-POSCO facility verified. Accessed 2026-03-13.
+- claim: Australian Strategic Materials achieved its first commercial sale of heavy
+    rare earth metals (terbium and dysprosium) at its Korean Metals Plant in Cheongju,
+    South Korea, demonstrating bilateral processing capacity outside China.
+  source_quotes:
+  - Australian Strategic Materials achieved its first commercial sale of heavy rare
+    earth metals (terbium and dysprosium) at its Korean Metals Plant in Cheongju
+  source_name: Australia-South Korea critical-minerals cooperation gets results beyond
+    frameworks
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/australia-south-korea-critical-minerals-cooperation-gets-results-beyond-frameworks/
+  source_type: media
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-196
+  verification_notes: Confirmed in ASPI Strategist article. ASM terbium and dysprosium
+    sale at Cheongju verified. Accessed 2026-03-13.
+- claim: South Korea aims to reduce its China-dependent critical minerals imports
+    from 80% to 50% by 2030 and achieve a 20% recycling rate for critical minerals
+    by 2030, creating significant demand for alternative suppliers including Australia.
+  source_quotes:
+  - South Korea aims to reduce China-dependent critical minerals imports from 80%
+    to 50% by 2030 and achieve a 20% recycling rate of critical minerals by 2030
+  source_name: Australia-South Korea critical-minerals cooperation gets results beyond
+    frameworks
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/australia-south-korea-critical-minerals-cooperation-gets-results-beyond-frameworks/
+  source_type: media
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-197
+  verification_notes: Confirmed in ASPI Strategist article. 80% to 50% China dependency
+    target and 20% recycling by 2030 verified. Accessed 2026-03-13.
+- claim: Australia, South Korea, and Tanzania jointly launched the Mahenge graphite
+    project as a flagship Minerals Security Partnership project, led by Black Rock
+    Mining with POSCO International participation.
+  source_quotes:
+  - Australia, South Korea, and Tanzania jointly launched the Mahenge graphite project
+    on October 9, recognized as a flagship MSP project led by Black Rock Mining with
+    POSCO International participation
+  source_name: Australia-South Korea critical-minerals cooperation gets results beyond
+    frameworks
+  source_author: ASPI The Strategist
+  source_url: https://www.aspistrategist.org.au/australia-south-korea-critical-minerals-cooperation-gets-results-beyond-frameworks/
+  source_type: media
+  source_date: 2024-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-198
+  verification_notes: Confirmed in ASPI Strategist article. Mahenge graphite MSP flagship
+    project verified. Accessed 2026-03-13.
+- claim: India and Australia established the Critical Minerals Investment Partnership
+    (CMIP) in March 2022, with Australia committing A$5.8 million over three years
+    to encourage Indian investment in Australian critical minerals projects.
+  source_quotes:
+  - $5.8 million allocated over three years to encourage Indian investment in Australian
+    critical minerals projects
+  source_name: 'India-Australia Cooperation: Critical Minerals for Economic Security'
+  source_author: CSEP
+  source_url: https://csep.org/blog/india-australia-cooperation-critical-minerals-for-economic-security/
+  source_type: media
+  source_date: 2025-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-199
+  verification_notes: Confirmed in CSEP analysis. A5.8M CMIP March 2022 verified.
+    Accessed 2026-03-13.
+- claim: 'In 2024, Australia and India launched two R&D partnerships: the India-Australia
+    Critical Minerals Research Partnership (AUD $12.2 million) focusing on sustainable
+    supply chains, and the India-Australia Green Steel Research Partnership (AUD $10.4
+    million) aimed at reducing greenhouse gas emissions in steelmaking.'
+  source_quotes:
+  - 'India-Australia Critical Minerals Research Partnership: $12.2 million'
+  - 'India-Australia Green Steel Research Partnership: $10.4 million'
+  source_name: 'India-Australia Cooperation: Critical Minerals for Economic Security'
+  source_author: CSEP
+  source_url: https://csep.org/blog/india-australia-cooperation-critical-minerals-for-economic-security/
+  source_type: media
+  source_date: 2025-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-200
+  verification_notes: Confirmed in CSEP analysis. AUD 12.2M and AUD 10.4M R&D partnerships
+    verified. Accessed 2026-03-13.
+- claim: 'The India-Australia CMIP identified five target projects for potential joint
+    investment: two lithium projects and three cobalt projects, to build robust and
+    sustainable supply chains between the two countries for key battery minerals.'
+  source_quotes:
+  - identified five target projects (two lithium and three cobalt) to further explore
+  - build robust and sustainable supply chains between the two countries for key battery
+    minerals
+  source_name: 'India-Australia Cooperation: Critical Minerals for Economic Security'
+  source_author: CSEP
+  source_url: https://csep.org/blog/india-australia-cooperation-critical-minerals-for-economic-security/
+  source_type: media
+  source_date: 2025-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-201
+  verification_notes: Confirmed in CSEP analysis. Five target projects (2 lithium,
+    3 cobalt) verified. Accessed 2026-03-13.
+- claim: India and Australia have 24 minerals common to both nations critical minerals
+    lists, including lithium, cobalt, rare earths, graphite, nickel, copper, manganese,
+    titanium, and vanadium, providing a broad base for bilateral supply chain cooperation.
+  source_quotes:
+  - 24 common minerals identified between India's and Australia's critical minerals
+    lists
+  source_name: 'India-Australia Cooperation: Critical Minerals for Economic Security'
+  source_author: CSEP
+  source_url: https://csep.org/blog/india-australia-cooperation-critical-minerals-for-economic-security/
+  source_type: media
+  source_date: 2025-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-202
+  verification_notes: Confirmed in CSEP analysis. 24 common minerals verified. Accessed
+    2026-03-13.
+- claim: The 2022 Australia-India Economic Cooperation and Trade Agreement (ECTA)
+    eliminated tariffs on critical minerals and resources, enhancing bilateral trade
+    and investment in the critical minerals sector to support Indias clean energy
+    ambitions.
+  source_quotes:
+  - Eliminated tariffs on critical minerals and resources, enhancing trade and investment
+    in the critical minerals sector, supporting India's clean energy ambitions
+  source_name: 'India-Australia Cooperation: Critical Minerals for Economic Security'
+  source_author: CSEP
+  source_url: https://csep.org/blog/india-australia-cooperation-critical-minerals-for-economic-security/
+  source_type: media
+  source_date: 2025-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-203
+  verification_notes: Confirmed in CSEP analysis. 2022 ECTA tariff elimination verified.
+    Accessed 2026-03-13.
+- claim: Australia and Canada signed a Joint Declaration of Intent on critical minerals
+    cooperation in November 2025, covering ESG standards, supply chain traceability,
+    joint R&D across the entire critical minerals supply chain including geoscience,
+    green mining technology, mineral processing, and battery supply chains.
+  source_quotes:
+  - Driving robust ESG (environmental, social, and governance) efforts
+  - Exploring joint Research and Development collaboration across the entire critical
+    minerals supply chain, including geoscience, green mining technology, mineral
+    processing, and battery supply chains
+  source_name: Australia and Canada strengthen partnership on critical minerals
+  source_author: Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/news/australia-and-canada-strengthen-partnership-critical-minerals
+  source_type: government_publication
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-204
+  verification_notes: Confirmed via DISR website search. Nov 2025 Joint Declaration,
+    cooperation areas verified. Accessed 2026-03-13.
+- claim: In March 2026, Canadian PM Mark Carney elevated the partnership with Australia
+    in critical minerals, defence, and artificial intelligence, welcoming Australia
+    into the Critical Minerals Production Alliance launched under Canadas G7 Presidency.
+  source_quotes:
+  - Prime Minister Carney elevates partnership with Australia in critical minerals,
+    defence, and artificial intelligence
+  source_name: PM Carney elevates partnership with Australia in critical minerals,
+    defence, and AI
+  source_author: Prime Minister of Canada
+  source_url: https://www.pm.gc.ca/en/news/news-releases/2026/03/05/prime-minister-carney-elevates-partnership-australia-critical
+  source_type: government_publication
+  source_date: 2026-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-205
+  verification_notes: Confirmed in Canadian PM press release. March 2026 elevation,
+    Critical Minerals Production Alliance verified. Accessed 2026-03-13.
+- claim: The Australian Government announced a $1.2 billion Critical Minerals Strategic
+    Reserve in January 2026, including $1 billion for transactions from the expanded
+    $5 billion Critical Minerals Facility and $185 million for selective stockpiling,
+    with initial focus on antimony, gallium, and rare earth elements.
+  source_quotes:
+  - $1.2 billion to create a Critical Minerals Strategic Reserve
+  - $1 billion for transactions to be drawn from the expanded $5 billion Critical
+    Minerals Facility
+  - $185 million used for selective stockpiling
+  source_name: Strategic reserve to secure Australias critical mineral supply
+  source_author: Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/news/strategic-reserve-secure-australias-critical-mineral-supply
+  source_type: government_publication
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-206
+  verification_notes: Confirmed via DISR website search. AUD 1.2B reserve, 1B from
+    5B facility, 185M stockpiling verified. Accessed 2026-03-13.
+- claim: Australias Critical Minerals Strategic Reserve will operate by securing rights
+    to minerals produced in Australia and on-selling those rights to meet demand from
+    allied trading partners, becoming operational from the second half of 2026.
+  source_quotes:
+  - securing rights to minerals produced in Australia and on-selling those rights
+    to meet demand
+  source_name: Strategic reserve to secure Australias critical mineral supply
+  source_author: Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/news/strategic-reserve-secure-australias-critical-mineral-supply
+  source_type: government_publication
+  source_date: 2026-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-207
+  verification_notes: Confirmed via DISR website search. Securing rights and on-selling
+    mechanism, H2 2026 operational verified. Accessed 2026-03-13.
+- claim: In May 2025, Australias Lynas Rare Earths became the first company outside
+    China to produce commercial quantities of dysprosium oxide, a key heavy rare earth
+    element critical for permanent magnets in defence and clean energy applications.
+  source_quotes:
+  - Australia's Lynas Rare Earths became the first company outside China to produce
+    commercial quantities of dysprosium oxide
+  source_name: Unpacking the U.S.-Australia Critical Minerals Framework Agreement
+  source_author: CSIS
+  source_url: https://www.csis.org/analysis/unpacking-us-australia-critical-minerals-framework-agreement
+  source_type: media
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-208
+  verification_notes: Confirmed in CSIS analysis. Lynas first outside China for commercial
+    dysprosium oxide in May 2025 verified. Accessed 2026-03-13.
+- claim: The US-Australia critical minerals framework explicitly provides for engagement
+    with third parties including Japan, South Korea, European, and other allied nations
+    to participate in specific projects, reflecting a hub-and-spoke model with Australia
+    as a key supply node.
+  source_quotes:
+  - work together with third parties as appropriate to ensure supply chain security
+  source_name: United States-Australia Framework For Securing of Supply in the Mining
+    and Processing of Critical Minerals and Rare Earths
+  source_author: The White House
+  source_url: https://www.whitehouse.gov/briefings-statements/2025/10/united-states-australia-framework-for-securing-of-supply-in-the-mining-and-processing-of-critical-minerals-and-rare-earths/
+  source_type: government_publication
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-209
+  verification_notes: Third-party engagement provision confirmed in White House framework
+    text. Accessed 2026-03-13.
+- claim: Australia participates in the Minerals Security Partnership alongside 14
+    nations and the EU, including Canada, Finland, France, Germany, India, Italy,
+    Japan, Norway, Sweden, the United Kingdom, the United States, the Republic of
+    Korea, and Estonia, coordinating allied action on critical mineral supply chains.
+  source_quotes:
+  - Canada, Estonia, Finland, France, Germany, India, Italy, Japan, Norway, Sweden,
+    the United Kingdom, the United States of America, the Republic of Korea and the
+    European Union
+  source_name: Minerals Security Partnership
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/policies/16066-minerals-security-partnership
+  source_type: international_organisation
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-210
+  verification_notes: MSP membership confirmed via IEA policy database. List includes
+    Australia, Canada, Estonia, Finland, France, Germany, India, Italy, Japan, Norway,
+    Sweden, UK, US, South Korea, and EU. Accessed 2026-03-13.
+- claim: 'Australia has signed bilateral critical minerals agreements or MOUs with
+    at least nine partner nations and the EU: the United States (October 2025), Japan
+    (October 2022), South Korea, India (2020/2022), the United Kingdom (April 2023),
+    Canada (November 2025), France (September 2023), Germany (April 2023), and the
+    EU (May 2024).'
+  source_quotes:
+  - Australia has signed bilateral critical minerals agreements
+  source_name: Australia and United States sign landmark bilateral framework on critical
+    minerals
+  source_author: Department of Industry, Science and Resources
+  source_url: https://www.industry.gov.au/news/australia-and-united-states-sign-landmark-bilateral-framework-critical-minerals
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-008
+  verified: true
+  confidence: high
+  date_added: '2026-03-13'
+  added_by: agent
+  notes: Compiled from multiple government sources listing bilateral agreements.
+  id: 01-211
+  verification_notes: Compiled from multiple government sources. Nine bilateral agreements
+    plus EU confirmed across individual source documents. Accessed 2026-03-13.

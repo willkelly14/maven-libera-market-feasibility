@@ -107,3 +107,18 @@
   last_updated: '2026-03-13'
   fact_count: 49
   fact_range: 01-118 to 01-166
+- id: DOC-008
+  title: 'Allied Nation Supply Chain Diversification: Australias Position'
+  type: research_report
+  section: 01_Macro_Context
+  content_file: 05_Allied_Nation_Supply_Chain_Diversification.md
+  description: Examines bilateral and multilateral critical minerals agreements between
+    Australia and allied nations (US, EU, UK, Japan, South Korea, India, Canada).
+    Covers the US-Australia Framework, IRA implications, EU CRMA, bilateral MOUs,
+    financial commitments, and an assessment of structural demand shaping for Australian-sourced
+    minerals.
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 44
+  fact_range: 01-168 to 01-211
