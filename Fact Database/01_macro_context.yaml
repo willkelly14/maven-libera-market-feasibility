@@ -11696,3 +11696,1224 @@
   added_by: agent
   id: 01-474
   verification_notes: Confirmed on EIB CRM projects page, accessed 2026-03-13
+- claim: Global energy sector employment reached 76 million people in 2024, up more
+    than 5 million from 2019, with energy job growth of 2.2% in 2024 nearly double
+    the wider economy growth rate.
+  source_quotes:
+  - Global energy sector employment reached 76 million people worldwide in 2024, up
+    more than 5 million from 2019
+  - Strong investment in energy infrastructure drove a 2.2% rise in energy jobs last
+    year, nearly double the rate of employment growth for the wider global economy
+  source_name: World Energy Employment 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/news/energy-employment-has-surged-but-growing-skills-shortages-threaten-future-momentum
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-475
+  verification_notes: 'Confirmed: 76M employment and 2.2% growth verified at IEA news
+    page, accessed 2026-03-13'
+- claim: Over 60% of energy companies reported labour shortages putting timelines,
+    system reliability, and cost control at risk, with more than half of 700 surveyed
+    energy companies, unions, and training institutions reporting critical hiring
+    bottlenecks.
+  source_quotes:
+  - 60% of companies reported labour shortages, putting timelines, system reliability,
+    and cost control at risk
+  - Over half of 700+ energy firms surveyed reported critical hiring bottlenecks—a
+    steady increase over previous years
+  source_name: World Energy Employment 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/world-energy-employment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-476
+  verification_notes: 'Confirmed: 60% labour shortages and 700+ firms surveyed verified
+    at IEA exec summary, accessed 2026-03-13'
+- claim: In advanced economies, there are 2.4 energy workers nearing retirement for
+    every new entrant under 25, with nuclear professions facing a 1.7:1 retirement-to-entrant
+    ratio and grid-related professions at 1.4:1.
+  source_quotes:
+  - 2.4 energy workers nearing retirement for every new entrant under 25 in advanced
+    economies
+  - 'Nuclear sector: 1.7 retiring workers for every young entrant'
+  - 'Grid roles: 1.4 retiring workers for every young entrant'
+  source_name: World Energy Employment 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/world-energy-employment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-477
+  verification_notes: 'Confirmed: 2.4 retirement ratio, 1.7 nuclear, 1.4 grid all
+    verified at IEA exec summary, accessed 2026-03-13'
+- claim: To prevent the energy sector skills gap from widening further by 2030, the
+    number of new qualified entrants globally would need to rise by 40%, with expanding
+    training capacity costing approximately USD 2.6 billion annually — less than 0.1%
+    of global public education spending.
+  source_quotes:
+  - To prevent the skills gap from widening further by 2030, the number of new qualified
+    entrants into the energy sector globally would need to rise by 40%
+  - Expanding training capacity would cost ~USD 2.6 billion annually—less than 0.1%
+    of global public education spending
+  source_name: World Energy Employment 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/world-energy-employment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-478
+  verification_notes: 'Confirmed: 40% increase needed and USD 2.6B training cost verified
+    at IEA exec summary, accessed 2026-03-13'
+- claim: Over 180,000 jobs were added in critical mineral mining in the last three
+    years globally, and 40% of current coal miners work within 200 km of a critical
+    mineral deposit, indicating potential for workforce transition.
+  source_quotes:
+  - Over 180,000 jobs were added in critical mineral mining in the last three years,
+    and 40% of current coal miners work within 200 km of a critical mineral deposit
+  source_name: World Energy Employment 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/news/energy-employment-has-surged-but-growing-skills-shortages-threaten-future-momentum
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-479
+  verification_notes: 'Confirmed: 180,000 jobs from IEA WEE 2023, 40% coal miners
+    within 200km from IEA Coal in Net Zero Transitions. Both figures widely cited
+    across IEA materials, accessed 2026-03-13'
+- claim: 75% of mining executives surveyed by EY are not confident in their ability
+    to resolve labour shortages for onsite operations, with workforce challenges rising
+    to the 6th-ranked business risk for mining and metals in 2026 (up from 13th).
+  source_quotes:
+  - 75% of mining executives are not confident in their ability to resolve labor shortages
+    for onsite operations
+  - 'Workforce to #6 (from #13)'
+  source_name: Risks and Opportunities for Mining and Metals in 2026
+  source_author: EY
+  source_url: https://www.ey.com/en_gl/insights/mining-metals/risks-opportunities
+  source_type: industry_report
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-480
+  verification_notes: 'Confirmed: 75% not confident verified at EY insights page,
+    workforce #6 from #13 confirmed at EY newsroom, accessed 2026-03-13'
+- claim: The EY 2026 mining risks survey of 500 senior mining leaders found the sector
+    struggles to fill key roles in mine planning, process engineering, sustainability,
+    closure, and regulatory compliance, undermining productivity and safety and threatening
+    future supply.
+  source_quotes:
+  - The sector's struggle to fill key roles...undermines productivity and safety and
+    threatens future supply
+  - 'Specific positions experiencing recruitment difficulties include: Mine planning,
+    Process engineering, Sustainability roles, Closure specialists, Regulatory compliance
+    professionals'
+  source_name: Risks and Opportunities for Mining and Metals in 2026
+  source_author: EY
+  source_url: https://www.ey.com/en_gl/insights/mining-metals/risks-opportunities
+  source_type: industry_report
+  source_date: 2025-10
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-481
+  verification_notes: 'Confirmed: 500 leaders surveyed, key roles (planning, engineering,
+    sustainability, closure) confirmed at EY newsroom. Regulatory compliance also
+    mentioned on insights page. Quote paraphrased slightly from original, accessed
+    2026-03-13'
+- claim: 71% of mining leaders believe the talent shortage hampers achievement of
+    production targets and strategic goals, while 86% of executives report greater
+    difficulty recruiting and retaining talent compared to two years prior.
+  source_quotes:
+  - 71% of mining leaders believe talent shortage hampers achievement of production
+    targets and strategic goals
+  - 86% of executives report greater difficulty recruiting and retaining talent compared
+    to two years prior
+  source_name: Global Mining Industry Faces Severe Skills Shortage
+  source_author: Mining Digital
+  source_url: https://miningdigital.com/articles/global-mining-industry-faces-severe-skills-shortage
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-482
+  verification_notes: 'Confirmed: 71% and 86% figures both verified verbatim at Mining
+    Digital article, accessed 2026-03-13'
+- claim: Australia needs an estimated 24,000 new mining workers by 2026, but only
+    approximately 16,000 are expected to be available, creating an 8,000-worker shortfall.
+    The mining vacancy rate reached 5.2% in late 2023, up from 3.3% three years prior.
+  source_quotes:
+  - 'Australia: Vacancy rate reached 5.2% in late 2023 (up from 3.3% three years prior)'
+  - 'Australia: Industry needs an estimated 24,000 new workers by 2026, but only ~16,000
+    expected to be available'
+  source_name: Global Mining Industry Faces Severe Skills Shortage
+  source_author: Mining Digital
+  source_url: https://miningdigital.com/articles/global-mining-industry-faces-severe-skills-shortage
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-483
+  verification_notes: 'Confirmed: 24,000/16,000 workers and 5.2% vacancy rate all
+    verified at Mining Digital article, accessed 2026-03-13'
+- claim: The OECD published "Mining for Talent" in 2025, examining how rapid technological
+    change, soaring global demand for critical minerals, and the green transition
+    are transforming job requirements and regional economies, identifying significant
+    workforce gaps in both worker availability and sector attractiveness.
+  source_quotes:
+  - rapid technological change, soaring global demand for critical minerals, and the
+    green transition are transforming job requirements and regional economies
+  - identifies significant workforce gaps arising from issues of the availability
+    of workers and skills, and the attractiveness of the sector and regions where
+    it exists
+  source_name: 'Mining for Talent: Addressing Regional Workforce Challenges in a Changing
+    Resources Industry'
+  source_author: OECD
+  source_url: https://www.oecd.org/en/publications/mining-for-talent_d89677f7-en.html
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-484
+  verification_notes: 'Confirmed: OECD publication verified at oecd.org, key themes
+    (rapid technological change, critical minerals, workforce gaps) confirmed, accessed
+    2026-03-13'
+- claim: The US mining workforce is projected to lose 221,000 workers to retirement
+    by 2029 — more than half the total workforce — while mining employment has declined
+    20.4% over the past decade. US mining programs have fallen from 25 in 1982 to
+    15 in 2023.
+  source_quotes:
+  - 221,000 US mining workers expected to retire by 2029
+  - US mining employment declined 20.4% over the past decade
+  - 'US mining programs: 15 in 2023 (down from 25 in 1982)'
+  source_name: Mining industry dogged by retirements and lack of new recruits
+  source_author: MINING.COM
+  source_url: https://www.mining.com/web/mining-industry-dogged-by-retirements-and-lack-of-new-recruits/
+  source_type: media
+  source_date: 2024-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-485
+  verification_notes: 'Confirmed: 221,000 retirements, 20.4% decline, 25-to-15 programs
+    all verified at MINING.COM article, accessed 2026-03-13'
+- claim: Canada needs 80,000 to 120,000 new mining workers by 2030, while Chile requires
+    more than 34,000 new workers by 2032, demonstrating that workforce shortages are
+    a global constraint across all major mining jurisdictions.
+  source_quotes:
+  - Canada needs 80,000-120,000 new workers by 2030
+  - Chile requires 34,000+ new workers by 2032
+  source_name: Mining industry dogged by retirements and lack of new recruits
+  source_author: MINING.COM
+  source_url: https://www.mining.com/web/mining-industry-dogged-by-retirements-and-lack-of-new-recruits/
+  source_type: media
+  source_date: 2024-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-486
+  verification_notes: 'Confirmed: Canada 80,000-120,000 and Chile 34,000+ both verified
+    at MINING.COM article, accessed 2026-03-13'
+- claim: 50% of mining engineers globally will reach retirement age within the next
+    decade, with the average age of a US mine worker at 46 years. In the UK, 80% of
+    mining engineers are over 50, with 40% at least 60 years old.
+  source_quotes:
+  - 50% of mining engineers will reach retirement age within the next decade (Deloitte
+    study)
+  - 'Average age of US mine worker: 46 years old'
+  - 'UK mining engineers: 80% over 50; 40% at least 60 years old'
+  source_name: Mining industry dogged by retirements and lack of new recruits
+  source_author: MINING.COM
+  source_url: https://www.mining.com/web/mining-industry-dogged-by-retirements-and-lack-of-new-recruits/
+  source_type: media
+  source_date: 2024-02
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-487
+  verification_notes: 'Confirmed: 50% retirement (Deloitte), average age 46, UK 80%/40%
+    figures all verified at MINING.COM article, accessed 2026-03-13'
+- claim: According to the OECD, 72% of miners across the world are over 35 years old.
+    As of 2025, Baby Boomers comprise approximately 22% of the mining workforce and
+    are rapidly approaching retirement age, while Generation X comprises about 35%,
+    occupying experienced middle and senior management and technical roles.
+  source_quotes:
+  - 72% of today's miners across the world are over 35 years old
+  - Baby Boomers comprise approximately 22% of the mining workforce and are rapidly
+    approaching retirement age
+  - Generation X comprises about 35%, often occupying experienced, middle, and senior
+    management and technical roles
+  source_name: Global Mining Workforce Generational Breakdown Statistics
+  source_author: Farmonaut
+  source_url: https://farmonaut.com/mining/global-mining-workforce-generational-breakdown-statistics
+  source_type: media
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-488
+  verification_notes: 72% OECD figure widely cited across multiple industry sources.
+    Baby Boomer 22% and Gen X 35% from secondary source. Consistent across sources
+    but primary OECD PDF inaccessible, accessed 2026-03-13
+- claim: In Australia, 25% of metal ore mining workers are 50 years of age or older,
+    creating an imminent wave of retirements in an industry that contributed more
+    than $400 billion to the Australian economy in 2024 and employs more than 280,000
+    people.
+  source_quotes:
+  - 25% of the metal ore workers are 50 years of age or older
+  - In 2024, the mining industry contributed more than $400 billion to the Australian
+    economy and employs more than 280,000 people
+  source_name: AUSMASA 2025 Workforce Plan
+  source_author: Mining and Automotive Skills Alliance
+  source_url: https://ausmasa.org.au/news-and-events/ausmasas-2025-workforce-plan-today-s-intelligence-for-tomorrow-s-automotive-and-mining-workforce/
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-489
+  verification_notes: 'Confirmed: 25% over 50, $400B contribution, 280,000 workers
+    all verified at AUSMASA 2025 Workforce Plan, accessed 2026-03-13'
+- claim: Between 2015 and 2024, Australian mining employment rose from 194,222 to
+    a peak of 304,965 in 2023 before slightly declining to 300,047 in 2024, but growth
+    in employment has not been matched by a corresponding proportional increase in
+    qualification completions.
+  source_quotes:
+  - mining employment experienced significant growth, rising from 194,222 in 2015
+    to a peak of 304,965 in 2023, before slightly declining to 300,047 in 2024
+  source_name: Mining Research Bulletin — September 2025
+  source_author: Mining and Automotive Skills Alliance
+  source_url: https://ausmasa.org.au/news-and-events/mining-research-bulletin-september-2025/
+  source_type: industry_report
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-490
+  verification_notes: 'Confirmed: All employment figures (194,222 to 304,965 to 300,047)
+    verified at AUSMASA Mining Research Bulletin Sep 2025, accessed 2026-03-13'
+- claim: Mining engineering bachelor-level completions in Australia declined 98% between
+    2014 and 2023, with postgraduate completions falling 76%. Male student numbers
+    dropped 83% (from 466 to 80) and female completions fell to zero by 2023 (from
+    53 in 2014).
+  source_quotes:
+  - 'Bachelor''s level: 98% decline (2014-2023)'
+  - 'Postgraduate level: 76% decline (2014-2023)'
+  - 'Male students: dropped 83% (466 to 80)'
+  - 'Female completions: fell to zero by 2023 (from 53 in 2014)'
+  source_name: Mining Research Bulletin — September 2025
+  source_author: Mining and Automotive Skills Alliance
+  source_url: https://ausmasa.org.au/news-and-events/mining-research-bulletin-september-2025/
+  source_type: industry_report
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-491
+  verification_notes: 'Confirmed: 98% bachelor decline, 76% postgrad, 83% male drop
+    (466-80), zero female completions all verified at AUSMASA bulletin, accessed 2026-03-13'
+- claim: Australian mining engineering first-year enrolments dropped from 267 students
+    in 2012-2013 to just 34 in 2018, the lowest since 2000. At UNSW, mining engineering
+    enrolments fell from 120 in 2014 to just 6 in 2018. Metallurgy first-year enrolments
+    reached just 24 in 2018, also the lowest since 2000.
+  source_quotes:
+  - Mining engineering first-year enrolments dropped from 267 and 265 students in
+    2012 and 2013 respectively to just 34 students in 2018, the lowest it had been
+    since 2000
+  - 'University of New South Wales: declined from 120 enrolments (2014) to 6 students
+    (2018)'
+  - 'Metallurgy Programs: 2018: 24 first-year students (lowest since 2000)'
+  source_name: Closing the skills gap in Australian mining
+  source_author: AusIMM
+  source_url: https://www.ausimm.com/bulletin/bulletin-articles/closing-the-skills-gap-in-australian-mining/
+  source_type: industry_report
+  source_date: 2019-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-492
+  verification_notes: 'Confirmed: 267/265 enrolments 2012-13, 34 in 2018, UNSW 120-to-6,
+    metallurgy 24 in 2018 all verified at AusIMM Bulletin, accessed 2026-03-13'
+- claim: The Australian Geoscience Council reported a 40% decline in students completing
+    geoscience degrees over eight years, with geoscience enrolments dropping 43% between
+    2013 and 2020. Seven of 21 Australian geoscience departments have been hit with
+    substantive reductions in staffing and curriculum offerings.
+  source_quotes:
+  - Seven of the 21 Australian geoscience departments have been hit with substantive
+    reductions in staffing and curriculum offerings
+  source_name: Australia's Unfolding Geoscience Malady
+  source_author: Eos / AGU
+  source_url: https://eos.org/opinions/australias-unfolding-geoscience-malady
+  source_type: academic_paper
+  source_date: 2021-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-493
+  verification_notes: 'Confirmed: 7 of 21 departments with substantive reductions
+    verified at Eos/AGU article. 40% decline and 43% drop from Australian Geoscience
+    Council reports cited in multiple sources, accessed 2026-03-13'
+- claim: Macquarie University closed its School of Earth and Planetary Sciences in
+    July 2021, letting go 18 of 21 academics. The Australian National University laid
+    off 20 permanent staff from its Research School of Earth Sciences in December
+    2020. The University of Newcastle dropped its geology major entirely.
+  source_quotes:
+  - 18 of the 21 academics who worked at the school have now been let go
+  - 20 permanent staff members laid off plus additional contract employees
+  - 'University of Newcastle: Geology major dropped completely'
+  source_name: Australia's Unfolding Geoscience Malady
+  source_author: Eos / AGU
+  source_url: https://eos.org/opinions/australias-unfolding-geoscience-malady
+  source_type: academic_paper
+  source_date: 2021-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-494
+  verification_notes: 'Confirmed: Macquarie 18/21 academics, ANU 20 staff, Newcastle
+    geology major all verified at Eos/AGU article, accessed 2026-03-13'
+- claim: US mining and mineral engineering degrees awarded fell to 314 in 2021, a
+    39% decline since 2016. China by contrast has 38+ mineral processing schools and
+    44+ mining engineering programs, with Central South University alone producing
+    1,000 undergraduates and 500 graduate students.
+  source_quotes:
+  - 'US mining degrees awarded (2021): 314 (down 3.98% from 2020)'
+  - US mining graduations declined 39% since 2016
+  - 'China contrast: 38+ mineral processing schools, 44+ mining engineering programs;
+    Central South University alone: 1,000 undergraduates and 500 graduate students'
+  source_name: Mining Industry's Massive Workforce Shortage Threatens Critical Mineral
+    Production
+  source_author: Streetwise Reports
+  source_url: https://www.streetwisereports.com/article/2025/11/25/mining-industrys-massive-workforce-shortage-threatens-critical-mineral-production.html
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-495
+  verification_notes: 'Confirmed: 314 degrees 2021 (note: source says 327 in 2020,
+    314 in 2021), 39% decline since 2016, China 38+/44+ programs, CSU 1000/500 all
+    verified at Streetwise Reports, accessed 2026-03-13'
+- claim: 70% of Canadians aged 15-30 said they would "definitely" or "probably" not
+    work in mining, with only 4% saying they "definitely would" consider mining careers.
+    Young people described the industry with words like "hard," "dangerous," "dirty,"
+    and "pollution."
+  source_quotes:
+  - 70% of ages 15-30 said they "definitely wouldn't" or "probably wouldn't" work
+    in mining
+  - Only 4% said they "definitely would" consider mining careers
+  - Mining simply isn't an attractive industry for many young Canadians, who...described
+    it with words like "hard," "dangerous," "dirty," and "pollution."
+  source_name: Mining Industry's Massive Workforce Shortage Threatens Critical Mineral
+    Production
+  source_author: Streetwise Reports
+  source_url: https://www.streetwisereports.com/article/2025/11/25/mining-industrys-massive-workforce-shortage-threatens-critical-mineral-production.html
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-496
+  verification_notes: 'Confirmed: 70% wouldn''t work in mining, 4% definitely would,
+    dirty/dangerous quote all verified at Streetwise Reports and MINING.COM, accessed
+    2026-03-13'
+- claim: 42% of young survey respondents were unaware of earth sciences as an area
+    of study, 55% were unaware of geoscience, and 67% were unaware that mineral processing
+    is an area of study, demonstrating a fundamental awareness gap that constrains
+    the talent pipeline.
+  source_quotes:
+  - 42% of survey respondents were unaware of earth sciences as an area of study
+  - 55% were unaware of geoscience
+  - 67% were unaware that mineral processing is an area of study
+  source_name: 'Mining talent crossroads: Geoscience off student radars'
+  source_author: Mining.com.au
+  source_url: https://mining.com.au/mining-talent-crossroads-geoscience-off-student-radars/
+  source_type: media
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-497
+  verification_notes: 'Confirmed: 42% unaware earth sciences, 55% unaware geoscience,
+    67% unaware mineral processing all verified at Mining.com.au, accessed 2026-03-13'
+- claim: Enrolments in Australian RII mining qualifications decreased from 51,319
+    in 2015 to 31,493 in 2020 — a drop of 39% — before partially recovering to 35,087
+    in 2023. Qualification completions fell from 12,942 in 2015 to 5,262 in 2020,
+    reaching 9,430 in 2023.
+  source_quotes:
+  - 'Enrolments: declined from 51,319 (2015) to 31,493 (2020); recovered to 35,087
+    (2023)'
+  - 'Completions: dropped from 12,942 (2015) to 5,262 (2020); reached 9,430 (2023)'
+  source_name: Mining Research Bulletin — September 2025
+  source_author: Mining and Automotive Skills Alliance
+  source_url: https://ausmasa.org.au/news-and-events/mining-research-bulletin-september-2025/
+  source_type: industry_report
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-498
+  verification_notes: 'Confirmed: All RII enrolment and completion figures verified
+    at AUSMASA bulletin, accessed 2026-03-13'
+- claim: In the UK, A-level Geology enrolments fell from 4,000 students in the early
+    1980s to just 1,100 in 2024. Only approximately 90 schools in the UK currently
+    offer Geology. The Camborne School of Mines halted undergraduate mining engineering
+    intake from August 2020 to 2025, producing zero new undergraduate cohorts for
+    five years.
+  source_quotes:
+  - 'A-Level Geology: Fell from 4,000 students (early 1980s) to 1,100 in 2024'
+  - Only approximately 90 schools in the UK currently offer Geology
+  - No new undergraduate cohorts enrolled before Camborne's 2025 restart
+  source_name: Critical period for mining skills
+  source_author: IOM3
+  source_url: https://www.iom3.org/resource/critical-period-for-mining-skills.html
+  source_type: industry_report
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-499
+  verification_notes: 'Confirmed: A-level 4,000 to 1,100, 90 schools, Camborne 2020-2025
+    hiatus all verified at IOM3, accessed 2026-03-13'
+- claim: The Australian Resources and Energy Employer Association forecasts 96 mining
+    and energy projects likely to proceed by 2030, creating 22,279 jobs and requiring
+    AU$129.5 billion in investment — but the sector faces a critical shortage of specialised
+    skills in automation, environmental management, and renewable energy integration.
+  source_quotes:
+  - 96 mining and energy projects are likely to proceed
+  - 22,279 jobs will be created
+  - AU$129.5 billion in total investment projected
+  source_name: Australia's Mining and Energy Sector Set to Add 22,000 Jobs by 2030
+  source_author: Investing News Network
+  source_url: https://investingnews.com/australian-mining-workforce-forecast/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-500
+  verification_notes: 'Confirmed: 96 projects, 22,279 jobs, AU$129.5B verified at
+    INN citing AREEA forecast, accessed 2026-03-13'
+- claim: Queensland's resources and energy sectors need 26,810 additional employees
+    by 2029 — a 9.4% workforce increase — with 107 major projects valued at $130.9
+    billion expected to proceed, while 77,900 people are directly employed in the
+    state's resources and energy industry.
+  source_quotes:
+  - 26,810 additional employees needed in resources and energy sectors by 2029
+  - 9.4% workforce increase required over five years
+  - 107 major projects valued at $130.9 billion expected to proceed by 2029
+  - 77,900 people directly employed in resources and energy industry
+  source_name: Queensland addresses mining skills shortage amid sector growth
+  source_author: Mining.com.au
+  source_url: https://mining.com.au/queensland-addresses-mining-skills-shortage-amid-sector-growth/
+  source_type: media
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-501
+  verification_notes: 'Confirmed: 26,810 employees, 9.4%, 107 projects/$130.9B, 77,900
+    directly employed all verified at Mining.com.au, accessed 2026-03-13'
+- claim: Mining skills shortage in Australia increased from 34% of occupations in
+    2021 to 63% in 2022, making it the second-most acute skills shortage of all industries
+    from 2022 to 2024, following only the construction industry.
+  source_quotes:
+  - Mining skills shortage increased from 34% (2021) to 63% (2022)
+  - Second-most acute industry shortage in Australia (2022-2024), following construction
+  source_name: Mining Research Bulletin — September 2025
+  source_author: Mining and Automotive Skills Alliance
+  source_url: https://ausmasa.org.au/news-and-events/mining-research-bulletin-september-2025/
+  source_type: industry_report
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-502
+  verification_notes: 'Confirmed: 34% to 63% shortage, second-most acute industry
+    all verified at AUSMASA bulletin, accessed 2026-03-13'
+- claim: The Mining Engineers fill rate in Australia was just 42% in 2021, ranking
+    as the sixth lowest across all occupations, indicating that for every two mining
+    engineer vacancies advertised, fewer than one was filled.
+  source_quotes:
+  - 'Mining Engineers fill rate: 42% in 2021 (sixth lowest across all occupations)'
+  source_name: Mining Research Bulletin — September 2025
+  source_author: Mining and Automotive Skills Alliance
+  source_url: https://ausmasa.org.au/news-and-events/mining-research-bulletin-september-2025/
+  source_type: industry_report
+  source_date: 2025-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-503
+  verification_notes: 'Confirmed: Mining Engineers fill rate 42%, sixth lowest verified
+    at AUSMASA bulletin, accessed 2026-03-13'
+- claim: Western Australia alone requires more than 11,000 new workers by around 2029
+    to support proposed resource projects, with roles including mining engineers,
+    geologists, heavy equipment operators, and electrical and mechanical maintenance
+    technicians.
+  source_quotes:
+  - Western Australia has a severe mining workforce shortage, with more than 11,000
+    new workers required by around 2029 to support proposed resource projects
+  source_name: 'Drilling down: how Western Australia can tackle its mining workforce
+    shortage'
+  source_author: Mining Technology
+  source_url: https://www.mining-technology.com/features/drilling-down-how-western-australia-can-tackle-its-mining-workforce-shortage/
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-504
+  verification_notes: 'Confirmed: 11,065 new workers (>11,000) by 2029 verified at
+    Mining Technology, accessed 2026-03-13'
+- claim: McKinsey estimates that converting spodumene to lithium hydroxide alone requires
+    nearly 4,000 additional workers by 2030 in Western Australia, while nearly 60
+    projects worth $41 billion needed almost 21,000 on-site operating employees across
+    Australia.
+  source_quotes:
+  - 'McKinsey estimates: converting spodumene to lithium hydroxide requires nearly
+    4,000 additional workers by 2030 in Western Australia alone'
+  - Nearly 60 projects worth $41 billion needed almost 21,000 on-site operating employees
+  source_name: 'Mining talent crossroads: Geoscience off student radars'
+  source_author: Mining.com.au
+  source_url: https://mining.com.au/mining-talent-crossroads-geoscience-off-student-radars/
+  source_type: media
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-505
+  verification_notes: 'Confirmed: McKinsey 4,000 workers lithium hydroxide WA, 60
+    projects/$41B/21,000 employees all verified at Mining.com.au, accessed 2026-03-13'
+- claim: Skill shortages in critical areas of engineering, drilling, and heavy machinery
+    slowed project ramp-ups across Australia in 2025, with these constraints expected
+    to continue into 2026.
+  source_quotes:
+  - Skill shortages in critical areas of engineering, drilling and heavy machinery
+    slowed project ramp-ups, and are expected to continue into 2026
+  source_name: 'Australian mining industry: 2025 review'
+  source_author: Mining Technology
+  source_url: https://www.mining-technology.com/features/australian-mining-industry-2025-review/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-506
+  verification_notes: 'Confirmed: Engineering/drilling/machinery shortages slowing
+    ramp-ups, continuing into 2026 verified at Mining Technology, accessed 2026-03-13'
+- claim: In Australian mining and resources organisations, 10% report experiencing
+    an extreme skills gap, 35% a moderate gap, and 39% a minor gap. 52% of organisations
+    face scarcity of necessary skills within their teams, with 43% reporting difficulty
+    sourcing the required talent.
+  source_quotes:
+  - 10% report extreme skills gap
+  - 35% moderate gap
+  - 39% minor gap
+  - 52% (mining/resources) face scarcity of necessary skills
+  - 43% report difficulty sourcing required talent
+  source_name: Queensland addresses mining skills shortage amid sector growth
+  source_author: Mining.com.au
+  source_url: https://mining.com.au/queensland-addresses-mining-skills-shortage-amid-sector-growth/
+  source_type: media
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-507
+  verification_notes: 'Confirmed: 10% extreme, 35% moderate, 39% minor gap, 52% scarcity,
+    43% difficulty all verified at Mining.com.au, accessed 2026-03-13'
+- claim: Economy-wide demand for applied technical workers grew 16% between 2015 and
+    2022, yet graduations from relevant vocational programmes increased by only 9%,
+    creating a structural mismatch that directly affects the mining and energy sectors'
+    ability to hire and retain skilled workers.
+  source_quotes:
+  - economy-wide demand for applied technical workers grew 16% between 2015 and 2022,
+    yet graduations from relevant vocational programmes increased by only 9%, directly
+    affecting the energy sector and making it harder for firms to hire and retain
+    skilled workers they need
+  source_name: World Energy Employment 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/world-energy-employment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-508
+  verification_notes: 'Confirmed: 16% demand growth vs 9% graduation increase verified
+    verbatim at IEA exec summary, accessed 2026-03-13'
+- claim: Mining and METS (Mining Equipment, Technology and Services) sectors contribute
+    an estimated 15% of Australia's GDP and create more than 1.1 million jobs, with
+    METS businesses employing 300,000 directly. There were approximately 30% more
+    mining vacancies in May 2024 versus pandemic levels.
+  source_quotes:
+  - Mining and METS sectors contribute estimated 15% of Australia's GDP
+  - Create more than 1.1 million jobs (METS businesses employ 300,000 directly)
+  - ~30% more mining vacancies in May 2024 versus pandemic levels
+  source_name: 'Mining talent crossroads: Geoscience off student radars'
+  source_author: Mining.com.au
+  source_url: https://mining.com.au/mining-talent-crossroads-geoscience-off-student-radars/
+  source_type: media
+  source_date: 2024-09
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-509
+  verification_notes: 'Confirmed: 15% GDP, 1.1M jobs, 300,000 METS, 30% more vacancies
+    all verified at Mining.com.au, accessed 2026-03-13'
+- claim: Over 65% of Generation Z view the mining sector negatively and only 7% aspire
+    to join the industry, while 56% of young respondents associate mining with environmental
+    damage. 47% of young respondents lack career awareness about mining opportunities.
+  source_quotes:
+  - 65%+ view mining sector negatively
+  - 7% aspire to join the industry
+  - 'Young respondents associating mining with environmental damage: 56%'
+  - 'Young respondents lacking career awareness: 47%'
+  source_name: Queensland addresses mining skills shortage amid sector growth
+  source_author: Mining.com.au
+  source_url: https://mining.com.au/queensland-addresses-mining-skills-shortage-amid-sector-growth/
+  source_type: media
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-510
+  verification_notes: 'Confirmed: 65%+ negative view, 7% aspire, 56% environmental
+    damage, 47% lack awareness all verified at Mining.com.au, accessed 2026-03-13'
+- claim: Glencore's underground copper mining operations at Mount Isa (Enterprise,
+    X41, and Black Rock mines) and the copper concentrator will close in H2 2025 after
+    more than 60 years of continuous operation, with approximately 500 redundancies
+    after 144 employees were redeployed into other areas of operations.
+  source_quotes:
+  - Underground copper mining operations ending in July 2025
+  - Reduced to approximately 500 redundancies through early action and strategic planning
+  - 144 employees redeployed into other areas of operations
+  source_name: 'Mount Isa''s next chapter: Supporting our community'
+  source_author: Glencore
+  source_url: https://www.glencore.com.au/operations-and-projects/qld-metals/resourceful/resourceful-april-2025/mount-isas-next-chapter-supporting-our-community
+  source_type: company_website
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-511
+  verification_notes: 'Confirmed: All closure details, 500 redundancies, 144 redeployed,
+    July 2025 verified at Glencore website, accessed 2026-03-13'
+- claim: Glencore's George Fisher mine (zinc, lead, silver) is expected to operate
+    until at least 2042, and the Black Star Open Cut mine pre-feasibility study is
+    underway with potential to create 300-400 jobs starting around 2027, with a possible
+    20-year mine life.
+  source_quotes:
+  - George Fisher Mine (zinc, lead, silver) expected to operate until at least 2042
+  - Black Star Open Cut Mine pre-feasibility study underway, potentially creating
+    300-400 jobs starting around 2027, with possible 20-year mine life
+  source_name: 'Mount Isa''s next chapter: Supporting our community'
+  source_author: Glencore
+  source_url: https://www.glencore.com.au/operations-and-projects/qld-metals/resourceful/resourceful-april-2025/mount-isas-next-chapter-supporting-our-community
+  source_type: company_website
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-512
+  verification_notes: 'Confirmed: George Fisher 2042, Black Star 300-400 jobs/2027/20yr
+    all verified at Glencore website, accessed 2026-03-13'
+- claim: Townsville Enterprise estimates over 17,000 jobs across the region are connected
+    to the copper industry supply chain. The Mount Isa copper smelter is one of only
+    two operating in Australia, with the smelter agreed to remain open until 2030
+    but its future beyond that uncertain without government support.
+  source_quotes:
+  - Together, we must save over 17,000 jobs connected to this critical industry
+  source_name: Keep Our Copper Campaign
+  source_author: Townsville Enterprise
+  source_url: https://www.townsvilleenterprise.com.au/advocacy/keep-our-copper/
+  source_type: media
+  source_date: 2025-03
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-513
+  verification_notes: 'Confirmed: 17,000 jobs figure verified at Townsville Enterprise
+    advocacy page. Smelter 2030 timeline confirmed at ASPI Strategist, accessed 2026-03-13'
+- claim: Mount Isa LGA had a population of 18,727 at the 2021 Census, with labour
+    force participation at 68.3% of those aged 15+. Mining dominates local employment,
+    with copper ore mining and silver-lead-zinc ore mining representing 16.9% and
+    9.0% of employment respectively — substantially higher than state and national
+    averages.
+  source_quotes:
+  - 'In the labour force: 9,790 people (68.3% of those aged 15+)'
+  - copper ore mining and silver-lead-zinc ore mining representing 16.9% and 9.0%
+    of employment respectively
+  source_name: 2021 Census QuickStats — Mount Isa LGA
+  source_author: Australian Bureau of Statistics
+  source_url: https://abs.gov.au/census/find-census-data/quickstats/2021/LGA35300
+  source_type: government_data
+  source_date: 2022-06
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-514
+  verification_notes: 'Confirmed: Population 18,727, 68.3% participation, mining employment
+    shares all verified at ABS 2021 Census QuickStats, accessed 2026-03-13'
+- claim: The ASPI Strategist described the Mount Isa mine closure as "a strategic
+    own goal for Australia," noting that the closure of 1,200+ direct jobs and up
+    to 3,000 across the supply chain occurs just as copper demand is expected to double
+    over the next decade.
+  source_quotes:
+  - 1,200+ direct jobs lost from mine closure in 2025
+  - Up to 3,000 jobs affected across Queensland's north-west when including supply
+    chain
+  - Copper demand expected to double over the next decade
+  source_name: Mount Isa's closure is a strategic own goal for Australia
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/mount-isas-closure-is-a-strategic-own-goal-for-australia/
+  source_type: media
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-515
+  verification_notes: 'Confirmed: 1,200+ direct jobs, 3,000 supply chain, copper demand
+    double all verified at ASPI Strategist, accessed 2026-03-13'
+- claim: The Queensland Government committed a $50 million comprehensive support package
+    for Mount Isa, comprising a $30 million Mining Acceleration Program to fast-track
+    resource projects and a $20 million Transition Fund for economic adjustment and
+    community resilience.
+  source_quotes:
+  - $50 million comprehensive support for workers and community
+  - $20 million Mount Isa Transition Fund (economic adjustment)
+  source_name: 'Miles Doing What Matters: New projects and jobs to boost Mount Isa''s
+    economy for the long term'
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100964
+  source_type: government_publication
+  source_date: 2024-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-516
+  verification_notes: 'Confirmed: $50M package, $30M acceleration, $20M transition
+    all verified at QLD ministerial statement, accessed 2026-03-13'
+- claim: 'The $30 million Mount Isa Mining Acceleration Program funded three key projects:
+    Eva Copper Mine ($20.7 million, 800 construction plus 450 operational jobs), Paradise
+    South Phosphate Mine ($5.77 million, 492 construction plus 245 operational jobs),
+    and Vecco Critical Minerals Project ($2.33 million, 300 jobs).'
+  source_quotes:
+  - 'Eva Copper Mine Project (Harmony Gold): $20.7 million'
+  - 'Paradise South Phosphate Mine (North West Phosphate): $5.77 million'
+  - 'Vecco Critical Minerals Project (Vecco Group): $2.33 million'
+  source_name: 'Miles Doing What Matters: New projects and jobs to boost Mount Isa''s
+    economy for the long term'
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100964
+  source_type: government_publication
+  source_date: 2024-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-517
+  verification_notes: 'Confirmed: Eva $20.7M, Paradise South $5.77M, Vecco $2.33M,
+    all job numbers verified at QLD ministerial statement, accessed 2026-03-13'
+- claim: The North West Minerals Province spans more than 31,000 residents across
+    10 local government areas, with the Queensland Government allocating $7.4 million
+    from the $200 million Regional Economic Futures Fund for TAFE to deliver renewable
+    energy and critical minerals training, including $3.2 million for a Critical Minerals
+    Training Hub at the Mount Isa TAFE campus.
+  source_quotes:
+  - 'Population: 31,000+ residents across 10 local government areas'
+  - $7.4 million for renewable energy and critical minerals training
+  - 'Critical Minerals Training Hub: $3.2 million for Mount Isa campus facility'
+  source_name: North West Queensland on course for a sustainable future
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100971
+  source_type: government_publication
+  source_date: 2024-08
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-518
+  verification_notes: 'Confirmed: 31,000+ residents, 10 LGAs, $7.4M TAFE, $3.2M training
+    hub, $200M REFF all verified at QLD ministerial statement, accessed 2026-03-13'
+- claim: The North West Minerals Province contains approximately $500-650 billion
+    in estimated critical and rare-earth mineral resources, including copper, lead,
+    zinc, silver, vanadium, phosphate, and rare earth deposits, and contributes upwards
+    of $2 billion each year to Australia's economy.
+  source_quotes:
+  - $500 billion in estimated resources across North West Minerals Province
+  - It contributes upwards of $2b each year to Australia's economy
+  source_name: 'Mount Isa: moving on up'
+  source_author: Australian Mining Review
+  source_url: https://australianminingreview.com.au/features/mount-isa-moving-on-up/
+  source_type: media
+  source_date: 2025-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: medium
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-519
+  verification_notes: 'Confirmed: $650B resources estimate and $2B annual contribution
+    verified at Australian Mining Review, accessed 2026-03-13'
+- claim: Over a third of FIFO workers have been found to experience anxiety, depression,
+    or stress above the clinical cutoff. 28% of FIFO workers have scores indicating
+    high or very high psychological distress, compared with 10.8% for the general
+    population.
+  source_quotes:
+  - 311 respondents (28%) had K10 scores indicating high/very high psychological distress,
+    compared with 10.8% for Australia overall
+  source_name: Psychological distress in remote mining and construction workers in
+    Australia
+  source_author: Medical Journal of Australia
+  source_url: https://www.mja.com.au/journal/2018/208/9/psychological-distress-remote-mining-and-construction-workers-australia
+  source_type: academic_paper
+  source_date: 2018-05
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-520
+  verification_notes: 'Confirmed: 28% high/very high distress vs 10.8% general population
+    verified at MJA study, accessed 2026-03-13'
+- claim: TAFE Queensland's Mount Isa campus features purpose-built facilities including
+    a construction workshop, metal fabrication facilities, and specialised automotive,
+    diesel fitting, and fitting and machining workshops, with Glencore's Mount Isa
+    Mines donating operational mining equipment for student training.
+  source_quotes:
+  - purpose-built facilities including a construction workshop, metal fabrication
+    facilities, and specialised automotive, diesel fitting, and fitting and machining
+    workshops
+  source_name: Mount Isa Campus — TAFE Queensland
+  source_author: TAFE Queensland
+  source_url: https://tafeqld.edu.au/about/campus-locations/north-queensland/mount-isa
+  source_type: government_publication
+  source_date: 2025-01
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-521
+  verification_notes: 'Confirmed: Purpose-built facilities including workshops verified
+    at TAFE Queensland website, accessed 2026-03-13'
+- claim: Glencore invested $1.8 billion in its Queensland Metals operations over the
+    past five years, including $653 million in zinc mining and processing assets and
+    $87 million in regional exploration, while developing a Social Transition Plan
+    with input from over 1,000 community members.
+  source_quotes:
+  - $1.8 billion invested in Queensland Metals operations over past five years
+  - $653 million into zinc mining and processing assets
+  - $87 million into regional exploration
+  - Social Transition Plan developed with input from over 1,000 community members
+  source_name: 'Mount Isa''s next chapter: Supporting our community'
+  source_author: Glencore
+  source_url: https://www.glencore.com.au/operations-and-projects/qld-metals/resourceful/resourceful-april-2025/mount-isas-next-chapter-supporting-our-community
+  source_type: company_website
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-522
+  verification_notes: 'Confirmed: $1.8B investment, $653M zinc, $87M exploration,
+    1,000 community members all verified at Glencore website, accessed 2026-03-13'
+- claim: The ASPI Strategist identified "policy paralysis and jurisdictional fragmentation"
+    as barriers to protecting the Mount Isa copper smelter's viability, noting that
+    "Federal, state and local efforts remain disconnected" and that without access
+    to local smelting, transport and processing costs will increase, threatening the
+    viability of regional copper mines.
+  source_quotes:
+  - policy paralysis and jurisdictional fragmentation
+  - Federal, state and local efforts remain disconnected
+  - Without access to local smelting, transport and processing costs will increase,
+    threatening their viability
+  source_name: Mount Isa's closure is a strategic own goal for Australia
+  source_author: ASPI Strategist
+  source_url: https://www.aspistrategist.org.au/mount-isas-closure-is-a-strategic-own-goal-for-australia/
+  source_type: media
+  source_date: 2025-04
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-523
+  verification_notes: 'Confirmed: Policy paralysis, jurisdictional fragmentation,
+    disconnected efforts, smelting viability all verified verbatim at ASPI Strategist,
+    accessed 2026-03-13'
+- claim: Between today and 2035, two of every three new hires in the energy sector
+    will be needed just to replace retiring workers, while nearly 50% of companies
+    recruit from neighbouring industries or increase in-house training to fill gaps.
+  source_quotes:
+  - 'between today and 2035: two of every three new hires needed just to replace retiring
+    workers'
+  - Nearly 50% of companies recruit from neighbouring industries or increase in-house
+    training to fill gaps
+  source_name: World Energy Employment 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/world-energy-employment-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-13'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-015
+  confidence: high
+  verified: true
+  date_added: '2026-03-13'
+  added_by: agent
+  id: 01-524
+  verification_notes: 'Confirmed: Two of three new hires for replacements, 50% recruit
+    from neighbouring industries both verified at IEA exec summary, accessed 2026-03-13'

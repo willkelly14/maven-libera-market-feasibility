@@ -221,3 +221,20 @@
   fact_count: 50
   fact_range: 01-425 to 01-474
   id: DOC-014
+- id: DOC-015
+  title: Global & Regional Mining Workforce Constraints
+  type: research_report
+  section: 01_Macro_Context
+  content_file: 13_Global_Regional_Mining_Workforce_Constraints.md
+  description: Assesses the current and projected global shortage of geoscientists,
+    metallurgists, mineral processing engineers, and laboratory scientists relevant
+    to critical minerals development. Documents workforce gaps across major mining
+    jurisdictions, age profiles and retirement trajectories, university enrolment
+    and graduation trends, workforce constraints on project development, and NWMP-specific
+    workforce context including FIFO dynamics, Mount Isa liveability, and training
+    infrastructure.
+  status: draft
+  date_created: '2026-03-13'
+  last_updated: '2026-03-13'
+  fact_count: 50
+  fact_range: 01-475 to 01-524
