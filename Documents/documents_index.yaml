@@ -293,3 +293,21 @@
   last_updated: '2026-03-14'
   fact_count: 45
   fact_range: 01-626 to 01-683
+- id: DOC-019
+  title: Transport, Energy, and Water Infrastructure Constraints on Mineral Supply
+    Response
+  type: research_report
+  section: 01_Macro_Context
+  description: Assesses whether physical infrastructure is a binding constraint on
+    scaling mineral production globally and in Australia. Covers port capacity and
+    shipping route congestion, rail and road logistics in major mining provinces,
+    energy supply adequacy and cost for mineral processing, water availability constraints
+    in arid mining jurisdictions, NWMP-specific infrastructure position (Mount Isa-Townsville
+    rail corridor, CopperString, water allocations), and lead times and capital costs
+    for infrastructure expansion.
+  content_file: 17_Infrastructure_Constraints_Mineral_Supply_Response.md
+  status: draft
+  date_created: '2026-03-14'
+  last_updated: '2026-03-14'
+  fact_count: 44
+  fact_range: 01-684 to 01-727

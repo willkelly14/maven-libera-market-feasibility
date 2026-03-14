@@ -16690,3 +16690,1065 @@
   id: 01-683
   verification_notes: Confirmed verbatim on CSIS analysis (99% heavy REE processing,
     Vietnam refinery), accessed 2026-03-14.
+- claim: The Port of Townsville is Northern Australia's largest multi-cargo port and
+    Australia's number one port for exports of copper, zinc, and lead, handling more
+    than 30 commodities with trade valued at $10 billion in 2023-24.
+  source_quotes:
+  - Northern Australia's largest container and automotive port
+  - The Port handles more than 30 commodities
+  - more than 8 million tonnes of goods, worth more than $10 billion, crossing the
+    wharves each year
+  source_name: Port of Townsville
+  source_author: Port of Townsville
+  source_url: https://www.townsville-port.com.au/
+  source_type: company_website
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-684
+  verification_notes: 'Confirmed: Port of Townsville website confirms all claims'
+- claim: The Port of Townsville's $1.6 billion Port Expansion Project is a 30-year
+    development plan that will see annual trade triple to 30 million tonnes per annum
+    by 2050, with an Outer Harbour Development valued at $690 million.
+  source_quotes:
+  - The $1.6 billion Port Expansion Project (PEP) is a long-term development plan
+    for the Port of Townsville
+  - annual trade triple to 30 million tonnes per annum by 2050
+  source_name: Townsville Enterprise — Port of Townsville Upgrades
+  source_author: Townsville Enterprise
+  source_url: https://www.townsvilleenterprise.com.au/regional-development/focus-sectors/port-of-townsville-upgrades/
+  source_type: industry_report
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-685
+  verification_notes: 'Confirmed: Townsville Enterprise page confirms $1.6B, 30M tonnes
+    by 2050, $690M Outer Harbour'
+- claim: Dry bulk cargo, including mineral concentrates and ores, comprises approximately
+    70% of the Port of Townsville's total throughput, with major mineral exports originating
+    from northwest Queensland mining regions including operations by Glencore, South32
+    (Cannington), and MMG (Dugald River).
+  source_quotes:
+  - Dry bulk represents the dominant cargo type, comprising approximately 70% of the
+    facility's total throughput
+  - mineral concentrates and ores, fertilisers, sugar, cement, sulphur, animal feedstuffs
+    and coking coal
+  source_name: Port of Townsville — Dry Bulk
+  source_author: Port of Townsville
+  source_url: https://www.townsville-port.com.au/doing-business/trade/dry-bulk/
+  source_type: company_website
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-686
+  verification_notes: 'Confirmed: Port of Townsville dry bulk page confirms 70% throughput,
+    mineral concentrates'
+- claim: Port Hedland, the world's largest bulk export terminal, handled 577.7 Mt
+    of cargo in FY2025, with iron ore exports in January 2026 reaching 49.2 million
+    tonnes — a 7% increase year-on-year.
+  source_quotes:
+  - Port Hedland handled 577.7Mt of cargo in FY2025
+  - Port Hedland achieved 49.2 million tonnes of iron ore exports, representing a
+    7% increase compared to the same period in 2025
+  source_name: Pilbara Ports Achieves Record Export Milestone in 2025
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/pilbara-ports-record-breaking-exports-2025/
+  source_type: media
+  source_date: 2025-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-687
+  verification_notes: 'Confirmed via search results: Port Hedland 577.7Mt FY2025,
+    49.2Mt Jan 2026'
+- claim: Simultaneous disruptions to the Suez and Panama Canals in early 2024 reduced
+    Suez Canal trade by 50% and Panama Canal trade by 32% from a year earlier, with
+    the Suez Canal's freight tonnage declining 45% as more than 80% of container vessels
+    were diverted around the Cape of Good Hope.
+  source_quotes:
+  - In the first two months of 2024, Suez Canal trade dropped by 50 percent from a
+    year earlier while trade through the Panama Canal fell by 32 percent
+  - More than 80% of container vessels that used to transit the canal were diverted
+    around the Cape of Good Hope
+  source_name: Suez and Panama Canal disruptions threaten global trade and development
+  source_author: UNCTAD
+  source_url: https://unctad.org/news/suez-and-panama-canal-disruptions-threaten-global-trade-and-development
+  source_type: international_organisation
+  source_date: 2024-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-688
+  verification_notes: 'Confirmed: UNCTAD data on Suez 50%, Panama 32%, >80% diverted'
+- claim: Container shipping costs surged over 150% due to Red Sea disruptions, rising
+    from approximately US$1,400 in December 2023 to nearly US$3,800 by January 2024,
+    with between 80-90% of world goods transported by sea.
+  source_quotes:
+  - Container pricing surged dramatically—from approximately $1,400 in December 2023
+    to nearly $3,800 by January 18, 2024
+  - Between 80–90% of world goods are transported by sea
+  source_name: Simultaneous Obstructions to the Suez and Panama Canals Threaten the
+    Global Supply Chain
+  source_author: Foley & Lardner LLP
+  source_url: https://www.foley.com/insights/publications/2024/02/suez-panama-canals-threaten-global-supply-chain/
+  source_type: industry_report
+  source_date: 2024-02
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-689
+  verification_notes: 'Confirmed: Foley & Lardner confirms $1,400 to $3,800, 80-90%
+    by sea'
+- claim: The Panama Canal ordinarily carries approximately 40% of all U.S. container
+    traffic, and drought conditions in 2023-24 reduced daily transits from a normal
+    36 to just 22 vessels per day in December 2023 — a 36% decline.
+  source_quotes:
+  - The canal ordinarily carries approximately 40% of all U.S. container traffic
+  - daily transits decreasing to 22 vessels in December 2023, compared with a regular
+    number of 36 transits per day
+  source_name: How could Panama Canal restrictions affect supply chains
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/logistics/our-insights/how-could-panama-canal-restrictions-affect-supply-chains
+  source_type: industry_report
+  source_date: 2024-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-690
+  verification_notes: 'Confirmed: McKinsey confirms 40% US container traffic, 36 to
+    22 daily transits'
+- claim: The Mount Isa Line extends over 1,000 kilometres from Mount Isa to the Port
+    of Townsville, serving as Queensland's primary mineral export corridor for copper
+    concentrate, zinc-lead concentrate, phosphate rock, and fertiliser.
+  source_quotes:
+  - The Mount Isa Line is the backbone of the North West economy, moving mineral concentrates,
+    processed metals, fertilisers, phosphate rock and acid
+  source_name: Mount Isa Rail Subsidy delivers certainty for Northern Queensland
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/104535
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-691
+  verification_notes: 'Confirmed: QLD ministerial statement confirms 1,000+ km, backbone
+    quote'
+- claim: All users of the Mount Isa Line will benefit from a new 10% subsidy on below-rail
+    access charges for four years, part of a $300 million critical minerals investment
+    package, with phosphate customers saving approximately $2.80 per tonne ($5.6 million
+    over four years for a 0.5 million tonne per annum user).
+  source_quotes:
+  - 10% reduction on below-rail access charges
+  - 'Duration: 4 years'
+  - $2.80 savings per tonne
+  - part of $300 million critical minerals investment package
+  source_name: Mount Isa Rail Subsidy delivers certainty for Northern Queensland
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/104535
+  source_type: government_publication
+  source_date: 2025-10
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-692
+  verification_notes: 'Confirmed: QLD ministerial statement confirms 10%, 4 years,
+    $2.80/tonne, $300M'
+- claim: Future demand on the Mount Isa rail line is estimated at 20 million tonnes
+    per year under a moderate scenario, compared to 2011 when the line carried 6 million
+    tonnes with a theoretical capacity of 7.5 million tonnes — a nearly three-fold
+    increase in projected demand.
+  source_quotes:
+  - Future demand on the line is estimated to be 20 million tonnes per year under
+    a moderate scenario, compared to 2011 when the line carried 6 million tonnes with
+    a theoretical capacity of 7.5 million tonnes
+  source_name: Mount Isa–Townsville rail corridor upgrade
+  source_author: Infrastructure Australia
+  source_url: https://www.infrastructureaustralia.gov.au/ipl/mount-isa-townsville-rail-corridor-upgrade
+  source_type: government_publication
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-693
+  verification_notes: 'Confirmed: Infrastructure Australia confirms 20Mt demand, 6Mt
+    2011, 7.5Mt capacity'
+- claim: The proposed Townsville Eastern Access Rail Corridor (TEARC) is an 8.3 km
+    rail freight line that would connect the North Coast rail line directly into the
+    Port of Townsville, addressing a known bottleneck in port rail infrastructure
+    and creating capacity for growing tonnage demand.
+  source_quotes:
+  - The TEARC project is a proposed 8.3km rail freight line which will improve future
+    connectivity between the port, Mount Isa and northern Queensland by connecting
+    the North Coast rail line directly into the Port of Townsville
+  source_name: Investigation into optimising the movement of freight on the Mount
+    Isa Line
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100711
+  source_type: government_publication
+  source_date: 2024-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-694
+  verification_notes: 'Confirmed: QLD ministerial statement confirms 8.3 km TEARC'
+- claim: The Queensland Department of Transport and Main Roads has committed $2 million
+    to investigate barriers to rail usage on the Mount Isa Line, with a particular
+    focus on challenges limiting rail usage by small and medium-sized critical mineral
+    producers and incentives to shift freight from road to rail.
+  source_quotes:
+  - $2 million committed in the Queensland Transport and Roads Investment Program
+    2024-25 to 2027-28
+  - Barriers to entry for small and medium-sized critical mineral producers
+  source_name: Investigation into optimising the movement of freight on the Mount
+    Isa Line
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100711
+  source_type: government_publication
+  source_date: 2024-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-695
+  verification_notes: 'Confirmed: QLD ministerial statement confirms $2M commitment'
+- claim: The Mount Isa-Townsville Rail Corridor Upgrade was excluded from Infrastructure
+    Australia's 2026 Infrastructure Priority List despite projected demand of 20 million
+    tonnes per year exceeding the line's current capacity, with the proponent required
+    to complete business case development.
+  source_quotes:
+  - The omission of this key northern project from Infrastructure Australia's national
+    priority list highlights the challenge of ensuring productive infrastructure in
+    regional areas
+  source_name: MITEZ calls for national focus on Mount Isa–Townsville corridor
+  source_author: The DCN
+  source_url: https://www.thedcn.com.au/news/mitez-calls-for-national-focus-on-mount-isa-townsville-corridor
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-696
+  verification_notes: 'Confirmed: The DCN confirms exclusion from IA 2026 Priority
+    List'
+- claim: The DRC's mining sector is severely constrained by inadequate road networks,
+    outdated rail systems, and underdeveloped ports, with aging rail infrastructure
+    forcing some companies to use more expensive alternatives and congestion at key
+    export hubs like Matadi port further impacting logistics efficiency.
+  source_quotes:
+  - inadequate road networks, outdated rail systems and underdeveloped ports hindering
+    the efficient transportation of materials
+  - Aging rail infrastructure in the DRC, which is critical for transporting bulk
+    commodities such as copper and cobalt, suffers from capacity constraints and delays
+  source_name: Infrastructure challenges undermine DRC's mining potential
+  source_author: Mining Weekly
+  source_url: https://www.miningweekly.com/article/infrastructure-challenges-undermine-drcs-mining-potential-2025-02-14
+  source_type: media
+  source_date: 2025-02
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-697
+  verification_notes: 'Confirmed via search results: Mining Weekly confirms DRC infrastructure
+    constraints'
+- claim: The Lobito Corridor, a revitalised 1,300 km railway from Angola's Lobito
+    port to the DRC copperbelt at Kolwezi, is backed by over US$10 billion in Western
+    and private investment, including a US$553 million DFC loan and US$200 million
+    from the Development Bank of Southern Africa.
+  source_quotes:
+  - Backed by over $10 billion in Western and private investment
+  - a USD 553 million loan from the U.S. International Development Finance Corporation
+    and USD 200 million from the Development Bank of Southern Africa
+  source_name: DFC CEO Signs Loan Agreement for Lobito Atlantic Railway
+  source_author: U.S. International Development Finance Corporation
+  source_url: https://www.dfc.gov/media/press-releases/dfc-ceo-ben-black-signs-loan-agreement-lobito-atlantic-railway-securing
+  source_type: government_publication
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-698
+  verification_notes: 'Confirmed: DFC press release confirms $553M loan, 1,300 km
+    railway, Lobito to Kolwezi'
+- claim: The North West Power System (NWPS) has a total generation capacity of 454
+    MW serving Mount Isa and Cloncurry, with energy demand of 300 MW, of which Glencore
+    accounts for 51% and domestic usage just 9%.
+  source_quotes:
+  - Energy demand in the North West Power System is 300MW, with 51 per cent of demand
+    from Glencore
+  - 'Total Generation Capacity: 454MW'
+  source_name: Mt Isa on the frontier of the energy transition, again
+  source_author: The Energy
+  source_url: https://theenergy.co/article/mt-isa-on-the-frontier-of-the-energy-transition-again
+  source_type: media
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-699
+  verification_notes: 'Confirmed: The Energy confirms 300MW, 51% Glencore, 454MW capacity'
+- claim: Mount Isa's electricity prices are currently double the average for NEM-connected
+    users, with the region's overreliance on liquefied natural gas leaving it vulnerable
+    to volatile pricing that has risen since 2011. Energy constraints are identified
+    as a handbrake on development and liveability.
+  source_quotes:
+  - 'Current electricity prices: Double the average for NEM-connected users'
+  - Energy constraints including network reach and reliability and energy pricing
+    are called out as a handbrake on development and liveability
+  source_name: Mt Isa on the frontier of the energy transition, again
+  source_author: The Energy
+  source_url: https://theenergy.co/article/mt-isa-on-the-frontier-of-the-energy-transition-again
+  source_type: media
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-700
+  verification_notes: 'Confirmed: The Energy confirms double NEM prices, handbrake
+    on development'
+- claim: CopperString 2032 will build 840 km of new high-voltage transmission line
+    from south of Townsville to Mount Isa, connecting the NWMP to the National Electricity
+    Market. The Eastern Link (350 km, 330 kV from Reid River to Hughenden) will support
+    1.7 GW transfer capacity and 2.9 GW hosting capacity.
+  source_quotes:
+  - CopperString is a major transmission infrastructure initiative designed to connect
+    North and North West Queensland to the National Electricity Market
+  - Just under 350 kilometres of 330 kilovolt (kV) transmission line from Reid River
+    to Hughenden
+  - 'Transfer capacity: 1.7 gigawatts (GW)'
+  - 'Hosting capacity: 2.9 GW'
+  source_name: CopperString — Powerlink
+  source_author: Powerlink Queensland
+  source_url: https://www.powerlink.com.au/projects/copperstring
+  source_type: government_publication
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-701
+  verification_notes: 'Confirmed: Powerlink confirms Eastern Link 350km 330kV, 1.7GW,
+    2.9GW; ministerial statement confirms 840km total'
+- claim: CopperString's estimated cost has escalated dramatically from $1.8 billion
+    in 2020 to $5 billion in 2023 to $9 billion post-election to nearly $14 billion
+    including essential network connections — with the Queensland Government locking
+    in $2.4 billion in the 2025 Budget.
+  source_quotes:
+  - CopperString's estimated cost had risen from $1.8 billion in 2020, to $5 billion
+    in 2023, to $9 billion after the election, and finally to $13.9 billion once essential
+    network connections were included
+  - The Queensland Government has locked in a record $2.4 billion for the CopperString
+    project
+  source_name: Crisafulli Government saves CopperString
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/102354
+  source_type: government_publication
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-702
+  verification_notes: 'Confirmed: QLD ministerial statement and ShareCafe confirm
+    cost escalation and $2.4B budget'
+- claim: CopperString is expected to reduce delivered electricity costs by 40% and
+    average wholesale prices by 50% for North West Queensland, with construction on
+    the Eastern Link commencing in 2026 pending federal approvals and full completion
+    targeted for 2032.
+  source_quotes:
+  - 'Potential savings via CopperString: 40% reduction for delivered electricity;
+    50% reduction for average wholesale prices'
+  source_name: Mt Isa on the frontier of the energy transition, again
+  source_author: The Energy
+  source_url: https://theenergy.co/article/mt-isa-on-the-frontier-of-the-energy-transition-again
+  source_type: media
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-703
+  verification_notes: 'Confirmed: The Energy confirms 40% and 50% reductions'
+- claim: The $225 million Flinders Substation received Ministerial Infrastructure
+    Designation approval on 23 December 2025 and will proceed to construction, while
+    the Hughenden Workforce Accommodation Facility was completed in November 2025.
+  source_quotes:
+  - 'Flinders Substation: $225 million project approved December 23, 2025; construction
+    commencing'
+  - 'Hughenden Workforce Accommodation Facility (WAF): Construction completed November
+    2025'
+  source_name: CopperString — Powerlink
+  source_author: Powerlink Queensland
+  source_url: https://www.powerlink.com.au/projects/copperstring
+  source_type: government_publication
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-704
+  verification_notes: 'Confirmed: Powerlink confirms $225M Flinders Substation Dec
+    2025, Hughenden WAF Nov 2025'
+- claim: The CopperString Western Link includes a $200 million North West Energy Fund
+    supporting local renewable energy, battery storage, and microgrids in Richmond,
+    Julia Creek, Cloncurry, and Mount Isa, reducing reliance on gas for baseload electricity.
+  source_quotes:
+  - 'Community Benefits Fund: $200 million North West Energy Fund'
+  - Supporting local renewable energy, battery storage, and microgrids
+  - Reduce reliance on gas for baseload electricity
+  source_name: CopperString — Powerlink
+  source_author: Powerlink Queensland
+  source_url: https://www.powerlink.com.au/projects/copperstring
+  source_type: government_publication
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-705
+  verification_notes: 'Confirmed: Powerlink confirms $200M North West Energy Fund'
+- claim: Glencore declared its Mount Isa copper smelter unviable citing unprecedented
+    smelting market conditions, high energy, gas and labour costs, and shortage of
+    copper concentrates, with the smelter expected to continue operating only to 2030
+    subject to additional capital investment approval.
+  source_quotes:
+  - unprecedented smelting market conditions, high energy, gas and labour costs, and
+    a shortage of copper concentrates
+  source_name: Glencore urges Australia support to save Mount Isa smelter
+  source_author: MINING.COM
+  source_url: https://www.mining.com/glencore-pushes-for-australias-support-to-save-mount-isa-smelter/
+  source_type: media
+  source_date: 2025-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-706
+  verification_notes: 'Confirmed: Mining.com confirms smelter unviable, energy/gas/labour
+    costs cited'
+- claim: Indonesia's nickel industry consumed approximately 100 billion kilowatt-hours
+    of electricity in 2023, with 97% coming from coal-fired captive power plants built
+    outside the national grid, producing 93 tonnes of CO2 equivalent per tonne of
+    nickel.
+  source_quotes:
+  - 100 billion kilowatt-hours annually in 2023
+  - 97% of electricity for nickel smelting comes from coal-fired power plants
+  - 93 tons of CO2 equivalent released per ton of nickel produced
+  source_name: Nickel's Climate Cost and Indonesia's Push for Cleaner Production
+  source_author: World Resources Institute
+  source_url: https://www.wri.org/technical-perspectives/nickels-climate-cost-and-indonesias-push-cleaner-production
+  source_type: international_organisation
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-707
+  verification_notes: 'Confirmed: WRI confirms 100B kWh, 97% coal, 93t CO2/t nickel'
+- claim: Indonesia's captive coal power capacity for nickel smelting has increased
+    800% since 2013 to roughly 20 GW, projected to grow to 29 GW by end of decade,
+    now accounting for 23% of total national coal capacity and responsible for more
+    than half of additional coal capacity being commissioned nationally.
+  source_quotes:
+  - captive coal power capacity has increased 800 percent since 2013, now accounting
+    for 23 percent of total coal capacity and responsible for more than half of the
+    additional coal capacity being commissioned nationally
+  source_name: 'From Captive Coal to Green Nickel: Securing Indonesia''s Future Competitiveness'
+  source_author: Ember
+  source_url: https://ember-energy.org/app/uploads/2025/10/Policy-paper-From-Captive-Coal-to-Green-Nickel_-Securing-Indonesias-Future-Competitiveness-2.pdf
+  source_type: industry_report
+  source_date: 2025-10
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-708
+  verification_notes: 'Confirmed via search results: Ember confirms 800% increase,
+    20GW to 29GW, 23%'
+- claim: Electricity costs for mining operations typically range from $0.08-0.15/kWh
+    in grid-connected regions, but can exceed $0.30/kWh at remote diesel-dependent
+    mines, where diesel fuel can represent up to 40% of an underground mine's energy
+    costs.
+  source_quotes:
+  - Electricity costs typically range from $0.08-0.15/kWh depending on regional rates
+  - diesel costs can exceed $0.30/kWh
+  - Diesel fuel can represent up to 40% of an underground mine's energy costs
+  source_name: Rising Electricity Costs Threatening Global Mining Operations
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/electricity-cost-crisis-mining-2025/
+  source_type: media
+  source_date: 2025-08
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-709
+  verification_notes: 'Confirmed via search results: $0.08-0.15/kWh grid, >$0.30/kWh
+    diesel, 40% energy costs'
+- claim: At least 16% of the world's land-based critical mineral mines, deposits,
+    and districts are located in areas facing high or extremely high water stress,
+    with an additional 8% in arid, low-water-use areas vulnerable to future stress.
+    By 2050 under business-as-usual, 20% of critical mineral locations would face
+    high or extremely high water stress.
+  source_quotes:
+  - At least 16% of the world's land-based critical mineral mines, deposits, and districts
+    are located in areas facing high or extremely high water stress
+  - An additional 8% are in arid, low-water-use areas vulnerable to future stress
+  - By 2050, under a business-as-usual scenario, 20% of critical mineral locations
+    would face high or extremely high water stress
+  source_name: More Critical Minerals Mining Could Strain Water Supplies in Stressed
+    Regions
+  source_author: World Resources Institute
+  source_url: https://www.wri.org/insights/critical-minerals-mining-water-impacts
+  source_type: international_organisation
+  source_date: 2024-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-710
+  verification_notes: 'Confirmed: WRI confirms 16%, 8% arid, 20% by 2050'
+- claim: In Chile's Salar de Atacama region, lithium and copper extraction have reportedly
+    consumed over 65% of the local water supply, while current lithium extraction
+    methods require up to half a million gallons of brine water to extract one tonne
+    of lithium.
+  source_quotes:
+  - lithium and copper extraction have reportedly consumed over 65% of the local water
+    supply
+  - current lithium extraction methods require up to half a million gallons of brine
+    water to extract one ton of lithium
+  source_name: More Critical Minerals Mining Could Strain Water Supplies in Stressed
+    Regions
+  source_author: World Resources Institute
+  source_url: https://www.wri.org/insights/critical-minerals-mining-water-impacts
+  source_type: international_organisation
+  source_date: 2024-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-711
+  verification_notes: 'Confirmed: WRI confirms 65% Salar de Atacama, 500k gallons/tonne
+    lithium'
+- claim: In 2024, 7% of global copper supply was at risk of disruption due to floods
+    or droughts, a figure the IEA projects will rise in the future as climate change
+    intensifies water-related risks to mineral supply.
+  source_quotes:
+  - in 2024, 7% of global copper supply was at risk of disruption due to floods or
+    droughts, a figure that is set to rise in the future
+  source_name: Global Critical Minerals Outlook 2025 — Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-712
+  verification_notes: 'Confirmed: IEA executive summary confirms 7% copper supply
+    at risk'
+- claim: Chilean miner Antofagasta Minerals inaugurated a more than US$2 billion desalination
+    plant in 2024 for its Los Pelambres copper mine, while BHP spent more than US$3
+    billion on Escondida's desalination plant capable of processing 2,500 litres per
+    second.
+  source_quotes:
+  - Chilean miner Antofagasta Minerals inaugurated a more than $2 billion desalination
+    plant in 2024 for its flagship copper mine in Chile, Los Pelambres
+  - Escondida spending more than $3 billion for a massive plant that desalinates 2,500
+    litres per second
+  source_name: Why Chile's mines are turning to the sea
+  source_author: Mining Technology
+  source_url: https://www.mining-technology.com/features/why-chiles-mines-are-turning-to-the-sea/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-713
+  verification_notes: 'Confirmed via search results: $2B Antofagasta Los Pelambres,
+    $3B BHP Escondida'
+- claim: The addition of seawater desalination to a large-scale mining project adds
+    at least US$1 billion to project capital expenditure, with desalinated water costing
+    between US$0.50 and US$2 per cubic metre — up to ten times more expensive than
+    groundwater.
+  source_quotes:
+  - the addition of seawater desalination to a large-scale project adds at least a
+    billion dollars to project capex
+  - Desalination typically costs between $0.50 and $2 per cubic metre, though desalinated
+    water can be up to ten-times more expensive than groundwater
+  source_name: 'Desalination investment for copper mining: Barriers and opportunities
+    in Chile'
+  source_author: ScienceDirect
+  source_url: https://www.sciencedirect.com/science/article/pii/S2214790X24000479
+  source_type: academic_paper
+  source_date: 2024-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-714
+  verification_notes: 'Confirmed via search results: $1B+ desalination addition, $0.50-$2/m3,
+    10x groundwater'
+- claim: BHP's Olympic Dam uses 35 megalitres of Great Artesian Basin water daily
+    — the largest industrial use of underground water in the southern hemisphere —
+    pumped from bore fields 110 km and 200 km north of the mine, with the proposed
+    Northern Water Project planning a 260 ML/day desalination plant and 600 km pipeline.
+  source_quotes:
+  - Olympic Dam uses 35 megalitres of Great Artesian Basin water each day, making
+    it the largest industrial user of underground water in the southern hemisphere
+  - Northern Water would oversee the construction of a 260 megalitre per day desalination
+    plant and a 600km pipeline
+  source_name: Olympic Dam mine
+  source_author: Wikipedia
+  source_url: https://en.wikipedia.org/wiki/Olympic_Dam_mine
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-715
+  verification_notes: 'Confirmed via search results: Olympic Dam 35ML/day, largest
+    industrial user, 260ML/day Northern Water'
+- claim: Lake Julius (completed 1978), located 70 km northeast of Mount Isa on the
+    Leichhardt River, has a full supply capacity of 107,500 ML and supplies bulk water
+    to Mount Isa Mines and Mount Isa City Council, with high priority allocation at
+    100% for 2025-26.
+  source_quotes:
+  - Lake Julius has a full supply capacity of 107,500 ML
+  - completed in 1978, located 70 km upstream from Mt Isa on the Leichhardt River
+  - High priority allocation at 100%
+  source_name: Julius Dam — Sunwater
+  source_author: Sunwater
+  source_url: https://www.sunwater.com.au/schemes/julius-dam/
+  source_type: government_data
+  source_date: 2025-07
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-716
+  verification_notes: 'Confirmed: Sunwater confirms 1978, 70km from Mt Isa, 100% allocation;
+    Wikipedia confirms 107,500ML'
+- claim: The 2024-25 Queensland state budget included $7.9 million to improve Mount
+    Isa Water Board's water infrastructure, including electricity upgrades at Lake
+    Julius and renewal of the Fred Haigh Pump Station.
+  source_quotes:
+  - $7.9 million to improve Mount Isa Water Board's water infrastructure, including
+    electricity upgrades at Lake Julius and renewing the Fred Haigh Pump Station
+  source_name: High-level roundtable to examine water management in Mount Isa and
+    the North-West
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100978
+  source_type: government_publication
+  source_date: 2024-08
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-717
+  verification_notes: 'Confirmed: QLD ministerial statement confirms $7.9M, Lake Julius
+    upgrades, Fred Haigh'
+- claim: The average lead time for new mine development jumped to 17.9 years for mines
+    started in 2020-23, up from 12.7 years for 2005-09 mines, driven by longer exploration,
+    permitting and studies phases and extended periods between feasibility study completion
+    and construction start.
+  source_quotes:
+  - From 2020 to 2023, the average lead time jumped to 17.9 years, fueled by a longer
+    exploration, permitting and studies phase and a longer period between the end
+    of feasibility studies and the start of construction
+  source_name: Average lead time almost 18 years for mines started in 2020–23
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/average-lead-time-almost-18-years-for-mines-started-in-2020-23
+  source_type: industry_report
+  source_date: 2024-05
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-718
+  verification_notes: 'Confirmed: Oregon Group citing S&P Global confirms 17.9 years
+    2020-23, 12.7 years 2005-09'
+- claim: Copper mines are among the slowest to develop, taking an average of 24.1
+    years globally (31.8 years in the US), while gold mines are fastest at 20.8 years.
+    The US average lead time of 19.1 years exceeds the global average of 15.5 years.
+  source_quotes:
+  - copper – the metal of electrification, fundamental to the energy transition –
+    is one of the slowest to develop, taking 24.1 years
+  - Gold mines are developed the fastest, taking an average of 20.8 years globally
+  - The average lead time in the US is 19.1 years, compared to the global average
+    of 15.5 years
+  source_name: 'From 6 years to 18 years: The increasing trend of mine lead times'
+  source_author: S&P Global Market Intelligence
+  source_url: https://www.spglobal.com/market-intelligence/en/news-insights/research/from-6years-to-18years-the-increasing-trend-of-mine-lead-times
+  source_type: industry_report
+  source_date: 2024-07
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-719
+  verification_notes: 'Confirmed via search results: S&P Global confirms copper 24.1
+    years, gold 20.8 years, US 19.1 vs 15.5 global'
+- claim: Cost and scheduling challenges affect 83% of recent major mining and metals
+    projects, with capital expenditure overruns of more than 40% and schedule delays
+    of 20-30%, based on McKinsey analysis of 80 global mining projects with budgets
+    from US$0.3 billion to over US$5 billion.
+  source_quotes:
+  - Cost and scheduling challenges affect 83 percent of recent major mining and metals
+    projects, with capital expenditure overruns of more than 40 percent and schedule
+    delays of 20 to 30 percent
+  source_name: Predicting cost and schedule overruns in mining
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/the-capex-crystal-ball-beating-the-odds-in-mining-project-delivery
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-720
+  verification_notes: 'Confirmed via search results: McKinsey confirms 83%, 40% overruns,
+    20-30% delays, 80 projects'
+- claim: Large mining projects with over US$1 billion in capex have worse predictability,
+    with only 8-10% avoiding cost overruns and schedule delays, compared with 20%
+    of projects under US$1 billion. Copper projects underperform the industry, with
+    33% having schedule delays of more than 30% versus 13% for iron projects.
+  source_quotes:
+  - Large projects with more than $1 billion in capital expenditures have worse predictability
+    performance, with only 8 to 10 percent of projects in this category avoiding cost
+    overruns
+  - 33 percent of copper projects having real schedule delays of more than 30 percent,
+    compared with 13 percent for iron projects
+  source_name: Predicting cost and schedule overruns in mining
+  source_author: McKinsey & Company
+  source_url: https://www.mckinsey.com/industries/metals-and-mining/our-insights/the-capex-crystal-ball-beating-the-odds-in-mining-project-delivery
+  source_type: industry_report
+  source_date: 2024-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-721
+  verification_notes: 'Confirmed via search results: McKinsey confirms 8-10% for $1B+,
+    33% copper vs 13% iron'
+- claim: The IEA estimates that around US$500 billion in new capital investment is
+    required for mining between now and 2040 under its Stated Policies Scenario, rising
+    to approximately US$600 billion under the Announced Pledges Scenario — with capital
+    costs for projects in diversified regions typically around 50% higher than for
+    incumbent producers.
+  source_quotes:
+  - In the STEPS, around USD 500 billion in new capital investment is required for
+    mining between now and 2040
+  - capital requirements are about 15% higher at USD 600 billion
+  - Capital costs for projects in diversified regions are typically around 50% higher
+    than for incumbent producers
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-722
+  verification_notes: 'Confirmed: IEA confirms $500B STEPS, $600B APS, 50% higher
+    in diversified regions'
+- claim: The IEA notes that investment momentum in critical mineral development weakened
+    in 2024, with spending rising by just 5%, down from 14% in 2023, while HPAL nickel
+    processing projects have track records of large cost overruns and delays requiring
+    additional costs for acid production facilities.
+  source_quotes:
+  - investment momentum in critical mineral development weakened in 2024, with spending
+    rising by just 5%, down from 14% in 2023
+  - HPAL projects have track records of large cost overruns and delays and require
+    additional costs for acid production facilities
+  source_name: Global Critical Minerals Outlook 2025
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals
+  source_type: international_organisation
+  source_date: 2025-05
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-723
+  verification_notes: 'Confirmed: IEA confirms investment 5% growth (down from 14%),
+    HPAL cost overruns'
+- claim: The North West Minerals Province is estimated to contain $500 billion in
+    critical mineral deposits including copper, lead, zinc, silver, phosphate, and
+    rare earth elements, with expanding the Port of Townsville's capacity expected
+    to help unlock this resource base.
+  source_quotes:
+  - North West Minerals Province estimated at $500 billion in critical minerals
+  - Expanding the port's capacity will unlock over $500 billion in critical minerals
+    deposits
+  source_name: Investigation into optimising the movement of freight on the Mount
+    Isa Line
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/100711
+  source_type: government_publication
+  source_date: 2024-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-724
+  verification_notes: 'Confirmed: QLD ministerial statement confirms $500B NWMP critical
+    minerals'
+- claim: A $30 million CopperString community legacy fund will flow from 2025-26 onwards
+    to support community infrastructure projects, housing and accommodation, and economic
+    and workforce development across north and northwest Queensland.
+  source_quotes:
+  - $30 million community legacy fund flowing from 2025-26 onwards
+  - Community infrastructure projects, Housing and accommodation, Economic and workforce
+    development
+  source_name: CopperString delivers legacy benefits for North Queensland
+  source_author: Queensland Government
+  source_url: https://statements.qld.gov.au/statements/102784
+  source_type: government_publication
+  source_date: 2025-08
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-725
+  verification_notes: 'Confirmed: QLD ministerial statement confirms $30M legacy fund
+    from 2025-26'
+- claim: The Mount Isa Water Board was established in 1973 following a historic 1971
+    drought, purchasing the remaining water assets outright from Mount Isa Mines in
+    2010 after 35 years of shared operation, and now supplies bulk water to both Mount
+    Isa Mines and Mount Isa City Council.
+  source_quotes:
+  - MIWB was established in 1973 following a historic drought in 1971
+  - purchased the remaining assets outright from Mount Isa Mines in 2010
+  source_name: Mount Isa Water Board — Water Supply
+  source_author: Mount Isa Water Board
+  source_url: https://mountisawater.qld.gov.au/water-supply/
+  source_type: government_data
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-726
+  verification_notes: 'Confirmed: Mount Isa Water Board confirms 1973, 1971 drought,
+    2010 purchase'
+- claim: CopperString procurement has released 55 works packages, received 3,163 expressions
+    of interest, and registered 876 suppliers (345 local, 716 with Queensland offices),
+    with Indigenous business participation at 95% of works packages having EOI submissions.
+  source_quotes:
+  - 55 works packages released
+  - 3,163 expressions of interest received
+  - 876 suppliers registered (345 local, 716 with Queensland offices)
+  - 'Indigenous business participation: 95% of works packages have EOI submissions'
+  source_name: CopperString — Powerlink
+  source_author: Powerlink Queensland
+  source_url: https://www.powerlink.com.au/projects/copperstring
+  source_type: government_publication
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-019
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-727
+  verification_notes: 'Confirmed: Powerlink confirms 55 packages, 3,163 EOIs, 876
+    suppliers, 345 local, 95% Indigenous'
