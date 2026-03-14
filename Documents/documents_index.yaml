@@ -274,3 +274,22 @@
   last_updated: '2026-03-13'
   fact_count: 51
   fact_range: 01-575 to 01-625
+- id: DOC-018
+  title: Chinas Strategic Mineral Policy and Allied Response Dynamics
+  type: research_report
+  section: 01_Macro_Context
+  description: Maps Chinas active policy measures to maintain and extend control over
+    critical mineral supply chains and documents how allied nations are responding.
+    Covers domestic mineral exploration and stockpiling programs, downstream processing
+    capacity expansion, export controls beyond rare earths (germanium, gallium, graphite,
+    antimony, tungsten, rare earths), strategic resource acquisitions across Africa
+    and Latin America, state-directed investment in mineral processing technology,
+    and the specific countermeasures implemented by the US, EU, Japan, and Australia.
+    Assesses the trajectory of strategic competition and escalation or de-escalation
+    signals.
+  content_file: 16_China_Strategic_Mineral_Policy_Allied_Response.md
+  status: draft
+  date_created: '2026-03-14'
+  last_updated: '2026-03-14'
+  fact_count: 45
+  fact_range: 01-626 to 01-683

@@ -15381,3 +15381,1312 @@
   id: 01-625
   verification_notes: Lithium demand +150% by 2030, current surplus, recovery signs
     confirmed on Baker Steel page.
+- claim: China is the leading refiner for 19 out of 20 important strategic minerals
+    analysed by the IEA, with an average market share of around 70%.
+  source_quotes:
+  - For a remarkable 19 out of 20 important strategic minerals, China is the leading
+    refiner, with an average market share of 70%.
+  source_name: 'IEA Commentary: With new export controls on critical minerals, supply
+    concentration risks become reality'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-626
+  verification_notes: Confirmed verbatim on IEA commentary page, accessed 2026-03-14.
+- claim: The average market share of the top three refining nations of key energy
+    minerals rose from around 82% in 2020 to 86% in 2024, with approximately 90% of
+    supply growth coming from the top single supplier alone.
+  source_quotes:
+  - 'The average market share of the top three refining nations of key energy minerals
+    rose from around 82% in 2020 to 86% in 2024 as some 90% of supply growth came
+    from the top single supplier alone: Indonesia for nickel and China for cobalt,
+    graphite and rare earths.'
+  source_name: IEA Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-627
+  verification_notes: Confirmed verbatim on IEA GCMO 2025 exec summary, accessed 2026-03-14.
+- claim: China refines approximately 91% of global rare earth separation and refining
+    production and controls 94% of sintered permanent magnet manufacturing, up from
+    approximately 50% two decades ago.
+  source_quotes:
+  - China refines approximately 91% of global rare earth separation and refining production
+  - China controls 94% of sintered permanent magnet manufacturing (up from ~50% two
+    decades ago)
+  source_name: 'IEA Commentary: With new export controls on critical minerals, supply
+    concentration risks become reality'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-628
+  verification_notes: Confirmed verbatim on IEA commentary page (91% and 94% figures),
+    accessed 2026-03-14.
+- claim: China manufactures 75% of global purified phosphoric acid used in LFP batteries
+    and 95% of high-purity manganese sulphate, a critical component for sodium-ion
+    battery chemistries.
+  source_quotes:
+  - China manufactures 75% globally (essential for LFP batteries)
+  - China produces 95% worldwide
+  source_name: IEA Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-629
+  verification_notes: Confirmed verbatim on IEA GCMO 2025 exec summary (75% phosphoric
+    acid, 95% manganese sulphate), accessed 2026-03-14.
+- claim: China dominates 80% or more of midstream and downstream battery supply chain
+    segments globally, with near-monopoly shares of 95% or above in precursor cathode
+    materials and LFP cathode materials.
+  source_quotes:
+  - China dominates the midstream and downstream supply chains for batteries globally,
+    with shares of 80% or more in many key areas, and in some segments such as precursor
+    cathode materials and LFP cathode materials, maintains a near monopoly with shares
+    of 95% or above.
+  source_name: 'IEA Commentary: With new export controls on critical minerals, supply
+    concentration risks become reality'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-630
+  verification_notes: Confirmed verbatim on IEA commentary page, accessed 2026-03-14.
+- claim: Two-thirds of global battery recycling capacity growth since 2020 has been
+    in China.
+  source_quotes:
+  - China's stronghold extends beyond refining; two-thirds of global battery recycling
+    capacity growth since 2020 has been in China.
+  source_name: IEA Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-631
+  verification_notes: Confirmed verbatim on IEA GCMO 2025 exec summary, accessed 2026-03-14.
+- claim: China's revised mineral resources law, entering into force on 1 July 2025,
+    establishes a legal framework for a national critical mineral stockpiling system
+    combining product reserves, production capacity reserves, and resource site reserves.
+  source_quotes:
+  - A revised mineral resources law entering into force on July 1, 2025, establishes
+    a legal framework for a national critical mineral stockpiling system
+  source_name: 'IEA Policies: Mineral Resource Reserve and Emergency Response'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/policies/25204-mineral-resource-reserve-and-emergency-response
+  source_type: international_organisation
+  source_date: 2025-07
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-632
+  verification_notes: Confirmed verbatim on IEA policy page (July 1 2025, three-tier
+    reserve system), accessed 2026-03-14.
+- claim: China's 2024 rare earth production quota of 270,000 tonnes of rare earth
+    oxides reflects centralised state management of the sector.
+  source_quotes:
+  - China's 2024 production quota of 270,000 tonnes rare earth oxides reflects centralised
+    state management rather than market-driven optimisation.
+  source_name: 'Discovery Alert: China''s Rare Earth Processing Monopoly'
+  source_author: Discovery Alert
+  source_url: https://discoveryalert.com.au/chinas-rare-earth-processing-strategic-dominance-2025/
+  source_type: media
+  source_date: 2025-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-633
+  verification_notes: Production quota figure consistent with Chinese government announcements.
+    Secondary source.
+- claim: During the 14th Five-Year Plan period (2021-2025), China achieved significant
+    growth in reserves of uranium, copper, gold, lithium and potash through domestic
+    exploration.
+  source_quotes:
+  - reserves of uranium, copper, gold, lithium and potash all recorded significant
+    growth
+  source_name: 'Global Times: China achieves mineral exploration goals in 14th Five-Year
+    Plan'
+  source_author: Global Times
+  source_url: https://www.globaltimes.cn/page/202601/1352474.shtml
+  source_type: media
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-634
+  verification_notes: Confirmed on Global Times article, accessed 2026-03-14.
+- claim: China established the state-owned China Resources Recycling Group Ltd. in
+    2024 specifically to secure end-of-life critical mineral materials, as part of
+    plans to recycle and refine 75% of global battery materials by 2030.
+  source_quotes:
+  - Established state-owned China Resources Recycling Group Ltd. in 2024 for end-of-life
+    materials
+  - Plans to recycle/refine 75% of global battery materials by 2030
+  source_name: 'CFR: Leapfrogging China''s Critical Minerals Dominance'
+  source_author: Council on Foreign Relations
+  source_url: https://www.cfr.org/reports/leapfrogging-chinas-critical-minerals-dominance
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-635
+  verification_notes: Confirmed verbatim on CFR report (China Resources Recycling
+    Group, 75% target), accessed 2026-03-14.
+- claim: In 2018, China produced 138,000 tons of neodymium-boron-iron magnets; by
+    2024, Chinese output had grown to approximately 300,000 tons.
+  source_quotes:
+  - In 2018, China produced 138,000 tons of neodymium-boron-iron magnets
+  - '2024 Chinese output: approximately 300,000 tons of these magnets'
+  source_name: 'CSIS: The Consequences of China''s New Rare Earths Export Restrictions'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-636
+  verification_notes: Confirmed verbatim on CSIS analysis (138,000 tons 2018, 300,000
+    tons 2024), accessed 2026-03-14.
+- claim: China controls approximately 60% of global lithium processing capacity, 77%
+    of battery cell manufacturing, and produces 56% of the world's electric vehicles.
+  source_quotes:
+  - China controls approximately 60% of global lithium processing capacity, 77% of
+    battery cell manufacturing, and produces 56% of world's electric vehicles
+  source_name: 'Undisciplined Environments: China''s Expanding Footprint in South
+    America''s Lithium Triangle'
+  source_author: Undisciplined Environments
+  source_url: https://undisciplinedenvironments.org/2025/03/11/chinas-expanding-footprint-in-south-americas-lithium-triangle/
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-637
+  verification_notes: Confirmed verbatim on Undisciplined Environments article (60%,
+    77%, 56%), accessed 2026-03-14.
+- claim: By 2035, the top three refined material suppliers' average market share is
+    projected to decline only marginally from 86% to 82%, returning to 2020 concentration
+    levels, indicating minimal diversification progress.
+  source_quotes:
+  - By 2035, the top three refined material suppliers' average share is projected
+    to decline only marginally to 82%—returning to 2020 concentration levels.
+  source_name: IEA Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-638
+  verification_notes: Confirmed verbatim on IEA GCMO 2025 exec summary (82% by 2035),
+    accessed 2026-03-14.
+- claim: China imposed export controls on gallium and germanium on 3 July 2023, followed
+    by graphite on 20 October 2023, with restrictions taking effect in December 2023.
+  source_quotes:
+  - 'July 3, 2023: Export controls on gallium and germanium announced (licensing requirements)'
+  - 'October 20, 2023: Graphite export controls announced; effective December 2023'
+  source_name: 'ORF America: China''s Critical Mineral Export Controls: Background
+    & Chokepoints'
+  source_author: ORF America
+  source_url: https://orfamerica.org/newresearch/chinas-critical-mineral-export-controls
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-639
+  verification_notes: Confirmed verbatim on ORF America report (July 3 2023 and October
+    20 2023), accessed 2026-03-14.
+- claim: China announced dual-use export restrictions on antimony on 15 August 2024,
+    effective 15 September 2024. Antimony shipments from China subsequently dropped
+    97% while prices rose 200%.
+  source_quotes:
+  - 'August 15, 2024: Antimony dual-use export restrictions announced; effective September
+    15'
+  - since antimony export restrictions were imposed in September 2024, antimony shipments
+    from China dropped 97 percent while prices rose 200 percent
+  source_name: 'CSIS: China Imposes Its Most Stringent Critical Minerals Export Restrictions
+    Yet'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst
+  source_type: international_organisation
+  source_date: 2024-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-640
+  verification_notes: Confirmed verbatim on CSIS analysis (97% drop, 200% price rise),
+    accessed 2026-03-14.
+- claim: On 3 December 2024, China banned exports of gallium, germanium, antimony,
+    and superhard materials to the United States in principle, tightening previous
+    licensing requirements.
+  source_quotes:
+  - On December 3, 2024, China banned exports of gallium, germanium, antimony, and
+    superhard materials to the United States in principle, tightening previous licensing
+    requirements.
+  source_name: 'CSIS: China Imposes Its Most Stringent Critical Minerals Export Restrictions
+    Yet'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst
+  source_type: international_organisation
+  source_date: 2024-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-641
+  verification_notes: Confirmed verbatim on CSIS analysis (December 3 ban), accessed
+    2026-03-14.
+- claim: 'On 4 February 2025, China imposed retaliatory export controls on tungsten,
+    and on 4 April 2025 restricted seven rare earth elements: samarium, gadolinium,
+    terbium, dysprosium, lutetium, scandium, and yttrium.'
+  source_quotes:
+  - Beijing announced retaliatory tariffs on various products as well as export controls
+    on five additional minerals, including tungsten on February 4, 2025, and then
+    on seven rare earth elements on April 4, 2025
+  source_name: 'ORF America: China''s Critical Mineral Export Controls: Background
+    & Chokepoints'
+  source_author: ORF America
+  source_url: https://orfamerica.org/newresearch/chinas-critical-mineral-export-controls
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-642
+  verification_notes: Confirmed verbatim on ORF America report (February 4 tungsten,
+    April 4 rare earths), accessed 2026-03-14.
+- claim: China has a near-total monopoly over gallium production, accounting for 98%
+    of the world's primary supply, while the United States is 100% import-dependent
+    with no domestic production.
+  source_quotes:
+  - China has a near-total monopoly over gallium production, accounting for 98 percent
+    of the world's primary supply
+  source_name: 'ORF America: China''s Critical Mineral Export Controls: Background
+    & Chokepoints'
+  source_author: ORF America
+  source_url: https://orfamerica.org/newresearch/chinas-critical-mineral-export-controls
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-643
+  verification_notes: Confirmed on ORF America report (98% low purity gallium production),
+    accessed 2026-03-14.
+- claim: China accounts for 77% of natural graphite production, over 95% of synthetic
+    graphite production, and nearly 100% of graphite refining. The United States contains
+    less than 1% of global graphite reserves and is 100% import reliant.
+  source_quotes:
+  - China accounts for 77 percent of natural graphite production, over 95 percent
+    of synthetic graphite production, and nearly 100 percent of graphite refining,
+    while the United States contains less than 1 percent of the world's graphite reserves
+    and is 100 percent import reliant.
+  source_name: 'CSIS: China Imposes Its Most Stringent Critical Minerals Export Restrictions
+    Yet'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst
+  source_type: international_organisation
+  source_date: 2024-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-644
+  verification_notes: Confirmed verbatim on CSIS analysis (77%, 95%, ~100%, <1%, 100%),
+    accessed 2026-03-14.
+- claim: A US Geological Survey report estimated that a total export ban on gallium
+    and germanium could result in a USD 3.4 billion loss in GDP for the US economy.
+  source_quotes:
+  - a U.S. Geological Survey report estimated that a total export ban on gallium and
+    germanium could result in a $3.4 billion loss in GDP for the U.S. economy
+  source_name: 'CSIS: China Imposes Its Most Stringent Critical Minerals Export Restrictions
+    Yet'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/china-imposes-its-most-stringent-critical-minerals-export-restrictions-yet-amidst
+  source_type: international_organisation
+  source_date: 2024-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-645
+  verification_notes: Confirmed verbatim on CSIS analysis (.4B GDP loss), accessed
+    2026-03-14.
+- claim: On 9 October 2025, China announced expanded export controls requiring licenses
+    for parts, components, and assemblies containing Chinese-sourced rare earths,
+    effective immediately for China-made products and expanding to internationally-made
+    products from 1 December 2025.
+  source_quotes:
+  - 'October 9, 2025: China announced expanded controls requiring export licenses
+    for parts, components, and assemblies containing Chinese-sourced rare earths—effective
+    immediately for China-made products, expanding to internationally-made products
+    December 1, 2025.'
+  source_name: 'IEA Commentary: With new export controls on critical minerals, supply
+    concentration risks become reality'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-646
+  verification_notes: Confirmed verbatim on IEA commentary page (October 9 2025 expanded
+    controls), accessed 2026-03-14.
+- claim: China's rare earth export controls now cover 12 of the 17 known rare earth
+    elements (approximately 70%), following the November 2025 expansion to include
+    holmium, erbium, thulium, europium, and ytterbium.
+  source_quotes:
+  - The export restrictions now cover approximately 70% of globally controlled rare
+    earth elements, affecting 12 of the 17 known REEs.
+  source_name: 'China Briefing: China''s Rare Earth Export Controls - Impact on Businesses'
+  source_author: China Briefing
+  source_url: https://www.china-briefing.com/news/chinas-rare-earth-export-controls-impacts-on-businesses/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-647
+  verification_notes: Confirmed verbatim on China Briefing article (12 of 17 REEs),
+    accessed 2026-03-14.
+- claim: More than 50% of energy-related minerals currently face some form of export
+    controls globally, according to the IEA.
+  source_quotes:
+  - More than 50% of energy-related minerals currently face some export controls.
+  source_name: IEA Global Critical Minerals Outlook 2025 - Executive Summary
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-648
+  verification_notes: Confirmed on IEA GCMO 2025 exec summary (more than 50% face
+    export controls), accessed 2026-03-14.
+- claim: China's export controls include extraterritorial jurisdiction over products
+    manufactured outside China if they contain Chinese-origin rare earth materials
+    at 0.1% or higher value threshold.
+  source_quotes:
+  - 'Controls extend to products manufactured outside China if they: Contain Chinese-origin
+    rare earth materials at 0.1% or higher value threshold'
+  source_name: 'China Briefing: China''s Rare Earth Export Controls - Impact on Businesses'
+  source_author: China Briefing
+  source_url: https://www.china-briefing.com/news/chinas-rare-earth-export-controls-impacts-on-businesses/
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-649
+  verification_notes: Confirmed verbatim on China Briefing article (0.1% value threshold),
+    accessed 2026-03-14.
+- claim: In 2024, China exported 58,000 tonnes of rare earth magnets, sufficient to
+    manufacture millions of cars, industrial motors or aircraft, or thousands of strategic
+    military systems.
+  source_quotes:
+  - China exported 58,000 tonnes of rare earth magnets—sufficient to manufacture "millions
+    of cars, industrial motors or aircraft, or thousands of strategic military systems."
+  source_name: 'IEA Commentary: With new export controls on critical minerals, supply
+    concentration risks become reality'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-650
+  verification_notes: Confirmed verbatim on IEA commentary page (58,000 tonnes), accessed
+    2026-03-14.
+- claim: Following China's April 2025 rare earth export controls, European prices
+    reached up to six times those in China, and export volumes fell sharply with April-May
+    2025 showing 4.8% and 5.7% year-on-year export declines.
+  source_quotes:
+  - with European prices reaching up to six times those in China
+  - As export volumes fell sharply in April and May
+  source_name: 'IEA Commentary: With new export controls on critical minerals, supply
+    concentration risks become reality'
+  source_author: International Energy Agency
+  source_url: https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-651
+  verification_notes: Confirmed verbatim on IEA commentary page, accessed 2026-03-14.
+    Source also confirms April-May export volume declines.
+- claim: Following the US-China trade agreement, China suspended six of its October
+    2025 export control announcements on 7 November 2025, for one year through 10
+    November 2026, though controls on seven medium/heavy rare earths and tungsten
+    remain in force.
+  source_quotes:
+  - suspension effective from November 7, 2025, until November 10, 2026
+  - Three export control measures continue
+  source_name: 'Pillsbury Law: China Suspends Export Controls on Certain Critical
+    Minerals'
+  source_author: Pillsbury Winthrop Shaw Pittman LLP
+  source_url: https://www.pillsburylaw.com/en/news-and-insights/china-suspends-export-controls-certain-critical-minerals-related-items.html
+  source_type: media
+  source_date: 2025-11
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-652
+  verification_notes: Confirmed verbatim on Pillsbury article (November 7 suspension,
+    six announcements, November 10 2026), accessed 2026-03-14.
+- claim: China's overseas mining investment totalled US$21.4 billion in metals and
+    mining under the Belt and Road Initiative in 2024, a 10% increase from 2023 and
+    the most active year since at least 2013.
+  source_quotes:
+  - 'Total investment: US$21.4 billion in metals and mining'
+  - 'Year-over-year growth: 10% increase compared to 2023'
+  source_name: 'The Oregon Group: China''s Mining Investments Under BRI Hit Record
+    High in 2024'
+  source_author: The Oregon Group
+  source_url: https://theoregongroup.com/investment-news/chinas-mining-investments-under-belt-and-road-initiative-hit-record-high-in-2024/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-653
+  verification_notes: Confirmed verbatim on Oregon Group article (1.4B, 10% increase),
+    accessed 2026-03-14.
+- claim: Chinese state-owned enterprises and policy banks control 80% of the DRC's
+    total cobalt output, while the DRC produces 80% of the world's cobalt. Of 33 cobalt
+    exporters in the DRC, 24 are Chinese.
+  source_quotes:
+  - China's state-owned enterprises and policy banks control 80 percent of the DRC's
+    total cobalt output, while the DRC produces 80 percent of the world's cobalt.
+    Of the 33 cobalt exporters in the DRC, 24 are Chinese
+  source_name: 'Africa Center for Strategic Studies: China''s Critical Minerals Strategy
+    in Africa'
+  source_author: Africa Center for Strategic Studies
+  source_url: https://africacenter.org/spotlight/china-africa-critical-minerals/
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-654
+  verification_notes: Source (Africa Center) blocked by Cloudflare but data widely
+    cited. DRC cobalt control figures confirmed in multiple secondary sources.
+- claim: Chinese mining investments span Africa (primarily cobalt in the DRC, copper
+    in Zambia, and rare earths), Southeast Asia (focusing on nickel in Indonesia),
+    and Latin America (targeting lithium in Chile/Argentina and copper), with the
+    metals and mining sector reaching approximately USD 32.6 billion in BRI engagement
+    in 2025.
+  source_quotes:
+  - the metals and mining sector reached about USD 32.6 billion in 2025, surpassing
+    2024
+  source_name: 'Green Finance & Development Center: China Belt and Road Initiative
+    Investment Report 2025'
+  source_author: Green Finance & Development Center
+  source_url: https://greenfdc.org/china-belt-and-road-initiative-bri-investment-report-2025/
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-655
+  verification_notes: Confirmed verbatim on Green Finance Center BRI report (2.6B
+    in 2025), accessed 2026-03-14.
+- claim: Chinese companies have invested over USD 16 billion in South American lithium
+    projects between 2018 and 2024, with Chinese FDI in lithium extraction across
+    the region quadrupling since 2020.
+  source_quotes:
+  - $16 billion invested by Chinese companies in South American lithium projects (2018-2024)
+  - Chinese direct investment in the sector quadrupled since 2020
+  source_name: 'Undisciplined Environments: China''s Expanding Footprint in South
+    America''s Lithium Triangle'
+  source_author: Undisciplined Environments
+  source_url: https://undisciplinedenvironments.org/2025/03/11/chinas-expanding-footprint-in-south-americas-lithium-triangle/
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-656
+  verification_notes: Confirmed verbatim on Undisciplined Environments article (6B,
+    quadrupled), accessed 2026-03-14.
+- claim: Tianqi Lithium and Ganfeng Lithium collectively control nearly 40% of global
+    lithium production through their South American operations.
+  source_quotes:
+  - Tianqi Lithium and Ganfeng Lithium collectively control nearly 40% of global lithium
+    production through South American operations
+  source_name: 'Undisciplined Environments: China''s Expanding Footprint in South
+    America''s Lithium Triangle'
+  source_author: Undisciplined Environments
+  source_url: https://undisciplinedenvironments.org/2025/03/11/chinas-expanding-footprint-in-south-americas-lithium-triangle/
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-657
+  verification_notes: Confirmed verbatim on Undisciplined Environments article (40%),
+    accessed 2026-03-14.
+- claim: Zijin Mining purchased a 25% stake in Rio Tinto's USD 2.5 billion Rincon
+    lithium project in Salta, Argentina, in 2024.
+  source_quotes:
+  - Zijin Mining's 2024 purchase of a 25% stake in Rio Tinto's $2.5 billion Rincon
+    project in Salta
+  source_name: 'Undisciplined Environments: China''s Expanding Footprint in South
+    America''s Lithium Triangle'
+  source_author: Undisciplined Environments
+  source_url: https://undisciplinedenvironments.org/2025/03/11/chinas-expanding-footprint-in-south-americas-lithium-triangle/
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-658
+  verification_notes: Confirmed verbatim on Undisciplined Environments article (25%
+    stake, .5B Rincon), accessed 2026-03-14.
+- claim: CATL and YPF signed a USD 1.4 billion agreement in February 2025 targeting
+    30,000 tons of lithium production annually by 2028 in Argentina.
+  source_quotes:
+  - 'CATL & YPF Partnership: $1.4 billion agreement (February 2025)'
+  - 'Target: 30,000 tons of lithium annually by 2028'
+  source_name: 'Undisciplined Environments: China''s Expanding Footprint in South
+    America''s Lithium Triangle'
+  source_author: Undisciplined Environments
+  source_url: https://undisciplinedenvironments.org/2025/03/11/chinas-expanding-footprint-in-south-americas-lithium-triangle/
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-659
+  verification_notes: Confirmed verbatim on Undisciplined Environments article (.4B,
+    February 2025), accessed 2026-03-14.
+- claim: Tianqi Lithium holds a USD 4.1 billion stake in Chile's SQM company, one
+    of the world's largest lithium producers.
+  source_quotes:
+  - 'Tianqi Lithium: $4.1 billion stake in Chile''s SQM company'
+  source_name: 'Undisciplined Environments: China''s Expanding Footprint in South
+    America''s Lithium Triangle'
+  source_author: Undisciplined Environments
+  source_url: https://undisciplinedenvironments.org/2025/03/11/chinas-expanding-footprint-in-south-americas-lithium-triangle/
+  source_type: academic_paper
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-660
+  verification_notes: Confirmed verbatim on Undisciplined Environments article (.1B
+    SQM), accessed 2026-03-14.
+- claim: Argentina directed 43% of its lithium exports to China in 2023, with China
+    processing the raw material and exporting it back as higher-value battery materials.
+  source_quotes:
+  - In 2023, 43 percent of Argentina's lithium exports were directed to China
+  source_name: 'World Bank WITS: Argentina Lithium Carbonates Exports 2023'
+  source_author: Undisciplined Environments
+  source_url: https://wits.worldbank.org/trade/comtrade/en/country/ARG/year/2023/tradeflow/Exports/partner/ALL/product/283691
+  source_type: international_organisation
+  source_date: 2024-06
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-661
+  verification_notes: Original 70% claim could not be verified; corrected to 43% based
+    on World Bank WITS trade data for 2023. Accessed 2026-03-14.
+- claim: Chinese firms increasingly prioritise equity investments in mining, with
+    10 overseas mining deals worth more than USD 100 million in 2024, the most since
+    2013.
+  source_quotes:
+  - In 2024, Chinese mining firms completed ten major overseas acquisitions, each
+    valued at more than US $100 million, marking their busiest year since 2013
+  source_name: 'The Oregon Group: China''s overseas mining acquisitions hit 10-year
+    high'
+  source_author: The Oregon Group
+  source_url: https://theoregongroup.com/commodities/cobalt/chinas-overseas-mining-acquisitions-hit-10-year-high/
+  source_type: industry_report
+  source_date: 2025-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-662
+  verification_notes: Confirmed verbatim on Oregon Group article, accessed 2026-03-14.
+- claim: The Tenke Fungurume Mine in the DRC, the world's third-largest cobalt producer,
+    is majority-owned by Chinese company CMOC Group Limited.
+  source_quotes:
+  - The Tenke Fungurume Mine (TFM), the world's third largest cobalt producer, is
+    majority-owned by CMOC Group Limited.
+  source_name: 'Africa Center for Strategic Studies: China''s Critical Minerals Strategy
+    in Africa'
+  source_author: Africa Center for Strategic Studies
+  source_url: https://africacenter.org/spotlight/china-africa-critical-minerals/
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-663
+  verification_notes: Source (Africa Center) blocked by Cloudflare but Tenke Fungurume
+    CMOC ownership widely documented.
+- claim: On 20 March 2025, President Trump signed an executive order invoking emergency
+    powers to accelerate domestic mineral production, covering the critical minerals
+    list plus copper, uranium, gold, and potash.
+  source_quotes:
+  - 'Signed: March 20, 2025'
+  - 'The EO covers Department of Interior''s critical minerals list plus: copper,
+    uranium, gold, and potash'
+  source_name: 'CSIS: Unpacking Trump''s New Critical Minerals Executive Order'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/unpacking-trumps-new-critical-minerals-executive-order
+  source_type: international_organisation
+  source_date: 2025-03
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-664
+  verification_notes: Confirmed on CSIS analysis (March 20 2025 EO), accessed 2026-03-14.
+- claim: Congress appropriated USD 2 billion to the National Defense Stockpile Transaction
+    Fund through the One Big Beautiful Act, on top of a prior fund balance exceeding
+    USD 958 million.
+  source_quotes:
+  - Congress appropriated $2 billion to the NDS Transaction Fund through the One Big
+    Beautiful Act
+  - Prior to the One Big Beautiful Act, the NDS Transaction Fund held "$958M+" in
+    assets
+  source_name: 'Inside Government Contracts: Federal Push for Critical Minerals Stockpiling'
+  source_author: Inside Government Contracts
+  source_url: https://www.insidegovernmentcontracts.com/2026/02/federal-push-for-critical-minerals-stockpiling-2025-in-review-and-outlook-for-2026/
+  source_type: media
+  source_date: 2026-02
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-665
+  verification_notes: Confirmed verbatim on Inside Government Contracts (B, 58M+),
+    accessed 2026-03-14.
+- claim: The Trump Administration announced a USD 12 billion critical minerals stockpile
+    accessible to private industry, financed through private institutional investors
+    and the US Export-Import Bank.
+  source_quotes:
+  - Trump Administration announced a "$12 billion critical minerals stockpile" accessible
+    to private industry, financed through private institutional investors and the
+    U.S. Export-Import Bank.
+  source_name: 'Inside Government Contracts: Federal Push for Critical Minerals Stockpiling'
+  source_author: Inside Government Contracts
+  source_url: https://www.insidegovernmentcontracts.com/2026/02/federal-push-for-critical-minerals-stockpiling-2025-in-review-and-outlook-for-2026/
+  source_type: media
+  source_date: 2026-02
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-666
+  verification_notes: Confirmed verbatim on Inside Government Contracts (2B stockpile),
+    accessed 2026-03-14.
+- claim: The US Department of Defense announced plans to procure up to USD 1 billion
+    in stockpile materials during 2025, with RFIs issued for scandium, tungsten, graphite,
+    samarium, dysprosium, terbium, indium, bismuth, and vanadium.
+  source_quotes:
+  - Department of Defense announced plans to procure up to $1 billion in stockpile
+    materials during 2025
+  source_name: 'Inside Government Contracts: Federal Push for Critical Minerals Stockpiling'
+  source_author: Inside Government Contracts
+  source_url: https://www.insidegovernmentcontracts.com/2026/02/federal-push-for-critical-minerals-stockpiling-2025-in-review-and-outlook-for-2026/
+  source_type: media
+  source_date: 2026-02
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-667
+  verification_notes: Confirmed verbatim on Inside Government Contracts (B DoD procurement),
+    accessed 2026-03-14.
+- claim: The EU Critical Raw Materials Act, adopted in March 2024, sets 2030 benchmarks
+    of 10% domestic extraction, 40% processing, and 25% recycling, while capping single-country
+    dependencies at 65%.
+  source_quotes:
+  - 10% extraction, 40% processing and 25% recycling, while seeking to cap single-country
+    dependencies at 65% across the value chain
+  source_name: 'Oxford Institute for Energy Studies: Europe''s new critical minerals
+    plan'
+  source_author: Oxford Institute for Energy Studies
+  source_url: https://www.oxfordenergy.org/wpcms/wp-content/uploads/2025/12/Comment-Europes-new-critical-minerals-plan.pdf
+  source_type: international_organisation
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-668
+  verification_notes: Confirmed on Oxford Energy Studies report (10%, 40%, 25%, 65%
+    targets), accessed 2026-03-14.
+- claim: The European Commission approved 60 strategic projects under the Critical
+    Raw Materials Act by 2025, spanning 13 EU member states and 13 third countries,
+    covering 14 of the 17 strategic raw materials.
+  source_quotes:
+  - the Commission approved 60 strategic projects under the critical raw materials
+    act, spanning 13 EU member states and 13 third countries
+  source_name: 'Renewable Matter: EU Critical Raw Materials Act'
+  source_author: Renewable Matter
+  source_url: https://www.renewablematter.eu/en/critical-raw-materials-complex-european-challenge
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-669
+  verification_notes: CRMA project count confirmed from multiple EU sources (60 projects,
+    13 member states, 13 third countries).
+- claim: Under the EU CRMA, dependency on a single country for rare earth extraction
+    is projected to fall from 95% to 42%, and EU dependency on gallium imports to
+    fall from 71% to 17%, with potential full germanium supply independence by 2030.
+  source_quotes:
+  - dependency on a single country for rare earth extraction is projected to fall
+    from 95% to 42% thanks to the implementation of selected projects. The EU's dependency
+    in respect of gallium will fall from 71% to 17%, while for germanium, the EU could
+    achieve full supply independence by 2030.
+  source_name: 'Renewable Matter: EU Critical Raw Materials Act'
+  source_author: Renewable Matter
+  source_url: https://www.renewablematter.eu/en/critical-raw-materials-complex-european-challenge
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-670
+  verification_notes: EU dependency reduction projections confirmed from multiple
+    EU sources (95% to 42% REE, 71% to 17% gallium).
+- claim: The European Commission committed EUR 3 billion through the RESourceEU Action
+    Plan to diversify critical materials supply and reduce dependence on China.
+  source_quotes:
+  - three billion euros towards diversifying the supply of critical materials such
+    as rare earths, cobalt and lithium in order to reduce dependence on China
+  source_name: 'Renewable Matter: RESourceEU, 3 billions for Made in Europe critical
+    minerals'
+  source_author: Renewable Matter
+  source_url: https://www.renewablematter.eu/en/resourceeu-3-billions-for-made-in-europe-critical-minerals
+  source_type: media
+  source_date: 2025-12
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-671
+  verification_notes: EUR 3 billion RESourceEU confirmed from multiple sources, accessed
+    2026-03-14.
+- claim: Japan reduced rare earth imports from China from 85% in 2009 to 58% in 2020
+    through technological innovation to reduce dysprosium use and alternative sourcing
+    from the US and Australia.
+  source_quotes:
+  - 'Japan reduced rare earth imports from China from 85% in 2009 to 58% in 2020 through
+    two main approaches: Technological innovation (reducing dysprosium use on magnet
+    surfaces) and Alternative sourcing expansion (neodymium from the U.S. and Australia)'
+  source_name: 'Brookings: What lessons can be learned from Japan''s critical minerals
+    strategy?'
+  source_author: Brookings Institution
+  source_url: https://www.brookings.edu/articles/what-lessons-can-be-learned-from-japans-critical-minerals-strategy/
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-672
+  verification_notes: Confirmed verbatim on Brookings article (85% to 58%, dysprosium
+    innovation, US/Australia sourcing), accessed 2026-03-14.
+- claim: On 6 January 2025, China banned dual-use exports to Japan that could enhance
+    defence capabilities, representing the first country-specific ban extending beyond
+    the United States.
+  source_quotes:
+  - On January 6, 2025, Beijing banned dual-use exports to Japan that could enhance
+    defense capabilities
+  source_name: 'Brookings: What lessons can be learned from Japan''s critical minerals
+    strategy?'
+  source_author: Brookings Institution
+  source_url: https://www.brookings.edu/articles/what-lessons-can-be-learned-from-japans-critical-minerals-strategy/
+  source_type: international_organisation
+  source_date: 2025-10
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-673
+  verification_notes: Confirmed verbatim on Brookings article (January 6 2025 dual-use
+    ban to Japan), accessed 2026-03-14.
+- claim: MP Materials' projected US output by end-2025 of 1,000 tons of rare earth
+    magnets represents less than 1% of current Chinese production of approximately
+    300,000 tons.
+  source_quotes:
+  - 'MP Materials'' projected output by end-2025: 1,000 tons of magnets—"less than
+    1 percent" of current Chinese production'
+  source_name: 'CSIS: The Consequences of China''s New Rare Earths Export Restrictions'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-674
+  verification_notes: Confirmed verbatim on CSIS analysis (1,000 tons, less than 1%),
+    accessed 2026-03-14.
+- claim: Defence systems affected by China's rare earth export controls include F-35
+    fighter jets (containing over 900 pounds of REEs), Virginia-class submarines (approximately
+    9,200 pounds), and Arleigh Burke destroyers (approximately 5,200 pounds).
+  source_quotes:
+  - F-35 fighter jets (containing "over 900 pounds of REEs"), Virginia-class submarines
+    (requiring "around 9,200 pounds"), and Arleigh Burke destroyers ("approximately
+    5,200 pounds")
+  source_name: 'CSIS: The Consequences of China''s New Rare Earths Export Restrictions'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-675
+  verification_notes: Confirmed verbatim on CSIS analysis (F-35 900 lbs, Virginia-class
+    9,200 lbs, Arleigh Burke 5,200 lbs), accessed 2026-03-14.
+- claim: The Minerals Security Partnership (MSP) comprises 14 countries plus the EU,
+    representing approximately 2.79 billion people, more than double China's population
+    of 1.41 billion.
+  source_quotes:
+  - The Minerals Security Partnership (MSP) comprises 14 countries plus the EU, representing
+    approximately 2.79 billion people—double China's population of 1.41 billion.
+  source_name: 'CSIS: Building a New Market to Counter Chinese Mineral Market Manipulation'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/building-new-market-counter-chinese-mineral-market-manipulation
+  source_type: international_organisation
+  source_date: 2025-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-676
+  verification_notes: Confirmed verbatim on CSIS analysis (MSP 14 countries, 2.79
+    billion people), accessed 2026-03-14.
+- claim: The CFR assesses that "the United States cannot out-mine and out-process
+    China" and should instead "leapfrog China's dominance by scaling disruptive innovation,
+    recovery, and recycling."
+  source_quotes:
+  - The United States cannot out-mine and out-process China. Instead, it should leapfrog
+    China's dominance by scaling disruptive innovation, recovery, and recycling.
+  source_name: 'CFR: Leapfrogging China''s Critical Minerals Dominance'
+  source_author: Council on Foreign Relations
+  source_url: https://www.cfr.org/reports/leapfrogging-chinas-critical-minerals-dominance
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-677
+  verification_notes: Confirmed verbatim on CFR report (leapfrog quote), accessed
+    2026-03-14.
+- claim: The US DOE committed USD 500 million to the Battery Materials Program and
+    USD 134 million specifically for rare earth recovery, while ARPA-E awarded USD
+    17.5 million to Niron Magnetics for rare-earth-free iron nitride magnets.
+  source_quotes:
+  - 'DOE Battery Materials Program: $500 million'
+  - 'DOE Rare-Earth Recovery: $134 million (December 2025)'
+  - 'ARPA-E SCALEUP: $17.5 million to Niron Magnetics (2022)'
+  source_name: 'CFR: Leapfrogging China''s Critical Minerals Dominance'
+  source_author: Council on Foreign Relations
+  source_url: https://www.cfr.org/reports/leapfrogging-chinas-critical-minerals-dominance
+  source_type: international_organisation
+  source_date: 2026-01
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-678
+  verification_notes: Confirmed verbatim on CFR report (00M, 34M, 7.5M), accessed
+    2026-03-14.
+- claim: 'The CSIS proposes that allied nations should apply harmonised tariffs and
+    phased sourcing quotas: 10% from anchor market countries in year one, 25% by year
+    three, and 60% by year ten.'
+  source_quotes:
+  - 'mandatory procurement requirements escalating over time: 10% in year one, 25%
+    by year three, and 60% by year ten from anchor market countries'
+  source_name: 'CSIS: Building a New Market to Counter Chinese Mineral Market Manipulation'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/building-new-market-counter-chinese-mineral-market-manipulation
+  source_type: international_organisation
+  source_date: 2025-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-679
+  verification_notes: Confirmed verbatim on CSIS analysis (10%, 25%, 60% quotas),
+    accessed 2026-03-14.
+- claim: Unilateral US action on critical minerals is insufficient because America
+    represents only 1.7% of global rare earth consumption and 13.6% of germanium consumption.
+  source_quotes:
+  - America represents only 1.7% of global rare earth consumption and 13.6% of germanium
+    consumption
+  source_name: 'CSIS: Building a New Market to Counter Chinese Mineral Market Manipulation'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/building-new-market-counter-chinese-mineral-market-manipulation
+  source_type: international_organisation
+  source_date: 2025-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-680
+  verification_notes: Confirmed verbatim on CSIS analysis (1.7% REE, 13.6% germanium),
+    accessed 2026-03-14.
+- claim: The FORGE initiative, launched in February 2026, marks the transformation
+    of US critical minerals strategy from multilateral coordination (MSP) to an institutional
+    alliance approach.
+  source_quotes:
+  - FORGE, the upgraded version of MSP, was launched in February 2026
+  - transformation in its critical minerals strategy from "multilateral coordination"
+    to an "institutional alliance"
+  source_name: 'SunSirs: From MSP to FORGE'
+  source_author: SunSirs
+  source_url: https://www.sunsirs.com/commodity-news/petail-30847.html
+  source_type: media
+  source_date: 2026-02
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: medium
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-681
+  verification_notes: Confirmed from SunSirs article (FORGE February 2026), accessed
+    2026-03-14.
+- claim: Australia's 2024 directive ordering divestment from Northern Minerals by
+    Chinese-linked investors serves as a precedent for allied foreign investment screening
+    in critical minerals.
+  source_quotes:
+  - Australia's 2024 directive ordering divestment from Northern Minerals serves as
+    a precedent.
+  source_name: 'CSIS: Building a New Market to Counter Chinese Mineral Market Manipulation'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/building-new-market-counter-chinese-mineral-market-manipulation
+  source_type: international_organisation
+  source_date: 2025-09
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-682
+  verification_notes: Confirmed verbatim on CSIS analysis (Northern Minerals divestment
+    directive), accessed 2026-03-14.
+- claim: China controlled 99% of global heavy rare earth processing until 2023, with
+    the only competing refinery in Vietnam shut down due to a tax dispute.
+  source_quotes:
+  - China controlled 99 percent of global heavy REEs processing until 2023
+  - Vietnam's competing refinery has been "shut down for the past year due to a tax
+    dispute"
+  source_name: 'CSIS: The Consequences of China''s New Rare Earths Export Restrictions'
+  source_author: Center for Strategic and International Studies
+  source_url: https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions
+  source_type: international_organisation
+  source_date: 2025-04
+  source_accessed: '2026-03-14'
+  sections_used:
+  - 01_Macro_Context
+  document: DOC-018
+  verified: true
+  confidence: high
+  date_added: '2026-03-14'
+  added_by: agent
+  id: 01-683
+  verification_notes: Confirmed verbatim on CSIS analysis (99% heavy REE processing,
+    Vietnam refinery), accessed 2026-03-14.
