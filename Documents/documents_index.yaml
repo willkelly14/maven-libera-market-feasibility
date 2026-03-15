@@ -311,3 +311,20 @@
   last_updated: '2026-03-14'
   fact_count: 44
   fact_range: 01-684 to 01-727
+- id: DOC-020
+  title: Climate Physical Risk to Mineral Supply Chains
+  type: research_report
+  section: 01_Macro_Context
+  description: Assesses how climate change-related physical risks affect mineral production
+    and supply chain reliability globally and in the NWMP specifically. Covers exposure
+    of major mining regions to extreme heat, flooding, cyclones, drought, and sea-level
+    rise; historical production disruptions from extreme weather events; insurance
+    and investor climate risk pricing; projected climate hazard changes through 2040;
+    and NWMP-specific climate exposure including cyclone and flood risk to Mount Isa
+    and the Townsville logistics corridor.
+  content_file: 18_Climate_Physical_Risk_Mineral_Supply_Chains.md
+  status: draft
+  date_created: '2026-03-15'
+  last_updated: '2026-03-15'
+  fact_count: 63
+  fact_range: 01-728 to 01-790
