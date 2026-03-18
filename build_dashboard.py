@@ -1944,8 +1944,21 @@ function openSlidePane(docId) {
     ? marked.parse(doc.content)
     : '<p style="color:var(--text-muted)">No content yet.</p>';
 
-  // Linked facts
-  currentPaneFacts = FACTS.filter(f => f.document === docId);
+  // Linked facts — include facts owned by this doc OR referenced inline in its content
+  const ownedFacts = FACTS.filter(f => f.document === docId);
+  let referencedFacts = [];
+  if (doc.content) {
+    const refIds = new Set();
+    const refPattern = /\[(\d{2}-\d{3})\]/g;
+    let m;
+    while ((m = refPattern.exec(doc.content)) !== null) refIds.add(m[1]);
+    if (refIds.size > 0) {
+      const factMap = {};
+      FACTS.forEach(f => { factMap[f.id] = f; });
+      referencedFacts = [...refIds].filter(id => factMap[id] && !ownedFacts.some(o => o.id === id)).map(id => factMap[id]);
+    }
+  }
+  currentPaneFacts = ownedFacts.concat(referencedFacts);
   document.getElementById('pane-fact-count').textContent = `(${currentPaneFacts.length})`;
   document.getElementById('pane-fact-search').value = '';
   renderPaneFacts();
