@@ -328,3 +328,11 @@
   last_updated: '2026-03-15'
   fact_count: 63
   fact_range: 01-728 to 01-790
+- title: Macro Market Context — Section 4.1 Synthesis Draft
+  section: 01_Macro_Context
+  status: draft
+  type: section_draft
+  id: DOC-021
+  date_created: '2026-03-18'
+  description: ''
+  content_file: Documents/21_Macro_Market_Context_Section_4_1.md
