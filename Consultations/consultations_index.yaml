@@ -1,0 +1,319 @@
+- id: CON-001
+  title: Tony Knight & Anne Neil (GSQ) - Research Centre Feasibility Consultation
+  date: '2025-10-07'
+  meeting_type: Progress Meeting
+  participants:
+  - Shane Kelly
+  - Tony Knight
+  - Anne Neil
+  transcript_file: CON-001_transcript.md
+  summary_file: CON-001_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K6SNR4ZRXMJ32GHZ6R5NZ3RR
+  notion_url: https://www.notion.so/2e741dfcc3e9806ab326fbd99a45c115
+  notion_id: '31'
+- id: CON-002
+  title: Nicholas Huffels Mount Isa Minerals
+  date: '2025-10-20'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Nicholas Huffels
+  transcript_file: CON-002_transcript.md
+  summary_file: CON-002_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K82YMQHXS7EK1ZFNWNDBMJHF
+  notion_url: https://www.notion.so/2e741dfcc3e980e28f26f6796333c70d
+  notion_id: '30'
+- id: CON-003
+  title: Robert Johansen & Vic - Mount Isa Quartz & Silicon Processing
+  date: '2025-10-20'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Robert Johansen
+  - Vic
+  transcript_file: CON-003_transcript.md
+  summary_file: CON-003_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K7ZHKE4QCZM6EZ25GESRF16E
+  notion_url: https://www.notion.so/2e741dfcc3e9806c8a48dbbea76ad5a3
+  notion_id: '29'
+- id: CON-004
+  title: Gisela Jung CA Architects
+  date: '2025-10-21'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Gisela Jung
+  transcript_file: CON-004_transcript.md
+  summary_file: CON-004_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K87K4KF1S14W6PGC4P41XC9V
+  notion_url: https://www.notion.so/2e741dfcc3e980f191e3c5a1f8ab0b74
+  notion_id: '28'
+- id: CON-005
+  title: Matt Chauhan & Jordan Gooch - Sedgeman
+  date: '2025-10-23'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Matt Chauhan
+  - Jordan Gooch
+  transcript_file: CON-005_transcript.md
+  summary_file: CON-005_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K87K4ZACSZ9BZ1GVJP98GAS4
+  notion_url: https://www.notion.so/2e741dfcc3e9802f9d33f90d1498c044
+  notion_id: '27'
+- id: CON-006
+  title: Paul Holden & Ben Johns (CMQ) + MICC - Mt Isa Research Centre Progress
+  date: '2025-10-28'
+  meeting_type: Progress Meeting
+  participants:
+  - Shane Kelly
+  - Paul Holden
+  - Ben Johns
+  - Tim Rose
+  transcript_file: CON-006_transcript.md
+  summary_file: CON-006_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K8Z19YTKHGKJHK2V6JK14JVQ
+  notion_url: https://www.notion.so/2e741dfcc3e9807d812bce68eeaa5ddf
+  notion_id: '26'
+- id: CON-007
+  title: Birgit Tegethoff & Werner Business Finland
+  date: '2025-11-05'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Birgit Tegethoff
+  - Werner
+  transcript_file: CON-007_transcript.md
+  summary_file: CON-007_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K9B3F0K5SFTQFKHJMRM61ZQK
+  notion_url: https://www.notion.so/2e741dfcc3e9803fa70be80094b8ad4b
+  notion_id: '25'
+- id: CON-008
+  title: Dieter Kluger & Tony Piccaro (CMQ) - QR Cuff Facility & Beneficiation Planning
+  date: '2025-11-05'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Dieter Kluger
+  - Tony Piccaro
+  transcript_file: CON-008_transcript.md
+  summary_file: CON-008_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K97BP40TT08A5TSCAQQ68YXK
+  notion_url: https://www.notion.so/2e741dfcc3e9801c9dc6c955bd78759c
+  notion_id: '24'
+- id: CON-009
+  title: Kate Dickson - AMEC Stakeholder Consultation
+  date: '2025-11-06'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Kate Dickson
+  transcript_file: CON-009_transcript.md
+  summary_file: CON-009_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K9B3HD1TG8Z21S6YH2M343DP
+  notion_url: https://www.notion.so/2e741dfcc3e980658c33d594d39a6d46
+  notion_id: '23'
+- id: CON-010
+  title: Ben Paxton-Hall Northwest Phosphate
+  date: '2025-11-06'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Ben Paxton-Hall
+  transcript_file: CON-010_transcript.md
+  summary_file: CON-010_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K9B3GTD0RJCRVAQYH3NC9GY1
+  notion_url: https://www.notion.so/2e741dfcc3e980e5afb8faa63747061e
+  notion_id: '22'
+- id: CON-011
+  title: Gavin Loyden - QEM Vanadium Processing & Metallurgy
+  date: '2025-11-10'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Gavin Loyden
+  transcript_file: CON-011_transcript.md
+  summary_file: CON-011_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K9NJ61QQRBAECMTRZCCDCRJ4
+  notion_url: https://www.notion.so/2e741dfcc3e9802e8e98c9be5ac5e17e
+  notion_id: '21'
+- id: CON-012
+  title: Paul Holden & Ben Johns Funding
+  date: '2025-11-11'
+  meeting_type: Progress Meeting
+  participants:
+  - Shane Kelly
+  - Paul Holden
+  - Ben Johns
+  - Tim Rose
+  transcript_file: CON-012_transcript.md
+  summary_file: CON-012_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01K9SVA37BQE6A3CYYF5AE6JZD
+  notion_url: https://www.notion.so/2e741dfcc3e980cdaf12c67077f8c742
+  notion_id: '19'
+- id: CON-013
+  title: David Cavanagh & Dylan Molver Core Resources
+  date: '2025-11-14'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - David Cavanagh
+  - Dylan Molver
+  transcript_file: CON-013_transcript.md
+  summary_file: CON-013_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KA2C1S6K1E94YYQM4Z2WTZ85
+  notion_url: https://www.notion.so/2e741dfcc3e980baa628fca90d7ac2e8
+  notion_id: '18'
+- id: CON-014
+  title: Nathan Chapman - Austral Copper Operations & Metallurgy
+  date: '2025-11-17'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Nathan Chapman
+  transcript_file: CON-014_transcript.md
+  summary_file: CON-014_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KA7H91B3M50KBEBVYC8324E7
+  notion_url: https://www.notion.so/2e741dfcc3e98000813af644991d32fa
+  notion_id: '17'
+- id: CON-015
+  title: Rob Theron DevEx
+  date: '2025-11-17'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Rob Theron
+  transcript_file: CON-015_transcript.md
+  summary_file: CON-015_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KA7H6NDNPSTXH04J77D5V2JZ
+  notion_url: https://www.notion.so/2e741dfcc3e980638547c2a55ecc8b93
+  notion_id: '16'
+- id: CON-016
+  title: Atiqullah Amiri - Copper Metallurgy & Testing Consultation
+  date: '2025-11-19'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Atiqullah Amiri
+  transcript_file: CON-016_transcript.md
+  summary_file: CON-016_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAC6NKM9A6ZTKWT5A7YC51F9
+  notion_url: https://www.notion.so/2e741dfcc3e980b9bb3ecae306bb6c7e
+  notion_id: '15'
+- id: CON-017
+  title: Paul Harris & Iain Miller
+  date: '2025-11-20'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Paul Harris
+  - Iain Miller
+  transcript_file: CON-017_transcript.md
+  summary_file: CON-017_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAFP73F4V2NB0K5K2V3AKZS6
+  notion_url: https://www.notion.so/2e741dfcc3e9801ca89df351f37d84fd
+  notion_id: '12'
+- id: CON-018
+  title: Nick Algie (ASQ) - Quartz Projects & Metallurgical Testing
+  date: '2025-11-20'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Nick Algie
+  transcript_file: CON-018_transcript.md
+  summary_file: CON-018_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAFP77AG9P8XXH57KBCKZ432/transcript
+  notion_url: https://www.notion.so/2e741dfcc3e980b0a1d2fd1c5969bb3e
+  notion_id: '11'
+- id: CON-019
+  title: Russell Dwyer KGL Resources
+  date: '2025-11-21'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Russell Dwyer
+  transcript_file: CON-019_transcript.md
+  summary_file: CON-019_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAJMVFZ8S4NY2J7C2EKQG2X7
+  notion_url: https://www.notion.so/2e741dfcc3e98021baaae7fbc650a861
+  notion_id: '9'
+- id: CON-020
+  title: Paul Walpole - Mt Isa Research Centre Building & Cost Consultation
+  date: '2025-11-21'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Paul Walpole
+  transcript_file: CON-020_transcript.md
+  summary_file: CON-020_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAJ8KCRP2X3P8JR7YMJWT159
+  notion_url: https://www.notion.so/2e741dfcc3e980f191d1f078e1217026
+  notion_id: '8'
+- id: CON-021
+  title: Paladin Energy - Tim Rose (MICC CEO), Mayor Peter McRae, Anthony, Alistair
+  date: '2025-11-24'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Tim Rose
+  - Peter McRae
+  - Anthony
+  - Alistair
+  transcript_file: CON-021_transcript.md
+  summary_file: CON-021_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAN8RVTFXBP6KW42HGJT5JVF
+  notion_url: https://www.notion.so/2e741dfcc3e980ecaf7ac7cba6617070
+  notion_id: '7'
+- id: CON-022
+  title: MICC Executive
+  date: '2025-11-25'
+  meeting_type: Progress Meeting
+  participants:
+  - Shane Kelly
+  - Tim Rose
+  transcript_file: CON-022_transcript.md
+  summary_file: CON-022_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAP7CJVQ77P5X7J5EZ8HM2H3
+  notion_url: https://www.notion.so/2e741dfcc3e980f99aa5e8de0cdfa39a
+  notion_id: '6'
+- id: CON-023
+  title: MICC & CMQ - JK Tech Technical Expert Selection & Funding Discussion
+  date: '2025-11-27'
+  meeting_type: Progress Meeting
+  participants:
+  - Shane Kelly
+  - Tim Rose
+  - Paul Holden
+  - Ben Johns
+  transcript_file: CON-023_transcript.md
+  summary_file: CON-023_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KAQHQK3RQWQCQXVY5S5Y2R4F
+  notion_url: https://www.notion.so/2e741dfcc3e9808c961bdbcfc091d837
+  notion_id: '5'
+- id: CON-024
+  title: MMG Consultation - Cathy Martin (Metallurgy) & Laura Moore (Geology)
+  date: '2025-12-08'
+  meeting_type: Stakeholder Consultation
+  participants:
+  - Shane Kelly
+  - Tim Rose
+  - Cathy Martin
+  - Laura Moore
+  transcript_file: CON-024_transcript.md
+  summary_file: CON-024_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KBY1E5MYS4A18A5S8GVCTM66
+  notion_url: https://www.notion.so/2e741dfcc3e980bcae13ee404c1e2099
+  notion_id: '3'
+- id: CON-025
+  title: CMQ & MICC Progress Meeting - Ben Johns & Tim
+  date: '2025-12-09'
+  meeting_type: Progress Meeting
+  participants:
+  - Shane Kelly
+  - Ben Johns
+  - Tim Rose
+  transcript_file: CON-025_transcript.md
+  summary_file: CON-025_summary.md
+  read_ai_link: https://app.read.ai/analytics/meetings/01KC0KS100VQPV7HS3MEV1WZ65
+  notion_url: https://www.notion.so/2e741dfcc3e980aab765dac155a0c77c
+  notion_id: '2'

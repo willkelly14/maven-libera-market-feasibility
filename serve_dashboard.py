@@ -27,6 +27,7 @@ BASE_DIR = build_dashboard.BASE_DIR
 CONTEXT_DIR = build_dashboard.CONTEXT_DIR
 DOCS_DIR = build_dashboard.DOCS_DIR
 FACT_DB_DIR = build_dashboard.FACT_DB_DIR
+CONSULT_DIR = build_dashboard.CONSULT_DIR
 PORT = 8050
 
 

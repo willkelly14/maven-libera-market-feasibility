@@ -27,6 +27,7 @@ FACT_DB_DIR = os.path.join(BASE_DIR, "Fact Database")
 DOCS_DIR = os.path.join(BASE_DIR, "Documents")
 CONTEXT_DIR = os.path.join(BASE_DIR, "Context")
 DATASETS_DIR = os.path.join(BASE_DIR, "Datasets")
+CONSULT_DIR = os.path.join(BASE_DIR, "Consultations")
 OUTPUT_FILE = os.path.join(BASE_DIR, "dashboard.html")
 DEFAULT_SAMPLE_SIZE = 15
 
@@ -355,6 +356,52 @@ def load_datasets():
         ds["_column_count"] = len(headers)
         datasets.append(ds)
     return datasets
+
+
+def load_consultations():
+    """Load consultations from Consultations/consultations_index.yaml."""
+    index_path = os.path.join(CONSULT_DIR, "consultations_index.yaml")
+    if not os.path.exists(index_path):
+        print("  WARN: consultations_index.yaml not found")
+        return []
+    with open(index_path, "r", encoding="utf-8") as f:
+        con_index = yaml.safe_load(f.read())
+    if not con_index or not isinstance(con_index, list):
+        return []
+
+    consultations = []
+    for con in con_index:
+        if not isinstance(con, dict) or "id" not in con:
+            continue
+        con.setdefault("title", "")
+        con.setdefault("date", "")
+        con.setdefault("meeting_type", "")
+        con.setdefault("participants", [])
+        con.setdefault("transcript_file", "")
+        con.setdefault("summary_file", "")
+        con.setdefault("read_ai_link", "")
+        con.setdefault("notion_url", "")
+
+        # Load transcript
+        transcript = ""
+        if con["transcript_file"]:
+            tp = os.path.join(CONSULT_DIR, con["transcript_file"])
+            if os.path.exists(tp):
+                with open(tp, "r", encoding="utf-8") as f:
+                    transcript = f.read()
+        con["transcript_content"] = transcript
+
+        # Load summary
+        summary = ""
+        if con["summary_file"]:
+            sp = os.path.join(CONSULT_DIR, con["summary_file"])
+            if os.path.exists(sp):
+                with open(sp, "r", encoding="utf-8") as f:
+                    summary = f.read()
+        con["summary_content"] = summary
+
+        consultations.append(con)
+    return consultations
 
 
 def load_claude_md():
@@ -1055,6 +1102,10 @@ tbody tr.expanded-row td { border-bottom: none; }
         <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="14" height="11" rx="1"/><path d="M1 6.5h14M1 10h14M5.5 6.5V14"/></svg></span> Datasets
         <span class="nav-count" id="nav-dataset-count">0</span>
       </div>
+      <div class="nav-item" data-view="consultations">
+        <span class="nav-icon"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H5l-2 2V3z"/><path d="M11 6h2a1 1 0 0 1 1 1v7l-2-2H7a1 1 0 0 1-1-1v-1"/></svg></span> Consultations
+        <span class="nav-count" id="nav-consult-count">0</span>
+      </div>
     </div>
 
     <div class="nav-divider"></div>
@@ -1262,6 +1313,67 @@ tbody tr.expanded-row td { border-bottom: none; }
     </div>
   </div>
 
+  <!-- CONSULTATIONS VIEW -->
+  <div class="view" id="view-consultations">
+    <div class="page-title">Consultations</div>
+    <div class="controls">
+      <div class="search-wrap">
+        <input type="text" id="con-search" placeholder="Search consultations by title, participants...">
+        <button class="search-clear" id="con-search-clear" onclick="clearSearchInput('con-search')" title="Clear search">&times;</button>
+      </div>
+      <select id="filter-con-type">
+        <option value="">All Types</option>
+        <option value="Stakeholder Consultation">Stakeholder Consultation</option>
+        <option value="Progress Meeting">Progress Meeting</option>
+      </select>
+    </div>
+    <div class="results-count" id="con-results-count"></div>
+    <div class="fact-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-con-sort="date" style="width:90px">Date <span class="sort-arrow"></span></th>
+            <th data-con-sort="title">Title <span class="sort-arrow"></span></th>
+            <th data-con-sort="meeting_type" style="width:160px">Type <span class="sort-arrow"></span></th>
+            <th data-con-sort="participants">Participants <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="con-table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- CONSULTATION SLIDE PANE -->
+  <div class="slide-overlay" id="con-slide-overlay" onclick="closeConSlidePane()"></div>
+  <div class="slide-pane" id="con-slide-pane">
+    <div class="slide-pane-topbar">
+      <div class="slide-pane-topbar-left">
+        <div class="slide-pane-title" id="con-slide-title"></div>
+        <div class="slide-pane-meta" id="con-slide-meta"></div>
+      </div>
+      <button class="slide-pane-close" onclick="closeConSlidePane()">&times;</button>
+    </div>
+    <div class="slide-pane-split">
+      <div class="slide-pane-doc">
+        <div class="slide-pane-doc-header">
+          <span class="panel-label">Transcript</span>
+          <input type="text" class="doc-content-search" id="con-transcript-search" placeholder="Search in transcript...">
+          <span class="doc-search-count" id="con-search-count"></span>
+          <button class="doc-search-nav" id="con-search-prev" onclick="conSearchNav(-1)" title="Previous match">&uarr;</button>
+          <button class="doc-search-nav" id="con-search-next" onclick="conSearchNav(1)" title="Next match">&darr;</button>
+          <button class="doc-search-clear" id="con-search-clear-btn" onclick="clearConSearch()" title="Clear search">&times;</button>
+        </div>
+        <div class="slide-pane-doc-body" id="con-slide-transcript"></div>
+      </div>
+      <div class="slide-pane-facts">
+        <div class="slide-pane-facts-header">
+          <span class="panel-label">Summary &amp; Insights</span>
+        </div>
+        <div class="slide-pane-facts-body" id="con-slide-summary" style="padding:16px"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- ARCHIVE VIEW -->
   <div class="view" id="view-archive">
     <div class="page-title">Archive</div>
@@ -1388,6 +1500,9 @@ const CLAUDE_MD_CONTENT = %%CLAUDE_MD_JSON%%;
 const DATASETS = %%DATASETS_JSON%%;
 const DS_MAP = {};
 DATASETS.forEach(d => DS_MAP[d.id] = d);
+const CONSULTATIONS = %%CONSULTATIONS_JSON%%;
+const CON_MAP = {};
+CONSULTATIONS.forEach(c => CON_MAP[c.id] = c);
 
 // Build doc lookup
 const DOC_MAP = {};
@@ -2879,6 +2994,174 @@ document.querySelectorAll('#view-datasets thead th[data-ds-sort]').forEach(th =>
 });
 document.getElementById('ds-search').addEventListener('input', () => toggleSearchClear('ds-search'));
 
+// --- CONSULTATIONS ---
+let conSortCol = 'date';
+let conSortAsc = false;
+
+function getFilteredConsultations() {
+  const search = document.getElementById('con-search').value.toLowerCase();
+  const typeFilter = document.getElementById('filter-con-type').value;
+  return CONSULTATIONS.filter(c => {
+    if (typeFilter && c.meeting_type !== typeFilter) return false;
+    if (search) {
+      const hay = [c.id, c.title, c.date, c.meeting_type, (c.participants || []).join(' ')].join(' ').toLowerCase();
+      if (!hay.includes(search)) return false;
+    }
+    return true;
+  }).sort((a, b) => {
+    let va = a[conSortCol] ?? '', vb = b[conSortCol] ?? '';
+    if (conSortCol === 'participants') { va = (a.participants || []).join(', '); vb = (b.participants || []).join(', '); }
+    if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+    return conSortAsc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
+  });
+}
+
+function renderConTable() {
+  const cons = getFilteredConsultations();
+  const tbody = document.getElementById('con-table-body');
+  document.getElementById('con-results-count').textContent = `Showing ${cons.length} of ${CONSULTATIONS.length} consultations`;
+  if (cons.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;padding:40px;color:var(--text-muted)">No consultations match your filters.</td></tr>';
+    return;
+  }
+  tbody.innerHTML = cons.map(c => {
+    const typeBadge = c.meeting_type === 'Progress Meeting'
+      ? '<span class="badge" style="background:var(--surface3);color:var(--text)">Progress</span>'
+      : '<span class="badge" style="background:color-mix(in srgb, var(--accent) 15%, transparent);color:var(--accent)">Stakeholder</span>';
+    const parts = (c.participants || []).join(', ');
+    return `<tr style="cursor:pointer" onclick="openConSlidePane('${esc(c.id)}')">
+      <td style="white-space:nowrap;font-size:11px;color:var(--text-muted)">${esc(c.date || '')}</td>
+      <td>
+        <div style="font-weight:600;font-size:13px">${esc(c.title)}</div>
+      </td>
+      <td>${typeBadge}</td>
+      <td style="font-size:12px;color:var(--text-muted)">${esc(truncate(parts, 80))}</td>
+    </tr>`;
+  }).join('');
+}
+
+let conSearchMatches = [];
+let conSearchIdx = -1;
+
+function openConSlidePane(conId) {
+  const c = CON_MAP[conId];
+  if (!c) return;
+
+  document.getElementById('con-slide-title').textContent = c.title;
+  const readAiHtml = c.read_ai_link ? ` &middot; <a href="${esc(c.read_ai_link)}" target="_blank" style="color:var(--accent);font-size:11px">Read AI</a>` : '';
+  const notionHtml = c.notion_url ? ` &middot; <a href="${esc(c.notion_url)}" target="_blank" style="color:var(--accent);font-size:11px">Notion</a>` : '';
+  const typeBadge = c.meeting_type === 'Progress Meeting'
+    ? '<span class="badge" style="background:var(--surface3);color:var(--text)">Progress</span>'
+    : '<span class="badge" style="background:color-mix(in srgb, var(--accent) 15%, transparent);color:var(--accent)">Stakeholder</span>';
+  document.getElementById('con-slide-meta').innerHTML = `
+    ${typeBadge}
+    <span style="color:var(--text-muted);font-size:12px">${esc(c.date || '')}</span>
+    <span style="color:var(--text-muted);font-size:12px">${esc(c.id)}</span>
+    <span style="color:var(--text-muted);font-size:12px">${esc((c.participants || []).join(', '))}</span>
+    ${readAiHtml}${notionHtml}
+  `;
+
+  // Clear search
+  document.getElementById('con-transcript-search').value = '';
+  conSearchMatches = [];
+  conSearchIdx = -1;
+  document.getElementById('con-search-count').textContent = '';
+
+  // Transcript
+  const transcriptEl = document.getElementById('con-slide-transcript');
+  transcriptEl.innerHTML = c.transcript_content
+    ? marked.parse(c.transcript_content)
+    : '<p style="color:var(--text-muted)">No transcript available.</p>';
+
+  // Summary
+  document.getElementById('con-slide-summary').innerHTML = c.summary_content
+    ? marked.parse(c.summary_content)
+    : '<p style="color:var(--text-muted)">No summary available.</p>';
+
+  document.getElementById('con-slide-overlay').classList.add('open');
+  document.getElementById('con-slide-pane').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeConSlidePane() {
+  document.getElementById('con-slide-overlay').classList.remove('open');
+  document.getElementById('con-slide-pane').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Search within transcript
+document.getElementById('con-transcript-search').addEventListener('input', function() {
+  const query = this.value.trim();
+  const container = document.getElementById('con-slide-transcript');
+  // Remove old highlights
+  container.querySelectorAll('mark.con-hl').forEach(m => {
+    const parent = m.parentNode;
+    parent.replaceChild(document.createTextNode(m.textContent), m);
+    parent.normalize();
+  });
+  conSearchMatches = [];
+  conSearchIdx = -1;
+  if (!query) { document.getElementById('con-search-count').textContent = ''; return; }
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  const re = new RegExp(query.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&'), 'gi');
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  nodes.forEach(node => {
+    const text = node.textContent;
+    if (!re.test(text)) return;
+    re.lastIndex = 0;
+    const frag = document.createDocumentFragment();
+    let last = 0, match;
+    while ((match = re.exec(text)) !== null) {
+      if (match.index > last) frag.appendChild(document.createTextNode(text.slice(last, match.index)));
+      const mark = document.createElement('mark');
+      mark.className = 'con-hl';
+      mark.style.cssText = 'background:#f5c518;color:#000;border-radius:2px;padding:0 1px';
+      mark.textContent = match[0];
+      frag.appendChild(mark);
+      last = re.lastIndex;
+    }
+    if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+    node.parentNode.replaceChild(frag, node);
+  });
+  conSearchMatches = Array.from(container.querySelectorAll('mark.con-hl'));
+  document.getElementById('con-search-count').textContent = conSearchMatches.length ? `${conSearchMatches.length} found` : 'No matches';
+  if (conSearchMatches.length) { conSearchIdx = 0; conSearchMatches[0].scrollIntoView({block:'center'}); conSearchMatches[0].style.outline='2px solid #f5c518'; }
+});
+
+function conSearchNav(dir) {
+  if (!conSearchMatches.length) return;
+  if (conSearchMatches[conSearchIdx]) conSearchMatches[conSearchIdx].style.outline='';
+  conSearchIdx = (conSearchIdx + dir + conSearchMatches.length) % conSearchMatches.length;
+  conSearchMatches[conSearchIdx].scrollIntoView({block:'center'});
+  conSearchMatches[conSearchIdx].style.outline='2px solid #f5c518';
+  document.getElementById('con-search-count').textContent = `${conSearchIdx+1}/${conSearchMatches.length}`;
+}
+
+function clearConSearch() {
+  document.getElementById('con-transcript-search').value = '';
+  document.getElementById('con-transcript-search').dispatchEvent(new Event('input'));
+}
+
+// Consultation table sort
+document.querySelectorAll('#view-consultations thead th[data-con-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.conSort;
+    if (conSortCol === col) conSortAsc = !conSortAsc;
+    else { conSortCol = col; conSortAsc = true; }
+    document.querySelectorAll('#view-consultations thead th .sort-arrow').forEach(s => s.textContent = '');
+    th.querySelector('.sort-arrow').textContent = conSortAsc ? ' \u25B2' : ' \u25BC';
+    renderConTable();
+  });
+});
+
+// Consultation filter/search events
+['con-search','filter-con-type'].forEach(id => {
+  const el = document.getElementById(id);
+  el.addEventListener(el.tagName === 'INPUT' ? 'input' : 'change', renderConTable);
+});
+document.getElementById('con-search').addEventListener('input', () => toggleSearchClear('con-search'));
+
 // --- CONTEXT PAGE ---
 let currentContextIdx = -1;
 let contextMode = 'edit';
@@ -3211,6 +3494,8 @@ renderDsTable();
 renderArchive();
 renderContextFileList();
 document.getElementById('nav-dataset-count').textContent = DATASETS.length;
+renderConTable();
+document.getElementById('nav-consult-count').textContent = CONSULTATIONS.length;
 </script>
 </body>
 </html>"""
@@ -3233,6 +3518,10 @@ def main():
     datasets = load_datasets()
     print(f"  {len(datasets)} datasets")
 
+    print("Loading consultations...")
+    consultations = load_consultations()
+    print(f"  {len(consultations)} consultations")
+
     print("Loading CLAUDE.md...")
     claude_md = load_claude_md()
     print(f"  {len(claude_md)} chars")
@@ -3245,6 +3534,7 @@ def main():
     html = html.replace("%%DOCUMENTS_JSON%%", json.dumps(documents, default=str))
     html = html.replace("%%CONTEXT_FILES_JSON%%", json.dumps(context_files, default=str))
     html = html.replace("%%DATASETS_JSON%%", json.dumps(datasets, default=str))
+    html = html.replace("%%CONSULTATIONS_JSON%%", json.dumps(consultations, default=str))
     html = html.replace("%%CLAUDE_MD_JSON%%", json.dumps(claude_md))
     html = html.replace("%%STATS_JSON%%", json.dumps(stats, default=str))
     html = html.replace("%%SECTION_LABELS_JSON%%", json.dumps(SECTION_LABELS))
